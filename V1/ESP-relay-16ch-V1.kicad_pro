@@ -359,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP-relay-8ch-V2.kicad_pro",
+    "filename": "ESP-relay-16ch-V1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -442,8 +442,12 @@
       ""
     ],
     [
-      "49855da8-0a16-4c8a-9e10-b5086b763c5c",
-      "ESP32"
+      "8a785490-18a4-4ecd-a6c6-65e5e390ed91",
+      "Inputs"
+    ],
+    [
+      "4e1ea464-0bf3-4161-b590-743a033ee90b",
+      "Outputs"
     ]
   ],
   "text_variables": {}
