@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 1.2,
+          "height": 2.4,
+          "width": 2.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -448,6 +448,18 @@
     [
       "4e1ea464-0bf3-4161-b590-743a033ee90b",
       "Outputs"
+    ],
+    [
+      "c76fc600-a423-4f14-bc69-e86c7c986b21",
+      "Ethernet"
+    ],
+    [
+      "7b388c9c-6faf-4681-b727-510de2ea001e",
+      "Power"
+    ],
+    [
+      "f2a42251-1da5-495a-abaf-29698c5bb0fe",
+      "MCU"
     ]
   ],
   "text_variables": {}
