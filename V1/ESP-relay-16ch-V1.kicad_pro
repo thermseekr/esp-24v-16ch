@@ -442,24 +442,24 @@
       ""
     ],
     [
-      "8a785490-18a4-4ecd-a6c6-65e5e390ed91",
-      "Inputs"
-    ],
-    [
-      "4e1ea464-0bf3-4161-b590-743a033ee90b",
-      "Outputs"
-    ],
-    [
-      "c76fc600-a423-4f14-bc69-e86c7c986b21",
-      "Ethernet"
-    ],
-    [
       "7b388c9c-6faf-4681-b727-510de2ea001e",
       "Power"
     ],
     [
+      "8a785490-18a4-4ecd-a6c6-65e5e390ed91",
+      "Inputs"
+    ],
+    [
       "f2a42251-1da5-495a-abaf-29698c5bb0fe",
       "MCU"
+    ],
+    [
+      "c76fc600-a423-4f14-bc69-e86c7c986b21",
+      "LAN"
+    ],
+    [
+      "4e1ea464-0bf3-4161-b590-743a033ee90b",
+      "Outputs"
     ]
   ],
   "text_variables": {}
