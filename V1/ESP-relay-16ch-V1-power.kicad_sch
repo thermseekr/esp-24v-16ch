@@ -3278,7 +3278,7 @@
     (uuid 9c210b73-2411-48db-86d1-2477e60f67dc)
     (property "Reference" "J1" (id 0) (at 34.29 30.48 0))
     (property "Value" "VIN" (id 1) (at 34.29 33.02 0))
-    (property "Footprint" "Tales:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" (id 2) (at 34.29 36.83 0)
+    (property "Footprint" "Tales:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (id 2) (at 34.29 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 34.29 36.83 0)

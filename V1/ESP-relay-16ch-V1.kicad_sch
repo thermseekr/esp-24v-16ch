@@ -704,7 +704,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x17") (at 251.46 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 726f2d06-431c-4202-ac76-2b7c69e19a39)
-    (property "Reference" "J6" (id 0) (at 254 128.2699 0)
+    (property "Reference" "J5" (id 0) (at 254 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DIG OUT" (id 1) (at 254 130.8099 0)
@@ -756,13 +756,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x16") (at 35.56 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e836cfb5-b2c3-450e-885e-9c1ae49febce)
-    (property "Reference" "J4" (id 0) (at 33.02 129.54 0)
+    (property "Reference" "J3" (id 0) (at 33.02 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DIG IN" (id 1) (at 33.02 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-16-3.5-H_1x16_P3.50mm_Horizontal" (id 2) (at 35.56 129.54 0)
+    (property "Footprint" "Tales:TerminalBlock_Phoenix_PT-1,5-16-3.5-H_1x16_P3.50mm_Horizontal" (id 2) (at 35.56 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 35.56 129.54 0)
@@ -2229,19 +2229,19 @@
       (reference "F1") (unit 1) (value "500mA") (footprint "Tales:Fuse_0402_1005Metric")
     )
     (path "/7b388c9c-6faf-4681-b727-510de2ea001e/9c210b73-2411-48db-86d1-2477e60f67dc"
-      (reference "J1") (unit 1) (value "VIN") (footprint "Tales:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal")
+      (reference "J1") (unit 1) (value "VIN") (footprint "Tales:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
     )
     (path "/7b388c9c-6faf-4681-b727-510de2ea001e/1b702623-220a-4102-9ddd-875351eca36d"
       (reference "J2") (unit 1) (value "USB") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
     )
     (path "/e836cfb5-b2c3-450e-885e-9c1ae49febce"
-      (reference "J4") (unit 1) (value "DIG IN") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-16-3.5-H_1x16_P3.50mm_Horizontal")
+      (reference "J3") (unit 1) (value "DIG IN") (footprint "Tales:TerminalBlock_Phoenix_PT-1,5-16-3.5-H_1x16_P3.50mm_Horizontal")
     )
     (path "/c76fc600-a423-4f14-bc69-e86c7c986b21/4af21fbc-f714-422e-826b-cafb27376ef0"
-      (reference "J5") (unit 1) (value "ETHERNET") (footprint "Tales:RJ45_HanRun_HR911105A")
+      (reference "J4") (unit 1) (value "ETHERNET") (footprint "Tales:RJ45_HanRun_HR911105A")
     )
     (path "/726f2d06-431c-4202-ac76-2b7c69e19a39"
-      (reference "J6") (unit 1) (value "DIG OUT") (footprint "Tales:TerminalBlock_Phoenix_PT-1,5-17-3.5-H_1x17_P3.50mm_Horizontal")
+      (reference "J5") (unit 1) (value "DIG OUT") (footprint "Tales:TerminalBlock_Phoenix_PT-1,5-17-3.5-H_1x17_P3.50mm_Horizontal")
     )
     (path "/7b388c9c-6faf-4681-b727-510de2ea001e/0da4a3fd-0a04-4d4e-8406-06e9c6d7e03d"
       (reference "L1") (unit 1) (value "33uH 2,1A") (footprint "Tales:L_12x12mm_H6mm")
