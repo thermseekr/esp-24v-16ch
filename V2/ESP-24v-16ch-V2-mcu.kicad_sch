@@ -1182,7 +1182,7 @@
     )
     (pin "1" (uuid 41a3b20c-c93f-4c9e-b963-731f914a4078))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR035") (unit 1)
         )
@@ -1232,7 +1232,7 @@
     (pin "1" (uuid 35d7aa4b-1502-4627-a708-40251c34d07f))
     (pin "2" (uuid 02807b37-c24c-4454-8f7a-5a1263902955))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "C13") (unit 1)
         )
@@ -1282,7 +1282,7 @@
     (pin "1" (uuid dff600e4-34f9-47ad-a5ec-d424a42ba728))
     (pin "2" (uuid 9ba7c9a3-a58a-4130-af7e-c2b55153d195))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "R11") (unit 1)
         )
@@ -1307,7 +1307,7 @@
     )
     (pin "1" (uuid d7106922-8d52-436f-812a-52d0ad0e554a))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR024") (unit 1)
         )
@@ -1361,7 +1361,7 @@
     (pin "4" (uuid 3e7c5e77-ace7-40d7-8427-9f51020e4a00))
     (pin "5" (uuid a519ca71-c60e-49c0-8dd1-5615b9d58bbe))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "Q3") (unit 2)
         )
@@ -1411,7 +1411,7 @@
     (pin "1" (uuid 9d1c5ed9-1cb9-44a1-9070-7507a8537b21))
     (pin "2" (uuid 1a48c860-95ff-49ff-ac13-ea8d2f86c486))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "R12") (unit 1)
         )
@@ -1461,7 +1461,7 @@
     (pin "1" (uuid 016b999b-7b35-4099-b04b-c8f1f0ae3915))
     (pin "2" (uuid f3e8f7b3-cdac-42ec-ab54-94f06aa2aa03))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "C11") (unit 1)
         )
@@ -1515,7 +1515,7 @@
     (pin "4" (uuid 2e63f57d-7883-4570-96df-1b97b8fc9001))
     (pin "5" (uuid 5c541981-6bfc-47c8-8578-a0f30c252e86))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "Q3") (unit 1)
         )
@@ -1540,7 +1540,7 @@
     )
     (pin "1" (uuid d277adf2-da60-4867-af37-20b4204a5446))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR033") (unit 1)
         )
@@ -1590,7 +1590,7 @@
     (pin "1" (uuid 28f63497-31d9-4423-8b01-4dbde02ff701))
     (pin "2" (uuid 38d76c7d-c904-403e-b5f6-e78daa00346d))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "R14") (unit 1)
         )
@@ -1640,7 +1640,7 @@
     (pin "1" (uuid 3cfcd740-f821-4d9a-875b-d99668b09121))
     (pin "2" (uuid cd9c4405-ef6d-407d-b312-b0636250fdcf))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "SW1") (unit 1)
         )
@@ -1690,7 +1690,7 @@
     (pin "1" (uuid 530838a6-a40b-43da-a45e-e692503a7e26))
     (pin "2" (uuid 5b17ec2c-5d08-41e3-9f13-765fc6de40f9))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "R10") (unit 1)
         )
@@ -1715,7 +1715,7 @@
     )
     (pin "1" (uuid bd37e53e-77e4-4dad-866a-5c1217e34a71))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR023") (unit 1)
         )
@@ -1740,7 +1740,7 @@
     )
     (pin "1" (uuid 3692b5b0-9c7b-4d35-baa1-cb2b0a6acde6))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR025") (unit 1)
         )
@@ -1765,7 +1765,7 @@
     )
     (pin "1" (uuid a79f0257-fc9c-4584-9a75-993b3b86bee6))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR028") (unit 1)
         )
@@ -1829,7 +1829,7 @@
     (pin "8" (uuid e802d5c1-60bf-4e19-a35d-25b1d44dbfd2))
     (pin "9" (uuid 2d0eaf47-1779-4ddb-9df1-e7a01528e3cf))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "U3") (unit 1)
         )
@@ -1854,7 +1854,7 @@
     )
     (pin "1" (uuid 196fbaab-5536-4c4c-a6d4-54236286c35c))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR026") (unit 1)
         )
@@ -1904,7 +1904,7 @@
     (pin "1" (uuid 7c161b28-8023-4ef1-a8d2-b6e18fcf49dd))
     (pin "2" (uuid 954e218b-d48f-463a-aeb1-c50cbe9fabbb))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "R13") (unit 1)
         )
@@ -1991,7 +1991,7 @@
     (pin "8" (uuid 0cf13de3-396a-4f5e-a3b3-2b8d150c1ad1))
     (pin "9" (uuid a3e63527-76ba-4df6-8810-c957f835b4f5))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "U4") (unit 1)
         )
@@ -2041,7 +2041,7 @@
     (pin "1" (uuid 9be630ac-6150-46a1-b312-47e9529cacf2))
     (pin "2" (uuid 09210324-77d9-48be-88a6-375aabc8b0cb))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "C12") (unit 1)
         )
@@ -2066,7 +2066,7 @@
     )
     (pin "1" (uuid ffe266d9-848c-4de0-95cd-c6c8caf29db2))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR030") (unit 1)
         )
@@ -2091,7 +2091,7 @@
     )
     (pin "1" (uuid 9f08fa68-2528-49a4-935d-7807c3768bc4))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR027") (unit 1)
         )
@@ -2116,7 +2116,7 @@
     )
     (pin "1" (uuid f8316bcf-9ab7-4356-aabb-c70213e9715b))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR029") (unit 1)
         )
@@ -2141,7 +2141,7 @@
     )
     (pin "1" (uuid cdbc6c1c-2fd2-4814-87ee-1cf2ca365d32))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR031") (unit 1)
         )
@@ -2166,7 +2166,7 @@
     )
     (pin "1" (uuid d9f2e8de-4ba9-432d-827f-b01c78f06d3e))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR032") (unit 1)
         )
@@ -2191,7 +2191,7 @@
     )
     (pin "1" (uuid 14b40b97-78fc-45df-81d2-b84557a52a00))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
           (reference "#PWR034") (unit 1)
         )

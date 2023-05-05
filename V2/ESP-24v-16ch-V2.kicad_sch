@@ -724,7 +724,7 @@
     (pin "7" (uuid 7014cee9-a874-4d40-bf4a-adca92d5fc66))
     (pin "8" (uuid dbd7ca2d-e60b-4dd0-95c9-43bb809e9e1c))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J6") (unit 1)
         )
@@ -780,7 +780,7 @@
     (pin "7" (uuid 483978e6-561b-4cee-a626-03e7f94193a8))
     (pin "8" (uuid 2727697f-ecf8-4ca9-a0d3-4f27acde5b12))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J7") (unit 1)
         )
@@ -836,7 +836,7 @@
     (pin "7" (uuid 1c0a94d7-6548-4d72-8159-46880f0a89b1))
     (pin "8" (uuid 7a3282ef-dd08-4c96-8f15-273deeed8bd8))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J5") (unit 1)
         )
@@ -892,7 +892,7 @@
     (pin "7" (uuid 5c6c2508-4478-444b-9609-f7c89e9279a8))
     (pin "8" (uuid 4b4eb517-ed69-4e11-90a0-b5fef12add37))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J2") (unit 1)
         )
@@ -948,7 +948,7 @@
     (pin "7" (uuid 2bc298f6-cb5f-412c-8098-4c723390ee15))
     (pin "8" (uuid 7a60c8b0-d28d-4dac-8b28-a68ef7ae9f65))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J1") (unit 1)
         )
@@ -1004,7 +1004,7 @@
     (pin "7" (uuid 5264f35b-3fc8-42c4-b4b7-726ac9d8524f))
     (pin "8" (uuid 3ccf5d67-a7b5-4137-92bb-ff9fb72889a4))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J8") (unit 1)
         )
@@ -1060,7 +1060,7 @@
     (pin "7" (uuid d775db09-ca1a-4a62-8580-ef44cf6b5f18))
     (pin "8" (uuid 94dee208-2fef-4ba8-95a5-c6139813e167))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J3") (unit 1)
         )
@@ -1116,7 +1116,7 @@
     (pin "7" (uuid e3d49e6c-c88c-4012-aa64-21c0ba2d4a89))
     (pin "8" (uuid da2e142e-bf8f-4338-b008-453ba633024c))
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
           (reference "J4") (unit 1)
         )
@@ -1131,7 +1131,7 @@
     (property "Sheetname" "Inputs 17-32" (at 60.96 111.0484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-inputs-2.kicad_sch" (at 60.96 155.5246 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-inputs-2.kicad_sch" (at 60.96 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Field2" "" (at 60.96 111.76 0)
@@ -1266,7 +1266,7 @@
       (uuid e086d0bd-e311-4a45-921d-27fb6c025056)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "7"))
       )
     )
@@ -1279,7 +1279,7 @@
     (property "Sheetname" "Outputs 1-16" (at 198.12 60.2484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-outputs-1.kicad_sch" (at 198.12 104.7246 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-outputs-1.kicad_sch" (at 198.12 104.7246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "OUT5" input (at 198.12 73.66 180)
@@ -1411,7 +1411,7 @@
       (uuid a83ccc80-bc25-4b4f-986e-381bdbfd4c03)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "8"))
       )
     )
@@ -1424,7 +1424,7 @@
     (property "Sheetname" "Power" (at 60.96 22.1484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-power.kicad_sch" (at 60.96 36.1446 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-power.kicad_sch" (at 60.96 36.1446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "PHY_PWR" input (at 88.9 25.4 0)
@@ -1440,7 +1440,7 @@
       (uuid 2acc40a4-b68e-4e56-aea7-16cefc388b81)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "2"))
       )
     )
@@ -1453,7 +1453,7 @@
     (property "Sheetname" "Inputs 1-16" (at 60.96 60.2484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-inputs-1.kicad_sch" (at 60.96 104.7246 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-inputs-1.kicad_sch" (at 60.96 104.7246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Field2" "" (at 60.96 60.96 0)
@@ -1588,7 +1588,7 @@
       (uuid 7f309176-6037-4e59-b963-a369dd0db274)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "6"))
       )
     )
@@ -1601,7 +1601,7 @@
     (property "Sheetname" "GPIO Expanders" (at 109.22 60.2484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-expanders.kicad_sch" (at 109.22 155.5246 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-expanders.kicad_sch" (at 109.22 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "IN8" input (at 109.22 81.28 180)
@@ -1869,7 +1869,7 @@
       (uuid 952d0b31-7779-417b-a042-736141902d6d)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "5"))
       )
     )
@@ -1882,7 +1882,7 @@
     (property "Sheetname" "LAN" (at 198.12 22.1484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-lan.kicad_sch" (at 198.12 51.3846 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-lan.kicad_sch" (at 198.12 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "EMAC_RX" input (at 198.12 30.48 180)
@@ -1922,7 +1922,7 @@
       (uuid dd88f49d-b344-4f36-9047-64a473209f3d)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "4"))
       )
     )
@@ -1935,7 +1935,7 @@
     (property "Sheetname" "Outputs 17-32" (at 198.12 111.0484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-outputs-2.kicad_sch" (at 198.12 155.5246 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-outputs-2.kicad_sch" (at 198.12 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "OUT17" input (at 198.12 114.3 180)
@@ -2067,7 +2067,7 @@
       (uuid 87c2ea3a-4b9a-4337-8d14-6456ea4d4620)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "9"))
       )
     )
@@ -2080,7 +2080,7 @@
     (property "Sheetname" "MCU" (at 109.22 22.1484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP-24v-16ch-V1-mcu.kicad_sch" (at 109.22 51.3846 0)
+    (property "Sheetfile" "ESP-24v-16ch-V2-mcu.kicad_sch" (at 109.22 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "PHY_PWR" output (at 109.22 25.4 180)
@@ -2140,7 +2140,7 @@
       (uuid c04506ec-01b7-43cd-87ba-5fcdfab71b23)
     )
     (instances
-      (project "ESP-24v-16ch-V1"
+      (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a" (page "3"))
       )
     )
