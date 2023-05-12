@@ -1155,7 +1155,7 @@
   (symbol (lib_id "Device:LED_Small") (at 246.38 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01f55b68-f7ed-405d-8a57-bfc6d95b6312)
-    (property "Reference" "D84" (at 243.84 64.77 90)
+    (property "Reference" "D52" (at 243.84 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 243.84 67.31 90)
@@ -1196,10 +1196,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D84") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D100") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -1208,7 +1205,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0330f7ba-fd2f-4be6-b000-b624bda892d8)
-    (property "Reference" "R146" (at 96.52 157.48 0)
+    (property "Reference" "R96" (at 96.52 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 96.52 160.02 0)
@@ -1249,10 +1246,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R146") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R194") (unit 1)
+          (reference "R96") (unit 1)
         )
       )
     )
@@ -1261,7 +1255,7 @@
   (symbol (lib_id "power:GND") (at 182.88 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05e2a717-b691-4bed-ac17-3da2ab570865)
-    (property "Reference" "#PWR0240" (at 182.88 52.07 0)
+    (property "Reference" "#PWR0166" (at 182.88 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 183.007 50.1142 0)
@@ -1277,10 +1271,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0240") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0290") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -1289,7 +1280,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09d74999-dad6-4f44-917a-6a5b25e73c00)
-    (property "Reference" "R155" (at 161.29 46.99 0)
+    (property "Reference" "R105" (at 161.29 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 161.29 49.53 0)
@@ -1330,10 +1321,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R155") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R203") (unit 1)
+          (reference "R105") (unit 1)
         )
       )
     )
@@ -1342,7 +1330,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bf084c9-a811-441e-9929-bd1081cddd8f)
-    (property "Reference" "R159" (at 170.18 35.56 90)
+    (property "Reference" "R109" (at 170.18 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 170.18 38.1 90)
@@ -1383,10 +1371,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R159") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R207") (unit 1)
+          (reference "R109") (unit 1)
         )
       )
     )
@@ -1395,7 +1380,7 @@
   (symbol (lib_id "Device:LED_Small") (at 53.34 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c8ac57b-2bf3-4122-a0c8-783f81647936)
-    (property "Reference" "D73" (at 50.8 101.6 90)
+    (property "Reference" "D41" (at 50.8 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 50.8 104.14 90)
@@ -1436,10 +1421,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D73") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D89") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -1448,7 +1430,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d62bce9-c6cc-49b6-a1b6-bea94c692ecd)
-    (property "Reference" "R174" (at 233.68 146.05 90)
+    (property "Reference" "R124" (at 233.68 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 233.68 148.59 90)
@@ -1489,10 +1471,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R174") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R222") (unit 1)
+          (reference "R124") (unit 1)
         )
       )
     )
@@ -1501,7 +1480,7 @@
   (symbol (lib_id "power:GND") (at 29.21 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ff68597-68ff-41e9-ba66-7f1db40df672)
-    (property "Reference" "#PWR0214" (at 29.21 167.64 0)
+    (property "Reference" "#PWR0140" (at 29.21 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 29.337 165.6842 0)
@@ -1517,10 +1496,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0214") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1529,7 +1505,7 @@
   (symbol (lib_id "power:+24V") (at 118.11 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12c5c910-2606-419f-b3d5-10b6caff36fb)
-    (property "Reference" "#PWR0233" (at 118.11 133.35 0)
+    (property "Reference" "#PWR0159" (at 118.11 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 118.491 125.1458 0)
@@ -1545,10 +1521,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0233") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0283") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -1557,7 +1530,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 131f35da-83c3-4daf-8a68-02bb7f0a6056)
-    (property "Reference" "R175" (at 248.92 20.32 0)
+    (property "Reference" "R125" (at 248.92 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 248.92 22.86 0)
@@ -1598,10 +1571,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R175") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R223") (unit 1)
+          (reference "R125") (unit 1)
         )
       )
     )
@@ -1610,7 +1580,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13fb7418-45c0-4a08-9619-5da78a4d340a)
-    (property "Reference" "R144" (at 96.52 83.82 0)
+    (property "Reference" "R94" (at 96.52 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 96.52 86.36 0)
@@ -1651,10 +1621,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R144") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R192") (unit 1)
+          (reference "R94") (unit 1)
         )
       )
     )
@@ -1663,7 +1630,7 @@
   (symbol (lib_id "Device:R_US") (at 222.25 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13fd1e65-7d23-4ba0-a5ee-342e6424361e)
-    (property "Reference" "R169" (at 224.79 120.65 0)
+    (property "Reference" "R119" (at 224.79 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 224.79 123.19 0)
@@ -1704,10 +1671,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R169") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R217") (unit 1)
+          (reference "R119") (unit 1)
         )
       )
     )
@@ -1716,7 +1680,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 157639f0-2c65-4706-88b7-ee09b11d1329)
-    (property "Reference" "R158" (at 161.29 157.48 0)
+    (property "Reference" "R108" (at 161.29 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 161.29 160.02 0)
@@ -1757,10 +1721,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R158") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R206") (unit 1)
+          (reference "R108") (unit 1)
         )
       )
     )
@@ -1769,7 +1730,7 @@
   (symbol (lib_id "power:+24V") (at 182.88 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16f2af34-3f33-4d9b-89d2-a7e165b2d0b0)
-    (property "Reference" "#PWR0245" (at 182.88 133.35 0)
+    (property "Reference" "#PWR0171" (at 182.88 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 183.261 125.1458 0)
@@ -1785,10 +1746,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0245") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0295") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -1797,7 +1755,7 @@
   (symbol (lib_id "power:+24V") (at 246.38 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 194062a1-7fc0-498f-b814-761ffe39b531)
-    (property "Reference" "#PWR0251" (at 246.38 22.86 0)
+    (property "Reference" "#PWR0177" (at 246.38 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 246.761 14.6558 0)
@@ -1813,10 +1771,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0251") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -1825,7 +1780,7 @@
   (symbol (lib_id "Device:LED_Small") (at 246.38 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19ac4375-a3e6-44f4-9581-f301c5da7d0e)
-    (property "Reference" "D86" (at 243.84 138.43 90)
+    (property "Reference" "D54" (at 243.84 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 243.84 140.97 90)
@@ -1866,10 +1821,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D86") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D102") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -1922,9 +1874,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q17") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q33") (unit 1)
-        )
       )
     )
   )
@@ -1932,7 +1881,7 @@
   (symbol (lib_id "power:GND") (at 158.75 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c1dc7c0-7896-40b5-96cf-02fbb4bf73d3)
-    (property "Reference" "#PWR0236" (at 158.75 93.98 0)
+    (property "Reference" "#PWR0162" (at 158.75 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 158.877 92.0242 0)
@@ -1948,10 +1897,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0236") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0286") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -1960,7 +1906,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c55f5d8-daf2-41b8-909a-6fd28ff94ce3)
-    (property "Reference" "R147" (at 105.41 35.56 90)
+    (property "Reference" "R97" (at 105.41 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 105.41 38.1 90)
@@ -2001,10 +1947,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R147") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R195") (unit 1)
+          (reference "R97") (unit 1)
         )
       )
     )
@@ -2013,7 +1956,7 @@
   (symbol (lib_id "power:+24V") (at 53.34 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1db43708-5705-474d-b352-4b79fe629bf3)
-    (property "Reference" "#PWR0221" (at 53.34 133.35 0)
+    (property "Reference" "#PWR0147" (at 53.34 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 53.721 125.1458 0)
@@ -2029,10 +1972,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0221") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0271") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -2041,7 +1981,7 @@
   (symbol (lib_id "power:GND") (at 246.38 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e7f3f00-17ed-4475-b10c-08456e7eef8f)
-    (property "Reference" "#PWR0256" (at 246.38 125.73 0)
+    (property "Reference" "#PWR0182" (at 246.38 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 246.507 123.7742 0)
@@ -2057,10 +1997,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0256") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -2069,7 +2006,7 @@
   (symbol (lib_id "power:GND") (at 246.38 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e885e2b-c2f6-4fa8-801e-8cc7c94d7afc)
-    (property "Reference" "#PWR0258" (at 246.38 162.56 0)
+    (property "Reference" "#PWR0184" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 246.507 160.6042 0)
@@ -2085,10 +2022,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0258") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0308") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -2097,7 +2031,7 @@
   (symbol (lib_id "power:GND") (at 93.98 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f685d7f-de80-40ed-8a37-062b41222acd)
-    (property "Reference" "#PWR0226" (at 93.98 168.91 0)
+    (property "Reference" "#PWR0152" (at 93.98 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 94.107 166.9542 0)
@@ -2113,10 +2047,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0276") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -2169,9 +2100,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q9") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q25") (unit 1)
-        )
       )
     )
   )
@@ -2179,7 +2107,7 @@
   (symbol (lib_id "Device:LED_Small") (at 53.34 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2252b7c7-a1d3-4dbb-b950-5697ae51461f)
-    (property "Reference" "D71" (at 50.8 27.94 90)
+    (property "Reference" "D39" (at 50.8 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 50.8 30.48 90)
@@ -2220,10 +2148,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D71") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D87") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -2232,7 +2157,7 @@
   (symbol (lib_id "power:+24V") (at 53.34 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226d46a5-1bdd-49d3-a41d-a07c182e2f7c)
-    (property "Reference" "#PWR0219" (at 53.34 96.52 0)
+    (property "Reference" "#PWR0145" (at 53.34 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 53.721 88.3158 0)
@@ -2248,10 +2173,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0219") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -2260,7 +2182,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 231fd9ff-559d-4111-863a-d0997e4c0f78)
-    (property "Reference" "R145" (at 96.52 120.65 0)
+    (property "Reference" "R95" (at 96.52 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 96.52 123.19 0)
@@ -2301,10 +2223,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R145") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R193") (unit 1)
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -2313,7 +2232,7 @@
   (symbol (lib_id "power:GND") (at 53.34 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29a436df-4234-48a7-b345-5a51ffaf6c21)
-    (property "Reference" "#PWR0218" (at 53.34 88.9 0)
+    (property "Reference" "#PWR0144" (at 53.34 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 53.467 86.9442 0)
@@ -2329,10 +2248,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0218") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -2341,7 +2257,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b554539-a85d-494f-8359-b82832dce24c)
-    (property "Reference" "R152" (at 120.65 57.15 0)
+    (property "Reference" "R102" (at 120.65 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 120.65 59.69 0)
@@ -2382,10 +2298,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R152") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R200") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -2438,9 +2351,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q5") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q21") (unit 1)
-        )
       )
     )
   )
@@ -2448,7 +2358,7 @@
   (symbol (lib_id "Device:R_US") (at 222.25 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ef32dee-b5e6-4f58-b8cf-dc679d215717)
-    (property "Reference" "R167" (at 224.79 46.99 0)
+    (property "Reference" "R117" (at 224.79 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 224.79 49.53 0)
@@ -2489,10 +2399,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R167") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R215") (unit 1)
+          (reference "R117") (unit 1)
         )
       )
     )
@@ -2501,7 +2408,7 @@
   (symbol (lib_id "power:GND") (at 182.88 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f643372-9550-49d2-9b69-cca34d953160)
-    (property "Reference" "#PWR0244" (at 182.88 125.73 0)
+    (property "Reference" "#PWR0170" (at 182.88 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 183.007 123.7742 0)
@@ -2517,10 +2424,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0244") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0294") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -2529,7 +2433,7 @@
   (symbol (lib_id "power:+24V") (at 246.38 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f670672-70b6-4209-b174-afa597ca706e)
-    (property "Reference" "#PWR0257" (at 246.38 133.35 0)
+    (property "Reference" "#PWR0183" (at 246.38 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 246.761 125.1458 0)
@@ -2545,10 +2449,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0257") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -2557,7 +2458,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31440aec-17db-44ed-97b2-e90ab6223d82)
-    (property "Reference" "R161" (at 170.18 109.22 90)
+    (property "Reference" "R111" (at 170.18 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 170.18 111.76 90)
@@ -2598,10 +2499,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R161") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R209") (unit 1)
+          (reference "R111") (unit 1)
         )
       )
     )
@@ -2610,7 +2508,7 @@
   (symbol (lib_id "Device:LED_Small") (at 182.88 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32268e8d-261e-4168-b0e9-cb30d8d6f705)
-    (property "Reference" "D82" (at 180.34 138.43 90)
+    (property "Reference" "D50" (at 180.34 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 180.34 140.97 90)
@@ -2651,10 +2549,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D82") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D98") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -2663,7 +2558,7 @@
   (symbol (lib_id "power:GND") (at 118.11 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34447bc1-64ca-402f-a551-edfa2f987ff2)
-    (property "Reference" "#PWR0230" (at 118.11 88.9 0)
+    (property "Reference" "#PWR0156" (at 118.11 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 118.237 86.9442 0)
@@ -2679,10 +2574,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0230") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0280") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -2691,7 +2583,7 @@
   (symbol (lib_id "power:GND") (at 222.25 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34f03727-602a-45ae-b999-204848100b6d)
-    (property "Reference" "#PWR0248" (at 222.25 95.25 0)
+    (property "Reference" "#PWR0174" (at 222.25 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 222.377 93.2942 0)
@@ -2707,10 +2599,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0248") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0298") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -2719,7 +2608,7 @@
   (symbol (lib_id "power:+24V") (at 182.88 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36e5e03a-71ae-4942-9ada-7a3a615aa535)
-    (property "Reference" "#PWR0243" (at 182.88 96.52 0)
+    (property "Reference" "#PWR0169" (at 182.88 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 183.261 88.3158 0)
@@ -2735,10 +2624,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0243") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0293") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -2747,7 +2633,7 @@
   (symbol (lib_id "power:GND") (at 222.25 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f0ed2b-2c7b-4422-b78b-f0316582f76c)
-    (property "Reference" "#PWR0247" (at 222.25 58.42 0)
+    (property "Reference" "#PWR0173" (at 222.25 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 222.377 56.4642 0)
@@ -2763,10 +2649,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0247") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0297") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -2775,7 +2658,7 @@
   (symbol (lib_id "power:GND") (at 29.21 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a66385d-3c18-44f4-baea-231ddd2ea8ac)
-    (property "Reference" "#PWR0213" (at 29.21 130.81 0)
+    (property "Reference" "#PWR0139" (at 29.21 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 29.337 128.8542 0)
@@ -2791,10 +2674,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0213") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0263") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -2803,7 +2683,7 @@
   (symbol (lib_id "Device:R_US") (at 29.21 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dfa8466-5543-4e90-98c5-eae97517f96f)
-    (property "Reference" "R132" (at 31.75 83.82 0)
+    (property "Reference" "R82" (at 31.75 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 31.75 86.36 0)
@@ -2844,10 +2724,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R132") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R180") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
@@ -2900,9 +2777,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q16") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q32") (unit 1)
-        )
       )
     )
   )
@@ -2954,9 +2828,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q10") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q26") (unit 1)
-        )
       )
     )
   )
@@ -2964,7 +2835,7 @@
   (symbol (lib_id "Device:R_US") (at 29.21 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40a9e4d4-42d5-4250-ad47-f92f87de8c87)
-    (property "Reference" "R134" (at 31.75 157.48 0)
+    (property "Reference" "R84" (at 31.75 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 31.75 160.02 0)
@@ -3005,10 +2876,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R134") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R182") (unit 1)
+          (reference "R84") (unit 1)
         )
       )
     )
@@ -3017,7 +2885,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42392436-70f9-4c29-b72b-7be078b7b9ce)
-    (property "Reference" "R164" (at 185.42 57.15 0)
+    (property "Reference" "R114" (at 185.42 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 185.42 59.69 0)
@@ -3058,10 +2926,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R164") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R212") (unit 1)
+          (reference "R114") (unit 1)
         )
       )
     )
@@ -3070,7 +2935,7 @@
   (symbol (lib_id "Device:LED_Small") (at 118.11 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42a08f3a-04d8-4140-883d-adf9c71aec72)
-    (property "Reference" "D76" (at 115.57 64.77 90)
+    (property "Reference" "D44" (at 115.57 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 115.57 67.31 90)
@@ -3111,10 +2976,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D76") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D92") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -3123,7 +2985,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 474c7633-b9b3-4f7b-a7bc-35a54d3e5d45)
-    (property "Reference" "R143" (at 96.52 46.99 0)
+    (property "Reference" "R93" (at 96.52 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 96.52 49.53 0)
@@ -3164,10 +3026,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R143") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R191") (unit 1)
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -3176,7 +3035,7 @@
   (symbol (lib_id "Device:LED_Small") (at 118.11 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 499511f0-87d1-4e14-b8fa-19d6b434b45a)
-    (property "Reference" "D77" (at 115.57 101.6 90)
+    (property "Reference" "D45" (at 115.57 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 115.57 104.14 90)
@@ -3217,10 +3076,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D77") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D93") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -3229,7 +3085,7 @@
   (symbol (lib_id "Device:LED_Small") (at 182.88 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ad8fb3c-e03b-4033-b4cf-a6081274d05d)
-    (property "Reference" "D80" (at 180.34 64.77 90)
+    (property "Reference" "D48" (at 180.34 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 180.34 67.31 90)
@@ -3270,10 +3126,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D80") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D96") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -3282,7 +3135,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c287e78-7ae5-4325-b204-652397d3f657)
-    (property "Reference" "R141" (at 55.88 93.98 0)
+    (property "Reference" "R91" (at 55.88 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 55.88 96.52 0)
@@ -3323,10 +3176,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R141") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R189") (unit 1)
+          (reference "R91") (unit 1)
         )
       )
     )
@@ -3335,7 +3185,7 @@
   (symbol (lib_id "power:GND") (at 53.34 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ccdbdb8-ca65-4943-b6f3-7e8f0c072536)
-    (property "Reference" "#PWR0220" (at 53.34 125.73 0)
+    (property "Reference" "#PWR0146" (at 53.34 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 53.467 123.7742 0)
@@ -3351,10 +3201,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0220") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0270") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -3363,7 +3210,7 @@
   (symbol (lib_id "power:+24V") (at 118.11 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e3a826c-6c76-4a27-b426-e3c9dfb4cd8f)
-    (property "Reference" "#PWR0231" (at 118.11 96.52 0)
+    (property "Reference" "#PWR0157" (at 118.11 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 118.491 88.3158 0)
@@ -3379,10 +3226,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0231") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0281") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -3391,7 +3235,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 501b0602-53d0-4a47-a0f0-cd7b02e271f9)
-    (property "Reference" "R163" (at 185.42 20.32 0)
+    (property "Reference" "R113" (at 185.42 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 185.42 22.86 0)
@@ -3432,10 +3276,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R163") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R211") (unit 1)
+          (reference "R113") (unit 1)
         )
       )
     )
@@ -3444,7 +3285,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5900001f-be46-428d-a620-3afda5bc7f6c)
-    (property "Reference" "R172" (at 233.68 72.39 90)
+    (property "Reference" "R122" (at 233.68 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 233.68 74.93 90)
@@ -3485,10 +3326,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R172") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R220") (unit 1)
+          (reference "R122") (unit 1)
         )
       )
     )
@@ -3497,7 +3335,7 @@
   (symbol (lib_id "power:+24V") (at 182.88 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b056afa-1b13-4775-9b0d-b18fba295aa7)
-    (property "Reference" "#PWR0239" (at 182.88 22.86 0)
+    (property "Reference" "#PWR0165" (at 182.88 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 183.261 14.6558 0)
@@ -3513,10 +3351,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0239") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0289") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -3525,7 +3360,7 @@
   (symbol (lib_id "power:+24V") (at 118.11 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60a93206-870f-4f86-a69f-016fff82f5dd)
-    (property "Reference" "#PWR0229" (at 118.11 59.69 0)
+    (property "Reference" "#PWR0155" (at 118.11 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 118.491 51.4858 0)
@@ -3541,10 +3376,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0229") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0279") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -3553,7 +3385,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6160ebf9-5b70-44c5-bdaf-5ecd4e0bf65a)
-    (property "Reference" "R160" (at 170.18 72.39 90)
+    (property "Reference" "R110" (at 170.18 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 170.18 74.93 90)
@@ -3594,10 +3426,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R160") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R208") (unit 1)
+          (reference "R110") (unit 1)
         )
       )
     )
@@ -3606,7 +3435,7 @@
   (symbol (lib_id "power:GND") (at 222.25 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64fa50c8-6073-4972-9bea-37ab155889f2)
-    (property "Reference" "#PWR0250" (at 222.25 168.91 0)
+    (property "Reference" "#PWR0176" (at 222.25 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 222.377 166.9542 0)
@@ -3622,10 +3451,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0250") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0300") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -3634,7 +3460,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cb598b3-9d68-4e88-bedc-b864cebb53e8)
-    (property "Reference" "R162" (at 170.18 146.05 90)
+    (property "Reference" "R112" (at 170.18 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 170.18 148.59 90)
@@ -3675,10 +3501,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R162") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R210") (unit 1)
+          (reference "R112") (unit 1)
         )
       )
     )
@@ -3687,7 +3510,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72bf1b4e-afb5-4fba-8542-fc8618374c50)
-    (property "Reference" "R157" (at 161.29 118.11 0)
+    (property "Reference" "R107" (at 161.29 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 161.29 120.65 0)
@@ -3728,10 +3551,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R157") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R205") (unit 1)
+          (reference "R107") (unit 1)
         )
       )
     )
@@ -3740,7 +3560,7 @@
   (symbol (lib_id "power:GND") (at 118.11 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75e3b071-633c-49fe-bbb1-7c5794b580cd)
-    (property "Reference" "#PWR0232" (at 118.11 125.73 0)
+    (property "Reference" "#PWR0158" (at 118.11 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 118.237 123.7742 0)
@@ -3756,10 +3576,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0232") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0282") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -3768,7 +3585,7 @@
   (symbol (lib_id "power:GND") (at 53.34 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7674b3c6-725c-49ec-a8b6-e12642a541f7)
-    (property "Reference" "#PWR0216" (at 53.34 52.07 0)
+    (property "Reference" "#PWR0142" (at 53.34 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 53.467 50.1142 0)
@@ -3784,10 +3601,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0216") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -3796,7 +3610,7 @@
   (symbol (lib_id "power:+24V") (at 53.34 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b716ac4-ec5f-4acb-89d7-b4a996ac8380)
-    (property "Reference" "#PWR0217" (at 53.34 59.69 0)
+    (property "Reference" "#PWR0143" (at 53.34 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 53.721 51.4858 0)
@@ -3812,10 +3626,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0217") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0267") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -3824,7 +3635,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b9debad-da58-4cf2-a03f-af218f47a5b9)
-    (property "Reference" "R151" (at 120.65 20.32 0)
+    (property "Reference" "R101" (at 120.65 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 120.65 22.86 0)
@@ -3865,10 +3676,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R151") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R199") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -3877,7 +3685,7 @@
   (symbol (lib_id "Device:R_US") (at 222.25 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c926b70-228d-4bc0-b419-fda0d56c9b86)
-    (property "Reference" "R170" (at 224.79 157.48 0)
+    (property "Reference" "R120" (at 224.79 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 224.79 160.02 0)
@@ -3918,10 +3726,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R170") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R218") (unit 1)
+          (reference "R120") (unit 1)
         )
       )
     )
@@ -3974,9 +3779,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q7") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q23") (unit 1)
-        )
       )
     )
   )
@@ -3984,7 +3786,7 @@
   (symbol (lib_id "power:GND") (at 182.88 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 816a6d34-e053-434c-a898-993b7b65b7e6)
-    (property "Reference" "#PWR0242" (at 182.88 88.9 0)
+    (property "Reference" "#PWR0168" (at 182.88 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 183.007 86.9442 0)
@@ -4000,10 +3802,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0242") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0292") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -4012,7 +3811,7 @@
   (symbol (lib_id "power:GND") (at 29.21 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8392d149-1de4-4014-a288-5141b208ee12)
-    (property "Reference" "#PWR0211" (at 29.21 57.15 0)
+    (property "Reference" "#PWR0137" (at 29.21 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 29.337 55.1942 0)
@@ -4028,10 +3827,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0211") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -4040,7 +3836,7 @@
   (symbol (lib_id "Device:LED_Small") (at 118.11 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86bb25ec-4145-4492-accd-6581a76c86a7)
-    (property "Reference" "D78" (at 115.57 138.43 90)
+    (property "Reference" "D46" (at 115.57 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 115.57 140.97 90)
@@ -4081,10 +3877,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D78") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D94") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -4093,7 +3886,7 @@
   (symbol (lib_id "power:GND") (at 222.25 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86eae229-4979-4c09-89eb-e5bee959c253)
-    (property "Reference" "#PWR0249" (at 222.25 132.08 0)
+    (property "Reference" "#PWR0175" (at 222.25 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 222.377 130.1242 0)
@@ -4109,10 +3902,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0249") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0299") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -4121,7 +3911,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87ef3f56-3658-47d6-9f6a-bc9eb0f46ea7)
-    (property "Reference" "R154" (at 120.65 130.81 0)
+    (property "Reference" "R104" (at 120.65 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 120.65 133.35 0)
@@ -4162,10 +3952,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R154") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R202") (unit 1)
+          (reference "R104") (unit 1)
         )
       )
     )
@@ -4174,7 +3961,7 @@
   (symbol (lib_id "Device:R_US") (at 40.64 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89416237-32a3-4de2-a20d-8334d981a240)
-    (property "Reference" "R137" (at 40.64 109.22 90)
+    (property "Reference" "R87" (at 40.64 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 40.64 111.76 90)
@@ -4215,10 +4002,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R137") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R185") (unit 1)
+          (reference "R87") (unit 1)
         )
       )
     )
@@ -4271,9 +4055,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q14") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q30") (unit 1)
-        )
       )
     )
   )
@@ -4281,7 +4062,7 @@
   (symbol (lib_id "power:GND") (at 93.98 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b19da2d-f14c-426e-aaa1-b0d8bc5fd247)
-    (property "Reference" "#PWR0225" (at 93.98 132.08 0)
+    (property "Reference" "#PWR0151" (at 93.98 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 94.107 130.1242 0)
@@ -4297,10 +4078,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0225") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0275") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -4309,7 +4087,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b987bb1-ab42-459c-bee4-1651e90f4f92)
-    (property "Reference" "R156" (at 161.29 83.82 0)
+    (property "Reference" "R106" (at 161.29 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 161.29 86.36 0)
@@ -4350,10 +4128,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R156") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R204") (unit 1)
+          (reference "R106") (unit 1)
         )
       )
     )
@@ -4362,7 +4137,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cf70b5f-48a0-4a1c-a5fe-f9effcee25ed)
-    (property "Reference" "R142" (at 55.88 130.81 0)
+    (property "Reference" "R92" (at 55.88 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 55.88 133.35 0)
@@ -4403,10 +4178,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R142") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R190") (unit 1)
+          (reference "R92") (unit 1)
         )
       )
     )
@@ -4415,7 +4187,7 @@
   (symbol (lib_id "power:GND") (at 246.38 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fbcf904-b012-446f-a750-27fb968b6e79)
-    (property "Reference" "#PWR0254" (at 246.38 88.9 0)
+    (property "Reference" "#PWR0180" (at 246.38 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 246.507 86.9442 0)
@@ -4431,10 +4203,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0254") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -4443,7 +4212,7 @@
   (symbol (lib_id "power:GND") (at 182.88 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9098e79a-3d37-4efc-b274-d2219fb36ab2)
-    (property "Reference" "#PWR0246" (at 182.88 162.56 0)
+    (property "Reference" "#PWR0172" (at 182.88 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 183.007 160.6042 0)
@@ -4459,10 +4228,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0246") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0296") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -4471,7 +4237,7 @@
   (symbol (lib_id "Device:LED_Small") (at 246.38 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90c94a13-ed2d-43b5-8747-ac67f7d4b366)
-    (property "Reference" "D85" (at 243.84 101.6 90)
+    (property "Reference" "D53" (at 243.84 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 243.84 104.14 90)
@@ -4512,10 +4278,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D85") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D101") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -4568,9 +4331,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q6") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q22") (unit 1)
-        )
       )
     )
   )
@@ -4578,7 +4338,7 @@
   (symbol (lib_id "power:+24V") (at 182.88 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97429632-8b53-4e87-9468-8a90ac8b0ddd)
-    (property "Reference" "#PWR0241" (at 182.88 59.69 0)
+    (property "Reference" "#PWR0167" (at 182.88 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 183.261 51.4858 0)
@@ -4594,10 +4354,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0241") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0291") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -4650,9 +4407,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q15") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q31") (unit 1)
-        )
       )
     )
   )
@@ -4660,7 +4414,7 @@
   (symbol (lib_id "Device:R_US") (at 40.64 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a18c9a1-7470-4b2f-a2a1-75f180c6dea6)
-    (property "Reference" "R135" (at 40.64 35.56 90)
+    (property "Reference" "R85" (at 40.64 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 40.64 38.1 90)
@@ -4701,10 +4455,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R135") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R183") (unit 1)
+          (reference "R85") (unit 1)
         )
       )
     )
@@ -4713,7 +4464,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c0a0f76-883c-4e24-bff8-6fa30d366e1e)
-    (property "Reference" "R171" (at 233.68 35.56 90)
+    (property "Reference" "R121" (at 233.68 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 233.68 38.1 90)
@@ -4754,10 +4505,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R171") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R219") (unit 1)
+          (reference "R121") (unit 1)
         )
       )
     )
@@ -4766,7 +4514,7 @@
   (symbol (lib_id "power:GND") (at 158.75 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ddbbfca-3f3f-40bb-a50e-8e08a78340d6)
-    (property "Reference" "#PWR0238" (at 158.75 167.64 0)
+    (property "Reference" "#PWR0164" (at 158.75 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 158.877 165.6842 0)
@@ -4782,10 +4530,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0238") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0288") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -4838,9 +4583,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q19") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q35") (unit 1)
-        )
       )
     )
   )
@@ -4848,7 +4590,7 @@
   (symbol (lib_id "power:GND") (at 93.98 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a128d016-ff9b-4b00-b7bc-e4298b0de967)
-    (property "Reference" "#PWR0223" (at 93.98 58.42 0)
+    (property "Reference" "#PWR0149" (at 93.98 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 94.107 56.4642 0)
@@ -4864,10 +4606,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0223") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0273") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -4876,7 +4615,7 @@
   (symbol (lib_id "power:GND") (at 158.75 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5517eb5-2c9a-4cc1-87b9-b17e6c34857e)
-    (property "Reference" "#PWR0237" (at 158.75 130.81 0)
+    (property "Reference" "#PWR0163" (at 158.75 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 158.877 128.8542 0)
@@ -4892,10 +4631,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0237") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0287") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -4904,7 +4640,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5600530-7636-481b-a2f7-db23bff72fa0)
-    (property "Reference" "R140" (at 55.88 57.15 0)
+    (property "Reference" "R90" (at 55.88 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 55.88 59.69 0)
@@ -4945,10 +4681,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R140") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R188") (unit 1)
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -4957,7 +4690,7 @@
   (symbol (lib_id "Device:LED_Small") (at 246.38 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6bcdc10-9f7a-4e0c-bd01-a4182d15f529)
-    (property "Reference" "D83" (at 243.84 27.94 90)
+    (property "Reference" "D51" (at 243.84 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 243.84 30.48 90)
@@ -4998,10 +4731,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D83") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D99") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -5010,7 +4740,7 @@
   (symbol (lib_id "Device:R_US") (at 222.25 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9073bea-03a3-40a1-83b3-1d1fe89028b2)
-    (property "Reference" "R168" (at 224.79 83.82 0)
+    (property "Reference" "R118" (at 224.79 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 224.79 86.36 0)
@@ -5051,10 +4781,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R168") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R216") (unit 1)
+          (reference "R118") (unit 1)
         )
       )
     )
@@ -5063,7 +4790,7 @@
   (symbol (lib_id "Device:R_US") (at 40.64 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab2f13e2-be54-4cfa-abcd-e6e82813dc8e)
-    (property "Reference" "R138" (at 40.64 146.05 90)
+    (property "Reference" "R88" (at 40.64 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 40.64 148.59 90)
@@ -5104,10 +4831,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R138") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R186") (unit 1)
+          (reference "R88") (unit 1)
         )
       )
     )
@@ -5116,7 +4840,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abf5b234-6cb1-46db-b554-bcd779abb987)
-    (property "Reference" "R148" (at 105.41 72.39 90)
+    (property "Reference" "R98" (at 105.41 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 105.41 74.93 90)
@@ -5157,10 +4881,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R148") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R196") (unit 1)
+          (reference "R98") (unit 1)
         )
       )
     )
@@ -5169,7 +4890,7 @@
   (symbol (lib_id "Device:R_US") (at 40.64 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae9bd1cf-e406-4abe-8bad-61b2f5140acc)
-    (property "Reference" "R136" (at 40.64 72.39 90)
+    (property "Reference" "R86" (at 40.64 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 40.64 74.93 90)
@@ -5210,10 +4931,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R136") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R184") (unit 1)
+          (reference "R86") (unit 1)
         )
       )
     )
@@ -5222,7 +4940,7 @@
   (symbol (lib_id "power:GND") (at 118.11 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af947b19-948c-4c24-857a-67a9d63057b9)
-    (property "Reference" "#PWR0234" (at 118.11 162.56 0)
+    (property "Reference" "#PWR0160" (at 118.11 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 118.237 160.6042 0)
@@ -5238,10 +4956,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0234") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0284") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -5250,7 +4965,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3404db4-c25b-4207-9fcd-91faf9364d90)
-    (property "Reference" "R178" (at 248.92 130.81 0)
+    (property "Reference" "R128" (at 248.92 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 248.92 133.35 0)
@@ -5291,10 +5006,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R178") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R226") (unit 1)
+          (reference "R128") (unit 1)
         )
       )
     )
@@ -5303,7 +5015,7 @@
   (symbol (lib_id "Device:LED_Small") (at 182.88 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b70eae1d-ada4-4e3c-8655-b746ef4dcc2d)
-    (property "Reference" "D81" (at 180.34 101.6 90)
+    (property "Reference" "D49" (at 180.34 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 180.34 104.14 90)
@@ -5344,10 +5056,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D81") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D97") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -5400,9 +5109,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q12") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q28") (unit 1)
-        )
       )
     )
   )
@@ -5453,9 +5159,6 @@
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q18") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q34") (unit 1)
         )
       )
     )
@@ -5508,9 +5211,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q11") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q27") (unit 1)
-        )
       )
     )
   )
@@ -5518,7 +5218,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc94b21a-9e71-4230-9370-d5591811f7dd)
-    (property "Reference" "R165" (at 185.42 93.98 0)
+    (property "Reference" "R115" (at 185.42 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 185.42 96.52 0)
@@ -5559,10 +5259,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R165") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R213") (unit 1)
+          (reference "R115") (unit 1)
         )
       )
     )
@@ -5571,7 +5268,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c33a79f4-2b00-4d22-9214-0c02c5b5e738)
-    (property "Reference" "R166" (at 185.42 130.81 0)
+    (property "Reference" "R116" (at 185.42 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 185.42 133.35 0)
@@ -5612,10 +5309,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R166") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R214") (unit 1)
+          (reference "R116") (unit 1)
         )
       )
     )
@@ -5668,9 +5362,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q13") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q29") (unit 1)
-        )
       )
     )
   )
@@ -5678,7 +5369,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5e5e882-ec84-4b4d-8b01-e775a1ec2d36)
-    (property "Reference" "R173" (at 233.68 109.22 90)
+    (property "Reference" "R123" (at 233.68 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 233.68 111.76 90)
@@ -5719,10 +5410,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R173") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R221") (unit 1)
+          (reference "R123") (unit 1)
         )
       )
     )
@@ -5731,7 +5419,7 @@
   (symbol (lib_id "power:GND") (at 158.75 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdf9101e-c292-4035-bc3b-f68b519e613a)
-    (property "Reference" "#PWR0235" (at 158.75 57.15 0)
+    (property "Reference" "#PWR0161" (at 158.75 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 158.877 55.1942 0)
@@ -5747,10 +5435,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0235") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0285") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -5759,7 +5444,7 @@
   (symbol (lib_id "Device:R_US") (at 29.21 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf924aa1-f67a-456a-bbe6-2b2a60e1aa4a)
-    (property "Reference" "R131" (at 31.75 46.99 0)
+    (property "Reference" "R81" (at 31.75 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 31.75 49.53 0)
@@ -5800,10 +5485,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R131") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R179") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
     )
@@ -5812,7 +5494,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d425d48d-ff7c-42ff-a4a5-8b0c48a50417)
-    (property "Reference" "R176" (at 248.92 57.15 0)
+    (property "Reference" "R126" (at 248.92 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 248.92 59.69 0)
@@ -5853,10 +5535,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R176") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R224") (unit 1)
+          (reference "R126") (unit 1)
         )
       )
     )
@@ -5865,7 +5544,7 @@
   (symbol (lib_id "power:+24V") (at 246.38 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5eca634-bda0-4a39-b160-a36da3d2d3d6)
-    (property "Reference" "#PWR0253" (at 246.38 59.69 0)
+    (property "Reference" "#PWR0179" (at 246.38 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 246.761 51.4858 0)
@@ -5881,10 +5560,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0253") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -5893,7 +5569,7 @@
   (symbol (lib_id "power:GND") (at 118.11 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d81dd239-1e2a-4c97-b80c-7000a1b13536)
-    (property "Reference" "#PWR0228" (at 118.11 52.07 0)
+    (property "Reference" "#PWR0154" (at 118.11 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 118.237 50.1142 0)
@@ -5909,10 +5585,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0228") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0278") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -5921,7 +5594,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8a9bee7-3409-4535-a079-ad72aea37715)
-    (property "Reference" "R150" (at 105.41 146.05 90)
+    (property "Reference" "R100" (at 105.41 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 105.41 148.59 90)
@@ -5962,10 +5635,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R150") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R198") (unit 1)
+          (reference "R100") (unit 1)
         )
       )
     )
@@ -6018,9 +5688,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q8") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q24") (unit 1)
-        )
       )
     )
   )
@@ -6028,7 +5695,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2031e7e-9aa7-493e-b1e3-7f6568d69038)
-    (property "Reference" "R139" (at 55.88 20.32 0)
+    (property "Reference" "R89" (at 55.88 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 55.88 22.86 0)
@@ -6069,10 +5736,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R139") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R187") (unit 1)
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -6081,7 +5745,7 @@
   (symbol (lib_id "Device:LED_Small") (at 53.34 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e40166d5-4c8f-4226-8a83-772096cd9ab8)
-    (property "Reference" "D74" (at 50.8 138.43 90)
+    (property "Reference" "D42" (at 50.8 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 50.8 140.97 90)
@@ -6122,10 +5786,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D74") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D90") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
@@ -6134,7 +5795,7 @@
   (symbol (lib_id "power:+24V") (at 246.38 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4a09879-069c-4a09-b6d3-5c36ae4eedf2)
-    (property "Reference" "#PWR0255" (at 246.38 96.52 0)
+    (property "Reference" "#PWR0181" (at 246.38 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 246.761 88.3158 0)
@@ -6150,10 +5811,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0255") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -6162,7 +5820,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e520d821-3efa-4f27-99e4-840ec1ad85bd)
-    (property "Reference" "R149" (at 105.41 109.22 90)
+    (property "Reference" "R99" (at 105.41 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k/62,5mW/0402" (at 105.41 111.76 90)
@@ -6203,10 +5861,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R149") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R197") (unit 1)
+          (reference "R99") (unit 1)
         )
       )
     )
@@ -6215,7 +5870,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7ce1109-fbd1-4c12-b81e-b27f27901817)
-    (property "Reference" "R177" (at 248.92 93.98 0)
+    (property "Reference" "R127" (at 248.92 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 248.92 96.52 0)
@@ -6256,10 +5911,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R177") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R225") (unit 1)
+          (reference "R127") (unit 1)
         )
       )
     )
@@ -6268,7 +5920,7 @@
   (symbol (lib_id "power:+24V") (at 118.11 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e929137c-a6d1-4c45-93aa-f6e38fd0188a)
-    (property "Reference" "#PWR0227" (at 118.11 22.86 0)
+    (property "Reference" "#PWR0153" (at 118.11 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 118.491 14.6558 0)
@@ -6284,10 +5936,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0227") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0277") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -6296,7 +5945,7 @@
   (symbol (lib_id "power:GND") (at 53.34 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb0c5565-e1b6-43fb-951d-909f977f1185)
-    (property "Reference" "#PWR0222" (at 53.34 162.56 0)
+    (property "Reference" "#PWR0148" (at 53.34 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 53.467 160.6042 0)
@@ -6312,10 +5961,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0222") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0272") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -6324,7 +5970,7 @@
   (symbol (lib_id "power:+24V") (at 53.34 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec390b14-64bb-4185-8fe7-0083408ef838)
-    (property "Reference" "#PWR0215" (at 53.34 22.86 0)
+    (property "Reference" "#PWR0141" (at 53.34 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 53.721 14.6558 0)
@@ -6340,10 +5986,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0215") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -6352,7 +5995,7 @@
   (symbol (lib_id "power:GND") (at 246.38 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeec28dd-0e65-4812-969c-83125d122729)
-    (property "Reference" "#PWR0252" (at 246.38 52.07 0)
+    (property "Reference" "#PWR0178" (at 246.38 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 246.507 50.1142 0)
@@ -6368,10 +6011,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0252") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -6380,7 +6020,7 @@
   (symbol (lib_id "Device:R_US") (at 29.21 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1fa88fd-a65d-434f-a8f2-b01b81fdb575)
-    (property "Reference" "R133" (at 31.75 118.11 0)
+    (property "Reference" "R83" (at 31.75 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k/62,5mW/0402" (at 31.75 120.65 0)
@@ -6421,10 +6061,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R133") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R181") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
     )
@@ -6433,7 +6070,7 @@
   (symbol (lib_id "power:GND") (at 93.98 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7f448a3-3e64-4f9c-9ebc-606ac9dc8df4)
-    (property "Reference" "#PWR0224" (at 93.98 95.25 0)
+    (property "Reference" "#PWR0150" (at 93.98 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 94.107 93.2942 0)
@@ -6449,10 +6086,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0224") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0274") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -6461,7 +6095,7 @@
   (symbol (lib_id "Device:LED_Small") (at 182.88 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f86d75eb-3af0-4822-a81b-e5501361ca3c)
-    (property "Reference" "D79" (at 180.34 27.94 90)
+    (property "Reference" "D47" (at 180.34 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 180.34 30.48 90)
@@ -6502,10 +6136,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D79") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D95") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -6514,7 +6145,7 @@
   (symbol (lib_id "Device:LED_Small") (at 53.34 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcce0e4e-8de4-4424-aa4f-ab81109111ab)
-    (property "Reference" "D72" (at 50.8 64.77 90)
+    (property "Reference" "D40" (at 50.8 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 50.8 67.31 90)
@@ -6555,10 +6186,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D72") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D88") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -6567,7 +6195,7 @@
   (symbol (lib_id "Device:LED_Small") (at 118.11 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fde7d9ca-33df-45ff-876c-00905d401d1f)
-    (property "Reference" "D75" (at 115.57 27.94 90)
+    (property "Reference" "D43" (at 115.57 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GREEN/0603" (at 115.57 30.48 90)
@@ -6608,10 +6236,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "D75") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "D91") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -6664,9 +6289,6 @@
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
           (reference "Q4") (unit 1)
         )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "Q20") (unit 1)
-        )
       )
     )
   )
@@ -6674,7 +6296,7 @@
   (symbol (lib_id "power:GND") (at 29.21 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff93f067-1e5b-4ec9-851b-6c971a72e3d3)
-    (property "Reference" "#PWR0212" (at 29.21 93.98 0)
+    (property "Reference" "#PWR0138" (at 29.21 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 29.337 92.0242 0)
@@ -6690,10 +6312,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "#PWR0212") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -6702,7 +6321,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffc9c5ca-bc30-4de0-9760-8b33b8eb1372)
-    (property "Reference" "R153" (at 120.65 93.98 0)
+    (property "Reference" "R103" (at 120.65 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5,6k/0,1W/0603" (at 120.65 96.52 0)
@@ -6743,10 +6362,7 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/4e1ea464-0bf3-4161-b590-743a033ee90b"
-          (reference "R153") (unit 1)
-        )
-        (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f14c9283-2613-4eca-9eb7-a11bf8549be9"
-          (reference "R201") (unit 1)
+          (reference "R103") (unit 1)
         )
       )
     )
