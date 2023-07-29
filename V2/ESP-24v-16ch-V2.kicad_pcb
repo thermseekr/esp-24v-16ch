@@ -329,7 +329,7 @@
   (net 242 "unconnected-(J2-SBU1-PadA8)")
   (net 243 "Net-(J2-CC2)")
   (net 244 "unconnected-(J2-SBU2-PadB8)")
-  (net 245 "Net-(U5-VDDCR)")
+  (net 245 "Net-(#FLG06-pwr)")
 
   (footprint "Tales:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 0122fc0c-1d5c-4746-bc4a-a4a0d0a2f2f6)
@@ -3186,7 +3186,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ce7dbfaa-63f3-4d7c-9814-0b91892a4709))
     (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 245 "Net-(U5-VDDCR)") (pintype "passive") (tstamp c833267d-476b-4027-8aae-351ba15678a1))
+      (net 245 "Net-(#FLG06-pwr)") (pintype "passive") (tstamp c833267d-476b-4027-8aae-351ba15678a1))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 8ed03b9a-c50c-4b43-a003-c665b25a890b))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
@@ -15525,7 +15525,7 @@
     (pad "5" smd roundrect (at -2.4375 0.25 180) (size 0.875 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 69 "/LAN/EMAC_CLK") (pinfunction "XTAL1/CLKIN") (pintype "input") (tstamp 7dd5c188-0016-4af3-8335-aceda2214758))
     (pad "6" smd roundrect (at -2.4375 0.75 180) (size 0.875 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 245 "Net-(U5-VDDCR)") (pinfunction "VDDCR") (pintype "power_in") (tstamp 09412d04-486f-4f9e-9890-43275f17246a))
+      (net 245 "Net-(#FLG06-pwr)") (pinfunction "VDDCR") (pintype "power_in") (tstamp 09412d04-486f-4f9e-9890-43275f17246a))
     (pad "7" smd roundrect (at -2.4375 1.25 180) (size 0.875 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 217 "Net-(U5-RXCLK{slash}~{PHYAD1})") (pinfunction "RXCLK/~{PHYAD1}") (pintype "bidirectional") (tstamp a02d6e23-bad6-4f9b-bbd2-a376fdbba0dc))
     (pad "8" smd roundrect (at -2.4375 1.75 180) (size 0.875 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -15994,7 +15994,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0004a459-ec42-4d70-999b-51bcf00e8dd7))
     (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 245 "Net-(U5-VDDCR)") (pintype "passive") (tstamp d51d9fea-2064-4097-b0f4-00d456ac9713))
+      (net 245 "Net-(#FLG06-pwr)") (pintype "passive") (tstamp d51d9fea-2064-4097-b0f4-00d456ac9713))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 58b30216-76d6-4bfe-b3b2-dc613721e7bc))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
