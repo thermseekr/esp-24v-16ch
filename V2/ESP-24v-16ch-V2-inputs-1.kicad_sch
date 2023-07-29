@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "ESP 16x 24VDC Input 32x 16VDC Output Module")
+    (title "ESP 16x 24VDC Input 16x 24VDC Output Module")
     (date "2023-05-05")
-    (rev "V1")
+    (rev "V2")
   )
 
   (lib_symbols

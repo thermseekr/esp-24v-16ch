@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ESP 16x 24VDC Input 16x 24VDC Output Module")
+    (date "2023-05-05")
+    (rev "V2")
+  )
+
   (lib_symbols
     (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.54 0 90)

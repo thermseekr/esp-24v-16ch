@@ -7,7 +7,7 @@
   (title_block
     (title "ESP 16x 24VDC Input 16x 24VDC Output Module")
     (date "2023-05-05")
-    (rev "V1")
+    (rev "V2")
   )
 
   (lib_symbols
@@ -2382,6 +2382,10 @@
   (text "RH" (at 96.52 156.21 0)
     (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid c4efffed-2ce4-46f8-b655-23e4e72df44a)
+  )
+  (text "24VDC" (at 20.32 39.37 0)
+    (effects (font (size 2.5 2.5)) (justify left bottom))
+    (uuid f38457a6-dc9f-4a76-8e6f-f7c7008488b5)
   )
   (text "R2" (at 223.52 78.74 0)
     (effects (font (size 1.5 1.5)) (justify left bottom))
