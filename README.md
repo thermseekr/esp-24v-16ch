@@ -11,4 +11,4 @@ ESP-24V-16CH-V3 - Added PoE without galvanic isolation, power indicator LED move
 
 ESP-24V-16CH-V2 - All GPIOs moved to MCP23017 expanders. MCP interrupt pins connected to GPIOs on the ESP32. USB connector changed for USB type C.
 
-ESP-24V-16CH-V1 - Initial versions, not released. The first 8 inputs used native ESP32 GPIOs, other inputs and all outputs were wired through MCP GPIO expanders.
+ESP-24V-16CH-V1 - Initial version, not released. The first 8 inputs used native ESP32 GPIOs, other inputs and all outputs were wired through MCP GPIO expanders.
