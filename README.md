@@ -5,7 +5,7 @@ The dimensions are such that the board can be mounted on a PCB DIN rail holder f
 
 ![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V2/ESP-24v-16ch-V2.png "ESP-24v-16ch")
 
-## REVISION HISTORY
+## VERSION HISTORY
 
 ESP-24V-16CH-V3 - Added PoE without galvanic isolation, power indicator LED moved to 5V bus to light also when the board is powered through the USB cable.
 
