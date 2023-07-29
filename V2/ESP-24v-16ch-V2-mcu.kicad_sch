@@ -1147,6 +1147,22 @@
     (uuid ffc991dd-3976-4ed2-99ae-914cb97cd9d1)
   )
 
+  (text "ESP32 PIN ASSIGNMENT\n25 - GPIO0 - AUTO FLASH MODE\n35 - GPIO1 - SERIAL TX\n34 - GPIO3 - SERIAL RX\n14 - GPIO12 - PHY POWER\n16 - GPIO13 - MCP23017 INTA\n13 - GPIO14 - MCP23017 INTB\n28 - GPIO17 - EMAC CLK\n30 - GPIO18 - EMAC MDIO\n31 - GPIO19 - EMAC TXD0\n33 - GPIO21 - EMAC TXEN\n36 - GPIO22 - EMAC TXD1\n37 - GPIO23 - EMAC MDC\n10 - GPIO25 - EMAC RXD0\n11 - GPIO26 - EMAC RXD1\n12 - GPIO27 - EMAC RX\n8 - GPIO32 - I2C SCL\n9 - GPIO33 - I2C SDA"
+    (at 19.05 187.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a3342907-92f3-49d8-95f9-d1810ea853d2)
+  )
+  (text "TEMPLATE FOR GPIO ASSIGNMENT\n{\"NAME\":\"ESP-24V-16CH-V2\",\"GPIO\":[1,3200,0,3232,0,0,0,0,5536,10240,10241,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\nhttps://tasmota.github.io/docs/Templates/"
+    (at 62.23 160.02 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b73a0bec-f2c5-41e3-bd55-3fc9f06619d1)
+  )
+  (text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[160,161,162,163,164,165,166,167,168,169,170,\n171,172,173,174,175,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239]}\nhttps://tasmota.github.io/docs/MCP230xx/"
+    (at 62.23 172.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f025a774-fa55-4c54-b6f4-4d1ce0a510c4)
+  )
+
   (label "I2C_SCL" (at 215.9 130.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 984dc746-ea54-4904-8eab-8179d8195c25)
