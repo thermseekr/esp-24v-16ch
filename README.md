@@ -7,7 +7,7 @@ The dimensions are such that the board can be mounted on a PCB DIN rail holder f
 
 ## VERSION HISTORY
 
-ESP-24V-16CH-V3 - Added PoE without galvanic isolation, power indicator LED moved to 5V bus to light also when the board is powered through the USB cable.
+ESP-24V-16CH-V3 - Added PoE without galvanic isolation, power indicator LED moved to 5V bus to light also when the board is powered through the USB cable. Individual resistors replaced by resistor packs where possible.
 
 ESP-24V-16CH-V2 - All GPIOs moved to MCP23017 expanders. MCP interrupt pins connected to GPIOs on the ESP32. USB connector changed for USB type C.
 
