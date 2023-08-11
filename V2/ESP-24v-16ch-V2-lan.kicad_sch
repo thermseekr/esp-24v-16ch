@@ -2273,6 +2273,12 @@
     (uuid ff2a712d-4164-4295-8162-3dc266f6cedf)
   )
 
+  (text "OPÇÕES RJ45\n\nHANRUN HR911105A\nJLCPCB C12074\nHORIZONTAL MAGNÉTICO\n\nHANRUN HY951180A\nJLCPCB C34677\nVERTICAL MAGNÉTICO"
+    (at 93.98 191.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 83e5fe50-e531-415c-a277-e32309cba2e3)
+  )
+
   (label "RD-" (at 66.04 162.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 05b6df2a-0e6b-48d8-823b-f718a1e3f88e)
@@ -2398,6 +2404,11 @@
           (reference "C20") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C20") (unit 1)
+        )
+      )
     )
   )
 
@@ -2420,6 +2431,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR057") (unit 1)
         )
       )
@@ -2473,6 +2489,11 @@
           (reference "R24") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R24") (unit 1)
+        )
+      )
     )
   )
 
@@ -2495,6 +2516,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR060") (unit 1)
         )
       )
@@ -2548,6 +2574,11 @@
           (reference "R17") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R17") (unit 1)
+        )
+      )
     )
   )
 
@@ -2598,6 +2629,11 @@
           (reference "C16") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C16") (unit 1)
+        )
+      )
     )
   )
 
@@ -2620,6 +2656,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR051") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR051") (unit 1)
         )
       )
@@ -2673,6 +2714,11 @@
           (reference "C15") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C15") (unit 1)
+        )
+      )
     )
   )
 
@@ -2720,6 +2766,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "R18") (unit 1)
         )
       )
@@ -2773,6 +2824,11 @@
           (reference "R25") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R25") (unit 1)
+        )
+      )
     )
   )
 
@@ -2795,6 +2851,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR050") (unit 1)
         )
       )
@@ -2845,6 +2906,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "R19") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "R19") (unit 1)
         )
       )
@@ -2909,6 +2975,11 @@
           (reference "J7") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "J7") (unit 1)
+        )
+      )
     )
   )
 
@@ -2931,6 +3002,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR045") (unit 1)
         )
       )
@@ -2984,6 +3060,11 @@
           (reference "C14") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C14") (unit 1)
+        )
+      )
     )
   )
 
@@ -3034,6 +3115,11 @@
           (reference "R16") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R16") (unit 1)
+        )
+      )
     )
   )
 
@@ -3056,6 +3142,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR047") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR047") (unit 1)
         )
       )
@@ -3084,6 +3175,11 @@
           (reference "#PWR059") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR059") (unit 1)
+        )
+      )
     )
   )
 
@@ -3106,6 +3202,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR044") (unit 1)
         )
       )
@@ -3134,6 +3235,11 @@
           (reference "#PWR041") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR041") (unit 1)
+        )
+      )
     )
   )
 
@@ -3156,6 +3262,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR054") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR054") (unit 1)
         )
       )
@@ -3184,6 +3295,11 @@
           (reference "#PWR061") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR061") (unit 1)
+        )
+      )
     )
   )
 
@@ -3206,6 +3322,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR042") (unit 1)
         )
       )
@@ -3234,6 +3355,11 @@
           (reference "#FLG06") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#FLG06") (unit 1)
+        )
+      )
     )
   )
 
@@ -3259,6 +3385,11 @@
           (reference "#PWR039") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR039") (unit 1)
+        )
+      )
     )
   )
 
@@ -3281,6 +3412,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR062") (unit 1)
         )
       )
@@ -3334,6 +3470,11 @@
           (reference "R28") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R28") (unit 1)
+        )
+      )
     )
   )
 
@@ -3381,6 +3522,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "C21") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "C21") (unit 1)
         )
       )
@@ -3434,6 +3580,11 @@
           (reference "R23") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R23") (unit 1)
+        )
+      )
     )
   )
 
@@ -3456,6 +3607,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR049") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR049") (unit 1)
         )
       )
@@ -3509,6 +3665,11 @@
           (reference "C18") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C18") (unit 1)
+        )
+      )
     )
   )
 
@@ -3559,6 +3720,11 @@
           (reference "R27") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R27") (unit 1)
+        )
+      )
     )
   )
 
@@ -3581,6 +3747,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR040") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR040") (unit 1)
         )
       )
@@ -3609,6 +3780,11 @@
           (reference "#PWR043") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR043") (unit 1)
+        )
+      )
     )
   )
 
@@ -3631,6 +3807,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR052") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR052") (unit 1)
         )
       )
@@ -3684,6 +3865,11 @@
           (reference "C17") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C17") (unit 1)
+        )
+      )
     )
   )
 
@@ -3734,6 +3920,11 @@
           (reference "R21") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R21") (unit 1)
+        )
+      )
     )
   )
 
@@ -3756,6 +3947,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR055") (unit 1)
         )
       )
@@ -3809,6 +4005,11 @@
           (reference "C22") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C22") (unit 1)
+        )
+      )
     )
   )
 
@@ -3831,6 +4032,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR058") (unit 1)
         )
       )
@@ -3887,6 +4093,11 @@
           (reference "D6") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "D6") (unit 1)
+        )
+      )
     )
   )
 
@@ -3937,6 +4148,11 @@
           (reference "R20") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R20") (unit 1)
+        )
+      )
     )
   )
 
@@ -3959,6 +4175,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR037") (unit 1)
         )
       )
@@ -3987,6 +4208,11 @@
           (reference "#PWR063") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR063") (unit 1)
+        )
+      )
     )
   )
 
@@ -4009,6 +4235,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR038") (unit 1)
         )
       )
@@ -4059,6 +4290,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "R30") (unit 1)
         )
       )
@@ -4143,6 +4379,11 @@
           (reference "U5") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "U5") (unit 1)
+        )
+      )
     )
   )
 
@@ -4165,6 +4406,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR048") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR048") (unit 1)
         )
       )
@@ -4218,6 +4464,11 @@
           (reference "R29") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R29") (unit 1)
+        )
+      )
     )
   )
 
@@ -4240,6 +4491,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR053") (unit 1)
         )
       )
@@ -4293,6 +4549,11 @@
           (reference "C19") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "C19") (unit 1)
+        )
+      )
     )
   )
 
@@ -4315,6 +4576,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR056") (unit 1)
         )
       )
@@ -4368,6 +4634,11 @@
           (reference "R26") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R26") (unit 1)
+        )
+      )
     )
   )
 
@@ -4393,6 +4664,11 @@
           (reference "#PWR046") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "#PWR046") (unit 1)
+        )
+      )
     )
   )
 
@@ -4415,6 +4691,11 @@
     (instances
       (project "ESP-24v-16ch-V2"
         (path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
           (reference "#PWR036") (unit 1)
         )
       )
@@ -4468,6 +4749,11 @@
           (reference "R22") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R22") (unit 1)
+        )
+      )
     )
   )
 
@@ -4518,6 +4804,15 @@
           (reference "R15") (unit 1)
         )
       )
+      (project "ESP-24v-16ch-V2-lan"
+        (path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
+          (reference "R15") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
