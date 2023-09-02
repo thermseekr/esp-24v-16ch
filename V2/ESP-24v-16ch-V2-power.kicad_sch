@@ -3189,12 +3189,6 @@
     (property "JLCPCB BOM" "1" (at 48.26 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 48.26 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 48.26 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid a8756390-b9bc-43de-9a8d-d9f1eb449c62))
     (pin "2" (uuid 66005f1e-7cac-4803-8533-b6c6f1a7665c))
     (instances

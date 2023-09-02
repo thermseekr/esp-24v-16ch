@@ -1729,7 +1729,7 @@
     (property "Value" "RESET" (at 127 111.76 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 120.65 111.76 0)
+    (property "Footprint" "Tales:SW_SPST_TL3342" (at 120.65 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 111.76 0)
