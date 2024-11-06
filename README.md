@@ -7,7 +7,7 @@ The dimensions are such that the board can be mounted on a PCB DIN rail holder f
 
 ## VERSION HISTORY
 
-ESP-24V-16CH-V3 - TODO - Move power LED to 3.3V bus, delete 5V bus, lower USB 5V to 3.3V. Replace individual resistors for rpacks where applicable. Move from 2 to 4 layers board to further shrink the board. Replace USB connector to horizontal model.
+ESP-24V-16CH-V3 - TODO - Move power LED to 3.3V bus, delete 5V bus, lower USB 5V to 3.3V. Replace individual resistors for rpacks where applicable. Move from 2 to 4 layers board to further shrink the board. Replace USB connector with horizontal version.
 
 ESP-24V-16CH-V2 - All GPIOs moved to MCP23017 expanders. MCP interrupt pins connected to GPIOs on the ESP32. USB connector changed for USB type C.
 
