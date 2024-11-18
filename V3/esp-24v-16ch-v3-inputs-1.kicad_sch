@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -5910,7 +5910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 102.87 160.02 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 171.45 27.94 90)
 			(effects
 				(font
@@ -6333,7 +6333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 232.41 49.53 0)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 69.85 24.13 0)
 			(effects
 				(font
@@ -7377,7 +7377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 232.41 160.02 0)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 236.22 138.43 90)
 			(effects
 				(font
@@ -7932,7 +7932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 111.76 107.95 90)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -7968,7 +7968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -7977,7 +7977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -8004,7 +8004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -8022,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 106.68 101.6 90)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 106.68 27.94 90)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -8881,7 +8881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -9088,7 +9088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -9436,7 +9436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 30.48 39.37 0)
 			(effects
 				(font
@@ -9577,7 +9577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 199.39 24.13 0)
 			(effects
 				(font
@@ -9718,7 +9718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 167.64 86.36 0)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 41.91 101.6 90)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 224.79 39.37 0)
 			(effects
 				(font
@@ -10759,7 +10759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 46.99 144.78 90)
 			(effects
 				(font
@@ -10786,7 +10786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -10795,7 +10795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -10804,7 +10804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -10831,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -10849,7 +10849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 44.45 140.97 0)
 			(effects
 				(font
@@ -10891,7 +10891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 30.48 113.03 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -11173,7 +11173,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -11455,7 +11455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 106.68 64.77 90)
 			(effects
 				(font
@@ -11670,7 +11670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 46.99 34.29 90)
 			(effects
 				(font
@@ -11697,7 +11697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -11706,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -11715,7 +11715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -11742,7 +11742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -11934,7 +11934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -12951,7 +12951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 102.87 123.19 0)
 			(effects
 				(font
@@ -13167,7 +13167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 46.99 107.95 90)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -13203,7 +13203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -13212,7 +13212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -13239,7 +13239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -13257,7 +13257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -13299,7 +13299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -13506,7 +13506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 171.45 64.77 90)
 			(effects
 				(font
@@ -13713,7 +13713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 232.41 86.36 0)
 			(effects
 				(font
@@ -13863,7 +13863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 241.3 34.29 90)
 			(effects
 				(font
@@ -13890,7 +13890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -13899,7 +13899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -13908,7 +13908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -13935,7 +13935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -13953,7 +13953,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 238.76 30.48 0)
 			(effects
 				(font
@@ -14136,7 +14136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 46.99 71.12 90)
 			(effects
 				(font
@@ -14163,7 +14163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -14172,7 +14172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -14181,7 +14181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -14208,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -14226,7 +14226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 44.45 67.31 0)
 			(effects
 				(font
@@ -14540,7 +14540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 264.16 60.96 0)
 			(effects
 				(font
@@ -14888,7 +14888,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 106.68 138.43 90)
 			(effects
 				(font
@@ -15029,7 +15029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -15789,7 +15789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -16267,7 +16267,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 236.22 64.77 90)
 			(effects
 				(font
@@ -16408,7 +16408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 171.45 101.6 90)
 			(effects
 				(font
@@ -16615,7 +16615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 167.64 160.02 0)
 			(effects
 				(font
@@ -17008,7 +17008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -17290,7 +17290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 111.76 144.78 90)
 			(effects
 				(font
@@ -17317,7 +17317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -17326,7 +17326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -17335,7 +17335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -17362,7 +17362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -17380,7 +17380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 109.22 140.97 0)
 			(effects
 				(font
@@ -17553,7 +17553,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 41.91 64.77 90)
 			(effects
 				(font
@@ -17760,7 +17760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -17975,7 +17975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 111.76 34.29 90)
 			(effects
 				(font
@@ -18002,7 +18002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -18011,7 +18011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -18020,7 +18020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -18047,7 +18047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -18065,7 +18065,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 109.22 30.48 0)
 			(effects
 				(font
@@ -18107,7 +18107,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -18257,7 +18257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 176.53 144.78 90)
 			(effects
 				(font
@@ -18284,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 176.53 144.78 0)
 			(effects
 				(font
@@ -18293,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 176.53 144.78 0)
 			(effects
 				(font
@@ -18302,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 176.53 144.78 0)
 			(effects
 				(font
@@ -18329,7 +18329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 176.53 144.78 0)
 			(effects
 				(font
@@ -18347,7 +18347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -18650,7 +18650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 111.76 71.12 90)
 			(effects
 				(font
@@ -18677,7 +18677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -18686,7 +18686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -18695,7 +18695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -18722,7 +18722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -18740,7 +18740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -18782,7 +18782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 167.64 49.53 0)
 			(effects
 				(font
@@ -19427,7 +19427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 264.16 24.13 0)
 			(effects
 				(font
@@ -19568,7 +19568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -19971,7 +19971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 236.22 27.94 90)
 			(effects
 				(font
@@ -20178,7 +20178,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -20832,7 +20832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 102.87 49.53 0)
 			(effects
 				(font
@@ -21114,7 +21114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -21396,7 +21396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 264.16 134.62 0)
 			(effects
 				(font
@@ -21546,7 +21546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 176.53 107.95 90)
 			(effects
 				(font
@@ -21573,7 +21573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 176.53 107.95 0)
 			(effects
 				(font
@@ -21582,7 +21582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 176.53 107.95 0)
 			(effects
 				(font
@@ -21591,7 +21591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 176.53 107.95 0)
 			(effects
 				(font
@@ -21618,7 +21618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 176.53 107.95 0)
 			(effects
 				(font
@@ -21636,7 +21636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -21744,7 +21744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -21894,7 +21894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 241.3 71.12 90)
 			(effects
 				(font
@@ -21921,7 +21921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -21930,7 +21930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -21939,7 +21939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -21966,7 +21966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -21984,7 +21984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 238.76 67.31 0)
 			(effects
 				(font
@@ -22091,7 +22091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 236.22 101.6 90)
 			(effects
 				(font
@@ -22232,7 +22232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V/0805"
+		(property "Value" "33nF/50V"
 			(at 38.1 160.02 0)
 			(effects
 				(font
@@ -22691,7 +22691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -22832,7 +22832,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 171.45 138.43 90)
 			(effects
 				(font
@@ -22973,7 +22973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -23179,7 +23179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -23329,7 +23329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 241.3 107.95 90)
 			(effects
 				(font
@@ -23356,7 +23356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -23365,7 +23365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -23374,7 +23374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -23401,7 +23401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -23419,7 +23419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -23833,7 +23833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W/0603"
+		(property "Value" "5,6k/0,1W"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -23974,7 +23974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -24301,7 +24301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 41.91 138.43 90)
 			(effects
 				(font
@@ -24451,7 +24451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 241.3 144.78 90)
 			(effects
 				(font
@@ -24478,7 +24478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -24487,7 +24487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -24496,7 +24496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -24523,7 +24523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -24541,7 +24541,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 238.76 140.97 0)
 			(effects
 				(font
@@ -24583,7 +24583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W/0805"
+		(property "Value" "1k8/0,125W"
 			(at 41.91 27.94 90)
 			(effects
 				(font
@@ -24724,7 +24724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 134.62 24.13 0)
 			(effects
 				(font
@@ -25136,7 +25136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 176.53 71.12 90)
 			(effects
 				(font
@@ -25163,7 +25163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -25172,7 +25172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -25181,7 +25181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -25208,7 +25208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -25226,7 +25226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 173.99 67.31 0)
 			(effects
 				(font
@@ -25334,7 +25334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -25757,7 +25757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -26039,7 +26039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_MiniMELF"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 176.53 34.29 90)
 			(effects
 				(font
@@ -26066,7 +26066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "Mini-MELF"
+		(property "Case" "SOD-123"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -26075,7 +26075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "hongjiacheng"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -26084,7 +26084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ZMM9V1-M"
+		(property "Mfr PN" "BZT52C9V1"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -26111,7 +26111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C8067"
+		(property "Vendor PN" "C19077407"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -26129,7 +26129,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8067"
+		(property "LCSC Part #" "C19077407"
 			(at 173.99 30.48 0)
 			(effects
 				(font

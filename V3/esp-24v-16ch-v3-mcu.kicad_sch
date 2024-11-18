@@ -3581,16 +3581,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 86.36 0)
+		(lib_id "Device:R_US")
+		(at 133.35 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e39d19a-34d9-4935-a8ac-3507804783fe")
-		(property "Reference" "C13"
-			(at 135.89 83.8262 0)
+		(uuid "18056315-33f7-480f-bc87-b2b980e3146f")
+		(property "Reference" "R10"
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,8 +3598,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V/0603"
-			(at 135.89 86.3662 0)
+		(property "Value" "10k/62,5mW"
+			(at 135.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,8 +3607,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 133.35 86.36 0)
+		(property "Footprint" "Tales:R_0402_1005Metric"
+			(at 134.366 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 86.36 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 86.36 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,62 +3634,17 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603/1608"
-			(at 133.35 86.36 0)
+		(property "Mfr" "Yageo"
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15849"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mfr" "Samsung"
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CL10A105KB8NNNC"
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Ceramic X5R"
-			(at 135.89 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 133.35 86.36 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,8 +3652,62 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C15849"
-			(at 133.35 86.36 0)
+		(property "Mfr PN" "RC0402FR-0710KL"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "1%"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C60490"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60490"
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402/1005"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,15 +3716,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "35d7aa4b-1502-4627-a708-40251c34d07f")
+			(uuid "f3c2a719-122f-4cd5-8732-78e66fb42c92")
 		)
 		(pin "2"
-			(uuid "02807b37-c24c-4454-8f7a-5a1263902955")
+			(uuid "4e2d77cd-8db4-4fe7-9546-1a09ed80b584")
 		)
 		(instances
 			(project "esp-24v-16ch-v3"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "C13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3738,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2cd3dc35-0cf3-4f8d-85a0-f6a674707480")
+		(uuid "1da77c5e-09fa-4f10-b227-c9a0c190478c")
 		(property "Reference" "R11"
 			(at 207.01 67.31 0)
 			(effects
@@ -3739,7 +3748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW/0402"
+		(property "Value" "10k/62,5mW"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -3775,16 +3784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0402/1005"
-			(at 209.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
+		(property "Mfr" "Yageo"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C60490"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C60490"
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -3847,11 +3847,29 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402/1005"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "dff600e4-34f9-47ad-a5ec-d424a42ba728")
+			(uuid "89c311de-b142-4836-811f-8247f1b47fc9")
 		)
 		(pin "2"
-			(uuid "9ba7c9a3-a58a-4130-af7e-c2b55153d195")
+			(uuid "1bd0c0df-ab35-47f1-81ae-a9e849880efc")
 		)
 		(instances
 			(project "esp-24v-16ch-v3"
@@ -3947,7 +3965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 259.08 74.93 0)
 			(effects
 				(font
@@ -4224,147 +4242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 257.81 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41e397c6-fa5c-4c50-980c-a7337853b991")
-		(property "Reference" "R12"
-			(at 260.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k/62,5mW/0402"
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 258.826 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402/1005"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0402WGF1002TCE"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C25744"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 260.35 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d1c5ed9-1cb9-44a1-9070-7507a8537b21")
-		)
-		(pin "2"
-			(uuid "1a48c860-95ff-49ff-ac13-ea8d2f86c486")
-		)
-		(instances
-			(project "esp-24v-16ch-v3"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 21.59 62.23 0)
 		(unit 1)
@@ -4382,7 +4259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V/0603"
+		(property "Value" "10uF/10V"
 			(at 24.13 60.96 0)
 			(effects
 				(font
@@ -4744,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 252.73 123.19 0)
 			(effects
 				(font
@@ -5003,147 +4880,6 @@
 			(project "esp-24v-16ch-v3"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "680f522e-9581-47fe-8899-83c28dbad1f0")
-		(property "Reference" "R10"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k/62,5mW/0402"
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 134.366 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402/1005"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0402WGF1002TCE"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C25744"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 135.89 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "530838a6-a40b-43da-a45e-e692503a7e26")
-		)
-		(pin "2"
-			(uuid "5b17ec2c-5d08-41e3-9f13-765fc6de40f9")
-		)
-		(instances
-			(project "esp-24v-16ch-v3"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5599,6 +5335,157 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 257.81 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75ff9c3-4e95-417f-b599-8037e57f0b76")
+		(property "Reference" "R12"
+			(at 260.35 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k/62,5mW"
+			(at 260.35 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:R_0402_1005Metric"
+			(at 258.826 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "RC0402FR-0710KL"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "1%"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C60490"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60490"
+			(at 260.35 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402/1005"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca586950-b7af-4143-a7ea-0240b00b703a")
+		)
+		(pin "2"
+			(uuid "dff92dd1-34df-4075-b235-b6a939609ca0")
+		)
+		(instances
+			(project "esp-24v-16ch-v3"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 224.79 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5615,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 227.33 123.19 0)
 			(effects
 				(font
@@ -5756,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-WROOM-32UE-N16"
+		(property "Value" "ESP32-WROOM-32UE-N4"
 			(at 182.88 148.59 0)
 			(effects
 				(font
@@ -5801,7 +5688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C701346"
+		(property "LCSC Part #" "C701344"
 			(at 182.88 151.13 0)
 			(effects
 				(font
@@ -5819,7 +5706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "ESP32-WROOM-32UE-N16"
+		(property "Mfr PN" "ESP32-WROOM-32UE-N4"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -5837,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C701346"
+		(property "Vendor PN" "C701344"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -6008,7 +5895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW/0402"
+		(property "Value" "2k2/62,5mW"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -6133,15 +6020,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 62.23 0)
+		(at 133.35 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cffcfa75-430d-4b42-9b30-37fb5a8689d0")
-		(property "Reference" "C12"
-			(at 45.72 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "d0a6f5aa-5c14-45a9-a8bd-367e116fdc83")
+		(property "Reference" "C13"
+			(at 135.89 83.1913 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,8 +6037,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V/0805"
-			(at 45.72 60.96 0)
+		(property "Value" "1uF/25V"
+			(at 135.89 85.7313 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,8 +6046,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0805_2012Metric"
-			(at 43.18 62.23 0)
+		(property "Footprint" "Tales:C_0402_1005Metric"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 62.23 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 62.23 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,8 +6073,17 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Ceramic"
-			(at 45.72 63.5 0)
+		(property "JLCPCB BOM" "1"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 135.89 88.2713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,8 +6091,17 @@
 				(justify left)
 			)
 		)
-		(property "Case" "0805/2012"
-			(at 43.18 62.23 0)
+		(property "LCSC Part #" "C52923"
+			(at 135.89 90.8113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,17 +6109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
-			(at 43.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CC0805KRX7R9BB104"
-			(at 43.18 62.23 0)
+		(property "Mfr PN" "CL05A105KA5NQNC"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6119,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 43.18 62.23 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,8 +6127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C49678"
-			(at 43.18 62.23 0)
+		(property "Vendor PN" "C52923"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,17 +6136,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C49678"
-			(at 45.72 66.04 0)
+		(property "Package" "0402/1005"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 43.18 62.23 0)
+		(property "Case" "0402/1005"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,15 +6155,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9be630ac-6150-46a1-b312-47e9529cacf2")
+			(uuid "ce2dfa17-e754-487d-a265-e7d4ed7ee961")
 		)
 		(pin "2"
-			(uuid "09210324-77d9-48be-88a6-375aabc8b0cb")
+			(uuid "b2886864-42c6-458b-ba20-29f7f8cb2b0d")
 		)
 		(instances
 			(project "esp-24v-16ch-v3"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6598,6 +6495,157 @@
 			(project "esp-24v-16ch-v3"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a35d03-6941-4cda-bb78-859cc1aa9a4d")
+		(property "Reference" "C12"
+			(at 45.72 58.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1uF/50V"
+			(at 45.72 60.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0402_1005Metric"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Ceramic X7R"
+			(at 45.72 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 45.72 66.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL05B104KB54PNC"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C307331"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402/1005"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d1f17a-dff8-43ef-b9ca-1982861c83d6")
+		)
+		(pin "2"
+			(uuid "cb0fd80a-f5de-45c1-bd66-c09473802a3a")
+		)
+		(instances
+			(project "esp-24v-16ch-v3"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
+					(reference "C12")
 					(unit 1)
 				)
 			)
