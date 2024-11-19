@@ -9266,7 +9266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Tales:TerminalBlock_Dibo_DB142V-5.08-2P_1x02_P5.08mm_Vertical"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9302,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Conexel"
+		(property "Mfr" "Dorabo"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9320,7 +9320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "1x LM 5.08/02/90 3.5SN OR BX"
+		(property "Mfr PN" "DB142V-5.08-2P-GN"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9338,7 +9338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Conexel"
+		(property "Vendor" "JLCPCB"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "1x 1716080000"
+		(property "Vendor PN" "C2898699"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9356,7 +9356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
+		(property "LCSC Part #" "C2898699"
 			(at 34.29 36.83 0)
 			(effects
 				(font
