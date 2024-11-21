@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 248.92 74.93 0)
 			(effects
 				(font
@@ -4717,7 +4717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 120.65 74.93 0)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 248.92 38.1 0)
 			(effects
 				(font
@@ -6301,7 +6301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -8970,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 55.88 148.59 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 185.42 111.76 0)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 55.88 111.76 0)
 			(effects
 				(font
@@ -11165,7 +11165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 185.42 148.59 0)
 			(effects
 				(font
@@ -11801,7 +11801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 248.92 148.59 0)
 			(effects
 				(font
@@ -13121,7 +13121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 185.42 38.1 0)
 			(effects
 				(font
@@ -13265,7 +13265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 248.92 111.76 0)
 			(effects
 				(font
@@ -13409,7 +13409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -13835,7 +13835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -14893,7 +14893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -17014,7 +17014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-23"
+		(property "Footprint" "Tales:SOT-23-Narrow"
 			(at 55.88 38.1 0)
 			(effects
 				(font
