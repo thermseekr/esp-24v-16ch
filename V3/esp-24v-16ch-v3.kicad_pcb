@@ -5045,7 +5045,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7014,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15488,7 +15488,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17916,7 +17916,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22792,27 +22792,27 @@
 			)
 		)
 	)
-	(footprint "Tales:TSOT-23-5"
+	(footprint "Tales:SOT-23-5_Shorter_Pins"
 		(layer "F.Cu")
 		(uuid "4243a418-9b69-439d-b5ea-f0ad4e6349c7")
 		(at 110.42 92.39)
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 2.61 0.955 0)
+			(at -1.073 -2.347 0)
 			(layer "Cmts.User")
-			(uuid "7c187d3e-daed-440d-8fe1-eef204f80dbd")
+			(uuid "1d5065e3-8488-487c-90cd-8d0d115a941d")
 			(effects
 				(font
 					(size 1 0.5)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
 		(property "Value" "SY8089A1AAC"
 			(at 0 2.4 0)
 			(layer "F.Fab")
-			(uuid "fe7e2c43-83ee-46a5-ad4d-bf698f6cb33c")
+			(uuid "8b1676a0-8aa7-484a-8779-1be013d49dcb")
 			(effects
 				(font
 					(size 1 1)
@@ -22820,11 +22820,11 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:TSOT-23-5"
+		(property "Footprint" "Tales:SOT-23-5_Shorter_Pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc1aa7e2-5c6d-44f0-bd50-5bea00653a5f")
+			(uuid "256d8fba-a57e-422f-869d-f9a8563c1ea6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22836,7 +22836,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c9d13a1-5add-4877-a1f4-ea0f15ed671c")
+			(uuid "c745539d-bda0-48c3-aa78-30a2dd1326de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22848,7 +22848,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc2265f9-b60d-4a71-82c8-b3bee6c79288")
+			(uuid "6a3f6342-f468-4fba-ab6a-334f70931149")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22858,9 +22858,10 @@
 		)
 		(property "Case" "SOT-23-5"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dd8330e-50e7-4bc0-b8cc-8aff6fbb2c30")
+			(uuid "a081ed28-1fc8-4656-ac8f-f49b1cc6a0b0")
 			(effects
 				(font
 					(size 1 1)
@@ -22870,9 +22871,10 @@
 		)
 		(property "JLCPCB BOM" "1"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "456b260a-5e6c-4c95-b0af-be83d1ea1db1")
+			(uuid "120d8dc7-dc1a-4c0d-944c-17ea93f7d2c6")
 			(effects
 				(font
 					(size 1 1)
@@ -22882,9 +22884,10 @@
 		)
 		(property "LCSC Part #" "C479074"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8309a47-004a-4851-aa10-87d1ab5d8b16")
+			(uuid "68c53ad9-69cd-42af-8f50-e9a214852a33")
 			(effects
 				(font
 					(size 1 1)
@@ -22894,9 +22897,10 @@
 		)
 		(property "Mfr" "Silergy"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26298f61-246a-4625-88d1-4c3dbacce519")
+			(uuid "5ae3ab12-55d2-44af-9b2e-4d3427c172d2")
 			(effects
 				(font
 					(size 1 1)
@@ -22906,9 +22910,10 @@
 		)
 		(property "Mfr PN" "SY8089A1AAC"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c518a7c9-e96f-403d-bfc0-8a7cc30922c1")
+			(uuid "018c0653-82ae-4d0b-af52-597c81800a59")
 			(effects
 				(font
 					(size 1 1)
@@ -22918,9 +22923,10 @@
 		)
 		(property "Technology" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f6535f7-a1f8-42b2-8149-8c89200b100a")
+			(uuid "78ddfdee-03c0-40ef-bbaf-97a1aec71303")
 			(effects
 				(font
 					(size 1 1)
@@ -22930,9 +22936,10 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fcf86de-e3e9-4c90-8912-73ba76917fdb")
+			(uuid "6d1bf3be-1d0e-4eaa-b49a-ba93c16eb69e")
 			(effects
 				(font
 					(size 1 1)
@@ -22942,9 +22949,10 @@
 		)
 		(property "Vendor PN" "C479074"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "156f1c42-b61b-4164-aca4-c3435248bd6a")
+			(uuid "5c6361e0-d49a-4615-82bb-26112591aa82")
 			(effects
 				(font
 					(size 1 1)
@@ -22964,7 +22972,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2751d6d2-8420-4146-9f9e-c9ec1b71dd22")
+			(uuid "9fe839f1-4464-443a-9ece-513d72b161f9")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -22974,7 +22982,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26910196-3902-4331-bdb9-829a0afa21df")
+			(uuid "196cac37-c123-496f-a4b2-060ed8be4510")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -22984,7 +22992,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f99d0d75-843a-4f2d-9ee4-d020ee8f0610")
+			(uuid "64d9e6a4-2699-4fe4-bcd0-ecd0b0cf7d3a")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -22994,7 +23002,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7518b00e-c731-45c5-bc7e-fc15a751bced")
+			(uuid "296fae47-db0e-4d60-a16b-a0a4c23963c9")
 		)
 		(fp_line
 			(start -2.05 -1.7)
@@ -23004,7 +23012,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "aef0a501-5586-4b92-99fc-7c18ff1511ec")
+			(uuid "a9acb01a-a7a2-434a-b229-edbc8851fb03")
 		)
 		(fp_line
 			(start -2.05 1.7)
@@ -23014,7 +23022,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "17e61219-79bb-4a75-abd4-8f57c43baec5")
+			(uuid "3679ef5a-b6e1-4132-a7e5-7e78a69370ea")
 		)
 		(fp_line
 			(start 2.05 -1.7)
@@ -23024,7 +23032,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f01c5b2f-bfaf-438a-a5b4-81bd09efe4e3")
+			(uuid "bad5824a-26da-48b1-8e97-8251dc4eaedb")
 		)
 		(fp_line
 			(start 2.05 1.7)
@@ -23034,7 +23042,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7e4cf365-7036-43a0-972d-99ce20075465")
+			(uuid "59511291-bffd-4d39-a5a0-04cda496dbe7")
 		)
 		(fp_line
 			(start -0.8 -1.05)
@@ -23044,7 +23052,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d785b81-89f6-4144-b732-19de25f66ac1")
+			(uuid "f1dfe428-b17f-49de-b9a5-84c5d008f833")
 		)
 		(fp_line
 			(start -0.8 1.45)
@@ -23054,7 +23062,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "960a88dd-803e-407d-b76d-a3a4992191a2")
+			(uuid "6a139bab-7445-4415-9909-020ea18f590c")
 		)
 		(fp_line
 			(start -0.4 -1.45)
@@ -23064,7 +23072,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "355f99eb-ded7-418c-a90b-2b49edd7ed8f")
+			(uuid "b215e27e-9ce9-48eb-97bc-9f82d6215b2d")
 		)
 		(fp_line
 			(start 0.8 -1.45)
@@ -23074,7 +23082,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d098dea3-4771-40cc-a280-443c6d0768e9")
+			(uuid "ccc99f33-341e-4b35-b307-890aa3ea7ba4")
 		)
 		(fp_line
 			(start 0.8 1.45)
@@ -23084,12 +23092,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0bfc5f40-e60d-4ca2-8911-4e95310d6c41")
+			(uuid "ae442df5-39f3-49f3-b4e1-4da15f24cb0e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2f513eba-1f63-42a2-825f-dde7def5dfea")
+			(uuid "5a125d5d-1faf-41c0-8d9a-e8c4eee24b30")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -23105,7 +23113,7 @@
 			(net 197 "+5V")
 			(pinfunction "EN")
 			(pintype "input")
-			(uuid "f946c85e-e94e-408e-b137-9cc0fe53e8a2")
+			(uuid "4ae56ed2-7999-4cf9-ab6d-b2b3a536843e")
 		)
 		(pad "2" smd roundrect
 			(at -1.2 0)
@@ -23115,7 +23123,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "e58b6c85-08d3-4437-a89c-4e7d402010df")
+			(uuid "1248de1b-df36-4ddc-9d50-3382581a633c")
 		)
 		(pad "3" smd roundrect
 			(at -1.2 0.95)
@@ -23125,7 +23133,7 @@
 			(net 208 "Net-(U1-LX)")
 			(pinfunction "LX")
 			(pintype "power_out")
-			(uuid "53284144-352e-4716-9542-af198535cf1e")
+			(uuid "4371a8d0-1a03-4b47-9ebb-c44dd4fb5613")
 		)
 		(pad "4" smd roundrect
 			(at 1.2 0.95)
@@ -23135,7 +23143,7 @@
 			(net 197 "+5V")
 			(pinfunction "IN")
 			(pintype "power_in")
-			(uuid "50e34e9c-7bea-4c3b-9f5c-075653ad9e1b")
+			(uuid "5c7b54c2-ec23-4b0a-abeb-c120d4630e7b")
 		)
 		(pad "5" smd roundrect
 			(at 1.2 -0.95)
@@ -23145,7 +23153,7 @@
 			(net 198 "Net-(U1-FB)")
 			(pinfunction "FB")
 			(pintype "input")
-			(uuid "421b8334-e4ac-4aab-bbe5-ad9529079fed")
+			(uuid "387778e9-274f-40d6-b930-6014a7d18f13")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.wrl"
 			(offset
@@ -23529,7 +23537,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28467,7 +28475,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "GREEN/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bebb6430-0c19-4a49-88e2-cee8237d301c")
@@ -33730,7 +33738,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36618,7 +36626,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39172,7 +39180,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41003,7 +41011,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41964,7 +41972,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44684,7 +44692,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52357,7 +52365,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52991,7 +52999,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53715,7 +53723,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54676,7 +54684,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57767,7 +57775,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60258,7 +60266,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61219,7 +61227,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62159,7 +62167,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62487,7 +62495,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63170,7 +63178,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69514,7 +69522,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72116,7 +72124,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74337,7 +74345,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75641,7 +75649,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -76962,7 +76970,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -78841,7 +78849,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83290,7 +83298,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86479,7 +86487,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86807,7 +86815,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -88770,7 +88778,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -90462,7 +90470,7 @@
 				)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)

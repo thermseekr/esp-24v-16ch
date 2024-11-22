@@ -6434,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:TSOT-23-5"
+		(property "Footprint" "Tales:SOT-23-5_Shorter_Pins"
 			(at 67.31 148.59 0)
 			(effects
 				(font
@@ -13549,7 +13549,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "GREEN/0603"
 			(at 49.53 170.18 90)
 			(effects
 				(font

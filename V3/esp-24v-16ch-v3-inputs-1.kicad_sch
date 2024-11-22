@@ -6228,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 162.56 120.65 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -9265,7 +9265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -10036,7 +10036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 97.79 46.99 0)
 			(effects
 				(font
@@ -10645,7 +10645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 227.33 120.65 0)
 			(effects
 				(font
@@ -14369,7 +14369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 227.33 46.99 0)
 			(effects
 				(font
@@ -14783,7 +14783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -15477,7 +15477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 33.02 157.48 0)
 			(effects
 				(font
@@ -15618,7 +15618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 227.33 83.82 0)
 			(effects
 				(font
@@ -16162,7 +16162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 162.56 83.82 0)
 			(effects
 				(font
@@ -20541,7 +20541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 33.02 120.65 0)
 			(effects
 				(font
@@ -21009,7 +21009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -21291,7 +21291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 227.33 157.48 0)
 			(effects
 				(font
@@ -25511,7 +25511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 97.79 157.48 0)
 			(effects
 				(font
@@ -25652,7 +25652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
+		(property "Case" "0603/1608"
 			(at 162.56 157.48 0)
 			(effects
 				(font
