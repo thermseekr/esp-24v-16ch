@@ -10215,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Value" "LMUN2211LT1G"
+		(property "Value" "MMUN2211LT3G"
 			(at 214.63 140.97 90)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C12775"
+		(property "LCSC Part #" "C150229"
 			(at 214.63 143.51 90)
 			(effects
 				(font
@@ -10258,7 +10258,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C12775"
+		(property "Vendor PN" "C150229"
 			(at 214.63 148.59 0)
 			(effects
 				(font
@@ -10285,7 +10285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "LRC"
+		(property "Mfr" "Onsemi"
 			(at 214.63 148.59 0)
 			(effects
 				(font
@@ -10294,7 +10294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "LMUN2211LT1G"
+		(property "Mfr PN" "MMUN2211LT3G"
 			(at 214.63 148.59 0)
 			(effects
 				(font
@@ -12941,7 +12941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CK1V470MCRE54"
+		(property "Mfr PN" "CK1V470M-CRE54"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -12959,7 +12959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C263963"
+		(property "Vendor PN" "C129415"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -12977,7 +12977,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C263963"
+		(property "LCSC Part #" "C129415"
 			(at 78.74 49.53 0)
 			(effects
 				(font
