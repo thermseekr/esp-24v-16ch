@@ -21335,7 +21335,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C263963"
+		(property "LCSC Part #" "C129415"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21359,7 +21359,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "CK1V470MCRE54"
+		(property "Mfr PN" "CK1V470M-CRE54"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21395,7 +21395,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C263963"
+		(property "Vendor PN" "C129415"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26173,7 +26173,7 @@
 				)
 			)
 		)
-		(property "Value" "LMUN2211LT1G"
+		(property "Value" "MMUN2211LT3G"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "582dc2a8-69f4-4852-b186-bef64fdab4c2")
@@ -26244,7 +26244,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C12775"
+		(property "LCSC Part #" "C150229"
 			(at 51.8 230.14 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26256,7 +26256,7 @@
 				)
 			)
 		)
-		(property "Mfr" "LRC"
+		(property "Mfr" "Onsemi"
 			(at 51.8 230.14 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26268,7 +26268,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "LMUN2211LT1G"
+		(property "Mfr PN" "MMUN2211LT3G"
 			(at 51.8 230.14 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26304,7 +26304,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C12775"
+		(property "Vendor PN" "C150229"
 			(at 51.8 230.14 0)
 			(layer "F.Fab")
 			(hide yes)
