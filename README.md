@@ -3,7 +3,7 @@ ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC outputs for external act
 
 The dimensions are such that the board can be mounted on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/componentes/suportes/sp7-suporte-para-montagem-de-placa-de-circuito-impresso-em-trilho-din) for details.
 
-![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V2/esp-24v-16ch-v2.png "ESP-24V-16CH")
+![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V3/esp-24v-16ch-v3.png "ESP-24V-16CH")
 
 ## VERSION HISTORY
 
