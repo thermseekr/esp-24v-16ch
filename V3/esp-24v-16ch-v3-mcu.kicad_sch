@@ -6519,7 +6519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 45.72 60.9662 0)
 			(effects
 				(font

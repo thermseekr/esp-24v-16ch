@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 171.45 27.94 90)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 236.22 138.43 90)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 106.68 101.6 90)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 106.68 27.94 90)
 			(effects
 				(font
@@ -8881,7 +8881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -9436,7 +9436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 30.48 39.37 0)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 41.91 101.6 90)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 224.79 39.37 0)
 			(effects
 				(font
@@ -10891,7 +10891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 30.48 113.03 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -11173,7 +11173,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -11455,7 +11455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 106.68 64.77 90)
 			(effects
 				(font
@@ -13506,7 +13506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 171.45 64.77 90)
 			(effects
 				(font
@@ -14888,7 +14888,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 106.68 138.43 90)
 			(effects
 				(font
@@ -15029,7 +15029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -16267,7 +16267,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 236.22 64.77 90)
 			(effects
 				(font
@@ -16408,7 +16408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 171.45 101.6 90)
 			(effects
 				(font
@@ -17553,7 +17553,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 41.91 64.77 90)
 			(effects
 				(font
@@ -17760,7 +17760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -18107,7 +18107,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -19971,7 +19971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 236.22 27.94 90)
 			(effects
 				(font
@@ -20178,7 +20178,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -21744,7 +21744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -22091,7 +22091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 236.22 101.6 90)
 			(effects
 				(font
@@ -22832,7 +22832,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 171.45 138.43 90)
 			(effects
 				(font
@@ -23833,7 +23833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/0,1W"
+		(property "Value" "5,6k/100mW"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -24301,7 +24301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 41.91 138.43 90)
 			(effects
 				(font
@@ -24583,7 +24583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/0,125W"
+		(property "Value" "1k8/125mW"
 			(at 41.91 27.94 90)
 			(effects
 				(font
