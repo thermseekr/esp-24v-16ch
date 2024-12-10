@@ -3279,7 +3279,7 @@
 		)
 		(uuid "a3342907-92f3-49d8-95f9-d1810ea853d2")
 	)
-	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"ESP-24V-16ch-v3\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10241,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
+	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"ESP-24V-16ch-v3\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10240,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
 		(exclude_from_sim no)
 		(at 14.732 141.732 0)
 		(effects
