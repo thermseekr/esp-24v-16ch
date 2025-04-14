@@ -4066,6 +4066,968 @@
 			)
 		)
 	)
+	(footprint "Tales:ESP32-WROOM-32U"
+		(layer "F.Cu")
+		(uuid "06fd94d5-5b73-4347-b281-34ba8437d950")
+		(at 112.89 76.2)
+		(descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip with U.FL connector, https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf")
+		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
+		(property "Reference" "U4"
+			(at -7.58 -10.5 180)
+			(layer "F.SilkS")
+			(uuid "08f6403d-497f-4f8b-81c4-afe10d01cee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32UE-N4"
+			(at 0 11.5 0)
+			(layer "F.Fab")
+			(uuid "e3e7fba0-4923-48bc-82ea-fadfda454a46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Tales:ESP32-WROOM-32U"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0664f36b-42e0-486e-a0ba-ad162818141b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f628263-4355-48de-a3eb-eb4ead5dc2ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71aa9bdb-bc06-4160-9fa3-e10e54c6f711")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0aca585-a0fa-4f4d-95c2-81ef4eff88cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C701344"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a791c98b-7123-4d7d-95f4-7bffb8b78309")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Expressif"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ab690ce-22e7-40ba-b163-bbbb1491331f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr PN" "ESP32-WROOM-32UE-N4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecf52b39-ef2b-4ffe-9f4f-c115f7865b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6251eb55-005c-421e-a5db-04645aa3bc60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN" "C701344"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f6ceaf-80ba-4226-97c4-d5d00e7007de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Case" "ESP32-WROOM-U"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "236c288f-2879-4951-920e-8fd252fac0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Technology" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d4668e6-5f4f-49f1-a054-399083238409")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "ESP32?WROOM?32U*")
+		(path "/f2a42251-1da5-495a-abaf-29698c5bb0fe/b0931514-6c02-49fe-8596-b4b0c14568b9")
+		(sheetname "MCU")
+		(sheetfile "esp-24v-16ch-v3-mcu.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -9.12 -9.72)
+			(end -9.12 -9.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08830346-9410-4918-b4a9-94b2e4461b23")
+		)
+		(fp_line
+			(start -9.12 -9.72)
+			(end 9.12 -9.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2fd8a3b4-e018-4345-a7ed-7d725125030b")
+		)
+		(fp_line
+			(start -9.12 -9.3)
+			(end -9.5 -9.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88b72ebb-31da-4f2e-9e49-1ff477b8d598")
+		)
+		(fp_line
+			(start -9.12 9.1)
+			(end -9.12 9.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f303cc1a-0f4e-4cbf-9373-77c07139a2bc")
+		)
+		(fp_line
+			(start -9.12 9.72)
+			(end -8.12 9.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a46d88c-0ccc-4752-b5da-4962ac518020")
+		)
+		(fp_line
+			(start 9.12 -9.72)
+			(end 9.12 -9.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d638c34-4393-491c-9354-53bc7e487de8")
+		)
+		(fp_line
+			(start 9.12 9.1)
+			(end 9.12 9.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fabbc6b0-d5a3-4469-841f-4751c63dd88f")
+		)
+		(fp_line
+			(start 9.12 9.72)
+			(end 8.12 9.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "93f8daec-576c-4434-ac32-4dcf06ce06c4")
+		)
+		(fp_line
+			(start -9.75 10.35)
+			(end -9.75 -9.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66ec2403-bc97-47c1-aade-b11a6d332fa7")
+		)
+		(fp_line
+			(start -9.75 10.35)
+			(end 9.75 10.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f7d545c-784f-45e9-85c5-7112da3f871b")
+		)
+		(fp_line
+			(start 9.75 -9.85)
+			(end -9.75 -9.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "954fba2b-de65-4b38-b3b1-83bf08f458b2")
+		)
+		(fp_line
+			(start 9.75 -9.85)
+			(end 9.75 10.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb1ce0f0-e701-46b5-9dab-d496dcb09fb2")
+		)
+		(fp_line
+			(start -9 -9.6)
+			(end -9 -9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1dd377ca-692d-488d-bcdf-3064f63a1698")
+		)
+		(fp_line
+			(start -9 -9.6)
+			(end 9 -9.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "194aea3c-1543-422f-af2d-8448b3c5b58c")
+		)
+		(fp_line
+			(start -9 -8)
+			(end -9 9.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0bfc09cd-2299-4baa-86a6-5c787b731fd2")
+		)
+		(fp_line
+			(start -9 -8)
+			(end -8.5 -8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "99765502-599d-4dd2-8dcb-058ec0051368")
+		)
+		(fp_line
+			(start -9 9.6)
+			(end 9 9.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95c8db87-5e20-4749-98d5-b561c3669834")
+		)
+		(fp_line
+			(start -8.5 -8.5)
+			(end -9 -9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "696c545b-8d73-4be2-b21c-4871c1dde54e")
+		)
+		(fp_line
+			(start 9 9.6)
+			(end 9 -9.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7ce0b97-f5f1-42af-b387-ae26866462d7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b32bc693-29d8-4064-a8b0-d505e7770477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -8.75 -8.255)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "c7236976-526b-4137-9cfc-d4c8d1400989")
+		)
+		(pad "2" smd rect
+			(at -8.75 -6.985)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "+3.3V")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "26aa32c7-2908-4426-80c8-291a58775aa9")
+		)
+		(pad "3" smd rect
+			(at -8.75 -5.715)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "Net-(Q3A-C1)")
+			(pinfunction "EN")
+			(pintype "input")
+			(uuid "125d4c8e-b0bc-49da-b60e-bf700f8bae1c")
+		)
+		(pad "4" smd rect
+			(at -8.75 -4.445)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 174 "unconnected-(U4-SENSOR_VP-Pad4)")
+			(pinfunction "SENSOR_VP")
+			(pintype "input+no_connect")
+			(uuid "45859ad5-a022-4622-bee5-7560a446d92e")
+		)
+		(pad "5" smd rect
+			(at -8.75 -3.175)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 175 "unconnected-(U4-SENSOR_VN-Pad5)")
+			(pinfunction "SENSOR_VN")
+			(pintype "input+no_connect")
+			(uuid "c215ef00-db35-40c5-a554-b3898f8e510b")
+		)
+		(pad "6" smd rect
+			(at -8.75 -1.905)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 176 "unconnected-(U4-IO34-Pad6)")
+			(pinfunction "IO34")
+			(pintype "input+no_connect")
+			(uuid "cc6dacc2-0fa9-4d2f-8db5-e47419ea2488")
+		)
+		(pad "7" smd rect
+			(at -8.75 -0.635)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 177 "unconnected-(U4-IO35-Pad7)")
+			(pinfunction "IO35")
+			(pintype "input+no_connect")
+			(uuid "d3e5e0d0-6bce-4373-832c-c6aaf219a38b")
+		)
+		(pad "8" smd rect
+			(at -8.75 0.635)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 26 "/MCU/I2C_SCL")
+			(pinfunction "IO32")
+			(pintype "bidirectional")
+			(uuid "6475dffe-f68e-4e57-8a04-9207a06ec1d1")
+		)
+		(pad "9" smd rect
+			(at -8.75 1.905)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 27 "/MCU/I2C_SDA")
+			(pinfunction "IO33")
+			(pintype "bidirectional")
+			(uuid "eb8d2432-b5cf-4156-905f-cf5adcb12314")
+		)
+		(pad "10" smd rect
+			(at -8.75 3.175)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 63 "/LAN/EMAC_RXD0")
+			(pinfunction "IO25")
+			(pintype "bidirectional")
+			(uuid "36e1d1bd-5bcf-4c37-9fc6-d8ccde710bc5")
+		)
+		(pad "11" smd rect
+			(at -8.75 4.445)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 62 "/LAN/EMAC_RXD1")
+			(pinfunction "IO26")
+			(pintype "bidirectional")
+			(uuid "925142bc-3621-46be-bcbb-48b6e2e6d291")
+		)
+		(pad "12" smd rect
+			(at -8.75 5.715)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 65 "/LAN/EMAC_RX")
+			(pinfunction "IO27")
+			(pintype "bidirectional")
+			(uuid "a2ac1551-c954-4d18-b750-681d9d02ceb7")
+		)
+		(pad "13" smd rect
+			(at -8.75 6.985)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 178 "/GPIO Expanders/MCP1-INTB")
+			(pinfunction "IO14")
+			(pintype "bidirectional")
+			(uuid "d5216ef7-261a-4d94-8765-ef97f12e67ea")
+		)
+		(pad "14" smd rect
+			(at -8.75 8.255)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 25 "/MCU/PHY_PWR")
+			(pinfunction "IO12")
+			(pintype "bidirectional")
+			(uuid "f6afa83c-7a0e-4348-b158-6f4b046f1667")
+		)
+		(pad "15" smd rect
+			(at -5.715 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "93021b25-bd7f-41df-ba58-a560c5435fc0")
+		)
+		(pad "16" smd rect
+			(at -4.445 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 179 "/GPIO Expanders/MCP1-INTA")
+			(pinfunction "IO13")
+			(pintype "bidirectional")
+			(uuid "1d49acde-3b10-40ab-89fd-5170678eea90")
+		)
+		(pad "17" smd rect
+			(at -3.175 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 180 "unconnected-(U4-SHD{slash}SD2-Pad17)")
+			(pinfunction "SHD/SD2")
+			(pintype "bidirectional+no_connect")
+			(uuid "19183298-7568-423d-95d8-45f24603084c")
+		)
+		(pad "18" smd rect
+			(at -1.905 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 181 "unconnected-(U4-SWP{slash}SD3-Pad18)")
+			(pinfunction "SWP/SD3")
+			(pintype "bidirectional+no_connect")
+			(uuid "e6bed68d-f103-488a-a31d-0553c19b89cc")
+		)
+		(pad "19" smd rect
+			(at -0.635 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 182 "unconnected-(U4-SCS{slash}CMD-Pad19)")
+			(pinfunction "SCS/CMD")
+			(pintype "bidirectional+no_connect")
+			(uuid "65158a92-57c9-423b-8bc8-1c0ad01aeac3")
+		)
+		(pad "20" smd rect
+			(at 0.635 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 183 "unconnected-(U4-SCK{slash}CLK-Pad20)")
+			(pinfunction "SCK/CLK")
+			(pintype "bidirectional+no_connect")
+			(uuid "2c5f2fda-ecc7-4fd1-b24e-cb0e0e7e57d9")
+		)
+		(pad "21" smd rect
+			(at 1.905 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 184 "unconnected-(U4-SDO{slash}SD0-Pad21)")
+			(pinfunction "SDO/SD0")
+			(pintype "bidirectional+no_connect")
+			(uuid "2b48c24d-c3ce-458b-9462-c741736bb8ca")
+		)
+		(pad "22" smd rect
+			(at 3.175 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 185 "unconnected-(U4-SDI{slash}SD1-Pad22)")
+			(pinfunction "SDI/SD1")
+			(pintype "bidirectional+no_connect")
+			(uuid "42f88b7f-39bd-4987-86ab-af1f38fb4845")
+		)
+		(pad "23" smd rect
+			(at 4.445 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 186 "unconnected-(U4-IO15-Pad23)")
+			(pinfunction "IO15")
+			(pintype "bidirectional+no_connect")
+			(uuid "4efeb80c-a3d3-47d3-8f85-5aa066802e42")
+		)
+		(pad "24" smd rect
+			(at 5.715 9.35 90)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 187 "unconnected-(U4-IO2-Pad24)")
+			(pinfunction "IO2")
+			(pintype "bidirectional+no_connect")
+			(uuid "58c66793-9b6c-4577-9625-7ac2cfdf34b3")
+		)
+		(pad "25" smd rect
+			(at 8.75 8.255)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 122 "Net-(Q3B-C2)")
+			(pinfunction "IO0")
+			(pintype "bidirectional")
+			(uuid "ba2b87b7-57e1-49b4-b48f-78cbe27e1a4c")
+		)
+		(pad "26" smd rect
+			(at 8.75 6.985)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 188 "unconnected-(U4-IO4-Pad26)")
+			(pinfunction "IO4")
+			(pintype "bidirectional+no_connect")
+			(uuid "71a3676c-af39-4976-b34b-677fca1c47f6")
+		)
+		(pad "27" smd rect
+			(at 8.75 5.715)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 189 "unconnected-(U4-IO16-Pad27)")
+			(pinfunction "IO16")
+			(pintype "bidirectional+no_connect")
+			(uuid "728b4fa4-5fe2-47c8-a092-875a082e49a2")
+		)
+		(pad "28" smd rect
+			(at 8.75 4.445)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 69 "/LAN/EMAC_CLK")
+			(pinfunction "IO17")
+			(pintype "bidirectional")
+			(uuid "691a0d87-ae1b-49e9-866f-bbdc4dd521e8")
+		)
+		(pad "29" smd rect
+			(at 8.75 3.175)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 190 "unconnected-(U4-IO5-Pad29)")
+			(pinfunction "IO5")
+			(pintype "bidirectional+no_connect")
+			(uuid "7f19f98d-d036-4e56-b567-d287e29c2a91")
+		)
+		(pad "30" smd rect
+			(at 8.75 1.905)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 64 "/LAN/EMAC_MDIO")
+			(pinfunction "IO18")
+			(pintype "bidirectional")
+			(uuid "c628accf-968a-431c-aec1-5eb6d20a00de")
+		)
+		(pad "31" smd rect
+			(at 8.75 0.635)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 70 "/LAN/EMAC_TXD0")
+			(pinfunction "IO19")
+			(pintype "bidirectional")
+			(uuid "777e3144-2bbb-40f8-9916-b908677b65e7")
+		)
+		(pad "32" smd rect
+			(at 8.75 -0.635)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 191 "unconnected-(U4-NC-Pad32)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "1adb0c09-54cc-4b46-863f-8037ef8977e9")
+		)
+		(pad "33" smd rect
+			(at 8.75 -1.905)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 71 "/LAN/EMAC_TXEN")
+			(pinfunction "IO21")
+			(pintype "bidirectional")
+			(uuid "7ab72fd1-fe68-4609-b673-291b2b93d4f1")
+		)
+		(pad "34" smd rect
+			(at 8.75 -3.175)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 172 "Net-(U3-TXD)")
+			(pinfunction "RXD0/IO3")
+			(pintype "bidirectional")
+			(uuid "1481aa53-42ec-413a-8dee-7e5b8877c143")
+		)
+		(pad "35" smd rect
+			(at 8.75 -4.445)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 173 "Net-(U3-RXD)")
+			(pinfunction "TXD0/IO1")
+			(pintype "bidirectional")
+			(uuid "aac3ec72-85c2-4d5b-81fc-bb64a1cff4b7")
+		)
+		(pad "36" smd rect
+			(at 8.75 -5.715)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 72 "/LAN/EMAC_TXD1")
+			(pinfunction "IO22")
+			(pintype "bidirectional")
+			(uuid "1bae68f3-d2f0-4295-ade1-31f4e33a50c2")
+		)
+		(pad "37" smd rect
+			(at 8.75 -6.985)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 73 "/LAN/EMAC_MDC")
+			(pinfunction "IO23")
+			(pintype "bidirectional")
+			(uuid "f47f4f04-2d31-4177-a0c0-1faa1c70778b")
+		)
+		(pad "38" smd rect
+			(at 8.75 -8.255)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "2d3a34ed-6a50-4eae-9f94-028c8b9fd4a8")
+		)
+		(pad "39" smd rect
+			(at -2.9 -2.09)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "ea1eb12a-f1c8-4739-8488-477b71bb15dc")
+		)
+		(pad "39" thru_hole circle
+			(at -2.9 -1.39)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "2a919b76-c746-4018-a057-d683b3ec8d36")
+		)
+		(pad "39" smd rect
+			(at -2.9 -0.69)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "83013a8a-658b-4cac-804a-f000e22d6ba1")
+		)
+		(pad "39" thru_hole circle
+			(at -2.9 0.01)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "a35bba14-b0d5-49e8-972b-1a3134930e05")
+		)
+		(pad "39" smd rect
+			(at -2.9 0.71)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "a28d66ac-4845-4d77-9848-62e049d96b4c")
+		)
+		(pad "39" thru_hole circle
+			(at -2.2 -2.09)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "8c572b0a-d50f-4dd3-bac9-c8405aaf35a3")
+		)
+		(pad "39" thru_hole circle
+			(at -2.2 -0.69)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5cb9aa5e-c113-44c3-97dd-9789f501ed79")
+		)
+		(pad "39" thru_hole circle
+			(at -2.2 0.71)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "0143ae49-046d-41ee-a2da-50d434b9b3d7")
+		)
+		(pad "39" smd rect
+			(at -1.5 -2.09)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "e89260b4-3a42-4a48-a96f-f206cc634156")
+		)
+		(pad "39" thru_hole circle
+			(at -1.5 -1.39)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "55a7bad4-2644-413b-bdc8-cd89023e1448")
+		)
+		(pad "39" smd rect
+			(at -1.5 -0.69)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "e0f1c2b1-7bae-4930-8eb6-d8f55f94b44d")
+		)
+		(pad "39" smd rect
+			(at -1.5 -0.69)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5ccaa7e6-ccab-4322-8060-1b751a5c426e")
+		)
+		(pad "39" thru_hole circle
+			(at -1.5 0.01)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "301c0987-a265-4e7d-bb89-e3f519294e94")
+		)
+		(pad "39" smd rect
+			(at -1.5 0.71)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "28107f63-cae6-4901-84b9-452974a51729")
+		)
+		(pad "39" thru_hole circle
+			(at -0.8 -2.09)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "269ebec1-0792-42b6-8c08-984e1332b4ea")
+		)
+		(pad "39" thru_hole circle
+			(at -0.8 -0.69)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "48c9ae3f-3e57-4ed6-8841-836ee7ab1cf2")
+		)
+		(pad "39" thru_hole circle
+			(at -0.8 0.71)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "6a8c646f-d529-49b5-8773-9b7267c02deb")
+		)
+		(pad "39" smd rect
+			(at -0.1 -2.09)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "cc2df1aa-c506-43ab-a331-6d38f23f9485")
+		)
+		(pad "39" thru_hole circle
+			(at -0.1 -1.39)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "2ff4cb82-0ee6-4330-8c81-3c0dc12eb51e")
+		)
+		(pad "39" smd rect
+			(at -0.1 -0.69)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "446f422a-fe2b-408c-879f-985a32cc0e90")
+		)
+		(pad "39" thru_hole circle
+			(at -0.1 0.01)
+			(size 0.8 0.8)
+			(drill 0.3)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "61065124-4047-46bc-9018-fbf860546aae")
+		)
+		(pad "39" smd rect
+			(at -0.1 0.71)
+			(size 0.9 0.9)
+			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "a4c378d7-f522-43c8-8b21-69ee2cb4e67c")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32U.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Tales:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "075b274b-79a2-4ab9-8ca1-fc3f8b6fce6c")
@@ -5001,7 +5963,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5f6fbf8f-a33a-4c91-b39b-7c8a16149e36")
@@ -5072,7 +6034,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5084,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5096,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5132,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6970,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "08faa3c9-d4ad-4cf0-8d46-2e766b51cbd3")
@@ -7041,7 +8003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7053,7 +8015,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7065,7 +8027,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7101,7 +8063,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12588,960 +13550,6 @@
 			)
 		)
 	)
-	(footprint "Tales:ESP32-WROOM-32U"
-		(layer "F.Cu")
-		(uuid "2453e4d7-eb4c-4eb9-8938-f0e193939364")
-		(at 112.89 76.2)
-		(descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip with U.FL connector, https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf")
-		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
-		(property "Reference" "U4"
-			(at 10.681 -6.35 180)
-			(layer "Cmts.User")
-			(uuid "36d39129-410a-41bd-985f-5b75ef750ff3")
-			(effects
-				(font
-					(size 1 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32UE-N4"
-			(at 0 11.5 0)
-			(layer "F.Fab")
-			(uuid "64e78375-ee1e-49e0-902f-27783d4144ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Tales:ESP32-WROOM-32U"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79e30533-c60f-4c29-b021-874425bb600d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7251f78a-7867-469d-a7c6-7aadfef41c91")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d10cfac4-81c2-462a-b62e-5012bc324410")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Case" "ESP32-WROOM-U"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a98ccb5d-b445-472f-b007-a205e5558f69")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "264cd667-569e-499d-ad44-d63d94d70cb3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C701344"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b4ee8c3-3ebd-44ba-9bf9-a3ef32b49294")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" "Expressif"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b3157b8-ff19-4d61-a9fd-8f467e01d535")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr PN" "ESP32-WROOM-32UE-N4"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48ca4b75-aa19-4069-9f48-dfa6b4445d23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Technology" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f5ff862-51fa-4d5a-a65e-6716767d78cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9c774ac-29fb-41b3-a5ab-1d49b516ea1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor PN" "C701344"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b3600f5-ef97-4220-8688-61d2113bece0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "ESP32?WROOM?32U*")
-		(path "/f2a42251-1da5-495a-abaf-29698c5bb0fe/b0931514-6c02-49fe-8596-b4b0c14568b9")
-		(sheetname "MCU")
-		(sheetfile "esp-24v-16ch-v3-mcu.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -9.12 -9.72)
-			(end -9.12 -9.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8095082d-5ccf-4d81-8749-d50b27028f9f")
-		)
-		(fp_line
-			(start -9.12 -9.72)
-			(end 9.12 -9.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a05e4112-775f-4dba-94f3-ea421c0a8bb3")
-		)
-		(fp_line
-			(start -9.12 -9.3)
-			(end -9.5 -9.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "27c04fcc-413c-4aaa-bac8-64192f9883be")
-		)
-		(fp_line
-			(start -9.12 9.1)
-			(end -9.12 9.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b1d4aae3-08cc-4708-a84b-17c8a6077d55")
-		)
-		(fp_line
-			(start -9.12 9.72)
-			(end -8.12 9.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "324b424e-bd3e-4f09-85fa-9d0c0f62a921")
-		)
-		(fp_line
-			(start 9.12 -9.72)
-			(end 9.12 -9.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "76f89519-4686-4e6a-add9-9cbe16dd2e48")
-		)
-		(fp_line
-			(start 9.12 9.1)
-			(end 9.12 9.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a6be9376-2fc1-4128-9c40-6e69e95b28ff")
-		)
-		(fp_line
-			(start 9.12 9.72)
-			(end 8.12 9.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4b254559-e353-4d9b-ad0d-f0f4a99425d4")
-		)
-		(fp_line
-			(start -9.75 10.35)
-			(end -9.75 -9.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "440636f7-f638-4c71-ad77-8b899d6ff661")
-		)
-		(fp_line
-			(start -9.75 10.35)
-			(end 9.75 10.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8e1e5550-c708-46fb-8aa0-13ebf547b7de")
-		)
-		(fp_line
-			(start 9.75 -9.85)
-			(end -9.75 -9.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e05a69bb-1803-40c9-a986-0ac2df515945")
-		)
-		(fp_line
-			(start 9.75 -9.85)
-			(end 9.75 10.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4bc79f1b-c4b1-4941-b6cf-b29c2277b037")
-		)
-		(fp_line
-			(start -9 -9.6)
-			(end -9 -9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bfc7611e-d915-4e87-a1e7-262edb3b869e")
-		)
-		(fp_line
-			(start -9 -9.6)
-			(end 9 -9.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "912ac9dc-b7b0-4a1f-9975-0e2d5c9496e9")
-		)
-		(fp_line
-			(start -9 -8)
-			(end -9 9.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e2ff3743-0bb1-4e9b-b9ef-958822df2af9")
-		)
-		(fp_line
-			(start -9 -8)
-			(end -8.5 -8.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3155d80c-231f-4b07-a1f8-b30220e1ffa0")
-		)
-		(fp_line
-			(start -9 9.6)
-			(end 9 9.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7caaccbf-6a78-4274-864b-24a258f73017")
-		)
-		(fp_line
-			(start -8.5 -8.5)
-			(end -9 -9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2786b576-72dd-4596-b25d-61bacd836cfc")
-		)
-		(fp_line
-			(start 9 9.6)
-			(end 9 -9.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "64a0d6a8-8159-412e-86c4-2a092fc30f08")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "8cac33da-c25b-4fef-bfc5-f51e9a3911dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -8.75 -8.255)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "69c50bd9-7602-4e7e-aec0-27eff7041840")
-		)
-		(pad "2" smd rect
-			(at -8.75 -6.985)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 5 "+3.3V")
-			(pinfunction "VDD")
-			(pintype "power_in")
-			(uuid "687bf125-a186-435a-932c-6e03b369b450")
-		)
-		(pad "3" smd rect
-			(at -8.75 -5.715)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 6 "Net-(Q3A-C1)")
-			(pinfunction "EN")
-			(pintype "input")
-			(uuid "0fd88fa6-8e03-4ba8-9bf1-6a49b28ca1ad")
-		)
-		(pad "4" smd rect
-			(at -8.75 -4.445)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 174 "unconnected-(U4-SENSOR_VP-Pad4)")
-			(pinfunction "SENSOR_VP")
-			(pintype "input+no_connect")
-			(uuid "a58225a1-6492-4190-b4db-d8d0b24ff13d")
-		)
-		(pad "5" smd rect
-			(at -8.75 -3.175)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 175 "unconnected-(U4-SENSOR_VN-Pad5)")
-			(pinfunction "SENSOR_VN")
-			(pintype "input+no_connect")
-			(uuid "4ba12a98-d5ff-41e7-9f38-d4d087598232")
-		)
-		(pad "6" smd rect
-			(at -8.75 -1.905)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 176 "unconnected-(U4-IO34-Pad6)")
-			(pinfunction "IO34")
-			(pintype "input+no_connect")
-			(uuid "9dfba6d8-9b5a-44cc-9253-f6a6663d3ddf")
-		)
-		(pad "7" smd rect
-			(at -8.75 -0.635)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 177 "unconnected-(U4-IO35-Pad7)")
-			(pinfunction "IO35")
-			(pintype "input+no_connect")
-			(uuid "94bd8b84-a4bb-4792-a62b-52fcc98992eb")
-		)
-		(pad "8" smd rect
-			(at -8.75 0.635)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 26 "/MCU/I2C_SCL")
-			(pinfunction "IO32")
-			(pintype "bidirectional")
-			(uuid "4ab619a1-2823-4a9e-8ce8-dd77c338b863")
-		)
-		(pad "9" smd rect
-			(at -8.75 1.905)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 27 "/MCU/I2C_SDA")
-			(pinfunction "IO33")
-			(pintype "bidirectional")
-			(uuid "623b2af5-74cc-4b6c-b393-21c8412232a4")
-		)
-		(pad "10" smd rect
-			(at -8.75 3.175)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 63 "/LAN/EMAC_RXD0")
-			(pinfunction "IO25")
-			(pintype "bidirectional")
-			(uuid "37f69b91-7622-4bbc-bbd4-a7433f047db1")
-		)
-		(pad "11" smd rect
-			(at -8.75 4.445)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 62 "/LAN/EMAC_RXD1")
-			(pinfunction "IO26")
-			(pintype "bidirectional")
-			(uuid "028d8313-4818-4710-ac63-127162374496")
-		)
-		(pad "12" smd rect
-			(at -8.75 5.715)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 65 "/LAN/EMAC_RX")
-			(pinfunction "IO27")
-			(pintype "bidirectional")
-			(uuid "990ea897-5ee3-4b7e-a81d-6d92f4541795")
-		)
-		(pad "13" smd rect
-			(at -8.75 6.985)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 178 "/GPIO Expanders/MCP1-INTB")
-			(pinfunction "IO14")
-			(pintype "bidirectional")
-			(uuid "d09a79a2-6bca-4a9e-9075-99fda3ac3fa7")
-		)
-		(pad "14" smd rect
-			(at -8.75 8.255)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 25 "/MCU/PHY_PWR")
-			(pinfunction "IO12")
-			(pintype "bidirectional")
-			(uuid "25956181-2cee-4d37-a3fe-a8713e056d9a")
-		)
-		(pad "15" smd rect
-			(at -5.715 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "7117e1e1-eabd-46ee-a9de-1f8a0d524ddf")
-		)
-		(pad "16" smd rect
-			(at -4.445 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 179 "/GPIO Expanders/MCP1-INTA")
-			(pinfunction "IO13")
-			(pintype "bidirectional")
-			(uuid "32446802-8059-4462-9f91-f79b4afe6cd8")
-		)
-		(pad "17" smd rect
-			(at -3.175 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 180 "unconnected-(U4-SHD{slash}SD2-Pad17)")
-			(pinfunction "SHD/SD2")
-			(pintype "bidirectional+no_connect")
-			(uuid "f25bf58b-e4b4-455c-adb4-45ca2f175094")
-		)
-		(pad "18" smd rect
-			(at -1.905 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 181 "unconnected-(U4-SWP{slash}SD3-Pad18)")
-			(pinfunction "SWP/SD3")
-			(pintype "bidirectional+no_connect")
-			(uuid "c369bacc-de2f-49d1-a862-55b41731d0a7")
-		)
-		(pad "19" smd rect
-			(at -0.635 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 182 "unconnected-(U4-SCS{slash}CMD-Pad19)")
-			(pinfunction "SCS/CMD")
-			(pintype "bidirectional+no_connect")
-			(uuid "031027b6-0611-4bf6-a18d-9ed370ce7f65")
-		)
-		(pad "20" smd rect
-			(at 0.635 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 183 "unconnected-(U4-SCK{slash}CLK-Pad20)")
-			(pinfunction "SCK/CLK")
-			(pintype "bidirectional+no_connect")
-			(uuid "95607fda-08e7-4f1f-b1d3-bc43129cc8e1")
-		)
-		(pad "21" smd rect
-			(at 1.905 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 184 "unconnected-(U4-SDO{slash}SD0-Pad21)")
-			(pinfunction "SDO/SD0")
-			(pintype "bidirectional+no_connect")
-			(uuid "bd814061-4679-47ff-92fc-1e783d10a263")
-		)
-		(pad "22" smd rect
-			(at 3.175 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 185 "unconnected-(U4-SDI{slash}SD1-Pad22)")
-			(pinfunction "SDI/SD1")
-			(pintype "bidirectional+no_connect")
-			(uuid "08da6710-3f97-47d3-b2eb-543198c6133c")
-		)
-		(pad "23" smd rect
-			(at 4.445 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 186 "unconnected-(U4-IO15-Pad23)")
-			(pinfunction "IO15")
-			(pintype "bidirectional+no_connect")
-			(uuid "2ea42c83-c16f-4628-90bf-ac41ede9df70")
-		)
-		(pad "24" smd rect
-			(at 5.715 9.35 90)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 187 "unconnected-(U4-IO2-Pad24)")
-			(pinfunction "IO2")
-			(pintype "bidirectional+no_connect")
-			(uuid "284bc027-f78a-4fa4-8ad4-c5a7da70c299")
-		)
-		(pad "25" smd rect
-			(at 8.75 8.255)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 122 "Net-(Q3B-C2)")
-			(pinfunction "IO0")
-			(pintype "bidirectional")
-			(uuid "959b07e9-4489-4ab7-b785-4e967f59c69c")
-		)
-		(pad "26" smd rect
-			(at 8.75 6.985)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 188 "unconnected-(U4-IO4-Pad26)")
-			(pinfunction "IO4")
-			(pintype "bidirectional+no_connect")
-			(uuid "9ece3518-f30e-4402-820c-64ff7553aa19")
-		)
-		(pad "27" smd rect
-			(at 8.75 5.715)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 189 "unconnected-(U4-IO16-Pad27)")
-			(pinfunction "IO16")
-			(pintype "bidirectional+no_connect")
-			(uuid "5fdaaf00-2d80-4aa0-bc2b-5ef25bb72c56")
-		)
-		(pad "28" smd rect
-			(at 8.75 4.445)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 69 "/LAN/EMAC_CLK")
-			(pinfunction "IO17")
-			(pintype "bidirectional")
-			(uuid "fc663626-c1a0-42ce-9be2-babce500051f")
-		)
-		(pad "29" smd rect
-			(at 8.75 3.175)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 190 "unconnected-(U4-IO5-Pad29)")
-			(pinfunction "IO5")
-			(pintype "bidirectional+no_connect")
-			(uuid "0e23255d-66c0-48ef-971b-d119d5b64414")
-		)
-		(pad "30" smd rect
-			(at 8.75 1.905)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 64 "/LAN/EMAC_MDIO")
-			(pinfunction "IO18")
-			(pintype "bidirectional")
-			(uuid "9aa8a75b-3bf9-41f7-a2ea-ec16a9d86234")
-		)
-		(pad "31" smd rect
-			(at 8.75 0.635)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 70 "/LAN/EMAC_TXD0")
-			(pinfunction "IO19")
-			(pintype "bidirectional")
-			(uuid "d81cfa64-62ba-4b79-97c9-901cdb2b24eb")
-		)
-		(pad "32" smd rect
-			(at 8.75 -0.635)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 191 "unconnected-(U4-NC-Pad32)")
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "2f2d9cd5-5b99-4ad8-931b-f846738da18b")
-		)
-		(pad "33" smd rect
-			(at 8.75 -1.905)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 71 "/LAN/EMAC_TXEN")
-			(pinfunction "IO21")
-			(pintype "bidirectional")
-			(uuid "62fc0507-96b3-4cdb-a922-232045e4db40")
-		)
-		(pad "34" smd rect
-			(at 8.75 -3.175)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 172 "Net-(U3-TXD)")
-			(pinfunction "RXD0/IO3")
-			(pintype "bidirectional")
-			(uuid "d8f8f061-1cbc-45c3-96fe-ad595983e25e")
-		)
-		(pad "35" smd rect
-			(at 8.75 -4.445)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 173 "Net-(U3-RXD)")
-			(pinfunction "TXD0/IO1")
-			(pintype "bidirectional")
-			(uuid "3492ac46-5371-4883-a79d-dc8a242065b3")
-		)
-		(pad "36" smd rect
-			(at 8.75 -5.715)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 72 "/LAN/EMAC_TXD1")
-			(pinfunction "IO22")
-			(pintype "bidirectional")
-			(uuid "0497d456-8eac-47a5-a638-0f4bf6215a2d")
-		)
-		(pad "37" smd rect
-			(at 8.75 -6.985)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 73 "/LAN/EMAC_MDC")
-			(pinfunction "IO23")
-			(pintype "bidirectional")
-			(uuid "b7d334b9-4274-4e2e-9fc2-e7429f8edaa0")
-		)
-		(pad "38" smd rect
-			(at 8.75 -8.255)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "f8dde228-7459-4dfe-85df-8c7e7a3a5ff3")
-		)
-		(pad "39" smd rect
-			(at -2.9 -2.09)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "10211996-9c84-439f-b482-7498f79464d9")
-		)
-		(pad "39" thru_hole circle
-			(at -2.9 -1.39)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "8ccd5a1d-ba38-4775-a380-22d175b2ba11")
-		)
-		(pad "39" smd rect
-			(at -2.9 -0.69)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "bc3737e2-3386-47cc-81a2-a1fbaa6f2462")
-		)
-		(pad "39" thru_hole circle
-			(at -2.9 0.01)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "35a3dae7-5883-4335-b4d5-1e6061ec1620")
-		)
-		(pad "39" smd rect
-			(at -2.9 0.71)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "adfa993f-40f8-4ee6-977d-436dcdc73cd8")
-		)
-		(pad "39" thru_hole circle
-			(at -2.2 -2.09)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "85ab7fec-3e10-4657-98e4-04fd8e94ed7b")
-		)
-		(pad "39" thru_hole circle
-			(at -2.2 -0.69)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "d2ff703a-acb9-4392-8750-fe8af341354d")
-		)
-		(pad "39" thru_hole circle
-			(at -2.2 0.71)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "c2d60e84-0bbd-44cd-ab8c-fbd0d79c164b")
-		)
-		(pad "39" smd rect
-			(at -1.5 -2.09)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "6df05433-17bb-49b5-acba-f25541bc73cc")
-		)
-		(pad "39" thru_hole circle
-			(at -1.5 -1.39)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "9deff73f-ce83-4c0c-8ad9-8bdeec3e0fba")
-		)
-		(pad "39" smd rect
-			(at -1.5 -0.69)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "a23dae68-b12b-4d08-a3b8-6267b2de64dc")
-		)
-		(pad "39" smd rect
-			(at -1.5 -0.69)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "ec21b40c-2c44-4971-9263-652c682c8662")
-		)
-		(pad "39" thru_hole circle
-			(at -1.5 0.01)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "c339d8f6-454f-47c2-89d3-64068933036e")
-		)
-		(pad "39" smd rect
-			(at -1.5 0.71)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "eaa4ed54-7522-499c-8268-fd22eb377da9")
-		)
-		(pad "39" thru_hole circle
-			(at -0.8 -2.09)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "0f22e02c-1302-43ed-8608-4b6bfe181755")
-		)
-		(pad "39" thru_hole circle
-			(at -0.8 -0.69)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "20dd638f-27cd-4de3-8aef-d45b3e8d7917")
-		)
-		(pad "39" thru_hole circle
-			(at -0.8 0.71)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "23093147-365d-4447-b9bc-ecd09875a141")
-		)
-		(pad "39" smd rect
-			(at -0.1 -2.09)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "b510b4ff-aa8f-45a3-bc6a-da61322c8548")
-		)
-		(pad "39" thru_hole circle
-			(at -0.1 -1.39)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "63623727-04ed-489f-be8d-18c3eaa6f431")
-		)
-		(pad "39" smd rect
-			(at -0.1 -0.69)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "4f55a0e9-a84f-49f0-b2e3-279ea0eb4f88")
-		)
-		(pad "39" thru_hole circle
-			(at -0.1 0.01)
-			(size 0.8 0.8)
-			(drill 0.3)
-			(property pad_prop_heatsink)
-			(layers "*.Cu" "F.Mask")
-			(remove_unused_layers no)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "1d882056-aa31-4ab9-998b-557916e66568")
-		)
-		(pad "39" smd rect
-			(at -0.1 0.71)
-			(size 0.9 0.9)
-			(layers "F.Cu" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "3b278dc4-9ce0-4283-a427-76cbec121198")
-		)
-		(model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32U.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Tales:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "24a4f637-b87a-48fb-9f05-567cdf2ee4d4")
@@ -15444,7 +15452,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9dd8dd78-444f-4399-9703-32813a3b93a1")
@@ -15515,7 +15523,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15527,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15539,7 +15547,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15575,7 +15583,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17872,7 +17880,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "07eac69e-6f7e-47a8-85cd-21bc10259899")
@@ -17943,7 +17951,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17955,7 +17963,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17967,7 +17975,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18003,7 +18011,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23493,7 +23501,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "aa2be5d0-a39c-4865-b037-f66fdb174628")
@@ -23564,7 +23572,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23576,7 +23584,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23588,7 +23596,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23624,7 +23632,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25698,7 +25706,7 @@
 		(property "Reference" "Q2"
 			(at 1.381 -2.54 0)
 			(layer "Cmts.User")
-			(uuid "27a30b9b-783e-4307-87e7-b1dec9fc9327")
+			(uuid "30505ea8-6d60-423f-b8f9-2ad1b3f225da")
 			(effects
 				(font
 					(size 1 0.6)
@@ -25709,7 +25717,7 @@
 		(property "Value" "MMUN2211LT3G"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(uuid "582dc2a8-69f4-4852-b186-bef64fdab4c2")
+			(uuid "663de8b4-5c18-44ab-8e6b-3bd79275f281")
 			(effects
 				(font
 					(size 1 1)
@@ -25721,7 +25729,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c99037c0-fab6-44b6-a315-62dcc8a9aee9")
+			(uuid "49dcd56a-e525-45a6-b899-ad02bcfac11d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25733,7 +25741,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a64ed416-0bea-444a-9caf-c310dfc02792")
+			(uuid "ca307911-6305-4b05-bbbe-5e6ec6289cc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25745,7 +25753,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0b3ab69-e733-4dd4-8f6b-1fa9c190db08")
+			(uuid "4a696d98-b3a0-4556-99a1-12458bcc0cb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25861,7 +25869,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1bf1e3f6-22ce-4072-815e-7dd2548c6940")
+			(uuid "9f539c9c-0213-44e4-982e-0f611f83bc82")
 		)
 		(fp_line
 			(start 0 1.36)
@@ -25871,27 +25879,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3a1d5814-85a0-4b89-98f2-9d7d48f19590")
+			(uuid "76da8bfd-8b7c-48ae-be0b-91ab5b627c15")
 		)
 		(fp_line
-			(start 0 -1.56)
-			(end -1.675 -1.56)
+			(start 0 -1.36)
+			(end -1.675 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fa2790b6-9e0c-491f-9320-9b3ee25889e7")
+			(uuid "774a6766-01ca-4557-b070-b485d2abff1e")
 		)
 		(fp_line
-			(start 0 -1.56)
-			(end 0.65 -1.56)
+			(start 0 -1.36)
+			(end 0.65 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "53dac7ca-f654-4f0f-a0f5-83a177955ec4")
+			(uuid "27652582-80b5-4659-8a82-764649f9cb98")
 		)
 		(fp_line
 			(start -1.92 1.4)
@@ -25901,47 +25909,47 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f2dfdd2d-1c6b-4d45-b3ea-ec219c8e8355")
+			(uuid "09501a59-ca94-4b96-9347-174221cd94df")
 		)
 		(fp_line
 			(start 1.92 1.4)
-			(end 1.92 -1.7)
+			(end 1.92 -1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "70ec03f2-67ff-4fdb-aba4-f76f7f07af88")
+			(uuid "53b18207-fac6-4220-8c5b-958122b416c3")
 		)
 		(fp_line
-			(start -1.92 -1.7)
+			(start -1.92 -1.4)
 			(end -1.92 1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ec52de5f-b070-4204-aabe-0c8674538978")
+			(uuid "23ef6d4a-b184-4e12-9351-47dc2ba9e3ce")
 		)
 		(fp_line
-			(start 1.92 -1.7)
-			(end -1.92 -1.7)
+			(start 1.92 -1.4)
+			(end -1.92 -1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "69819292-cf12-4d4b-848c-e5dc6d0962fa")
+			(uuid "b0dfcbd9-fafa-4702-9252-c5507d91532f")
 		)
 		(fp_line
 			(start -0.65 1.25)
-			(end -0.65 -1.125)
+			(end -0.65 -0.925)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1e525077-9079-452d-ab4e-3e670d74b503")
+			(uuid "ae99dad0-b46c-4f2d-af96-4b306a4e9273")
 		)
 		(fp_line
 			(start 0.65 1.25)
@@ -25951,17 +25959,17 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "858e824b-bbd8-46c1-8c01-8e874b1de5c0")
+			(uuid "5268b589-51b4-4e7f-b78e-841cababbc7b")
 		)
 		(fp_line
-			(start -0.65 -1.125)
-			(end -0.325 -1.45)
+			(start -0.65 -0.925)
+			(end -0.325 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f48cee84-934c-4797-859e-ab6c8e3e8f45")
+			(uuid "3cb26020-2572-413c-8f07-69575880da9f")
 		)
 		(fp_line
 			(start -0.325 -1.25)
@@ -25971,7 +25979,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4d13ecca-2258-436a-8c12-ea6696252ba0")
+			(uuid "8ad5c110-a5ad-43d2-9361-53e32a73fe56")
 		)
 		(fp_line
 			(start 0.65 -1.25)
@@ -25981,12 +25989,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1b0d3405-a53a-4d98-9566-bd834f490c47")
+			(uuid "4f8afff3-1f78-4f7f-8ad4-fa6f6260118e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "b9702246-f10d-40a9-a0c4-9a91d61736f4")
+			(uuid "92007cb8-4a87-42fd-a41f-3b7219b47f1e")
 			(effects
 				(font
 					(size 0.32 0.32)
@@ -26002,7 +26010,7 @@
 			(net 25 "/MCU/PHY_PWR")
 			(pinfunction "B")
 			(pintype "input")
-			(uuid "ad8db01b-5f47-4e45-9c6e-58d1490c0d4a")
+			(uuid "fafc252e-1257-4997-8cf4-2853c13368b4")
 		)
 		(pad "2" smd roundrect
 			(at -1 0.95 270)
@@ -26012,7 +26020,7 @@
 			(net 1 "GND")
 			(pinfunction "E")
 			(pintype "passive")
-			(uuid "5afe9670-66a1-47ed-b03d-b8e1c33f1f58")
+			(uuid "4335c2ec-4a2e-49eb-b8f7-6df638308453")
 		)
 		(pad "3" smd roundrect
 			(at 1 0 270)
@@ -26022,7 +26030,7 @@
 			(net 209 "Net-(Q2-C)")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "a4b198d3-c8c9-40ce-88d1-1aec29f9ae28")
+			(uuid "8d76875f-2379-485b-ac42-e1c0f755aba9")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
 			(offset
@@ -28498,7 +28506,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bebb6430-0c19-4a49-88e2-cee8237d301c")
@@ -28558,7 +28566,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28571,7 +28579,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28610,7 +28618,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28623,7 +28631,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33714,7 +33722,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "41d7c3ed-330e-45f9-a077-ea2df27cf436")
@@ -33785,7 +33793,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33797,7 +33805,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33809,7 +33817,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33845,7 +33853,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36602,7 +36610,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d7b24c2c-d415-42b4-9061-c351a5a85d31")
@@ -36673,7 +36681,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36685,7 +36693,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36697,7 +36705,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36733,7 +36741,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39156,7 +39164,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "05856d16-d549-43dc-969c-59fa7f21c01c")
@@ -39227,7 +39235,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39239,7 +39247,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39251,7 +39259,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39287,7 +39295,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40987,7 +40995,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b948901e-819b-467a-ba41-38e57bf5b56d")
@@ -41058,7 +41066,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41070,7 +41078,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41082,7 +41090,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41118,7 +41126,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41948,7 +41956,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fd95831a-cf17-4dbb-a402-bc11669318c3")
@@ -42019,7 +42027,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42031,7 +42039,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42043,7 +42051,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42079,7 +42087,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44668,7 +44676,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "75b7612e-6e39-43b1-8a42-bc1784c6127d")
@@ -44739,7 +44747,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44751,7 +44759,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44763,7 +44771,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44799,7 +44807,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51986,7 +51994,7 @@
 		(property "Reference" "Q1"
 			(at 2.651 0.254 0)
 			(layer "Cmts.User")
-			(uuid "7ce52dc4-b767-42ee-9491-453b706aff45")
+			(uuid "e9fec1ce-8bb7-42df-877e-eb2c5f537ad2")
 			(effects
 				(font
 					(size 1 0.6)
@@ -51997,7 +52005,7 @@
 		(property "Value" "WPM2015-3/TR"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(uuid "44a2547a-1104-48b5-abf2-04149a730daf")
+			(uuid "5531cc71-b0ab-4293-8def-a1f8c6a3214d")
 			(effects
 				(font
 					(size 1 1)
@@ -52009,7 +52017,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0822a1b4-0058-4a4e-b55b-eabe8d99484a")
+			(uuid "9b05a3ba-fce0-40c9-93d8-7ef24c378df4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52021,7 +52029,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c15b8d8-919b-4089-b66b-8a88ea2546cf")
+			(uuid "bf9d5e4f-6b5b-4c77-86c4-10bbe8b12970")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52033,7 +52041,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86a474be-dd55-41df-b26d-9904ab9a6584")
+			(uuid "6e28450f-c387-4e3a-996a-e2a1bfb43fe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52149,7 +52157,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b0bc874-1784-43db-b0b1-94f3a2d1ef5f")
+			(uuid "c8ab246f-a58a-4e97-8b95-c3beceb8f625")
 		)
 		(fp_line
 			(start 0 1.36)
@@ -52159,27 +52167,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5591bb48-82ea-41b0-b6e2-28ce4bc164b3")
+			(uuid "d84ee871-9d6e-4104-8eef-987839db3f23")
 		)
 		(fp_line
-			(start 0 -1.56)
-			(end -1.675 -1.56)
+			(start 0 -1.36)
+			(end -1.675 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d8c429b5-ea65-40d9-9d9f-b534d4faff98")
+			(uuid "09adcf0a-2544-492d-9248-354ad56146d0")
 		)
 		(fp_line
-			(start 0 -1.56)
-			(end 0.65 -1.56)
+			(start 0 -1.36)
+			(end 0.65 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a3d4baa-b87c-49af-95de-3b73823f8eeb")
+			(uuid "916adf5a-7c40-4329-b41e-687e3906e5b4")
 		)
 		(fp_line
 			(start -1.92 1.4)
@@ -52189,47 +52197,47 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d7995e31-5e60-4809-930d-b412f948094b")
+			(uuid "6c535073-cafd-4330-99d3-43d49a22a2bb")
 		)
 		(fp_line
 			(start 1.92 1.4)
-			(end 1.92 -1.7)
+			(end 1.92 -1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b08da415-3539-4974-ad35-f247c98fb37a")
+			(uuid "f91c7b69-7e09-4bee-b9d8-049bbaa4f864")
 		)
 		(fp_line
-			(start -1.92 -1.7)
+			(start -1.92 -1.4)
 			(end -1.92 1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "59b6ec51-5052-4cd7-86b5-2503171995e8")
+			(uuid "68a6a75e-a1b4-4323-82cc-2d28851c9976")
 		)
 		(fp_line
-			(start 1.92 -1.7)
-			(end -1.92 -1.7)
+			(start 1.92 -1.4)
+			(end -1.92 -1.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6753715c-1c78-43a2-ab2a-4aaa1d0b1240")
+			(uuid "61fb7b87-380f-434d-b5d5-2e7687e530d8")
 		)
 		(fp_line
 			(start -0.65 1.25)
-			(end -0.65 -1.125)
+			(end -0.65 -0.925)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "66f0053a-887e-466b-94bc-5a9a1cd2b452")
+			(uuid "503a8b59-c988-4d7a-a7bc-4c64b160f4f1")
 		)
 		(fp_line
 			(start 0.65 1.25)
@@ -52239,17 +52247,17 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "71fbdb0c-ed72-4b2d-88b8-51a6290c320a")
+			(uuid "4952d907-0311-464d-83a0-528c3a748fa4")
 		)
 		(fp_line
-			(start -0.65 -1.125)
-			(end -0.325 -1.45)
+			(start -0.65 -0.925)
+			(end -0.325 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e9f4c469-6569-4e10-8592-977821ae7bd1")
+			(uuid "16492971-83cb-4801-899b-4a0113d7310e")
 		)
 		(fp_line
 			(start -0.325 -1.25)
@@ -52259,7 +52267,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c3204c98-9666-482c-8052-5a375bf6ef82")
+			(uuid "0b919a19-5027-4b2e-8d80-b65bff805c48")
 		)
 		(fp_line
 			(start 0.65 -1.25)
@@ -52269,12 +52277,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1de0abde-7f6f-4da5-8969-4934d83d3b6b")
+			(uuid "fa67cc78-0f25-4837-b706-f5568a1a6cda")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "867a4154-4dd0-4254-b94e-d94b8665bfca")
+			(uuid "7982efa2-ae9a-42db-ac38-2eaca79c04ed")
 			(effects
 				(font
 					(size 0.32 0.32)
@@ -52290,7 +52298,7 @@
 			(net 199 "Net-(Q1-G)")
 			(pinfunction "G")
 			(pintype "input")
-			(uuid "35efdfb4-0113-4f40-88d5-13f76b527784")
+			(uuid "3a719654-996d-487c-9daf-dd295fe138f4")
 		)
 		(pad "2" smd roundrect
 			(at -1 0.95 270)
@@ -52300,7 +52308,7 @@
 			(net 5 "+3.3V")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "c6913232-491f-4425-b071-5fa36e87c78b")
+			(uuid "47d05a7e-a5a4-4023-bb4a-039ed046ce2a")
 		)
 		(pad "3" smd roundrect
 			(at 1 0 270)
@@ -52310,7 +52318,7 @@
 			(net 204 "+3.3VLAN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "269f994f-7414-459f-902d-064ed6a5f423")
+			(uuid "3a17bb76-3d76-4cc0-b8df-32bc6cb7cf48")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
 			(offset
@@ -52341,7 +52349,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8778eec0-6419-4fb6-be14-7d80001d91fc")
@@ -52412,7 +52420,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52424,7 +52432,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52436,7 +52444,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52472,7 +52480,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52975,7 +52983,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "71470471-137f-4ac6-9f0a-5d6d1b1b2fae")
@@ -53046,7 +53054,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53058,7 +53066,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53070,7 +53078,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53106,7 +53114,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53699,7 +53707,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b2c92887-875e-4940-ac5b-dd6354488deb")
@@ -53770,7 +53778,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53782,7 +53790,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53794,7 +53802,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53830,7 +53838,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54660,7 +54668,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ea0e5c25-1a66-47c5-b161-f20502d0a5d2")
@@ -54731,7 +54739,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54743,7 +54751,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54755,7 +54763,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54791,7 +54799,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57751,7 +57759,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "14136085-3f6d-4aa9-baaf-cd3e65288965")
@@ -57822,7 +57830,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57834,7 +57842,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57846,7 +57854,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57882,7 +57890,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60242,7 +60250,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "139704f5-356d-48a8-a69d-f3ba36da7e80")
@@ -60313,7 +60321,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60325,7 +60333,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60337,7 +60345,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60373,7 +60381,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61203,7 +61211,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1b5b70e1-b804-483c-ac7e-3aa5f521dbf4")
@@ -61274,7 +61282,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61286,7 +61294,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61298,7 +61306,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61334,7 +61342,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62143,7 +62151,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "314a9d77-cc5d-49de-a0db-5f9df343b280")
@@ -62214,7 +62222,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62226,7 +62234,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62238,7 +62246,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62274,7 +62282,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62471,7 +62479,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b031fced-d983-4aab-92fc-6c9aa41f678c")
@@ -62542,7 +62550,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62554,7 +62562,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62566,7 +62574,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62602,7 +62610,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63154,7 +63162,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1290f2a5-b279-4711-a011-7f713bfe4f92")
@@ -63225,7 +63233,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63237,7 +63245,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63249,7 +63257,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63285,7 +63293,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69498,7 +69506,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5d880eee-11fc-474b-af85-4bdb3eec5b57")
@@ -69569,7 +69577,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69581,7 +69589,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69593,7 +69601,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69629,7 +69637,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72100,7 +72108,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "efc67185-3f67-4717-b7bf-e58cc03354c4")
@@ -72171,7 +72179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72183,7 +72191,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72195,7 +72203,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72231,7 +72239,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74321,7 +74329,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a0a90038-9682-441f-8e11-ce2f5c73515c")
@@ -74392,7 +74400,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74404,7 +74412,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74416,7 +74424,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74452,7 +74460,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75625,7 +75633,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "857512d2-342f-4692-a208-9409c3b9a744")
@@ -75696,7 +75704,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75708,7 +75716,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75720,7 +75728,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75756,7 +75764,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -76946,7 +76954,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fbafd98a-a2ef-41ed-8ae7-8d08f9688cf3")
@@ -77017,7 +77025,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77029,7 +77037,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77041,7 +77049,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77077,7 +77085,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79206,7 +79214,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b9a8c03c-6530-471f-8f18-4d6abc7adcfd")
@@ -79277,7 +79285,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79289,7 +79297,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79301,7 +79309,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79337,7 +79345,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83655,7 +83663,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "42f739a8-8a66-49ad-a8ac-ead668013f92")
@@ -83726,7 +83734,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83738,7 +83746,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83750,7 +83758,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83786,7 +83794,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86844,7 +86852,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "51237584-a45d-47a5-ae89-632a98074b89")
@@ -86915,7 +86923,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86927,7 +86935,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86939,7 +86947,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86975,7 +86983,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87172,7 +87180,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2172e8a8-3477-4aca-b18d-655676dd2fb1")
@@ -87243,7 +87251,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87255,7 +87263,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87267,7 +87275,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87303,7 +87311,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89462,7 +89470,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ea3d1386-94ce-4a61-bb9a-9b7973fefeb9")
@@ -89533,7 +89541,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89545,7 +89553,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89557,7 +89565,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89593,7 +89601,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91154,7 +91162,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN/0603"
+		(property "Value" "AMBER/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8d54adba-5562-4bfc-b5a5-5c57aa9f56c0")
@@ -91225,7 +91233,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C165983"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91237,7 +91245,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "BrtLed(Bright LED Elec)"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91249,7 +91257,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "BL-HJC36G-AV-TRB"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91285,7 +91293,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C165983"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
