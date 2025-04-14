@@ -4074,11 +4074,11 @@
 		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
 		(property "Reference" "U4"
 			(at -7.58 -10.5 180)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(uuid "08f6403d-497f-4f8b-81c4-afe10d01cee1")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -5963,7 +5963,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5f6fbf8f-a33a-4c91-b39b-7c8a16149e36")
@@ -6034,7 +6034,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6058,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6094,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 165.8875 2.0575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "08faa3c9-d4ad-4cf0-8d46-2e766b51cbd3")
@@ -8003,7 +8003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8015,7 +8015,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8027,7 +8027,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8063,7 +8063,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 297.6625 -71.9075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15452,7 +15452,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9dd8dd78-444f-4399-9703-32813a3b93a1")
@@ -15523,7 +15523,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15535,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15547,7 +15547,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15583,7 +15583,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 292.5825 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17880,7 +17880,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "07eac69e-6f7e-47a8-85cd-21bc10259899")
@@ -17951,7 +17951,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17963,7 +17963,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17975,7 +17975,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18011,7 +18011,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 259.5625 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23501,7 +23501,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "aa2be5d0-a39c-4865-b037-f66fdb174628")
@@ -23572,7 +23572,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23584,7 +23584,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23596,7 +23596,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23632,7 +23632,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 302.7425 -92.2275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26664,7 +26664,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U3"
 			(at 4.51 -4.445 180)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(uuid "9e4cec3a-3db5-4c58-b1fe-c059e0246dd1")
 			(effects
 				(font
@@ -28506,7 +28506,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bebb6430-0c19-4a49-88e2-cee8237d301c")
@@ -28566,7 +28566,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28579,7 +28579,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28618,7 +28618,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28631,7 +28631,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33722,7 +33722,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "41d7c3ed-330e-45f9-a077-ea2df27cf436")
@@ -33793,7 +33793,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33805,7 +33805,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33817,7 +33817,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33853,7 +33853,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 302.7425 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36610,7 +36610,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d7b24c2c-d415-42b4-9061-c351a5a85d31")
@@ -36681,7 +36681,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36693,7 +36693,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36705,7 +36705,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36741,7 +36741,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 269.7225 -125.2475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39164,7 +39164,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "05856d16-d549-43dc-969c-59fa7f21c01c")
@@ -39235,7 +39235,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39247,7 +39247,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39259,7 +39259,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39295,7 +39295,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 158.2675 9.6775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40995,7 +40995,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b948901e-819b-467a-ba41-38e57bf5b56d")
@@ -41066,7 +41066,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41078,7 +41078,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41090,7 +41090,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41126,7 +41126,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 160.8075 7.1375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41956,7 +41956,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fd95831a-cf17-4dbb-a402-bc11669318c3")
@@ -42027,7 +42027,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42039,7 +42039,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42051,7 +42051,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42087,7 +42087,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 274.8025 -115.0875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44676,7 +44676,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "75b7612e-6e39-43b1-8a42-bc1784c6127d")
@@ -44747,7 +44747,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44759,7 +44759,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44771,7 +44771,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44807,7 +44807,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 297.6625 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52349,7 +52349,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8778eec0-6419-4fb6-be14-7d80001d91fc")
@@ -52420,7 +52420,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52432,7 +52432,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52444,7 +52444,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52480,7 +52480,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 287.5025 -76.9875 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52983,7 +52983,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "71470471-137f-4ac6-9f0a-5d6d1b1b2fae")
@@ -53054,7 +53054,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53066,7 +53066,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53078,7 +53078,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53114,7 +53114,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 163.3475 4.5975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53707,7 +53707,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b2c92887-875e-4940-ac5b-dd6354488deb")
@@ -53778,7 +53778,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53790,7 +53790,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53802,7 +53802,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53838,7 +53838,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 279.8825 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54668,7 +54668,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ea0e5c25-1a66-47c5-b161-f20502d0a5d2")
@@ -54739,7 +54739,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54751,7 +54751,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54763,7 +54763,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54799,7 +54799,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 201.4475 32.5375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57759,7 +57759,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "14136085-3f6d-4aa9-baaf-cd3e65288965")
@@ -57830,7 +57830,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57842,7 +57842,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57854,7 +57854,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57890,7 +57890,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 203.9875 29.9975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60250,7 +60250,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "139704f5-356d-48a8-a69d-f3ba36da7e80")
@@ -60321,7 +60321,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60333,7 +60333,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60345,7 +60345,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60381,7 +60381,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 191.2875 42.6975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61211,7 +61211,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1b5b70e1-b804-483c-ac7e-3aa5f521dbf4")
@@ -61282,7 +61282,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61294,7 +61294,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61306,7 +61306,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61342,7 +61342,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 193.8275 40.1575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62151,7 +62151,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "314a9d77-cc5d-49de-a0db-5f9df343b280")
@@ -62222,7 +62222,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62234,7 +62234,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62246,7 +62246,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62282,7 +62282,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 264.6425 -120.1675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62479,7 +62479,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b031fced-d983-4aab-92fc-6c9aa41f678c")
@@ -62550,7 +62550,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62562,7 +62562,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62574,7 +62574,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62610,7 +62610,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 269.7225 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63162,7 +63162,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1290f2a5-b279-4711-a011-7f713bfe4f92")
@@ -63233,7 +63233,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63245,7 +63245,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63257,7 +63257,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63293,7 +63293,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 264.6425 -104.9275 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69506,7 +69506,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5d880eee-11fc-474b-af85-4bdb3eec5b57")
@@ -69577,7 +69577,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69589,7 +69589,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69601,7 +69601,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69637,7 +69637,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 196.3675 37.6175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72108,7 +72108,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "efc67185-3f67-4717-b7bf-e58cc03354c4")
@@ -72179,7 +72179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72191,7 +72191,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72203,7 +72203,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72239,7 +72239,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 312.9025 -87.1475 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74329,7 +74329,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a0a90038-9682-441f-8e11-ce2f5c73515c")
@@ -74400,7 +74400,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74412,7 +74412,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74424,7 +74424,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -74460,7 +74460,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 254.4825 -110.0075 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75633,7 +75633,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "857512d2-342f-4692-a208-9409c3b9a744")
@@ -75704,7 +75704,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75716,7 +75716,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75728,7 +75728,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75764,7 +75764,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 155.7275 12.2175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -76954,7 +76954,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fbafd98a-a2ef-41ed-8ae7-8d08f9688cf3")
@@ -77025,7 +77025,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77037,7 +77037,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77049,7 +77049,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77085,7 +77085,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 170.9675 -3.0225 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79214,7 +79214,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b9a8c03c-6530-471f-8f18-4d6abc7adcfd")
@@ -79285,7 +79285,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79297,7 +79297,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79309,7 +79309,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79345,7 +79345,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 168.4275 -0.4825 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83663,7 +83663,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "42f739a8-8a66-49ad-a8ac-ead668013f92")
@@ -83734,7 +83734,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83746,7 +83746,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83758,7 +83758,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83794,7 +83794,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 198.9075 35.0775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86852,7 +86852,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "51237584-a45d-47a5-ae89-632a98074b89")
@@ -86923,7 +86923,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86935,7 +86935,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86947,7 +86947,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86983,7 +86983,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 188.7475 45.2375 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87180,7 +87180,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2172e8a8-3477-4aca-b18d-655676dd2fb1")
@@ -87251,7 +87251,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87263,7 +87263,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87275,7 +87275,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87311,7 +87311,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 307.8225 -82.0675 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89470,7 +89470,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ea3d1386-94ce-4a61-bb9a-9b7973fefeb9")
@@ -89541,7 +89541,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89553,7 +89553,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89565,7 +89565,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89601,7 +89601,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 173.5075 -5.5625 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91162,7 +91162,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER/0603"
+		(property "Value" "EMERALD/0603"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8d54adba-5562-4bfc-b5a5-5c57aa9f56c0")
@@ -91233,7 +91233,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165983"
+		(property "LCSC Part #" "C2984266"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91245,7 +91245,7 @@
 				)
 			)
 		)
-		(property "Mfr" "BrtLed(Bright LED Elec)"
+		(property "Mfr" "Everlight Elec"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91257,7 +91257,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "BL-HJC36G-AV-TRB"
+		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -91293,7 +91293,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C165983"
+		(property "Vendor PN" "C2984266"
 			(at 206.5275 27.4575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94510,26 +94510,26 @@
 		)
 	)
 	(gr_text "OUT 9-16"
-		(at 171.958 88.392 90)
+		(at 147.27 87.08 90)
 		(layer "F.SilkS")
 		(uuid "0a46efc2-27a8-4f52-b1cb-c0b52dc45c67")
 		(effects
 			(font
-				(size 1 0.7)
-				(thickness 0.15)
+				(size 1.5 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify right bottom)
 		)
 	)
 	(gr_text "IN 1-8"
-		(at 66.294 124.714 90)
+		(at 67.77 118.08 90)
 		(layer "F.SilkS")
 		(uuid "155cec8a-8f75-4083-9084-495beaf777b6")
 		(effects
 			(font
-				(size 1 0.7)
-				(thickness 0.15)
+				(size 1.5 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -94575,13 +94575,13 @@
 		)
 	)
 	(gr_text "OUT 1-8"
-		(at 171.958 121.539 90)
+		(at 147.27 120.08 90)
 		(layer "F.SilkS")
 		(uuid "669260c7-ec0f-4f8b-bbe7-6eb18723c230")
 		(effects
 			(font
-				(size 1 0.7)
-				(thickness 0.15)
+				(size 1.5 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify right bottom)
@@ -94613,13 +94613,13 @@
 		)
 	)
 	(gr_text "IN 9-16"
-		(at 66.294 92.202 90)
+		(at 67.77 85.08 90)
 		(layer "F.SilkS")
 		(uuid "ecee4f16-47b8-4ea1-89b8-4dcd165bd40a")
 		(effects
 			(font
-				(size 1 0.7)
-				(thickness 0.15)
+				(size 1.5 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
