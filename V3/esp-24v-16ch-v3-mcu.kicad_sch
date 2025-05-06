@@ -3257,7 +3257,7 @@
 		)
 		(uuid "ffc991dd-3976-4ed2-99ae-914cb97cd9d1")
 	)
-	(text "TASMOTA GENERAL CONFIGURATIONS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5; switchmode11 5;\nswitchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5; switchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx\n\nConfigure temperature & humidity sensor:\ni2cdriver12 0\ni2cdriver43 1\n"
+	(text "TASMOTA GENERAL CONFIGURATIONS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5; switchmode11 5;\nswitchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5; switchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx\n\nConfigure temperature & humidity sensor (disable i2c driver 12):\ni2cdriver12 0\n"
 		(exclude_from_sim no)
 		(at 14.986 194.818 0)
 		(effects
