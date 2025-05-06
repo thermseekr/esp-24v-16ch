@@ -3257,9 +3257,9 @@
 		)
 		(uuid "ffc991dd-3976-4ed2-99ae-914cb97cd9d1")
 	)
-	(text "TASMOTA GENERAL CONFIGURATIONS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5; switchmode11 5;\nswitchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5; switchmode16 5\n\nbacklog devicename fararmio066022; friendlyname1 \"\"; friendlyname2 \"\"; friendlyname3 \"\";\nfriendlyname4 \"\"; friendlyname5 \"\"; friendlyname6 \"\"; friendlyname7 \"\"; friendlyname8 \"\"\n\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx"
+	(text "TASMOTA GENERAL CONFIGURATIONS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5; switchmode11 5;\nswitchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5; switchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx\n\nConfigure temperature & humidity sensor:\ni2cdriver12 0\ni2cdriver43 1\n"
 		(exclude_from_sim no)
-		(at 14.986 195.326 0)
+		(at 14.986 194.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,9 +3268,9 @@
 		)
 		(uuid "58b725cf-b09a-4738-8521-2007ca93c8a6")
 	)
-	(text "ESP32 PIN ASSIGNMENT\n25 - GPIO0 - AUTO FLASH MODE\n35 - GPIO1 - SERIAL TX\n34 - GPIO3 - SERIAL RX\n14 - GPIO12 - PHY POWER\n16 - GPIO13 - MCP23017 INTA\n13 - GPIO14 - MCP23017 INTB\n28 - GPIO17 - EMAC CLK\n30 - GPIO18 - EMAC MDIO\n31 - GPIO19 - EMAC TXD0\n33 - GPIO21 - EMAC TXEN\n36 - GPIO22 - EMAC TXD1\n37 - GPIO23 - EMAC MDC\n10 - GPIO25 - EMAC RXD0\n11 - GPIO26 - EMAC RXD1\n12 - GPIO27 - EMAC RX\n8 - GPIO32 - I2C SCL\n9 - GPIO33 - I2C SDA"
+	(text "ESP32 PIN ASSIGNMENT\n\n25 - GPIO0 - AUTO FLASH MODE\n35 - GPIO1 - SERIAL TX\n34 - GPIO3 - SERIAL RX\n14 - GPIO12 - PHY POWER\n16 - GPIO13 - MCP23017 INTA\n13 - GPIO14 - MCP23017 INTB\n28 - GPIO17 - EMAC CLK\n30 - GPIO18 - EMAC MDIO\n31 - GPIO19 - EMAC TXD0\n33 - GPIO21 - EMAC TXEN\n36 - GPIO22 - EMAC TXD1\n37 - GPIO23 - EMAC MDC\n10 - GPIO25 - EMAC RXD0\n11 - GPIO26 - EMAC RXD1\n12 - GPIO27 - EMAC RX\n8 - GPIO32 - I2C SCL\n9 - GPIO33 - I2C SDA"
 		(exclude_from_sim no)
-		(at 120.904 195.834 0)
+		(at 120.904 195.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3281,7 +3281,7 @@
 	)
 	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"ESP-24V-16ch-v3\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10240,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
 		(exclude_from_sim no)
-		(at 14.732 141.732 0)
+		(at 14.732 129.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 	)
 	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[160,161,162,163,164,165,166,167,168,169,170,\n171,172,173,174,175,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239]}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
 		(exclude_from_sim no)
-		(at 14.732 162.56 0)
+		(at 14.732 150.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
