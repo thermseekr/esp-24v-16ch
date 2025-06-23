@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -5757,7 +5757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -5775,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -5793,7 +5793,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -6753,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -8881,7 +8881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -8935,7 +8935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 227.33 113.03 0)
 			(effects
 				(font
@@ -8953,7 +8953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 227.33 113.03 0)
 			(effects
 				(font
@@ -8971,7 +8971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -9436,7 +9436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 30.48 39.37 0)
 			(effects
 				(font
@@ -9490,7 +9490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -9508,7 +9508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -9526,7 +9526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 30.48 41.91 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 224.79 39.37 0)
 			(effects
 				(font
@@ -10336,7 +10336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 227.33 39.37 0)
 			(effects
 				(font
@@ -10354,7 +10354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 227.33 39.37 0)
 			(effects
 				(font
@@ -10372,7 +10372,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 224.79 41.91 0)
 			(effects
 				(font
@@ -10891,7 +10891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 30.48 113.03 0)
 			(effects
 				(font
@@ -10945,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -10963,7 +10963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -10981,7 +10981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 30.48 115.57 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -11086,7 +11086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -11104,7 +11104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -11122,7 +11122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -11173,7 +11173,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -11227,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 97.79 149.86 0)
 			(effects
 				(font
@@ -11245,7 +11245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 97.79 149.86 0)
 			(effects
 				(font
@@ -11263,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 95.25 152.4 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -11368,7 +11368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 162.56 149.86 0)
 			(effects
 				(font
@@ -11386,7 +11386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 162.56 149.86 0)
 			(effects
 				(font
@@ -11404,7 +11404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 160.02 152.4 0)
 			(effects
 				(font
@@ -15029,7 +15029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -15083,7 +15083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -15101,7 +15101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -15119,7 +15119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 95.25 78.74 0)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -15354,7 +15354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -15372,7 +15372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -15390,7 +15390,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 160.02 78.74 0)
 			(effects
 				(font
@@ -17760,7 +17760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -17814,7 +17814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 227.33 149.86 0)
 			(effects
 				(font
@@ -17832,7 +17832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 227.33 149.86 0)
 			(effects
 				(font
@@ -17850,7 +17850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -18107,7 +18107,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -18161,7 +18161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 33.02 76.2 0)
 			(effects
 				(font
@@ -18179,7 +18179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 33.02 76.2 0)
 			(effects
 				(font
@@ -18197,7 +18197,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 30.48 78.74 0)
 			(effects
 				(font
@@ -20178,7 +20178,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -20232,7 +20232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -20250,7 +20250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -20268,7 +20268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -21744,7 +21744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -21798,7 +21798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 162.56 113.03 0)
 			(effects
 				(font
@@ -21816,7 +21816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 162.56 113.03 0)
 			(effects
 				(font
@@ -21834,7 +21834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 160.02 115.57 0)
 			(effects
 				(font
@@ -23833,7 +23833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,6k/100mW"
+		(property "Value" "6,8k/100mW"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -23887,7 +23887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF5601T5E"
+		(property "Mfr PN" "0603WAF6801T5E"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -23905,7 +23905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23189"
+		(property "Vendor PN" "C23212 "
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -23923,7 +23923,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23189"
+		(property "LCSC Part #" "C23212"
 			(at 30.48 152.4 0)
 			(effects
 				(font
