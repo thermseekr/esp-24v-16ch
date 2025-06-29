@@ -5,9 +5,9 @@
 	(uuid "2bc5a21a-1d79-419d-a592-6852cc07b00a")
 	(paper "A4")
 	(title_block
-		(title "ESP 16x 24VDC Input 16x 24VDC Output Module")
-		(date "2024-11-06")
-		(rev "V3")
+		(title "ESP 24V 16xIn/16xOut/4xNTC Module")
+		(date "2025-06-29")
+		(rev "V3.2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
@@ -2107,7 +2107,7 @@
 		(instances
 			(project "esp-24v-16ch-v3"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "8")
+					(page "7")
 				)
 			)
 		)

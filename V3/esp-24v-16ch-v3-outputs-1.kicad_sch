@@ -5,9 +5,9 @@
 	(uuid "cf748074-b982-4d17-bcc8-c4c01118149b")
 	(paper "A4")
 	(title_block
-		(title "ESP 16x 24VDC Input 16x 24VDC Output Module")
-		(date "2024-11-06")
-		(rev "V3")
+		(title "ESP 24V 16xIn/16xOut/4xNTC Module")
+		(date "2025-06-29")
+		(rev "V3.2")
 	)
 	(lib_symbols
 		(symbol "Device:LED_Small"
