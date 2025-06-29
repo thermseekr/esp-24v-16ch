@@ -1,0 +1,25 @@
+Copyright (c) 2023 Tales Maschio
+
+This hardware project is licensed under the Creative Commons 
+Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You are free to:
+  ✔ Share — copy and redistribute the material in any medium or format
+  ✔ Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  📌 Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+  🚫 NonCommercial — You may not use the material for commercial purposes.
+
+A full copy of the license is available at:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Commercial Use:
+If you wish to use this project or any part of it for commercial purposes, 
+you must obtain a separate commercial license. Please contact:
+
+Tales Maschio 
+Email: talesmaschio@gmail.com  
+Website: https://www.github.com/thermseekr/esp-24v-16ch
+
+SPDX-License-Identifier: CC-BY-NC-4.0
