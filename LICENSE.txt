@@ -1,4 +1,4 @@
-Copyright (c) 2023 Tales Maschio
+Copyright (c) 2022 Tales Maschio
 
 This hardware project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
