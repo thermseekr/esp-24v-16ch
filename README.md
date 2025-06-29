@@ -1,5 +1,5 @@
 # ESP-24V-16CH
-ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC outputs for external actuators. V3.1 added an AHT20 temperature and Humidity sensor for cabinet environmental monitoring. V3.2 added a ADS1115 A/D converter with i2c communication for use with NTC thermistors. Thermistors 1 and 2 can be connected using the connector. Thermistors 3 and 4 must use the provided copper pads on the top layer of the board.
+ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC outputs for external actuators. V3.1 added an AHT20 temperature and Humidity sensor for cabinet environmental monitoring. V3.2 added a ADS1115 A/D converter with i2c communication for use with NTC thermistors. Thermistors 1 and 2 can be connected using the provided connector. Thermistors 3 and 4 must use the provided copper pads on the top layer of the board.
 
 The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/componentes/suportes/sp7-suporte-para-montagem-de-placa-de-circuito-impresso-em-trilho-din) for details.
 
