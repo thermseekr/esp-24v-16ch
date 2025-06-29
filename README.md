@@ -7,7 +7,7 @@ The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazil
 
 ## VERSION HISTORY
 
-ESP-24V-16CH-V3.2 - Added 4 NTC inputs using an ADS1115 A/D converter with i2c. Reduced current on the LEDs, brightness was too high. Added series resistor and rerouted clock track for better impedance and ring control. Rerouted TX/RX and SCL/SDA tracks for improved signal quality. Returnet ESP32 to 16MB version.
+ESP-24V-16CH-V3.2 - Added 4 NTC inputs using an ADS1115 A/D converter with i2c. Reduced current on the LEDs, brightness was too high. Added series resistor and rerouted clock track for better impedance and ring control. Rerouted TX/RX and SCL/SDA tracks for improved signal quality. Layers reordered so the ground plane is directly below the top layer. Returned ESP32 to 16MB version.
 
 ESP-24V-16CH-V3.1 - Added AHT20 onboard temperature and humidity sensor for cabinet environment monitoring. Replaced ESP32 16MB for 4MB because no stock at JLCPCB.
 
