@@ -6972,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3013812"
+		(property "LCSC Part #" "C161353"
 			(at 50.8 184.15 0)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr" "Vishay"
+		(property "Mfr" "Murata Electronics"
 			(at 48.26 177.8 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "VJ1206Y102MXFAT4X"
+		(property "Mfr PN" "GR431BR7LA102KW66L"
 			(at 48.26 177.8 0)
 			(effects
 				(font
@@ -7017,7 +7017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C3013812"
+		(property "Vendor PN" "C161353"
 			(at 48.26 177.8 0)
 			(effects
 				(font
