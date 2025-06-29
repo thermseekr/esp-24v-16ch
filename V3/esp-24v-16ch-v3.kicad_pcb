@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 0 6.1 90)
 			(layer "F.Fab")
 			(uuid "ae64326f-8e6b-4d22-93e1-ea1177855b19")
@@ -1558,7 +1558,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1594,7 +1594,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 191.8 -12.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1618,7 +1618,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 191.8 -12.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1654,7 +1654,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 191.8 -12.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20165,7 +20165,7 @@
 				)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 0 6.1 90)
 			(layer "F.Fab")
 			(uuid "cbdcdcf4-d7c4-4717-8a19-e625544cc424")
@@ -20200,7 +20200,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20236,7 +20236,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 200.055 -4.425 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20260,7 +20260,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 200.055 -4.425 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20296,7 +20296,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 200.055 -4.425 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41198,7 +41198,7 @@
 				)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 0 6.1 90)
 			(layer "F.Fab")
 			(uuid "dc838429-f3ee-4ab8-862b-31dcdf1a373f")
@@ -41233,7 +41233,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41269,7 +41269,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 216.565 12.085 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41293,7 +41293,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 216.565 12.085 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41329,7 +41329,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 216.565 12.085 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -92871,7 +92871,7 @@
 				)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 0 6.1 90)
 			(layer "F.Fab")
 			(uuid "ffc5490f-b573-4b67-b29d-89dedeac0539")
@@ -92906,7 +92906,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -92942,7 +92942,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 208.31 3.83 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -92966,7 +92966,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 208.31 3.83 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -93002,7 +93002,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 208.31 3.83 0)
 			(layer "F.Fab")
 			(hide yes)

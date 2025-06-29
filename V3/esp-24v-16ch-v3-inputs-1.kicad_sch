@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(symbol "Tales:OR-3H4-4"
+		(symbol "Tales:OR-3H7-4"
 			(pin_names
 				(offset 1.016)
 			)
@@ -767,7 +767,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OR-3H4-4"
+			(property "Value" "OR-3H7-4"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -795,7 +795,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Quad AC/DC Optocoupler, Vce 80V, CTR 100%, SOP16"
+			(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -822,7 +822,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OR-3H4-4_0_1"
+			(symbol "OR-3H7-4_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -832,64 +832,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center -3.175 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.175 2.54)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -990,18 +932,6 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.635) (xy -3.81 -0.635) (xy -2.54 -0.635) (xy -3.175 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 -0.635) (xy -1.905 0.635) (xy -0.635 0.635) (xy -1.27 -0.635)
 					)
 					(stroke
@@ -1049,7 +979,7 @@
 					)
 				)
 			)
-			(symbol "OR-3H4-4_1_1"
+			(symbol "OR-3H7-4_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1123,7 +1053,7 @@
 					)
 				)
 			)
-			(symbol "OR-3H4-4_2_1"
+			(symbol "OR-3H7-4_2_1"
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
@@ -1197,7 +1127,7 @@
 					)
 				)
 			)
-			(symbol "OR-3H4-4_3_1"
+			(symbol "OR-3H7-4_3_1"
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
@@ -1271,7 +1201,7 @@
 					)
 				)
 			)
-			(symbol "OR-3H4-4_4_1"
+			(symbol "OR-3H7-4_4_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -5434,7 +5364,7 @@
 		(uuid "efb35340-322e-4b3f-b754-4982866a7f01")
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 252.73 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5451,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 247.65 82.55 0)
 			(effects
 				(font
@@ -5461,13 +5391,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 247.65 78.74 0)
+			(at 252.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5481,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 252.73 73.66 0)
 			(effects
 				(font
@@ -5499,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 251.46 85.09 0)
 			(effects
 				(font
@@ -5508,7 +5436,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 252.73 73.66 0)
 			(effects
 				(font
@@ -5517,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 252.73 73.66 0)
 			(effects
 				(font
@@ -10406,7 +10334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 252.73 110.49 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -10423,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 247.65 119.38 0)
 			(effects
 				(font
@@ -10433,13 +10361,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 247.65 115.57 0)
+			(at 252.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10453,7 +10379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 252.73 110.49 0)
 			(effects
 				(font
@@ -10471,7 +10397,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 251.46 121.92 0)
 			(effects
 				(font
@@ -10480,7 +10406,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 252.73 110.49 0)
 			(effects
 				(font
@@ -10489,7 +10415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 252.73 110.49 0)
 			(effects
 				(font
@@ -12058,7 +11984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 252.73 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12075,7 +12001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 247.65 45.72 0)
 			(effects
 				(font
@@ -12085,13 +12011,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 247.65 41.91 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12105,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 252.73 36.83 0)
 			(effects
 				(font
@@ -12123,7 +12047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 251.46 48.26 0)
 			(effects
 				(font
@@ -12132,7 +12056,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 252.73 36.83 0)
 			(effects
 				(font
@@ -12141,7 +12065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 252.73 36.83 0)
 			(effects
 				(font
@@ -12244,7 +12168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 252.73 147.32 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -12261,7 +12185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 247.65 156.21 0)
 			(effects
 				(font
@@ -12271,13 +12195,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 247.65 152.4 0)
+			(at 252.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12291,7 +12213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -12309,7 +12231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 251.46 158.75 0)
 			(effects
 				(font
@@ -12318,7 +12240,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -12327,7 +12249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -12496,7 +12418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 187.96 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12513,7 +12435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 182.88 45.72 0)
 			(effects
 				(font
@@ -12523,13 +12445,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 182.88 41.91 0)
+			(at 187.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12543,7 +12463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 187.96 36.83 0)
 			(effects
 				(font
@@ -12561,7 +12481,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 186.69 48.26 0)
 			(effects
 				(font
@@ -12570,7 +12490,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 187.96 36.83 0)
 			(effects
 				(font
@@ -12579,7 +12499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 187.96 36.83 0)
 			(effects
 				(font
@@ -12748,7 +12668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 187.96 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12765,7 +12685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -12775,13 +12695,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 182.88 78.74 0)
+			(at 187.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12795,7 +12713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -12813,7 +12731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -12822,7 +12740,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -12831,7 +12749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -16739,7 +16657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 58.42 110.49 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -16756,7 +16674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -16766,13 +16684,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 53.34 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -16786,7 +16702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -16804,7 +16720,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -16813,7 +16729,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -16822,7 +16738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -18438,7 +18354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 123.19 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18455,7 +18371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -18465,13 +18381,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 118.11 41.91 0)
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18485,7 +18399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -18503,7 +18417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -18512,7 +18426,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -18521,7 +18435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -18906,7 +18820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 187.96 110.49 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -18923,7 +18837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -18933,13 +18847,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 182.88 115.57 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18953,7 +18865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -18971,7 +18883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 186.69 121.92 0)
 			(effects
 				(font
@@ -18980,7 +18892,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -18989,7 +18901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -19224,7 +19136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 123.19 110.49 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -19241,7 +19153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 118.11 119.38 0)
 			(effects
 				(font
@@ -19251,13 +19163,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 118.11 115.57 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -19271,7 +19181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -19289,7 +19199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 121.92 121.92 0)
 			(effects
 				(font
@@ -19298,7 +19208,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -19307,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -20302,7 +20212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 58.42 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20319,7 +20229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -20329,13 +20239,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 53.34 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20349,7 +20257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -20367,7 +20275,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -20376,7 +20284,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -20385,7 +20293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -20629,7 +20537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 58.42 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -20646,7 +20554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 53.34 82.55 0)
 			(effects
 				(font
@@ -20656,13 +20564,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 53.34 78.74 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20676,7 +20582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -20694,7 +20600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 57.15 85.09 0)
 			(effects
 				(font
@@ -20703,7 +20609,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -20712,7 +20618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -22422,7 +22328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 58.42 147.32 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -22439,7 +22345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 53.34 156.21 0)
 			(effects
 				(font
@@ -22449,13 +22355,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 53.34 152.4 0)
+			(at 58.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -22469,7 +22373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 58.42 147.32 0)
 			(effects
 				(font
@@ -22487,7 +22391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 57.15 158.75 0)
 			(effects
 				(font
@@ -22496,7 +22400,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 58.42 147.32 0)
 			(effects
 				(font
@@ -22505,7 +22409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 58.42 147.32 0)
 			(effects
 				(font
@@ -23444,7 +23348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 187.96 147.32 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -23461,7 +23365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -23471,13 +23375,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 182.88 152.4 0)
+			(at 187.96 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -23491,7 +23393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 187.96 147.32 0)
 			(effects
 				(font
@@ -23509,7 +23411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 186.69 158.75 0)
 			(effects
 				(font
@@ -23518,7 +23420,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 187.96 147.32 0)
 			(effects
 				(font
@@ -23527,7 +23429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 187.96 147.32 0)
 			(effects
 				(font
@@ -23630,7 +23532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 123.19 147.32 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -23647,7 +23549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 118.11 156.21 0)
 			(effects
 				(font
@@ -23657,13 +23559,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 118.11 152.4 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -23677,7 +23577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -23695,7 +23595,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 121.92 158.75 0)
 			(effects
 				(font
@@ -23704,7 +23604,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -23713,7 +23613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -24098,7 +23998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:OR-3H4-4")
+		(lib_id "Tales:OR-3H7-4")
 		(at 123.19 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -24115,7 +24015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OR-3H4-4"
+		(property "Value" "OR-3H7-4"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -24125,13 +24025,11 @@
 			)
 		)
 		(property "Footprint" "Tales:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 118.11 78.74 0)
+			(at 123.19 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -24145,7 +24043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 100%, SOP16"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -24163,7 +24061,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2838167"
+		(property "LCSC Part #" "C2838427"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -24172,7 +24070,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr PN" "OR-3H4-4GB-TA1-GK"
+		(property "Mfr PN" "OR-3H7-4GB-TA1-G"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -24181,7 +24079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2838167"
+		(property "Vendor PN" "C2838427"
 			(at 123.19 73.66 0)
 			(effects
 				(font
