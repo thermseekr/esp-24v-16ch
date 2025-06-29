@@ -1,7 +1,6 @@
 Copyright (c) 2023 Tales Maschio
 
-This hardware project is licensed under the Creative Commons 
-Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+This hardware project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 You are free to:
   ✔ Share — copy and redistribute the material in any medium or format
@@ -15,8 +14,7 @@ A full copy of the license is available at:
 https://creativecommons.org/licenses/by-nc/4.0/
 
 Commercial Use:
-If you wish to use this project or any part of it for commercial purposes, 
-you must obtain a separate commercial license. Please contact:
+If you wish to use this project or any part of it for commercial purposes, you must obtain a separate commercial license. Please contact:
 
 Tales Maschio 
 Email: talesmaschio@gmail.com  
