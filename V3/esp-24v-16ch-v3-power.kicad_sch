@@ -9370,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "DB142V-5.08-2P-GN"
+		(property "Mfr PN" "DB142V-5.08-2P"
 			(at 34.29 36.83 0)
 			(effects
 				(font

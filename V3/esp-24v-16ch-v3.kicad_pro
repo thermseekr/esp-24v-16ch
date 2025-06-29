@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.4
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -722,7 +722,7 @@
     ],
     [
       "8d06b51d-d00b-4f80-9ffb-ab0131290cf2",
-      "GPIO Expanders"
+      "I2C Devices"
     ],
     [
       "8a785490-18a4-4ecd-a6c6-65e5e390ed91",

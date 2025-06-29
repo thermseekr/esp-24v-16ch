@@ -2559,7 +2559,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8d06b51d-d00b-4f80-9ffb-ab0131290cf2")
-		(property "Sheetname" "GPIO Expanders"
+		(property "Sheetname" "I2C Devices"
 			(at 110.49 91.9984 0)
 			(effects
 				(font
@@ -2568,7 +2568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v3-expanders.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v3-i2c.kicad_sch"
 			(at 110.49 136.4746 0)
 			(effects
 				(font
@@ -2907,7 +2907,7 @@
 			)
 			(uuid "975db936-5dc8-40df-a242-75aa36feca44")
 		)
-		(pin "I2C_SCL" bidirectional
+		(pin "I2C_SCL" input
 			(at 167.64 92.71 90)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 			)
 			(uuid "952d0b31-7779-417b-a042-736141902d6d")
 		)
-		(pin "MCP1-INTB" input
+		(pin "MCP1-INTB" output
 			(at 160.02 92.71 90)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 			)
 			(uuid "17e903a1-39d9-41ff-9089-9b1c6912d310")
 		)
-		(pin "MCP1-INTA" input
+		(pin "MCP1-INTA" output
 			(at 157.48 92.71 90)
 			(effects
 				(font
@@ -3213,7 +3213,7 @@
 			)
 			(uuid "e17498cf-aa28-496c-8087-17c898e1be92")
 		)
-		(pin "I2C_SCL" bidirectional
+		(pin "I2C_SCL" output
 			(at 167.64 54.61 270)
 			(effects
 				(font
