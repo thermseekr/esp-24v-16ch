@@ -5702,7 +5702,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 96.52 140.3413 0)
 			(effects
 				(font
@@ -5802,6 +5802,15 @@
 			)
 		)
 		(property "Package" "0402/1005"
+			(at 99.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
 			(at 99.06 140.97 0)
 			(effects
 				(font

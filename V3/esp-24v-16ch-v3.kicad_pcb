@@ -17480,7 +17480,7 @@
 				)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "36384d11-65a6-4d26-b827-f128ad81f315")
@@ -17624,6 +17624,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a5bcf87-3048-4ea0-815f-b01a22767112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfba4085-f8e5-46ed-a6b2-864a87b23447")
 			(effects
 				(font
 					(size 1 1)
