@@ -725,72 +725,132 @@
       "I2C Devices"
     ],
     [
-      "4e1ea464-0bf3-4161-b590-743a033ee90b",
-      "Outputs 1-16"
+      "f859c883-9d79-4035-b255-4f20ee57230d",
+      "Output 1"
     ],
     [
       "f221a330-0446-4dbb-9fc4-488df890c8d3",
-      "Input1"
+      "Input 1"
     ],
     [
       "ad3d18f6-6bf3-4419-a19f-d246dbccbcac",
-      "Input2"
+      "Input 2"
     ],
     [
       "f6c748e6-9b1e-4b33-a538-ad6ca32222da",
-      "Input3"
+      "Input 3"
     ],
     [
       "25c70f50-017c-4bcc-acb5-84c7cb4acbc3",
-      "Input4"
+      "Input 4"
     ],
     [
       "3bddd7f0-432c-4f3f-ac0a-69652e55cc15",
-      "Input5"
+      "Input 5"
     ],
     [
       "56e70c32-022f-47a3-b38a-e8821f093b1d",
-      "Input6"
+      "Input 6"
     ],
     [
       "dcf656f2-78f6-4d34-a979-fbebc99d5b8c",
-      "Input7"
+      "Input 7"
     ],
     [
       "13488771-d756-4bf7-9132-6ca3e4a9325a",
-      "Input8"
+      "Input 8"
     ],
     [
       "5e3f413e-e7e6-4fed-8c23-676455a39ccf",
-      "Input9"
+      "Input 9"
     ],
     [
       "827c07d6-f3fd-4d01-af31-6187e55552da",
-      "Input10"
+      "Input 10"
     ],
     [
       "33bd2dd9-fdba-4639-85e9-44cc18eb8635",
-      "Input11"
+      "Input 11"
     ],
     [
       "cb141cf3-e7d9-40be-a333-2dc8e639890f",
-      "Input12"
+      "Input 12"
     ],
     [
       "8378359f-2bcc-419a-b6ab-29c71134517c",
-      "Input13"
+      "Input 13"
     ],
     [
       "a09dfec7-ec9f-4b94-8882-25d9953ce25d",
-      "Input14"
+      "Input 14"
     ],
     [
       "da9e1ae2-f099-4806-bcb3-ae57d89b817a",
-      "Input15"
+      "Input 15"
     ],
     [
       "b1abb084-6905-4455-9851-355c17c6d763",
-      "Input16"
+      "Input 16"
+    ],
+    [
+      "7e58906f-db1c-4ecb-8d31-ce9f4ea8e299",
+      "Output 2"
+    ],
+    [
+      "3a243df8-db7d-4641-87d2-b8850c504ddf",
+      "Output 3"
+    ],
+    [
+      "471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb",
+      "Output 4"
+    ],
+    [
+      "946b081e-f05c-4bcc-8c7e-32876d800f86",
+      "Output 5"
+    ],
+    [
+      "032d24f7-dea6-43c8-b36e-6c84d69a3256",
+      "Output 6"
+    ],
+    [
+      "9735d90e-9107-44ae-97cf-e90e1d690a19",
+      "Output 7"
+    ],
+    [
+      "f18c37e2-98aa-4f90-9189-e898a62cdeb8",
+      "Output 8"
+    ],
+    [
+      "58d16e81-f114-46b0-87d3-9324f007724a",
+      "Output 9"
+    ],
+    [
+      "118d8d95-c0ce-4d84-8406-4e7809444f6f",
+      "Output 10"
+    ],
+    [
+      "1c051e73-1175-469e-a364-cac197036f64",
+      "Output 11"
+    ],
+    [
+      "609d2beb-47a4-466a-8275-c7d831b810a1",
+      "Output 12"
+    ],
+    [
+      "da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a",
+      "Output 13"
+    ],
+    [
+      "dbf038c9-8c09-4484-aee5-b965d923f833",
+      "Output 14"
+    ],
+    [
+      "7ca24c0f-2468-4efa-8ee6-749df6aa5e15",
+      "Output 15"
+    ],
+    [
+      "18f82f59-0c23-40f7-8b4c-a32f0bda1493",
+      "Output 16"
     ]
   ],
   "text_variables": {}
