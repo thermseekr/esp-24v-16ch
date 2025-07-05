@@ -2836,7 +2836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0805_2012Metric"
+		(property "Footprint" "Tales:C_0603_1608Metric"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2863,7 +2863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Ceramic"
+		(property "Technology" "Ceramic X7R"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2872,7 +2872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0805/2012"
+		(property "Case" "0603/1608"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "FH"
+		(property "Mfr" "Samsung"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805B333K500NT"
+		(property "Mfr PN" "CL10B333KB8NNNC"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C1739"
+		(property "Vendor PN" "C21117"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1739"
+		(property "LCSC Part #" "C21117"
 			(at 146.05 100.3362 0)
 			(effects
 				(font
@@ -4001,24 +4001,24 @@
 		(fields_autoplaced yes)
 		(uuid "ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(property "Reference" "C41"
-			(at 76.2 95.2562 0)
+			(at 81.28 95.2562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "33nF/50V"
-			(at 76.2 97.7962 0)
+		(property "Value" "1nF/50V"
+			(at 81.28 97.7962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0805_2012Metric"
+		(property "Footprint" "Tales:C_0603_1608Metric"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4045,7 +4045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Ceramic"
+		(property "Technology" "Ceramic X7R"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4054,7 +4054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0805/2012"
+		(property "Case" "0603/1608"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4063,7 +4063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "FH"
+		(property "Mfr" "Samsung"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0805B333K500NT"
+		(property "Mfr PN" "CL10B102KB8NNNC"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4090,7 +4090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C1739"
+		(property "Vendor PN" "C1588"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4099,13 +4099,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1739"
-			(at 76.2 100.3362 0)
+		(property "LCSC Part #" "C1588"
+			(at 81.28 100.3362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "JLCPCB BOM" "1"
