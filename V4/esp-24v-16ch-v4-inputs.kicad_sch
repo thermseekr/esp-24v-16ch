@@ -2611,9 +2611,9 @@
 		(at 96.52 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2549c105-ebf4-4ba5-a703-0644c578ca58")
 		(property "Reference" "D29"
@@ -3154,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EMERALD/0603"
+		(property "Value" "WHITE/0603"
 			(at 123.19 109.22 90)
 			(effects
 				(font
@@ -3199,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Everlight Elec"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -3208,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -3235,7 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 123.19 111.76 90)
 			(effects
 				(font

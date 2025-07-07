@@ -1560,7 +1560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EMERALD/0603"
+		(property "Value" "WHITE/0603"
 			(at 142.24 82.55 90)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Everlight Elec"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1614,7 +1614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1N/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1650,7 +1650,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 142.24 85.09 90)
 			(effects
 				(font
