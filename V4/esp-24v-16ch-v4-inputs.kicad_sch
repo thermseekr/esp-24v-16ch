@@ -502,6 +502,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -2075,7 +2084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -3213,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -3286,6 +3295,15 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -3785,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -4819,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 125.73 97.79 0)
 			(effects
 				(font

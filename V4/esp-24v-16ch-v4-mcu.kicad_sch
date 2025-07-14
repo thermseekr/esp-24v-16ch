@@ -1832,10 +1832,10 @@
 			)
 			(symbol "UMH3N_0_1"
 				(rectangle
-					(start 0.254 0.508)
-					(end -2.54 -0.508)
+					(start -6.35 0.508)
+					(end -4.826 -0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1844,7 +1844,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 1.524) (xy 3.175 -1.524)
+						(xy -0.762 0) (xy -4.826 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -1856,7 +1868,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0.635) (xy 5.08 2.54)
+						(xy -0.635 0.635) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1868,7 +1880,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 0.254 0)
+						(xy -0.635 -0.635) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1880,30 +1892,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 -0.635) (xy 5.08 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778) (xy 3.81 -1.778)
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1915,8 +1904,19 @@
 				)
 			)
 			(symbol "UMH3N_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "B1"
 						(effects
@@ -1934,7 +1934,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "C1"
 						(effects
@@ -1952,7 +1952,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "E1"
 						(effects
@@ -1971,8 +1971,19 @@
 				)
 			)
 			(symbol "UMH3N_2_1"
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "B2"
 						(effects
@@ -1990,7 +2001,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "C2"
 						(effects
@@ -2008,7 +2019,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "E2"
 						(effects
@@ -3791,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Uniroyal"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -3809,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0402FR-0710KL"
+		(property "Mfr PN" "0402WGF1002TCE"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -3827,7 +3838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C60490"
+		(property "Vendor PN" "C25744"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -3836,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C60490"
+		(property "LCSC Part #" "C25744"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -3941,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Uniroyal"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -3959,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0402FR-0710KL"
+		(property "Mfr PN" "0402WGF1002TCE"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -3977,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C60490"
+		(property "Vendor PN" "C25744"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -3986,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C60490"
+		(property "LCSC Part #" "C25744"
 			(at 207.01 58.42 0)
 			(effects
 				(font
@@ -4194,7 +4205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -4247,7 +4258,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:UMH3N")
-		(at 102.87 59.69 0)
+		(at 106.68 59.69 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4255,7 +4266,7 @@
 		(dnp no)
 		(uuid "4129b914-a62a-4525-a8b3-a458ad1e0d84")
 		(property "Reference" "Q3"
-			(at 110.49 58.4199 0)
+			(at 114.3 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4275,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 110.49 60.9599 0)
+			(at 114.3 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,8 +4283,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-363_SC-70-6"
-			(at 102.997 70.866 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 106.807 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4292,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -4290,17 +4310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCPCB BOM" "1"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4320,7 @@
 			)
 		)
 		(property "LCSC Part #" "C62892"
-			(at 110.49 63.5 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4329,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4338,7 @@
 			)
 		)
 		(property "Vendor PN" "C62892"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4347,7 @@
 			)
 		)
 		(property "Case" "SOT-363"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4356,7 @@
 			)
 		)
 		(property "Mfr" "Jiangsu"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4365,7 @@
 			)
 		)
 		(property "Mfr PN" "UMH3N"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4374,7 @@
 			)
 		)
 		(property "Technology" "~"
-			(at 102.87 59.69 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4736,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:UMH3N")
-		(at 102.87 80.01 0)
+		(at 106.68 80.01 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4734,7 +4745,7 @@
 		(dnp no)
 		(uuid "55ce90c9-f586-4496-9458-c2eec6d26054")
 		(property "Reference" "Q3"
-			(at 110.49 78.7399 0)
+			(at 114.3 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4754,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 110.49 81.2799 0)
+			(at 114.3 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,8 +4762,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:SOT-363_SC-70-6"
-			(at 102.997 68.834 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 106.807 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +4771,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -4769,17 +4789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCPCB BOM" "1"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4799,7 @@
 			)
 		)
 		(property "LCSC Part #" "C62892"
-			(at 110.49 83.82 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4808,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4817,7 @@
 			)
 		)
 		(property "Vendor PN" "C62892"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4826,7 @@
 			)
 		)
 		(property "Case" "SOT-363"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4835,7 @@
 			)
 		)
 		(property "Mfr" "Jiangsu"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4844,7 @@
 			)
 		)
 		(property "Mfr PN" "UMH3N"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4853,7 @@
 			)
 		)
 		(property "Technology" "~"
-			(at 102.87 80.01 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 250.19 109.22 0)
 			(effects
 				(font
@@ -5545,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Uniroyal"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -5563,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0402FR-0710KL"
+		(property "Mfr PN" "0402WGF1002TCE"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -5581,7 +5592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C60490"
+		(property "Vendor PN" "C25744"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -5590,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C60490"
+		(property "LCSC Part #" "C25744"
 			(at 260.35 90.1699 0)
 			(effects
 				(font
@@ -5731,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 231.14 109.22 0)
 			(effects
 				(font
@@ -6124,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 232.41 60.96 0)
 			(effects
 				(font

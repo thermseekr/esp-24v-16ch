@@ -6490,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 43.18 129.54 0)
 			(effects
 				(font
@@ -7334,7 +7334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "4x0402"
+		(property "Case" "0402x4"
 			(at 64.77 41.91 0)
 			(effects
 				(font
@@ -8253,7 +8253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "4x0402"
+		(property "Case" "0402x4"
 			(at 254 130.81 0)
 			(effects
 				(font
@@ -8787,7 +8787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Uniroyal"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0402FR-0710KL"
+		(property "Mfr PN" "0402WGF1002TCE"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -8823,7 +8823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C60490"
+		(property "Vendor PN" "C25744"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -8832,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C60490"
+		(property "LCSC Part #" "C25744"
 			(at 133.35 125.095 0)
 			(effects
 				(font
@@ -10129,7 +10129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "4x0402"
+		(property "Case" "0402x4"
 			(at 92.71 41.91 0)
 			(effects
 				(font
@@ -10633,7 +10633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" "1%"
 			(at 199.39 116.84 0)
 			(effects
 				(font
