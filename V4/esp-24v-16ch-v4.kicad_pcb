@@ -12289,7 +12289,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R122"
-			(at -0.153641 0.068 0)
+			(at -0.153641 0.38 0)
 			(layer "Cmts.User")
 			(uuid "bef5b6a4-ff43-4c02-beea-a0d7e55c8de6")
 			(effects
@@ -44741,12 +44741,12 @@
 		(descr "Sensirion DFN-8 SHT3x-DIS (https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf)")
 		(tags "sensirion dfn nolead")
 		(property "Reference" "U9"
-			(at 0 -2.25 0)
-			(layer "F.SilkS")
+			(at 0 0.044 0)
+			(layer "Cmts.User")
 			(uuid "9f89843e-5288-4837-b2f0-8eb2dd477f14")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -89990,7 +89990,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R124"
-			(at 0 0.38 0)
+			(at -0.76 -0.38 0)
 			(layer "Cmts.User")
 			(uuid "ddc23415-edeb-42aa-8d5f-8376d603d304")
 			(effects
