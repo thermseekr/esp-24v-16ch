@@ -3464,6 +3464,66 @@
 		)
 		(uuid "ff1e47fd-7a4d-44e3-abc2-8ea2a65ef3c4")
 	)
+	(label "AIN0"
+		(at 90.17 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11411421-dd24-4bdb-bb0f-ac5c67113a55")
+	)
+	(label "{slash}MCP_IN_RST"
+		(at 26.67 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47e6eb57-6638-4b37-9901-7009fd161dc0")
+	)
+	(label "AIN1"
+		(at 90.17 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6748c0ea-02fa-4082-b923-0faa3b0a0221")
+	)
+	(label "{slash}MCP_OUT_RST"
+		(at 101.6 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9625ad91-abe4-4937-a79a-180120e1d004")
+	)
+	(label "NTC1"
+		(at 55.88 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a1edce9-22bf-49c2-a1e8-ac6c00a9edee")
+	)
+	(label "NTC2"
+		(at 55.88 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f27919d2-053a-429d-9739-1a92da9a1cd8")
+	)
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 81.28 80.01 0)

@@ -3358,6 +3358,56 @@
 		)
 		(uuid "ffc991dd-3976-4ed2-99ae-914cb97cd9d1")
 	)
+	(label "{slash}RTS"
+		(at 80.01 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2661ebc0-0a7f-4e1a-8507-6defe05c8803")
+	)
+	(label "TXD"
+		(at 157.48 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40548a91-dc9e-4a3e-9a0b-7883b40bda34")
+	)
+	(label "ESP_EN"
+		(at 151.13 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "589fe3d5-e767-44e6-a1e0-94d20c331743")
+	)
+	(label "{slash}DTR"
+		(at 80.01 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f4998f1-3517-48cb-b0eb-40cc88efb063")
+	)
+	(label "RXD"
+		(at 157.48 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8edfde87-acb3-4fea-8950-e9d0762f206f")
+	)
 	(label "I2C_SCL"
 		(at 243.84 116.84 180)
 		(effects
@@ -3377,6 +3427,16 @@
 			(justify right bottom)
 		)
 		(uuid "a29829ff-6f2f-453f-b055-5c6951f1c97e")
+	)
+	(label "PROG"
+		(at 157.48 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e67a8f39-8986-422e-981f-60c00309bbcf")
 	)
 	(hierarchical_label "PHY_PWR"
 		(shape output)
@@ -4266,7 +4326,7 @@
 		(dnp no)
 		(uuid "4129b914-a62a-4525-a8b3-a458ad1e0d84")
 		(property "Reference" "Q3"
-			(at 114.3 58.4199 0)
+			(at 110.49 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4335,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 114.3 60.9599 0)
+			(at 110.49 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4380,7 @@
 			)
 		)
 		(property "LCSC Part #" "C62892"
-			(at 114.3 63.5 0)
+			(at 110.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4805,7 @@
 		(dnp no)
 		(uuid "55ce90c9-f586-4496-9458-c2eec6d26054")
 		(property "Reference" "Q3"
-			(at 114.3 78.7399 0)
+			(at 110.49 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4814,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 114.3 81.2799 0)
+			(at 110.49 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4859,7 @@
 			)
 		)
 		(property "LCSC Part #" "C62892"
-			(at 114.3 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

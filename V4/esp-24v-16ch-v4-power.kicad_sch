@@ -4266,28 +4266,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V MAIN"
-		(exclude_from_sim no)
-		(at 267.97 31.75 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "36f3c884-e16f-45ce-b7d5-1d508cb3bd59")
-	)
-	(text "5V USB"
-		(exclude_from_sim no)
-		(at 165.1 73.66 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fc5a935-1587-43bc-b1ea-e40b82d8cad7")
-	)
 	(text "R_{H} = (V_{OUT} - 0,6V) * R_{L} / 0,6V\n\nV_{OUT} = (0,6 * R_{H} / R_{L}) + 0,6\nV_{OUT} = (0,6 * 100k/22,1k) +0,6\nV_{OUT} = 3,31V"
 		(exclude_from_sim no)
 		(at 100.33 185.42 0)
@@ -4779,7 +4757,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 45.72 36.83)
+			(xy 39.37 36.83) (xy 55.88 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 74.93 36.83)
+			(xy 60.96 36.83) (xy 74.93 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6056,6 +6034,66 @@
 			(type default)
 		)
 		(uuid "fffb1ad4-6357-4176-9709-7d97c104e3d4")
+	)
+	(label "3.3V_REF"
+		(at 102.87 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45f92f34-2f58-4981-8197-ec7ff3b9c2e4")
+	)
+	(label "USB_B5"
+		(at 62.23 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d3af46-daf5-4fee-b5cd-4275d2e8fbe9")
+	)
+	(label "24VIN"
+		(at 44.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a853066d-e5f5-498a-8715-42335e0cea1f")
+	)
+	(label "USB_A5"
+		(at 62.23 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab84be5d-4a5c-42d9-b8e1-e14feb8f6174")
+	)
+	(label "5V_MAIN"
+		(at 236.22 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d94702b7-e2a7-45b2-9218-f8a9ca048a3d")
+	)
+	(label "5V_USB"
+		(at 83.82 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f954d661-c559-40bf-b868-a333ff6db52f")
 	)
 	(hierarchical_label "PHY_PWR"
 		(shape input)
@@ -7988,7 +8026,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 48.26 36.83 180)
+		(at 58.42 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7996,7 +8034,7 @@
 		(dnp no)
 		(uuid "423ce8d8-76c8-429c-b101-4fab95c6ab93")
 		(property "Reference" "D2"
-			(at 48.26 26.67 0)
+			(at 58.42 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8042,7 @@
 			)
 		)
 		(property "Value" "SM4007PL"
-			(at 48.26 29.21 0)
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8050,7 @@
 			)
 		)
 		(property "Footprint" "Tales:D_SOD-123"
-			(at 48.26 36.83 90)
+			(at 58.42 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 36.83 90)
+			(at 58.42 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8077,7 @@
 			)
 		)
 		(property "Case" "SOD-123FL"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8086,7 @@
 			)
 		)
 		(property "Technology" "Rectifier"
-			(at 48.26 31.75 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8094,7 @@
 			)
 		)
 		(property "Mfr" "Microdiode"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8103,7 @@
 			)
 		)
 		(property "Mfr PN" "SM4007PL"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +8112,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8121,7 @@
 			)
 		)
 		(property "Vendor PN" "C64898"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8130,7 @@
 			)
 		)
 		(property "LCSC Part #" "C64898"
-			(at 48.26 34.29 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +8138,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 48.26 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
