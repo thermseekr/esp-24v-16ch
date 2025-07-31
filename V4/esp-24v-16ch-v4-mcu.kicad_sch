@@ -2266,9 +2266,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TASMOTA GENERAL CONFIGURATIONS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5; switchmode11 5;\nswitchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5; switchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx\n\nConfigure temperature & humidity sensor (disable i2c driver 12):\ni2cdriver12 0\n"
+	(text "TASMOTA CONFIGS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5;\nswitchmode11 5; switchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5;\nswitchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx"
 		(exclude_from_sim no)
-		(at 14.986 194.818 0)
+		(at 15.24 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,17 +2276,6 @@
 			(justify left bottom)
 		)
 		(uuid "58b725cf-b09a-4738-8521-2007ca93c8a6")
-	)
-	(text "ESP32 PIN ASSIGNMENT\n\n25 - GPIO0 - AUTO FLASH MODE\n35 - GPIO1 - SERIAL TX\n34 - GPIO3 - SERIAL RX\n14 - GPIO12 - PHY POWER\n16 - GPIO13 - MCP23017 INTA\n13 - GPIO14 - MCP23017 INTB\n28 - GPIO17 - EMAC CLK\n30 - GPIO18 - EMAC MDIO\n31 - GPIO19 - EMAC TXD0\n33 - GPIO21 - EMAC TXEN\n36 - GPIO22 - EMAC TXD1\n37 - GPIO23 - EMAC MDC\n10 - GPIO25 - EMAC RXD0\n11 - GPIO26 - EMAC RXD1\n12 - GPIO27 - EMAC RX\n8 - GPIO32 - I2C SCL\n9 - GPIO33 - I2C SDA"
-		(exclude_from_sim no)
-		(at 120.904 195.326 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3342907-92f3-49d8-95f9-d1810ea853d2")
 	)
 	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"ESP-24V-16ch-v4\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10240,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
 		(exclude_from_sim no)
@@ -2301,7 +2290,7 @@
 	)
 	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[160,161,162,163,164,165,166,167,168,169,170,\n171,172,173,174,175,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239]}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
 		(exclude_from_sim no)
-		(at 15.24 151.13 0)
+		(at 15.24 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2309,6 +2298,26 @@
 			(justify left bottom)
 		)
 		(uuid "f025a774-fa55-4c54-b6f4-4d1ce0a510c4")
+	)
+	(text_box "ESP32 PIN ASSIGNMENT\n\nPIN	PORT	FUNCTION		COMPONENT\n\n25	GPIO0	AUTO FLASH MODE	0\n35	GPIO1	SERIAL TX		3200\n24	GPIO2	-				0\n34	GPIO3	SERIAL RX		3232\n26	GPIO4	-				0\n29	GPIO5	-				0\n20	GPIO6	-				0\n21	GPIO7	-				0\n22	GPIO8	-				0\n17	GPIO9	-				0\n18	GPIO10	-				0\n19	GPIO11	-				0\n14	GPIO12	PHY POWER		5536\n16	GPIO13	MCP23017 INTA	10240\n13	GPIO14	MCP23017 INTB	10240\n23	GPIO15	-				0\n27	GPIO16	-				0\n28	GPIO17	ETH CLK			0\n30	GPIO18	ETH MDIO		4704\n31	GPIO19	ETH TXD0		0\n-	GPIO20	-				0\n33	GPIO21	ETH TXEN		0\n36	GPIO22	ETH TXD1		0\n37	GPIO23	ETH MDC			5600\n-	GPIO24	-				0\n10	GPIO25	ETH RXD0		0\n11	GPIO26	ETH RXD1		0\n12	GPIO27	ETH RX			0\n8	GPIO32	I2C SCL			608\n9	GPIO33	I2C SDA			640\n6	GPIO34	-				0\n7	GPIO35	-				0\n4	GPIO36	-				0\n-	GPIO37	-				0\n-	GPIO38	-				0\n5	GPIO39	-				0"
+		(exclude_from_sim no)
+		(at 114.3 111.76 0)
+		(size 49.53 83.82)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f2ddb521-f4cd-4a92-843c-f95401debdc2")
 	)
 	(junction
 		(at 63.5 39.37)
