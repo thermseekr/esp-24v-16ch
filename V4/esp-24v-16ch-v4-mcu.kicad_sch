@@ -2266,7 +2266,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TASMOTA CONFIGS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\nbacklog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\nswitchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5;\nswitchmode11 5; switchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5;\nswitchmode16 5\n\nConfigure device name:\ndevicename fararmio066022\n\nConfigure network:\nbacklog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\nwifi 0; hostname fararmio066xxx"
+	(text "TASMOTA CONFIGS\nThe configs below must be applied via terminal/console and adjusted according to the\ndesired hostname, device name, network addresses and behavior of switches.\n\nConfigure switches:\n> backlog switchmode1 5; switchmode2 5; switchmode3 5; switchmode4 5; switchmode5 5;\n switchmode6 5; switchmode7 5; switchmode8 5; switchmode9 5; switchmode10 5;\n switchmode11 5; switchmode12 5; switchmode13 5; switchmode14 5; switchmode15 5;\n switchmode16 5\n\nConfigure device name:\n> devicename fararmio066022\n\nConfigure network:\n> backlog ethipaddress 10.112.66.xxx; ethsubnetmask 255.255.255.0; ethgateway 10.112.66.254;\n  wifi 0; hostname farxxxio066xxx; topic farxxxio066xxx; devicename farxxxio066xxx\n\nADS1115 scale configuration: keep the default mode S0 (single-ended, +/-6.144V).\n> sensor 12 s0"
 		(exclude_from_sim no)
 		(at 15.24 187.96 0)
 		(effects

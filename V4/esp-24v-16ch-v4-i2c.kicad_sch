@@ -2030,6 +2030,17 @@
 		)
 		(uuid "93b925e5-4884-4776-b213-35efcbe53f80")
 	)
+	(text "THE NTC INPUTS ARE DESIGNED TO MEASURE AMBIENT TEMPERATURE OR THE TEMPERATURE OF\nWATER RESERVOIRS DESTINED TO HUMAN CONSUMPTION USING R25=10K NTC SENSORS.\nTHE DESIGNED TEMPERATURE EXCURSION IS BETWEEN 0 ºC AND 90 ºC.\n\nTHE VOLTAGE DIVIDER IS POWERED BY 4,7 V. THE EXPECTED VOLTAGES AT ITS OUTPUT ARE:\n\nCASE 1: T = 0 ºC\nRntc = 32960,000 ohm\nVdiv = 4,7 * 10000 / (10000 + 32960) = 1,094 V\n\nCASE 2: T = 90 ºC\nRntc = 909,498 ohm\nVdiv = 4,7 * 10000 / (10000 + 909,498) = 4,308 V"
+		(exclude_from_sim no)
+		(at 184.15 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca91a7f2-a542-48fb-8a21-f59988b19e1f")
+	)
 	(junction
 		(at 219.71 86.36)
 		(diameter 0)
