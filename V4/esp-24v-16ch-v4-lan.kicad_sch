@@ -6162,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 43.18 0)
 			(effects
 				(font
@@ -6455,7 +6455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -6749,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 73.66 166.37 0)
 			(effects
 				(font
@@ -6968,7 +6968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 177.8 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 43.18 129.54 0)
 			(effects
 				(font
@@ -7794,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LAN Transformer Jack, RJ45, 10/100 BaseTX"
 			(at 48.26 154.94 0)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -8496,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
 			(at 124.46 116.84 0)
 			(effects
 				(font
@@ -8568,7 +8568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 38.1 0)
 			(effects
 				(font
@@ -8788,7 +8788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 124.46 130.81 0)
 			(effects
 				(font
@@ -9229,7 +9229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 248.92 43.18 0)
 			(effects
 				(font
@@ -9446,7 +9446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Data-line surge and ESD protection diode array"
 			(at 252.73 82.55 0)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
 			(at 180.34 123.19 0)
 			(effects
 				(font
@@ -9808,7 +9808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8710a.pdf"
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -9817,7 +9817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LAN8710 Ethernet PHY with MII/RMII interface, QFN-32"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -10298,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
 			(at 151.13 30.48 0)
 			(effects
 				(font
@@ -10370,7 +10370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 184.15 43.18 0)
 			(effects
 				(font
@@ -10589,7 +10589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 199.39 116.84 0)
 			(effects
 				(font
@@ -10735,7 +10735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
 			(at 59.69 30.48 0)
 			(effects
 				(font

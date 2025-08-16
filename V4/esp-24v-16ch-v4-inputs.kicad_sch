@@ -2039,7 +2039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, small symbol"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -4086,7 +4086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 125.73 97.79 0)
 			(effects
 				(font

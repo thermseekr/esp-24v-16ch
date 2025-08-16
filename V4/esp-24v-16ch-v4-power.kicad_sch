@@ -6238,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -6581,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Efficiency 5.5V, 2A continuous, 3A peak, 1MHz Synchronous Step Down Regulator"
 			(at 67.31 147.32 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
 			(at 215.9 121.92 0)
 			(effects
 				(font
@@ -6995,7 +6995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 96.52 151.13 0)
 			(effects
 				(font
@@ -7145,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 128.27 87.63 0)
 			(effects
 				(font
@@ -7295,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -7443,7 +7443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 257.81 46.99 0)
 			(effects
 				(font
@@ -7712,7 +7712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -7854,7 +7854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 180.34 130.81 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -8138,6 +8138,24 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -8337,7 +8355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -8552,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 96.52 43.18 0)
 			(effects
 				(font
@@ -8768,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 38.1 160.02 0)
 			(effects
 				(font
@@ -8919,7 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 186.69 41.91 0)
 			(effects
 				(font
@@ -9463,7 +9481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -9604,7 +9622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -9875,7 +9893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor with ferrite core, small symbol"
 			(at 246.38 124.46 0)
 			(effects
 				(font
@@ -10015,7 +10033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -10511,7 +10529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -10714,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 180.34 36.83 0)
 			(effects
 				(font
@@ -10864,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -11147,7 +11165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 205.74 57.15 0)
 			(effects
 				(font
@@ -11289,7 +11307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -11441,7 +11459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -11656,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4A, 60V, 200KHz Step-Down Converter"
 			(at 163.83 41.91 0)
 			(effects
 				(font
@@ -11884,7 +11902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 158.75 130.81 0)
 			(effects
 				(font
@@ -12034,7 +12052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 118.11 163.83 0)
 			(effects
 				(font
@@ -12175,7 +12193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 118.11 151.13 0)
 			(effects
 				(font
@@ -12316,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -12465,7 +12483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -12613,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 86.36 144.78 0)
 			(effects
 				(font
@@ -12884,7 +12902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -13034,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -13305,7 +13323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 203.2 142.24 0)
 			(effects
 				(font
@@ -13445,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 43.18 92.71 0)
 			(effects
 				(font

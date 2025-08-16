@@ -4395,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.06 166.37 0)
 			(effects
 				(font
@@ -4746,7 +4746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
 			(at 140.97 171.45 0)
 			(effects
 				(font
@@ -4755,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -5061,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -5201,7 +5201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 25.4 73.66 0)
 			(effects
 				(font
@@ -5476,7 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 189.23 69.85 0)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 158.75 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 66.04 158.75 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 137.16 0)
 			(effects
 				(font
@@ -6138,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 77.47 148.59 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm"
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm"
 			(at 219.71 74.93 0)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 73.66 0)
 			(effects
 				(font
@@ -7460,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 158.75 0)
 			(effects
 				(font
