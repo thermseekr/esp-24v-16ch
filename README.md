@@ -7,7 +7,7 @@ The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazil
 
 ## VERSION HISTORY
 
-ESP-24V-16CH-V4.0 - Redesigned digital inputs for better tolerance to long cable runs in noisy environment. Removed pads for NTC inputs 3 and 4, tied them to GND.
+ESP-24V-16CH V4.0 - Redesigned digital inputs for better tolerance to long cable runs in noisy environment. Removed pads for NTC inputs 3 and 4, tied them to GND.
 
 ESP-24V-16CH V3.2 - Added 4 NTC inputs using an ADS1115 A/D converter with i2c. Reduced current on the LEDs, brightness was too high. Added series resistor and rerouted clock track for better impedance and ring control. Rerouted TX/RX and SCL/SDA tracks for improved signal quality. Layers reordered so the ground plane is directly below the top layer. Returned ESP32 to 16MB version.
 
