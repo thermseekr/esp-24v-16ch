@@ -3,9 +3,11 @@ ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC outputs for external act
 
 The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/suportes-para-pci/suportes-para-pci) for details.
 
-![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V3/esp-24v-16ch-v3.2.0.png "ESP-24V-16CH V3.2")
+![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V4/esp-24v-16ch-v4.0.0.png "ESP-24V-16CH V4.0")
 
 ## VERSION HISTORY
+
+ESP-24V-16CH-V4.0 - Redesigned digital inputs for better tolerance to long cable runs in noisy environment. Removed pads for NTC inputs 3 and 4, tied them to GND.
 
 ESP-24V-16CH V3.2 - Added 4 NTC inputs using an ADS1115 A/D converter with i2c. Reduced current on the LEDs, brightness was too high. Added series resistor and rerouted clock track for better impedance and ring control. Rerouted TX/RX and SCL/SDA tracks for improved signal quality. Layers reordered so the ground plane is directly below the top layer. Returned ESP32 to 16MB version.
 
