@@ -788,6 +788,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I_{LED} = (24V - V_{LED}) / 6.8k\nI_{LED} = (24V - 2.7V) / 6.8k\nI_{LED} = 3,13 mA"
+		(exclude_from_sim no)
+		(at 154.94 86.36 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "201ef8ed-86a1-4ab9-aab3-db16596368ea")
+	)
 	(junction
 		(at 107.95 101.6)
 		(diameter 0)

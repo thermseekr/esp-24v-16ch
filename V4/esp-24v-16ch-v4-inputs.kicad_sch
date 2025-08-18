@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "2c2ab07e-3b75-4f46-9d5f-86e72f5bdc3b")
 	(paper "A4")
+	(title_block
+		(title "ESP 24V 16xIn/16xOut/4xNTC Module")
+		(date "2025-07-04")
+		(rev "V4")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -1691,6 +1696,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "I_{LED} = (24V - V_{LED}) / 6.8k\nI_{LED} = (24V - 2.7V) / 6.8k\nI_{LED} = 3,13 mA"
+		(exclude_from_sim no)
+		(at 106.68 132.08 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "400f0d1e-5f6f-4534-bc3e-eb9a10678f5c")
 	)
 	(junction
 		(at 96.52 92.71)

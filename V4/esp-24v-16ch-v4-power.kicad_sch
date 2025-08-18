@@ -12875,7 +12875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF/50V"
 			(at 111.76 87.63 0)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0402_1005Metric"
+		(property "Footprint" "Tales:C_0805_2012Metric"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -12920,7 +12920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Ceramic X5R"
+		(property "Technology" "Ceramic X7R"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -12929,7 +12929,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part #" "C52923"
+		(property "LCSC Part #" "C28323"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -12947,7 +12947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CL05A105KA5NQNC"
+		(property "Mfr PN" "CL21B105KBFNNNE"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -12965,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C52923"
+		(property "Vendor PN" "C28323"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -12983,7 +12983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0402/1005"
+		(property "Case" "0805/2012"
 			(at 109.22 87.63 0)
 			(effects
 				(font

@@ -8323,7 +8323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF/50V"
 			(at 231.14 43.1862 0)
 			(effects
 				(font
@@ -8332,7 +8332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0402_1005Metric"
+		(property "Footprint" "Tales:C_0805_2012Metric"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -8359,7 +8359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0402/1005"
+		(property "Case" "0805/2012"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C52923"
+		(property "LCSC Part #" "C28323"
 			(at 231.14 48.26 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CL05A105KA5NQNC"
+		(property "Mfr PN" "CL21B105KBFNNNE"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -8404,7 +8404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Ceramic X5R"
+		(property "Technology" "Ceramic X7R"
 			(at 231.14 45.72 0)
 			(effects
 				(font
@@ -8422,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C52923"
+		(property "Vendor PN" "C28323"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+		(property "Footprint" "Tales:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
 			(at 180.34 123.19 0)
 			(effects
 				(font
