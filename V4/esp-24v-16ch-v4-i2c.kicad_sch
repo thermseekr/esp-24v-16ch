@@ -6954,7 +6954,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7419e6af-50ff-44d3-86d0-c2b1de6eb7d2")
 		(property "Reference" "C26"
 			(at 241.3 73.66 0)
@@ -7839,7 +7839,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d64b01e-35c8-4613-94b3-3b51e3757af1")
 		(property "Reference" "U9"

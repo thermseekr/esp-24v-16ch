@@ -575,7 +575,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -878,7 +878,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -2747,7 +2747,7 @@
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 13/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -5636,7 +5636,7 @@
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 15/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -5939,7 +5939,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -6886,7 +6886,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -7505,7 +7505,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -8743,7 +8743,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -9817,7 +9817,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -10423,7 +10423,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -10832,7 +10832,7 @@
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 13/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -13859,7 +13859,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -16968,7 +16968,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -17672,7 +17672,7 @@
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 12/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -18662,7 +18662,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -21002,7 +21002,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -22017,7 +22017,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -22729,7 +22729,7 @@
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 15/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -24659,7 +24659,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -25297,7 +25297,7 @@
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 9/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -26261,7 +26261,7 @@
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 9/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -27393,7 +27393,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -30036,7 +30036,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -31864,7 +31864,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -33114,7 +33114,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -34279,7 +34279,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -36805,7 +36805,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.4 -5.4)
 			(end 2.4 -5.4)
@@ -38477,7 +38477,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -39083,7 +39083,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -39748,7 +39748,7 @@
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 13/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -40051,7 +40051,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -40931,7 +40931,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -41247,7 +41247,7 @@
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 14/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -42227,7 +42227,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -42543,7 +42543,7 @@
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 12/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -43886,7 +43886,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -45519,7 +45519,7 @@
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 10/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -46138,7 +46138,7 @@
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 12/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -47096,7 +47096,7 @@
 		(path "/8d06b51d-d00b-4f80-9ffb-ab0131290cf2/8d64b01e-35c8-4613-94b3-3b51e3757af1")
 		(sheetname "/I2C Devices/")
 		(sheetfile "esp-24v-16ch-v4-i2c.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.25 -1.36)
 			(end 1.25 -1.36)
@@ -48171,7 +48171,7 @@
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 14/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -48474,7 +48474,7 @@
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 13/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -51463,7 +51463,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -51766,7 +51766,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -52701,7 +52701,7 @@
 		(path "/1c051e73-1175-469e-a364-cac197036f64/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 11/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -53004,7 +53004,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -53320,7 +53320,7 @@
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 16/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -54619,7 +54619,7 @@
 		(path "/8ff91021-5966-4f9b-940b-b85b81837d8b")
 		(sheetname "/")
 		(sheetfile "esp-24v-16ch-v4.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -0.9 3)
 			(end -0.9 -8.08)
@@ -56616,7 +56616,7 @@
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 10/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -60941,7 +60941,7 @@
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 16/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -61286,7 +61286,7 @@
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 13/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -63440,7 +63440,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -64079,7 +64079,7 @@
 		(path "/1c051e73-1175-469e-a364-cac197036f64/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 11/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -64698,7 +64698,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -65001,7 +65001,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -65303,7 +65303,7 @@
 		(path "/1c051e73-1175-469e-a364-cac197036f64/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 11/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -66115,7 +66115,7 @@
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 10/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -66451,7 +66451,7 @@
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 14/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -67645,7 +67645,7 @@
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 10/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -68264,7 +68264,7 @@
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 10/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -68870,7 +68870,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -69489,7 +69489,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -69792,7 +69792,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -71742,7 +71742,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -72487,7 +72487,7 @@
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 12/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -73093,7 +73093,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -74015,7 +74015,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -75232,7 +75232,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -75871,7 +75871,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -76187,7 +76187,7 @@
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 16/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -78177,7 +78177,7 @@
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 15/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -79137,7 +79137,7 @@
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 14/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -79440,7 +79440,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -80665,7 +80665,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -81284,7 +81284,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -81903,7 +81903,7 @@
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 9/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -82206,7 +82206,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -82602,7 +82602,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -82905,7 +82905,7 @@
 		(path "/1c051e73-1175-469e-a364-cac197036f64/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 11/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -83208,7 +83208,7 @@
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 16/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -83511,7 +83511,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -83920,7 +83920,7 @@
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 9/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -84256,7 +84256,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -84559,7 +84559,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -86146,7 +86146,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -86542,7 +86542,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -87746,7 +87746,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -88774,7 +88774,7 @@
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 15/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -90343,7 +90343,7 @@
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 9/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -91293,7 +91293,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -91899,7 +91899,7 @@
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 16/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -92834,7 +92834,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -93748,7 +93748,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -94084,7 +94084,7 @@
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 9/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -94387,7 +94387,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.4 -5.4)
 			(end 2.4 -5.4)
@@ -94833,7 +94833,7 @@
 		(path "/3ade5c6e-5a9f-4fd0-abe5-ec62c063d514")
 		(sheetname "/")
 		(sheetfile "esp-24v-16ch-v4.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -0.9 3)
 			(end -0.9 -8.08)
@@ -98819,7 +98819,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -99121,7 +99121,7 @@
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 15/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -99479,7 +99479,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -101107,7 +101107,7 @@
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 13/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -102243,7 +102243,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -102639,7 +102639,7 @@
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 16/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -103561,7 +103561,7 @@
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 12/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -103877,7 +103877,7 @@
 		(path "/8d06b51d-d00b-4f80-9ffb-ab0131290cf2/7419e6af-50ff-44d3-86d0-c2b1de6eb7d2")
 		(sheetname "/I2C Devices/")
 		(sheetfile "esp-24v-16ch-v4-i2c.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -105820,7 +105820,7 @@
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 12/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -106789,7 +106789,7 @@
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 10/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -107138,7 +107138,7 @@
 		(path "/1c051e73-1175-469e-a364-cac197036f64/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 11/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -107776,7 +107776,7 @@
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 14/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -108766,7 +108766,7 @@
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 15/")
 		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -110400,7 +110400,7 @@
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 11/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -111394,7 +111394,7 @@
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 14/")
 		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
