@@ -10,7 +10,7 @@
 	(title_block
 		(title "ESP 24V 16xIn/16xOut/4xNTC Module")
 		(date "2025-06-29")
-		(rev "V4.0")
+		(rev "V4.1")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -574,8 +574,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -877,8 +877,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -1179,7 +1179,7 @@
 		)
 		(path "/9735d90e-9107-44ae-97cf-e90e1d690a19/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 7/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -2746,8 +2746,8 @@
 		)
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 13/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -5299,7 +5299,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
@@ -5635,8 +5635,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 15/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -5938,8 +5938,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -6254,7 +6254,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
@@ -6885,8 +6885,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -7504,8 +7504,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -7807,7 +7807,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -7979,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7991,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8426,7 +8426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8742,8 +8742,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -9816,8 +9816,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -10119,7 +10119,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -10422,8 +10422,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -10831,8 +10831,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 13/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -11167,7 +11167,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9735d90e-9107-44ae-97cf-e90e1d690a19/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 7/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12773,7 +12773,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -13858,8 +13858,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -14161,7 +14161,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -14464,7 +14464,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -14767,7 +14767,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 4/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -15755,7 +15755,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/946b081e-f05c-4bcc-8c7e-32876d800f86/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 5/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16058,7 +16058,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/032d24f7-dea6-43c8-b36e-6c84d69a3256/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 6/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16361,7 +16361,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16664,7 +16664,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9735d90e-9107-44ae-97cf-e90e1d690a19/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 7/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16967,8 +16967,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -17671,8 +17671,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 12/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -18358,7 +18358,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -18661,8 +18661,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -18964,7 +18964,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -19360,7 +19360,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -19663,7 +19663,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -19979,7 +19979,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -21001,8 +21001,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -21304,7 +21304,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -21713,7 +21713,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/946b081e-f05c-4bcc-8c7e-32876d800f86/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 5/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -22016,8 +22016,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -22319,7 +22319,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -22728,8 +22728,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 15/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -23736,7 +23736,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -24039,7 +24039,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24342,7 +24342,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f18c37e2-98aa-4f90-9189-e898a62cdeb8/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 8/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24658,8 +24658,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -24994,7 +24994,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -25296,8 +25296,8 @@
 		)
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 9/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -25957,7 +25957,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -26260,8 +26260,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 9/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -27089,7 +27089,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -27392,8 +27392,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -28162,7 +28162,7 @@
 		)
 		(path "/471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 4/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -28823,7 +28823,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -29429,7 +29429,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -29732,7 +29732,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -30035,8 +30035,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -31560,7 +31560,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e58906f-db1c-4ecb-8d31-ce9f4ea8e299/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 2/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -31863,8 +31863,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -33113,8 +33113,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -33580,7 +33580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33592,7 +33592,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34278,8 +34278,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -34930,7 +34930,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -35246,7 +35246,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/032d24f7-dea6-43c8-b36e-6c84d69a3256/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 6/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -35911,7 +35911,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e58906f-db1c-4ecb-8d31-ce9f4ea8e299/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 2/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -36804,8 +36804,8 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2.4 -5.4)
 			(end 2.4 -5.4)
@@ -37258,7 +37258,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -37877,7 +37877,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -38476,8 +38476,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -38779,7 +38779,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -39082,8 +39082,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -39398,7 +39398,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f18c37e2-98aa-4f90-9189-e898a62cdeb8/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 8/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -39747,8 +39747,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 13/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -40050,8 +40050,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -40930,8 +40930,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -41246,8 +41246,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 14/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -41890,7 +41890,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 4/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -42226,8 +42226,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -42542,8 +42542,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 12/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -42878,7 +42878,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -43181,7 +43181,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -43885,8 +43885,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -45518,8 +45518,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 10/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -46137,8 +46137,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 12/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -46440,7 +46440,7 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.4 -5.4)
@@ -46894,7 +46894,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -47096,7 +47096,7 @@
 		(path "/8d06b51d-d00b-4f80-9ffb-ab0131290cf2/8d64b01e-35c8-4613-94b3-3b51e3757af1")
 		(sheetname "/I2C Devices/")
 		(sheetfile "esp-24v-16ch-v4-i2c.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.25 -1.36)
 			(end 1.25 -1.36)
@@ -47518,7 +47518,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -47834,7 +47834,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7e58906f-db1c-4ecb-8d31-ce9f4ea8e299/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 2/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -48170,8 +48170,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 14/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -48473,8 +48473,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 13/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -48775,7 +48775,7 @@
 		)
 		(path "/3a243df8-db7d-4641-87d2-b8850c504ddf/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 3/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -49120,7 +49120,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -49423,7 +49423,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -50823,7 +50823,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -51159,7 +51159,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -51462,8 +51462,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -51765,8 +51765,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -52068,7 +52068,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -52384,7 +52384,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f859c883-9d79-4035-b255-4f20ee57230d/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 1/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -52700,8 +52700,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c051e73-1175-469e-a364-cac197036f64/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 11/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -53003,8 +53003,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -53319,8 +53319,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 16/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -54290,7 +54290,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -54619,7 +54619,7 @@
 		(path "/8ff91021-5966-4f9b-940b-b85b81837d8b")
 		(sheetname "/")
 		(sheetfile "esp-24v-16ch-v4.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -0.9 3)
 			(end -0.9 -8.08)
@@ -55936,7 +55936,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3a243df8-db7d-4641-87d2-b8850c504ddf/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 3/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -56271,7 +56271,7 @@
 		)
 		(path "/032d24f7-dea6-43c8-b36e-6c84d69a3256/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 6/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -56615,8 +56615,8 @@
 		)
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 10/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -56960,7 +56960,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -60940,8 +60940,8 @@
 		)
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 16/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -61285,8 +61285,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da3c2bc1-d321-4b0b-8d45-9bd0460c9e5a/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 13/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -61601,7 +61601,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/946b081e-f05c-4bcc-8c7e-32876d800f86/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 5/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -61937,7 +61937,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -62240,7 +62240,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3a243df8-db7d-4641-87d2-b8850c504ddf/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 3/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -63439,8 +63439,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -63775,7 +63775,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f859c883-9d79-4035-b255-4f20ee57230d/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 1/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -64078,8 +64078,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c051e73-1175-469e-a364-cac197036f64/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 11/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -64697,8 +64697,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -65000,8 +65000,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -65302,8 +65302,8 @@
 		)
 		(path "/1c051e73-1175-469e-a364-cac197036f64/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 11/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -65647,7 +65647,7 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.4 -5.4)
@@ -66114,8 +66114,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 10/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -66450,8 +66450,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 14/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -67644,8 +67644,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 10/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -67947,7 +67947,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/032d24f7-dea6-43c8-b36e-6c84d69a3256/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 6/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -68263,8 +68263,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/118d8d95-c0ce-4d84-8406-4e7809444f6f/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 10/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -68566,7 +68566,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e58906f-db1c-4ecb-8d31-ce9f4ea8e299/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 2/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -68869,8 +68869,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -69488,8 +69488,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -69791,8 +69791,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -71042,7 +71042,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -71345,7 +71345,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -71741,8 +71741,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -72150,7 +72150,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
@@ -72486,8 +72486,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 12/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -72789,7 +72789,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -73092,8 +73092,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -73395,7 +73395,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -74014,8 +74014,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -74317,7 +74317,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -74915,7 +74915,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -75231,8 +75231,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -75567,7 +75567,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -75870,8 +75870,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -76186,8 +76186,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 16/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -76535,7 +76535,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -76871,7 +76871,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -77267,7 +77267,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f18c37e2-98aa-4f90-9189-e898a62cdeb8/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 8/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -77570,7 +77570,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -77873,7 +77873,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/946b081e-f05c-4bcc-8c7e-32876d800f86/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 5/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -78176,8 +78176,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 15/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -78492,7 +78492,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.3 -0.254)
@@ -79136,8 +79136,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 14/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -79439,8 +79439,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -79742,7 +79742,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -80045,7 +80045,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -80664,8 +80664,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -81283,8 +81283,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -81586,7 +81586,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ad3d18f6-6bf3-4419-a19f-d246dbccbcac/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 2/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -81902,8 +81902,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 9/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -82205,8 +82205,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -82601,8 +82601,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -82904,8 +82904,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c051e73-1175-469e-a364-cac197036f64/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 11/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -83207,8 +83207,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 16/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -83510,8 +83510,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -83919,8 +83919,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 9/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -84255,8 +84255,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -84558,8 +84558,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -84874,7 +84874,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9735d90e-9107-44ae-97cf-e90e1d690a19/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 7/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -85506,7 +85506,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f859c883-9d79-4035-b255-4f20ee57230d/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 1/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -85842,7 +85842,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/56e70c32-022f-47a3-b38a-e8821f093b1d/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 6/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -86145,8 +86145,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -86541,8 +86541,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -87442,7 +87442,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dcf656f2-78f6-4d34-a979-fbebc99d5b8c/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 7/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -87745,8 +87745,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -88061,7 +88061,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9735d90e-9107-44ae-97cf-e90e1d690a19/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 7/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.6)
@@ -88773,8 +88773,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/da9e1ae2-f099-4806-bcb3-ae57d89b817a/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 15/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -90342,8 +90342,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/5e3f413e-e7e6-4fed-8c23-676455a39ccf/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 9/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -90644,7 +90644,7 @@
 		)
 		(path "/f859c883-9d79-4035-b255-4f20ee57230d/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 1/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -90989,7 +90989,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -91292,8 +91292,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -91595,7 +91595,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/f221a330-0446-4dbb-9fc4-488df890c8d3/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 1/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -91898,8 +91898,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/18f82f59-0c23-40f7-8b4c-a32f0bda1493/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 16/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -92833,8 +92833,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -93136,7 +93136,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3a243df8-db7d-4641-87d2-b8850c504ddf/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 3/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -93747,8 +93747,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -94083,8 +94083,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/58d16e81-f114-46b0-87d3-9324f007724a/80247bc0-5404-43b0-8ae8-ee5c57713d56")
 		(sheetname "/Output 9/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -94386,8 +94386,8 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/e60387c2-ff32-4f13-8333-29fcaf386447")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2.4 -5.4)
 			(end 2.4 -5.4)
@@ -94833,7 +94833,7 @@
 		(path "/3ade5c6e-5a9f-4fd0-abe5-ec62c063d514")
 		(sheetname "/")
 		(sheetfile "esp-24v-16ch-v4.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -0.9 3)
 			(end -0.9 -8.08)
@@ -96125,7 +96125,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f859c883-9d79-4035-b255-4f20ee57230d/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 1/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -96428,7 +96428,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -96744,7 +96744,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3a243df8-db7d-4641-87d2-b8850c504ddf/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 3/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -98818,8 +98818,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -99120,8 +99120,8 @@
 		)
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 15/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -99478,8 +99478,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -99813,7 +99813,7 @@
 		)
 		(path "/f18c37e2-98aa-4f90-9189-e898a62cdeb8/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 8/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -101106,8 +101106,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/8378359f-2bcc-419a-b6ab-29c71134517c/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 13/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -102242,8 +102242,8 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -2 -1)
 			(end 1.65 -1)
@@ -102638,8 +102638,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1abb084-6905-4455-9851-355c17c6d763/04bc09f1-efbf-4825-a0df-01be824e4555")
 		(sheetname "/Input 16/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -102954,7 +102954,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/032d24f7-dea6-43c8-b36e-6c84d69a3256/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 6/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -103257,7 +103257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb/a07ab801-3642-43cf-9d5f-05fdba605733")
 		(sheetname "/Output 4/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -103560,8 +103560,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb141cf3-e7d9-40be-a333-2dc8e639890f/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 12/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -103877,7 +103877,7 @@
 		(path "/8d06b51d-d00b-4f80-9ffb-ab0131290cf2/7419e6af-50ff-44d3-86d0-c2b1de6eb7d2")
 		(sheetname "/I2C Devices/")
 		(sheetfile "esp-24v-16ch-v4-i2c.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -104178,7 +104178,7 @@
 		)
 		(path "/946b081e-f05c-4bcc-8c7e-32876d800f86/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 5/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
@@ -105819,8 +105819,8 @@
 		)
 		(path "/609d2beb-47a4-466a-8275-c7d831b810a1/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 12/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -106788,8 +106788,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/827c07d6-f3fd-4d01-af31-6187e55552da/701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(sheetname "/Input 10/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -1.3 -0.254)
 			(end -1.3 0.6)
@@ -107137,8 +107137,8 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1c051e73-1175-469e-a364-cac197036f64/c194517f-71ea-4f31-bb71-4d1fef2e61cf")
 		(sheetname "/Output 11/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -0.95 -0.6)
@@ -107473,7 +107473,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3bddd7f0-432c-4f3f-ac0a-69652e55cc15/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 5/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -107775,8 +107775,8 @@
 		)
 		(path "/dbf038c9-8c09-4484-aee5-b965d923f833/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 14/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start 0 1.36)
 			(end -0.65 1.36)
@@ -108449,7 +108449,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f18c37e2-98aa-4f90-9189-e898a62cdeb8/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 8/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -108765,8 +108765,8 @@
 		(property ki_fp_filters "R_*")
 		(path "/7ca24c0f-2468-4efa-8ee6-749df6aa5e15/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 15/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-outputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -109081,7 +109081,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/471d35a0-0cf0-47e4-a6a8-e70e1f2b0cfb/d426536c-2357-4787-b362-b8a2ac095e97")
 		(sheetname "/Output 4/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -109384,7 +109384,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f6c748e6-9b1e-4b33-a538-ad6ca32222da/4018a067-9c12-4ee7-b330-547bc1f8e200")
 		(sheetname "/Input 3/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -110003,7 +110003,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/13488771-d756-4bf7-9132-6ca3e4a9325a/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 8/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -110399,8 +110399,8 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/33bd2dd9-fdba-4639-85e9-44cc18eb8635/184cd11e-e803-4d4f-9064-b5ab2fb7621f")
 		(sheetname "/Input 11/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -110997,7 +110997,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/25c70f50-017c-4bcc-acb5-84c7cb4acbc3/782b07e0-6d55-40b0-8aed-b0cfc640c622")
 		(sheetname "/Input 4/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-inputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -1)
@@ -111393,8 +111393,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/a09dfec7-ec9f-4b94-8882-25d9953ce25d/ca0954d3-205c-4a1d-8c7f-4c89062e3037")
 		(sheetname "/Input 14/")
-		(sheetfile "esp-24v-16ch-v4-inputs.kicad_sch")
-		(attr smd)
+		(sheetfile "esp-24v-16ch-v4-inputs9-16.kicad_sch")
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -113128,7 +113128,7 @@
 		)
 		(path "/7e58906f-db1c-4ecb-8d31-ce9f4ea8e299/eee715cf-44d4-451e-abb7-f3e66b5dfc78")
 		(sheetname "/Output 2/")
-		(sheetfile "esp-24v-16ch-outputs.kicad_sch")
+		(sheetfile "esp-24v-16ch-v4-outputs1-8.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.36)
