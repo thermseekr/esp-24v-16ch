@@ -7549,7 +7549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 73.66 140.97 0)
 			(effects
 				(font
@@ -8470,7 +8470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VLAN"
+		(property "Value" "+3V3LAN"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -9131,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 176.53 26.67 0)
 			(effects
 				(font
@@ -9575,7 +9575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 43.18 120.65 0)
 			(effects
 				(font
@@ -9646,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 266.7 116.84 0)
 			(effects
 				(font
@@ -10272,7 +10272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VLAN"
+		(property "Value" "+3V3LAN"
 			(at 151.13 26.67 0)
 			(effects
 				(font
@@ -10709,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VLAN"
+		(property "Value" "+3V3LAN"
 			(at 59.69 26.67 0)
 			(effects
 				(font
@@ -10780,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 184.15 26.67 0)
 			(effects
 				(font
