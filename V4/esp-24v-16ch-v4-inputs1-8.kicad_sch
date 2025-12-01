@@ -3427,7 +3427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW"
+		(property "Value" "2k2"
 			(at 196.85 82.55 0)
 			(effects
 				(font

@@ -4172,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fe8d3a-0084-4fe6-997f-4d7b4085a9a1")
-		(property "Reference" "R128"
+		(property "Reference" "R123"
 			(at 146.05 149.86 90)
 			(effects
 				(font
@@ -4180,7 +4180,7 @@
 				)
 			)
 		)
-		(property "Value" "680R/62,5mW"
+		(property "Value" "680R"
 			(at 146.05 152.4 90)
 			(effects
 				(font
@@ -4304,7 +4304,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R128")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -4990,7 +4990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a8e079-903c-4776-8306-91ad309b7b57")
-		(property "Reference" "R123"
+		(property "Reference" "R127"
 			(at 97.79 191.7699 0)
 			(effects
 				(font
@@ -4999,7 +4999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 97.79 194.3099 0)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R123")
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -5140,7 +5140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c809135-878b-4f02-8dc6-130d8fbec6d3")
-		(property "Reference" "R129"
+		(property "Reference" "R124"
 			(at 182.88 149.86 90)
 			(effects
 				(font
@@ -5148,7 +5148,7 @@
 				)
 			)
 		)
-		(property "Value" "680R/62,5mW"
+		(property "Value" "680R"
 			(at 182.88 152.4 90)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R129")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -5865,7 +5865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k/62,5mW"
+		(property "Value" "1k"
 			(at 45.72 88.9 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6f0ee3-389f-4467-8fb2-6b888bc4a86a")
-		(property "Reference" "R130"
+		(property "Reference" "R128"
 			(at 146.05 194.31 90)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				)
 			)
 		)
-		(property "Value" "680R/62,5mW"
+		(property "Value" "680R"
 			(at 146.05 196.85 90)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R130")
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "821b0c94-2825-4f2b-897b-0f7e59925a11")
-		(property "Reference" "R125"
+		(property "Reference" "R126"
 			(at 116.84 181.6099 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 116.84 184.1499 0)
 			(effects
 				(font
@@ -6766,7 +6766,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R125")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 92.71 151.1299 0)
 			(effects
 				(font
@@ -8145,7 +8145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k/62,5mW"
+		(property "Value" "1k"
 			(at 146.05 88.9 0)
 			(effects
 				(font
@@ -8342,7 +8342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e334bca8-9b4a-4e75-bfb0-45f9f0af13d2")
-		(property "Reference" "R131"
+		(property "Reference" "R129"
 			(at 182.88 194.31 90)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				)
 			)
 		)
-		(property "Value" "680R/62,5mW"
+		(property "Value" "680R"
 			(at 182.88 196.85 90)
 			(effects
 				(font
@@ -8474,7 +8474,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R131")
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -8707,7 +8707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbba8c1-72c1-45b5-a27b-4579651c8cb5")
-		(property "Reference" "R124"
+		(property "Reference" "R125"
 			(at 116.84 168.9099 0)
 			(effects
 				(font
@@ -8716,7 +8716,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 116.84 171.4499 0)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "R124")
+					(reference "R125")
 					(unit 1)
 				)
 			)

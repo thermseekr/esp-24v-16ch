@@ -1316,7 +1316,7 @@
 				)
 			)
 		)
-		(property "Value" "1k/62,5mW"
+		(property "Value" "1k"
 			(at 125.73 99.06 90)
 			(effects
 				(font
@@ -1661,7 +1661,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 110.49 110.49 0)
 			(effects
 				(font

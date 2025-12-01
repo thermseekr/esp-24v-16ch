@@ -3705,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Value" "22R/62,5mW"
+		(property "Value" "22R"
 			(at 208.28 88.9 90)
 			(effects
 				(font
@@ -3835,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 207.01 55.88 0)
 			(effects
 				(font
@@ -4202,7 +4202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW"
+		(property "Value" "2k2"
 			(at 259.08 60.96 0)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW"
+		(property "Value" "2k2"
 			(at 252.73 109.22 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k/62,5mW"
+		(property "Value" "10k"
 			(at 260.35 87.6299 0)
 			(effects
 				(font
@@ -5739,7 +5739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW"
+		(property "Value" "2k2"
 			(at 233.68 109.22 0)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2/62,5mW"
+		(property "Value" "2k2"
 			(at 234.95 60.96 0)
 			(effects
 				(font
