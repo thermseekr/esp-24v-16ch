@@ -3398,8 +3398,8 @@
 		)
 		(uuid "11411421-dd24-4bdb-bb0f-ac5c67113a55")
 	)
-	(label "{slash}MCP_IN_RST"
-		(at 52.07 86.36 0)
+	(label "MCPINNRST"
+		(at 53.34 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3418,8 +3418,8 @@
 		)
 		(uuid "6748c0ea-02fa-4082-b923-0faa3b0a0221")
 	)
-	(label "{slash}MCP_OUT_RST"
-		(at 152.4 86.36 0)
+	(label "MCPOUTNRST"
+		(at 153.67 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,8 +3458,8 @@
 		)
 		(uuid "eb4001ce-ead2-489f-8c2b-e77a7101517f")
 	)
-	(label "VREF"
-		(at 163.83 177.8 0)
+	(label "AINVREF"
+		(at 158.75 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3489,7 @@
 		)
 		(uuid "04ff1033-e4f5-47af-aef0-ef22a01ad9bf")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "I2CSDA"
 		(shape bidirectional)
 		(at 370.84 29.21 0)
 		(effects
@@ -3687,7 +3687,7 @@
 		)
 		(uuid "91d22782-a953-4aaf-8cf3-e8bc19aba8ba")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "I2CSCL"
 		(shape input)
 		(at 370.84 31.75 0)
 		(effects
@@ -3764,7 +3764,7 @@
 		)
 		(uuid "b908d846-e149-441a-8b2f-aab771c6155d")
 	)
-	(hierarchical_label "MCP1-INTA"
+	(hierarchical_label "MCPININTA"
 		(shape output)
 		(at 370.84 24.13 0)
 		(effects
@@ -3797,7 +3797,7 @@
 		)
 		(uuid "c21aa8e3-f0bb-4492-bdc7-162e6cbf6d52")
 	)
-	(hierarchical_label "MCP1-INTB"
+	(hierarchical_label "MCPININTB"
 		(shape output)
 		(at 370.84 26.67 0)
 		(effects

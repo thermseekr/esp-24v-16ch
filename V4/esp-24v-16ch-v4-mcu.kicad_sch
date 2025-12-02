@@ -323,6 +323,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_USB:CH340K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.858 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CH340K"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm"
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF"
+				(at -8.89 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB serial converter, UART, SSOP-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB UART Serial Converter Interface"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*1EP*3.9x4.9mm*P1mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CH340K_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CH340K_1_0"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CH340K_1_1"
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "UD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "UD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{CTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{DTR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "~{RTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-WROOM-32U"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1385,381 +1671,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Tales:CH340C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "CH340C"
-				(at 1.27 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-				(at -18.542 30.226 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-				(at -6.604 33.274 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-				(at -1.524 36.068 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB UART Serial Converter Interface"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CH340C_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CH340C_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "R232"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "UD+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "UD-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~{RI}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:UMH3N"
 			(pin_names
 				(hide yes)
@@ -2410,10 +2321,6 @@
 		(uuid "1c4c7ea0-2be2-493a-a946-bfcc7165197b")
 	)
 	(no_connect
-		(at 73.66 72.39)
-		(uuid "3c8b0b28-1707-4f5b-be75-3f9d5ec22497")
-	)
-	(no_connect
 		(at 194.31 78.74)
 		(uuid "4912e741-d519-4b2f-91c9-a22c73cb94cd")
 	)
@@ -2422,16 +2329,8 @@
 		(uuid "4f78244c-f9bf-4fc3-ba32-dad988d3f0cd")
 	)
 	(no_connect
-		(at 73.66 77.47)
-		(uuid "4fa06772-0d77-45b7-85ff-7e9fdf00c090")
-	)
-	(no_connect
 		(at 163.83 71.12)
 		(uuid "52efe356-3486-44b9-8a24-7036d9a360a9")
-	)
-	(no_connect
-		(at 53.34 64.77)
-		(uuid "535afb04-cd93-4663-8618-19e60c339bf1")
 	)
 	(no_connect
 		(at 163.83 101.6)
@@ -2440,10 +2339,6 @@
 	(no_connect
 		(at 163.83 104.14)
 		(uuid "62be3fae-dcc2-4b68-bcde-080722e266b7")
-	)
-	(no_connect
-		(at 73.66 74.93)
-		(uuid "7737d8d0-efdd-4e46-92c5-40fddada6087")
 	)
 	(no_connect
 		(at 194.31 121.92)
@@ -3367,8 +3262,8 @@
 		)
 		(uuid "ffc991dd-3976-4ed2-99ae-914cb97cd9d1")
 	)
-	(label "{slash}RTS"
-		(at 80.01 82.55 0)
+	(label "UARTNRTS"
+		(at 76.2 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3272,7 @@
 		)
 		(uuid "2661ebc0-0a7f-4e1a-8507-6defe05c8803")
 	)
-	(label "TXD"
+	(label "UARTTXD"
 		(at 157.48 33.02 0)
 		(effects
 			(font
@@ -3387,7 +3282,7 @@
 		)
 		(uuid "40548a91-dc9e-4a3e-9a0b-7883b40bda34")
 	)
-	(label "ESP_EN"
+	(label "ESPEN"
 		(at 151.13 66.04 0)
 		(effects
 			(font
@@ -3397,8 +3292,8 @@
 		)
 		(uuid "589fe3d5-e767-44e6-a1e0-94d20c331743")
 	)
-	(label "{slash}DTR"
-		(at 80.01 80.01 0)
+	(label "UARTNDTR"
+		(at 76.2 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3407,7 +3302,7 @@
 		)
 		(uuid "6f4998f1-3517-48cb-b0eb-40cc88efb063")
 	)
-	(label "RXD"
+	(label "UARTRXD"
 		(at 157.48 35.56 0)
 		(effects
 			(font
@@ -3417,27 +3312,7 @@
 		)
 		(uuid "8edfde87-acb3-4fea-8950-e9d0762f206f")
 	)
-	(label "I2C_SCL"
-		(at 243.84 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "984dc746-ea54-4904-8eab-8179d8195c25")
-	)
-	(label "I2C_SDA"
-		(at 243.84 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a29829ff-6f2f-453f-b055-5c6951f1c97e")
-	)
-	(label "PROG"
+	(label "ESPPROG"
 		(at 157.48 38.1 0)
 		(effects
 			(font
@@ -3458,7 +3333,7 @@
 		)
 		(uuid "13e4ef81-ff19-4393-a3f4-6faa86f08641")
 	)
-	(hierarchical_label "EMAC_MDIO"
+	(hierarchical_label "EMACMDIO"
 		(shape input)
 		(at 213.36 96.52 0)
 		(effects
@@ -3469,7 +3344,7 @@
 		)
 		(uuid "18a13e69-0d8d-42a3-b209-ecef3132e0e4")
 	)
-	(hierarchical_label "EMAC_TXD1"
+	(hierarchical_label "EMACTXD1"
 		(shape input)
 		(at 213.36 104.14 0)
 		(effects
@@ -3480,7 +3355,7 @@
 		)
 		(uuid "2badfff6-3077-45cc-846d-00b77a133c6f")
 	)
-	(hierarchical_label "EMAC_RX"
+	(hierarchical_label "EMACRX"
 		(shape output)
 		(at 213.36 114.3 0)
 		(effects
@@ -3491,7 +3366,7 @@
 		)
 		(uuid "2d099768-9450-4cca-b49f-58439db6a402")
 	)
-	(hierarchical_label "EMAC_CLK"
+	(hierarchical_label "EMACCLK"
 		(shape output)
 		(at 213.36 93.98 0)
 		(effects
@@ -3502,7 +3377,7 @@
 		)
 		(uuid "3f24f55f-522f-4b0a-bd92-a94db7f67cc3")
 	)
-	(hierarchical_label "EMAC_RXD1"
+	(hierarchical_label "EMACRXD1"
 		(shape output)
 		(at 213.36 111.76 0)
 		(effects
@@ -3513,7 +3388,7 @@
 		)
 		(uuid "63c04e63-4c23-4077-bdfb-e9a73764c6f6")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "I2CSDA"
 		(shape bidirectional)
 		(at 267.97 119.38 0)
 		(effects
@@ -3524,7 +3399,7 @@
 		)
 		(uuid "6c293bf8-4c77-4972-b5d0-687049c70665")
 	)
-	(hierarchical_label "EMAC_TXEN"
+	(hierarchical_label "EMACTXEN"
 		(shape input)
 		(at 213.36 101.6 0)
 		(effects
@@ -3535,7 +3410,7 @@
 		)
 		(uuid "792220a2-08de-4465-8715-9d77b9eacf9d")
 	)
-	(hierarchical_label "EMAC_RXD0"
+	(hierarchical_label "EMACRXD0"
 		(shape output)
 		(at 213.36 109.22 0)
 		(effects
@@ -3546,7 +3421,7 @@
 		)
 		(uuid "81c71331-8b53-4d1c-951e-9f4c4bba3b81")
 	)
-	(hierarchical_label "MCP1-INTA"
+	(hierarchical_label "MCPININTA"
 		(shape input)
 		(at 267.97 68.58 0)
 		(effects
@@ -3557,7 +3432,7 @@
 		)
 		(uuid "8f5f70a7-b346-4ced-b17c-ab0703ff6aa8")
 	)
-	(hierarchical_label "EMAC_TXD0"
+	(hierarchical_label "EMACTXD0"
 		(shape input)
 		(at 213.36 99.06 0)
 		(effects
@@ -3568,7 +3443,7 @@
 		)
 		(uuid "96ad934f-827a-448d-9b65-244866829e8b")
 	)
-	(hierarchical_label "EMAC_MDC"
+	(hierarchical_label "EMACMDC"
 		(shape input)
 		(at 213.36 106.68 0)
 		(effects
@@ -3579,7 +3454,7 @@
 		)
 		(uuid "b7267c9b-590f-49ab-9bb6-cb1b27171580")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "I2CSCL"
 		(shape output)
 		(at 267.97 116.84 0)
 		(effects
@@ -3590,7 +3465,7 @@
 		)
 		(uuid "bf2cfe71-22ab-4a22-a181-2a9757d4bba7")
 	)
-	(hierarchical_label "USB_D+"
+	(hierarchical_label "USBD+"
 		(shape input)
 		(at 38.1 69.85 180)
 		(effects
@@ -3601,7 +3476,7 @@
 		)
 		(uuid "f039056a-7ca0-4335-a066-598bf82dfc38")
 	)
-	(hierarchical_label "MCP1-INTB"
+	(hierarchical_label "MCPININTB"
 		(shape input)
 		(at 267.97 71.12 0)
 		(effects
@@ -3612,7 +3487,7 @@
 		)
 		(uuid "f054ffc8-3cdf-4a0c-a650-67ca1720bc48")
 	)
-	(hierarchical_label "USB_D-"
+	(hierarchical_label "USBD-"
 		(shape input)
 		(at 38.1 72.39 180)
 		(effects
@@ -3795,6 +3670,15 @@
 		)
 		(property "Vendor PN" "C25092"
 			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 204.47 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,190 +4498,6 @@
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tales:CH340C")
-		(at 63.5 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51472568-2a2a-4475-ae37-04536e25d0d7")
-		(property "Reference" "U3"
-			(at 66.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CH340C"
-			(at 66.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 44.958 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-			(at 56.896 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-			(at 61.976 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "SOIC-16"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C84681"
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mfr" "WCH"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CH340C"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C84681"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "24848046-4650-4ed9-942c-c21603d455b1")
-		)
-		(pin "4"
-			(uuid "d4ce2520-7616-4579-8ee5-0fac3a9abf6d")
-		)
-		(pin "5"
-			(uuid "0b481a81-70bd-48ee-b2b5-7135eed3f9c0")
-		)
-		(pin "13"
-			(uuid "2e6ada99-5dda-4e08-a708-19c195b7b257")
-		)
-		(pin "14"
-			(uuid "fec23a03-49d7-4fa6-8957-bf15c18db125")
-		)
-		(pin "2"
-			(uuid "70d800b1-b8e1-4376-85d1-2e2b0b11a274")
-		)
-		(pin "3"
-			(uuid "eadcf229-800d-4fa0-af9a-f0a8a118d9e9")
-		)
-		(pin "11"
-			(uuid "281341ff-4280-4aff-bb29-2111ba6e847a")
-		)
-		(pin "1"
-			(uuid "09788227-d121-4363-9519-f725346eeb68")
-		)
-		(pin "6"
-			(uuid "feade18e-7c85-4c20-b129-266b1fbbf972")
-		)
-		(pin "12"
-			(uuid "2306fcc2-2545-454f-b6f5-79feb38cc862")
-		)
-		(pin "16"
-			(uuid "04b59663-1097-40d2-a611-93e7f5fd385b")
-		)
-		(pin "7"
-			(uuid "84baf671-026f-488e-98c9-74b515422e7e")
-		)
-		(pin "8"
-			(uuid "6c76dd64-da97-4c26-a44a-8044b8807cd6")
-		)
-		(pin "9"
-			(uuid "f5a4ed92-5673-445a-86af-ecf176f8fe03")
-		)
-		(pin "15"
-			(uuid "edc7cd67-f494-420c-a854-9c88b4dd051b")
-		)
-		(instances
-			(project ""
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6732,6 +6432,175 @@
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_USB:CH340K")
+		(at 63.5 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5765c81-7a38-4902-8483-1297174fe6a4")
+		(property "Reference" "U3"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH340K"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm"
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB serial converter, UART, SSOP-10"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "SSOP-10"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C968586"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mfr" "WCH"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CH340K"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C968586"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a274065-f8fe-493b-adb6-f89a251ff475")
+		)
+		(pin "7"
+			(uuid "d93a03ee-bf49-4c4c-a085-f83865ce4ffb")
+		)
+		(pin "6"
+			(uuid "558b5de5-7b45-4f90-a356-73d61c2cc146")
+		)
+		(pin "11"
+			(uuid "7b1a38d6-04a9-433d-87fa-80025a493669")
+		)
+		(pin "8"
+			(uuid "1b305321-5a2d-42d2-ac36-c89cf8146bae")
+		)
+		(pin "9"
+			(uuid "cd6edf32-a7e7-4e8c-a5c5-e019d4af83fe")
+		)
+		(pin "3"
+			(uuid "ef9a08a2-4d37-4eda-be92-8a9b683889cd")
+		)
+		(pin "5"
+			(uuid "cc0113f2-34bf-4f0d-a5fa-d523fd343cc9")
+		)
+		(pin "4"
+			(uuid "c247e3d7-4b11-4838-99ad-daed6b4a35ca")
+		)
+		(pin "1"
+			(uuid "a537c6d7-ec4a-4ac1-ae54-9e0ce3c6f259")
+		)
+		(pin "10"
+			(uuid "e6744d2f-eb6f-4858-92c0-5d9a8b17964b")
+		)
+		(instances
+			(project ""
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
+					(reference "U3")
 					(unit 1)
 				)
 			)
