@@ -5619,6 +5619,26 @@
 		)
 		(uuid "6a6d66f1-bc05-468b-bee4-14d074a10c17")
 	)
+	(label "RXCLK"
+		(at 128.27 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75a6b102-b155-44b3-b29e-02be6dc4af82")
+	)
+	(label "RXD2"
+		(at 128.27 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9067863f-e01e-45b4-9499-a6ccc1a83fa3")
+	)
 	(label "ETHRXD+"
 		(at 199.39 66.04 0)
 		(effects
@@ -5628,6 +5648,36 @@
 			(justify left bottom)
 		)
 		(uuid "99a9d81f-6400-4ddc-881f-74d1f1871437")
+	)
+	(label "VCDDR"
+		(at 205.74 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b392845-ac03-4fdd-b9ba-34d4d81ab3b5")
+	)
+	(label "RXD3"
+		(at 128.27 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae835a33-a760-46af-9b00-027fe13f36d5")
+	)
+	(label "RXER"
+		(at 128.27 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3244796-149b-4490-b9dc-f1be0eba3606")
 	)
 	(label "ETHLEDGK"
 		(at 199.39 83.82 0)
