@@ -13919,7 +13919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:USB_C_Receptacle_JAE_DX07S024WJ1R350"
+		(property "Footprint" "Tales:USB_C_Receptacle_GCT_USB4115-03-C"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -13955,7 +13955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2765186"
+		(property "LCSC Part #" "C3151749"
 			(at 43.18 71.12 0)
 			(effects
 				(font
@@ -13972,7 +13972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "TYPE-C 16PIN 2MD(073)"
+		(property "Mfr PN" "TYPE-C 16PLT-H10.0"
 			(at 43.18 92.71 0)
 			(effects
 				(font
@@ -13999,7 +13999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2765186"
+		(property "Vendor PN" "C3151749"
 			(at 43.18 92.71 0)
 			(effects
 				(font
