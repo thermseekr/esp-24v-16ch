@@ -6479,6 +6479,16 @@
 		)
 		(uuid "5186f4ce-627b-4914-a0fb-3fa03bbfcf0d")
 	)
+	(label "PHYPWRFET"
+		(at 185.42 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66002ff2-eb96-455f-a131-bc61c56e0c80")
+	)
 	(label "5VREF"
 		(at 194.31 66.04 0)
 		(effects
@@ -6519,6 +6529,16 @@
 		)
 		(uuid "ab84be5d-4a5c-42d9-b8e1-e14feb8f6174")
 	)
+	(label "PHYPWRBJT"
+		(at 205.74 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2f0946f-ed40-44da-ad08-c0f8a094386b")
+	)
 	(label "3V3SW"
 		(at 77.47 144.78 0)
 		(effects
@@ -6549,7 +6569,7 @@
 		)
 		(uuid "f954d661-c559-40bf-b868-a333ff6db52f")
 	)
-	(hierarchical_label "PHY_PWR"
+	(hierarchical_label "PHYPWR"
 		(shape input)
 		(at 226.06 162.56 0)
 		(effects
@@ -7862,7 +7882,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2eba6e2e-f9bf-4d4b-a87f-18c5c7cdcd1f")
 		(property "Reference" "D71"
 			(at 107.0611 106.68 0)
@@ -13900,7 +13919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Tales:USB_C_Receptacle_JAE_DX07S024WJ1R350"
 			(at 46.99 92.71 0)
 			(effects
 				(font

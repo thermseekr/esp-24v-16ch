@@ -4851,7 +4851,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PHY_PWR" input
+		(pin "PHYPWR" input
 			(at 146.05 34.29 0)
 			(uuid "db08a562-5d5e-4a13-a56e-99978662a231")
 			(effects
@@ -6449,7 +6449,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PHY_PWR" output
+		(pin "PHYPWR" output
 			(at 165.1 34.29 180)
 			(uuid "d84f7191-988e-46ff-8a30-351338a7c27b")
 			(effects

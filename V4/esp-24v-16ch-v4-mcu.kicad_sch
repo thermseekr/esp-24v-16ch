@@ -3408,7 +3408,7 @@
 		)
 		(uuid "e67a8f39-8986-422e-981f-60c00309bbcf")
 	)
-	(hierarchical_label "PHY_PWR"
+	(hierarchical_label "PHYPWR"
 		(shape output)
 		(at 267.97 81.28 0)
 		(effects
