@@ -2710,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 35.56) (xy 78.74 64.77)
+			(xy 78.74 33.02) (xy 78.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 35.56) (xy 222.25 68.58)
+			(xy 222.25 33.02) (xy 222.25 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 33.02) (xy 224.79 33.02)
+			(xy 76.2 30.48) (xy 224.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 76.2 33.02)
+			(xy 76.2 62.23) (xy 76.2 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 33.02) (xy 224.79 73.66)
+			(xy 224.79 30.48) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 35.56) (xy 222.25 35.56)
+			(xy 78.74 33.02) (xy 222.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 		(uuid "2661ebc0-0a7f-4e1a-8507-6defe05c8803")
 	)
 	(label "UARTTXD"
-		(at 157.48 33.02 0)
+		(at 157.48 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3389,7 +3389,7 @@
 		(uuid "789fdf5a-ceda-4e12-a928-4c5c90f93003")
 	)
 	(label "UARTRXD"
-		(at 157.48 35.56 0)
+		(at 157.48 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 212.09 88.9 90)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25092"
+		(property "LCSC Part #" "C25105"
 			(at 208.28 91.44 90)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0402WGF220JTCE"
+		(property "Mfr PN" "0402WGF330JTCE"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -3754,7 +3754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C25092"
+		(property "Vendor PN" "C25105"
 			(at 208.28 93.98 0)
 			(effects
 				(font

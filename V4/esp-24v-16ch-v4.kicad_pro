@@ -116,7 +116,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -200,6 +200,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.3,
         0.5,
@@ -518,29 +519,55 @@
         "bus_width": 12,
         "name": "ANALOG",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 7,
+        "priority": 10,
         "schematic_color": "rgb(255, 0, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "name": "EMAC",
-        "pcb_color": "rgb(0, 255, 0)",
-        "priority": 10,
-        "schematic_color": "rgb(0, 255, 0)",
+        "name": "CLK",
+        "pcb_color": "rgb(0, 123, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 123, 255)",
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "name": "EMACMGMT",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "EMACRX",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 13,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "EMACTX",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "name": "ESP",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 255, 255)"
+        "priority": 3,
+        "schematic_color": "rgb(0, 255, 255)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "I2C",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 6,
+        "priority": 9,
         "schematic_color": "rgb(255, 153, 0)",
         "wire_width": 6
       },
@@ -548,7 +575,7 @@
         "bus_width": 12,
         "name": "INPUTS",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 9,
+        "priority": 12,
         "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 6
       },
@@ -556,7 +583,7 @@
         "bus_width": 12,
         "name": "MCP",
         "pcb_color": "rgb(132, 0, 0)",
-        "priority": 5,
+        "priority": 8,
         "schematic_color": "rgb(132, 0, 0)",
         "wire_width": 6
       },
@@ -564,7 +591,7 @@
         "bus_width": 12,
         "name": "OUTPUTS",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 8,
+        "priority": 11,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 6
       },
@@ -572,7 +599,7 @@
         "bus_width": 12,
         "name": "PWR24V",
         "pcb_color": "rgb(255, 134, 0)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgb(255, 134, 0)",
         "wire_width": 6
       },
@@ -580,7 +607,7 @@
         "bus_width": 12,
         "name": "PWR3V3",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 13,
+        "priority": 16,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
       },
@@ -588,7 +615,7 @@
         "bus_width": 12,
         "name": "PWR3V3A",
         "pcb_color": "rgb(255, 56, 61)",
-        "priority": 4,
+        "priority": 7,
         "schematic_color": "rgb(255, 56, 61)",
         "wire_width": 6
       },
@@ -596,7 +623,7 @@
         "bus_width": 12,
         "name": "PWR3V3LAN",
         "pcb_color": "rgb(255, 111, 119)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgb(255, 111, 119)",
         "wire_width": 6
       },
@@ -604,7 +631,7 @@
         "bus_width": 12,
         "name": "PWR5V",
         "pcb_color": "rgb(255, 93, 0)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgb(255, 93, 0)",
         "wire_width": 6
       },
@@ -612,7 +639,7 @@
         "bus_width": 12,
         "name": "PWRGND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 12,
+        "priority": 15,
         "schematic_color": "rgb(132, 132, 132)",
         "wire_width": 6
       },
@@ -620,7 +647,7 @@
         "bus_width": 12,
         "name": "UART",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 11,
+        "priority": 14,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
@@ -628,7 +655,7 @@
         "bus_width": 12,
         "name": "USB",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 14,
+        "priority": 17,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       }
@@ -652,16 +679,16 @@
         "pattern": "/MCU/UART*"
       },
       {
-        "netclass": "EMAC",
-        "pattern": "/LAN/EMAC*"
+        "netclass": "EMACRX",
+        "pattern": "/LAN/EMACRX*"
       },
       {
         "netclass": "INPUTS",
-        "pattern": "/*/IN*"
+        "pattern": "/Input*/IN*"
       },
       {
         "netclass": "OUTPUTS",
-        "pattern": "/*/OUT*"
+        "pattern": "/Output*/OUT*"
       },
       {
         "netclass": "INPUTS",
@@ -673,19 +700,19 @@
       },
       {
         "netclass": "ANALOG",
-        "pattern": "/*/NTC*"
+        "pattern": "/I2C Devices/NTC*"
       },
       {
         "netclass": "ANALOG",
-        "pattern": "/*/AIN*"
+        "pattern": "/I2C Devices/AIN*"
       },
       {
         "netclass": "I2C",
-        "pattern": "/*/I2C*"
+        "pattern": "/I2C Devices/I2C*"
       },
       {
         "netclass": "MCP",
-        "pattern": "/*/MCP*"
+        "pattern": "/I2C Devices/MCP*"
       },
       {
         "netclass": "PWR3V3",
@@ -713,7 +740,19 @@
       },
       {
         "netclass": "ESP",
-        "pattern": "/*/ESP*"
+        "pattern": "/MCU/ESP*"
+      },
+      {
+        "netclass": "EMACTX",
+        "pattern": "/LAN/EMACTX*"
+      },
+      {
+        "netclass": "EMACMGMT",
+        "pattern": "/LAN/EMACMD*"
+      },
+      {
+        "netclass": "CLK",
+        "pattern": "/LAN/EMACCLK"
       }
     ]
   },
