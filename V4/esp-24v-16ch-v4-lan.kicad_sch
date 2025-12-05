@@ -1002,7 +1002,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Tales:+3.3VLAN"
+		(symbol "Tales:+3V3A"
 			(power)
 			(pin_names
 				(offset 0)
@@ -1019,7 +1019,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VLAN"
+			(property "Value" "+3V3A"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1045,7 +1045,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1063,7 +1063,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VLAN_0_1"
+			(symbol "+3V3A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1101,7 +1101,129 @@
 					)
 				)
 			)
-			(symbol "+3.3VLAN_1_1"
+			(symbol "+3V3A_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Tales:+3V3LAN"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3LAN"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3LAN\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3LAN_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3LAN_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3329,131 +3451,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3VA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8012,7 +8009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "Tales:+3V3A")
 		(at 73.66 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8055,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 73.66 144.78 0)
 			(effects
 				(font
@@ -8908,7 +8905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3.3VLAN")
+		(lib_id "Tales:+3V3LAN")
 		(at 124.46 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8951,7 +8948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3LAN\""
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -9851,7 +9848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "Tales:+3V3A")
 		(at 176.53 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9894,7 +9891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 176.53 30.48 0)
 			(effects
 				(font
@@ -10295,7 +10292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "Tales:+3V3A")
 		(at 43.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10338,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 43.18 120.65 0)
 			(effects
 				(font
@@ -10366,7 +10363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "Tales:+3V3A")
 		(at 261.62 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10409,7 +10406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 261.62 114.3 0)
 			(effects
 				(font
@@ -10964,7 +10961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3.3VLAN")
+		(lib_id "Tales:+3V3LAN")
 		(at 154.94 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11007,7 +11004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3LAN\""
 			(at 154.94 30.48 0)
 			(effects
 				(font
@@ -11401,7 +11398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3.3VLAN")
+		(lib_id "Tales:+3V3LAN")
 		(at 49.53 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11444,7 +11441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VLAN\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3LAN\""
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -11610,7 +11607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "Tales:+3V3A")
 		(at 184.15 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11653,7 +11650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 184.15 30.48 0)
 			(effects
 				(font
