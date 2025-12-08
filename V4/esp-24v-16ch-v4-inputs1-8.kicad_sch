@@ -1697,9 +1697,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I_{LED} = (24V - V_{LED}) / 6.8k\nI_{LED} = (24V - 2.7V) / 6.8k\nI_{LED} = 3,13 mA"
+	(text "I_{LED} = (24V - V_{LED}) / 10k\nI_{LED} = (24V - 2.7V) / 10k\nI_{LED} = 2,13 mA"
 		(exclude_from_sim no)
-		(at 106.68 144.78 0)
+		(at 130.81 118.11 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 125.73 120.65)
+			(xy 125.73 121.92) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 125.73 93.98)
+			(xy 125.73 92.71) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 111.76)
+			(xy 125.73 106.68) (xy 125.73 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 		(uuid "9ffaf58f-aa88-44e9-ab5f-bfbebe36118c")
 	)
 	(label "INLED"
-		(at 125.73 110.49 90)
+		(at 125.73 115.57 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2037,7 +2037,7 @@
 			)
 			(justify right)
 		)
-		(uuid "50a70024-d7e6-4c08-be30-c2c458bf97eb")
+		(uuid "54d58bb2-75fb-475a-bb16-039f93059f27")
 	)
 	(hierarchical_label "MUXIN"
 		(shape output)
@@ -2048,2027 +2048,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7893857c-8d2e-4d6b-92cd-ca9b904eccb2")
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 134.62 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04bc09f1-efbf-4825-a0df-01be824e4555")
-		(property "Reference" "R30"
-			(at 138.43 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k8/125mW"
-			(at 138.43 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tales:R_0805_2012Metric"
-			(at 134.366 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0805/2012"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0805W8F1801T5E"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "1%"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C17398"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17398"
-			(at 138.43 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc276ad3-edc2-4fb5-8429-fb13a461164d")
-		)
-		(pin "2"
-			(uuid "160d315a-32b1-4202-84e2-d943b55d1c00")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "R42")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05ed5ee4-0782-43dd-b20e-828472ee28cc")
-		(property "Reference" "#PWR089"
-			(at 125.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.857 125.0442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96a8da8d-bd0f-48d8-b50e-0a11f1e8cb3e")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR096")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR089")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08be79d9-3926-4412-a531-7de5bb1d47e6")
-		(property "Reference" "#PWR087"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.867 105.9942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5431d27-cfb4-4955-b4a6-def4b0b0dd65")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR094")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR087")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 87.63 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "184cd11e-e803-4d4f-9064-b5ab2fb7621f")
-		(property "Reference" "FB1"
-			(at 87.5919 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600R/100MHz"
-			(at 87.5919 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
-			(at 87.63 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C85833"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "BLM18KG601SN1D"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Ferrite Bead"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C85833"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aab3e55-e8e8-40d6-b81d-8b712a1e68ba")
-		)
-		(pin "2"
-			(uuid "5f0d94cd-92dd-43eb-8eb6-f602902a4b3e")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "FB8")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "FB4")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "FB5")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "FB6")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "FB2")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "FB7")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "FB1")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ26A")
-		(at 96.52 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2549c105-ebf4-4ba5-a703-0644c578ca58")
-		(property "Reference" "D8"
-			(at 99.06 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ26A"
-			(at 99.06 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "SMA"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19077543"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "hongjiacheng"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "SMAJ26A"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "TVS"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C19077543"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35455f21-1275-4952-94b9-6fd0e73d2f0d")
-		)
-		(pin "1"
-			(uuid "1c832e09-5e0e-46ae-8a91-84aacc4401ba")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D26")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 143.51 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4018a067-9c12-4ee7-b330-547bc1f8e200")
-		(property "Reference" "C28"
-			(at 146.05 95.2562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33nF/50V"
-			(at 146.05 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Ceramic X7R"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Samsung"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CL10B333KB8NNNC"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C21117"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21117"
-			(at 146.05 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d843c75c-a0b6-4aff-8092-97e216d044db")
-		)
-		(pin "2"
-			(uuid "09cc164b-6638-4605-807b-b44324fffa01")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "C42")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "C36")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "C28")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45bcbf3a-9730-47be-b491-00dec8a6d057")
-		(property "Reference" "#PWR091"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.387 104.7242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fd6706e-8072-4b75-b3fb-ccbba2772334")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR098")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 125.73 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "701306cc-5c0c-485d-a317-4793f0ccf5e5")
-		(property "Reference" "D9"
-			(at 123.19 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WHITE/0603"
-			(at 123.19 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:LED_0603_1608Metric"
-			(at 125.73 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Hubei KENTO Elec"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "KT-0603W"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C2290"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2290"
-			(at 123.19 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3188518d-307d-4cd2-acca-a481dcc5df23")
-		)
-		(pin "2"
-			(uuid "c40fec72-1de6-4905-afd6-86776735072a")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D30")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 160.02 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "782b07e0-6d55-40b0-8aed-b0cfc640c622")
-		(property "Reference" "D10"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9V1/500mW"
-			(at 157.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:D_SOD-123"
-			(at 160.02 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "SOD-123"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "hongjiacheng"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "BZT52C9V1"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Zener"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C19077407"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19077407"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "080b0c48-1262-4966-8544-f244deb2a8a6")
-		)
-		(pin "2"
-			(uuid "b7118af2-898f-4f92-9bb3-798568759b22")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D31")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tales:+3V3")
-		(at 207.01 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d0a8706-506e-4324-9283-cb552be45c82")
-		(property "Reference" "#PWR093"
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 207.391 76.8858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 207.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec708ad8-e59e-410f-884f-03abbdea2a12")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR093")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 207.01 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d077a9f-857f-46f5-a4a5-f2e295ec3f36")
-		(property "Reference" "R31"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 208.026 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402/1005"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0402WGF2201TCE"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "1%"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C25879"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25879"
-			(at 209.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93bcff7b-b45f-4f66-ae4f-58894404a474")
-		)
-		(pin "2"
-			(uuid "3a06f1e2-b4a6-47db-b387-52fe85041e86")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "R49")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6712db6-a39b-434c-bcdf-516fae06e191")
-		(property "Reference" "#PWR090"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.637 105.9942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ed86955-26d4-4576-a026-ab08677eb749")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR097")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR090")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 78.74 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca0954d3-205c-4a1d-8c7f-4c89062e3037")
-		(property "Reference" "C27"
-			(at 81.28 95.2562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF/50V"
-			(at 81.28 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Ceramic X7R"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Samsung"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CL10B102KB8NNNC"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C1588"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1588"
-			(at 81.28 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e711f09-4672-4e63-8c7a-26421feb7dca")
-		)
-		(pin "2"
-			(uuid "e35d8d74-79f0-4ecd-a3b3-8c0d9db49928")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 193.04 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d81c54ca-6ad6-4620-83f3-8b9f8a09278b")
-		(property "Reference" "#PWR092"
-			(at 193.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.167 104.7242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6268b11-2b45-49df-b3ce-7f19967e9ea5")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR099")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR092")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e50350d7-a57d-43ac-9c25-4ac7cbc5ad84")
-		(property "Reference" "#PWR088"
-			(at 96.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.647 107.2642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d48f8597-e849-4c50-93e0-5d66f8fbbd92")
-		)
-		(instances
-			(project "esp-24v-16ch-v4"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR095")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e36b991a-f2f9-4628-81b5-ca3cc4a17710")
 	)
 	(symbol
 		(lib_id "Tales:OR-3H7-4")
@@ -4078,8 +2058,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e60387c2-ff32-4f13-8333-29fcaf386447")
-		(property "Reference" "U10"
+		(uuid "0601f593-fb03-4664-bb46-845e757833df")
+		(property "Reference" "U9"
 			(at 179.07 101.6 0)
 			(effects
 				(font
@@ -4248,69 +2228,69 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "U11")
+					(reference "U10")
 					(unit 4)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "U10")
+					(reference "U9")
 					(unit 4)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "U11")
+					(reference "U10")
 					(unit 2)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "U10")
+					(reference "U9")
 					(unit 2)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "U11")
+					(reference "U10")
 					(unit 3)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "U10")
+					(reference "U9")
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 97.79 0)
+		(lib_id "Device:D_Zener_Small")
+		(at 160.02 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
-		(property "Reference" "R29"
-			(at 123.19 95.25 0)
+		(uuid "062944d1-bba2-4d1c-a58e-d08f093e6976")
+		(property "Reference" "D11"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "6,8k/100mW"
-			(at 123.19 97.79 0)
+		(property "Value" "9V1/500mW"
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
-			(at 126.746 98.044 90)
+		(property "Footprint" "Tales:D_SOD-123"
+			(at 160.02 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 97.79 0)
+			(at 160.02 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,8 +2307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 97.79 0)
+		(property "Description" "Zener diode, small symbol"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,8 +2316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603/1608"
-			(at 125.73 97.79 0)
+		(property "Case" "SOD-123"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,8 +2325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Uniroyal"
-			(at 125.73 97.79 0)
+		(property "Mfr" "hongjiacheng"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,8 +2334,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0603WAF6801T5E"
-			(at 125.73 97.79 0)
+		(property "Mfr PN" "BZT52C9V1"
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Zener"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +2353,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 125.73 97.79 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,8 +2361,610 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C23212 "
-			(at 125.73 97.79 0)
+		(property "Vendor PN" "C19077407"
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19077407"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "080b0c48-1262-4966-8544-f244deb2a8a6")
+		)
+		(pin "2"
+			(uuid "b7118af2-898f-4f92-9bb3-798568759b22")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ26A")
+		(at 96.52 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3c75d7fb-3a92-44c4-a4b2-da48d1b081ba")
+		(property "Reference" "D9"
+			(at 99.06 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ26A"
+			(at 99.06 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "SMA"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19077543"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "hongjiacheng"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "SMAJ26A"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "TVS"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C19077543"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35455f21-1275-4952-94b9-6fd0e73d2f0d")
+		)
+		(pin "1"
+			(uuid "1c832e09-5e0e-46ae-8a91-84aacc4401ba")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c9e3b20-c122-42ad-b67a-46d9d13c559e")
+		(property "Reference" "#PWR03"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.857 130.1242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a8da8d-bd0f-48d8-b50e-0a11f1e8cb3e")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66824623-5c74-4994-8c13-9506eb9840b9")
+		(property "Reference" "#PWR06"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.167 104.7242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6268b11-2b45-49df-b3ce-7f19967e9ea5")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tales:+3V3")
+		(at 207.01 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69aee115-0831-4e26-b903-47decaae5d8d")
+		(property "Reference" "#PWR07"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.391 76.8858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec708ad8-e59e-410f-884f-03abbdea2a12")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74985c46-3862-4700-8519-fdfdf55fd972")
+		(property "Reference" "R42"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:R_0402_1005Metric"
+			(at 208.026 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402/1005"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uniroyal"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "0402WGF2201TCE"
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +2973,7 @@
 			)
 		)
 		(property "Technology" "1%"
-			(at 125.73 97.79 0)
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +2981,960 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23212"
+		(property "Vendor PN" "C25879"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25879"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93bcff7b-b45f-4f66-ae4f-58894404a474")
+		)
+		(pin "2"
+			(uuid "3a06f1e2-b4a6-47db-b387-52fe85041e86")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a933e785-0e14-4156-86ae-787904d60e25")
+		(property "Reference" "#PWR05"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.387 104.7242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd6706e-8072-4b75-b3fb-ccbba2772334")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 78.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa800983-0711-41fb-8f77-1479eedd6152")
+		(property "Reference" "C30"
+			(at 81.28 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF/50V"
+			(at 81.28 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0603_1608Metric"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Ceramic X7R"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL10B102KB8NNNC"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C1588"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1588"
+			(at 81.28 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e711f09-4672-4e63-8c7a-26421feb7dca")
+		)
+		(pin "2"
+			(uuid "e35d8d74-79f0-4ecd-a3b3-8c0d9db49928")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdee3a76-8d6c-4c93-85b2-3cbf2e9f98ba")
+		(property "Reference" "#PWR04"
+			(at 143.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.637 105.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed86955-26d4-4576-a026-ab08677eb749")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 87.63 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb8afdb-ec96-4bcf-8309-a9430103acae")
+		(property "Reference" "FB1"
+			(at 87.5919 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R/100MHz"
+			(at 87.5919 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tales:R_0603_1608Metric"
+			(at 87.63 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C85833"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "BLM18KG601SN1D"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Ferrite Bead"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C85833"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aab3e55-e8e8-40d6-b81d-8b712a1e68ba")
+		)
+		(pin "2"
+			(uuid "5f0d94cd-92dd-43eb-8eb6-f602902a4b3e")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "FB8")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "FB4")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "FB5")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "FB6")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "FB2")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "FB7")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "FB1")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 125.73 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e267dd32-5af1-42da-bc33-ab303e6c08d4")
+		(property "Reference" "D10"
+			(at 123.19 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WHITE/0603"
+			(at 123.19 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:LED_0603_1608Metric"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Hubei KENTO Elec"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "KT-0603W"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C2290"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2290"
+			(at 123.19 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3188518d-307d-4cd2-acca-a481dcc5df23")
+		)
+		(pin "2"
+			(uuid "c40fec72-1de6-4905-afd6-86776735072a")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ed1119-be23-4e95-9c06-950ba63e5eca")
+		(property "Reference" "C31"
+			(at 146.05 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nF/50V"
+			(at 146.05 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0603_1608Metric"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Ceramic X7R"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL10B333KB8NNNC"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C21117"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21117"
+			(at 146.05 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d843c75c-a0b6-4aff-8092-97e216d044db")
+		)
+		(pin "2"
+			(uuid "09cc164b-6638-4605-807b-b44324fffa01")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 125.73 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5a4d3fb-ca38-46a0-b486-cab0a698bc8d")
+		(property "Reference" "R40"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -4399,8 +3943,107 @@
 				(justify right)
 			)
 		)
+		(property "Value" "10k/100mW"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tales:R_0603_1608Metric"
+			(at 126.746 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uniroyal"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "0603WAF1002T5E"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C25804"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "1%"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "JLCPCB BOM" "1"
-			(at 125.73 97.79 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,35 +4060,392 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "R50")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "R38")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "R41")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "R44")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "R32")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "R47")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "R29")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "R35")
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6235ed7-db5c-4f72-93d6-8c7f7f8859a3")
+		(property "Reference" "#PWR01"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.867 105.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5431d27-cfb4-4955-b4a6-def4b0b0dd65")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 134.62 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb1c7358-5b7b-407c-b4d9-afb866dfe9e1")
+		(property "Reference" "R41"
+			(at 138.43 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k8/125mW"
+			(at 138.43 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tales:R_0805_2012Metric"
+			(at 134.366 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uniroyal"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "0805W8F1801T5E"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "1%"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C17398"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17398"
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc276ad3-edc2-4fb5-8429-fb13a461164d")
+		)
+		(pin "2"
+			(uuid "160d315a-32b1-4202-84e2-d943b55d1c00")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff5e745c-e157-481f-88c2-c133ff9910db")
+		(property "Reference" "#PWR02"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.647 107.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d48f8597-e849-4c50-93e0-5d66f8fbbd92")
+		)
+		(instances
+			(project "esp-24v-16ch-v4"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "drill": 0.8,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -519,7 +519,7 @@
         "bus_width": 12,
         "name": "ANALOG",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(255, 0, 255)",
         "wire_width": 6
       },
@@ -527,7 +527,7 @@
         "bus_width": 12,
         "name": "CLK",
         "pcb_color": "rgb(0, 123, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 123, 255)",
         "wire_width": 6
       },
@@ -535,7 +535,7 @@
         "bus_width": 12,
         "name": "EMACMGMT",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 6
       },
@@ -543,7 +543,7 @@
         "bus_width": 12,
         "name": "EMACRX",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
@@ -551,7 +551,7 @@
         "bus_width": 12,
         "name": "EMACTX",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
@@ -559,15 +559,23 @@
         "bus_width": 12,
         "name": "ESP",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 255, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "ETH",
+        "pcb_color": "rgb(231, 86, 194)",
+        "priority": 0,
+        "schematic_color": "rgb(231, 86, 194)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "I2C",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(255, 153, 0)",
         "wire_width": 6
       },
@@ -575,7 +583,7 @@
         "bus_width": 12,
         "name": "INPUTS",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 6
       },
@@ -583,7 +591,7 @@
         "bus_width": 12,
         "name": "MCP",
         "pcb_color": "rgb(132, 0, 0)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(132, 0, 0)",
         "wire_width": 6
       },
@@ -591,7 +599,7 @@
         "bus_width": 12,
         "name": "OUTPUTS",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 6
       },
@@ -599,7 +607,7 @@
         "bus_width": 12,
         "name": "PWR24V",
         "pcb_color": "rgb(255, 134, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 134, 0)",
         "wire_width": 6
       },
@@ -607,7 +615,7 @@
         "bus_width": 12,
         "name": "PWR3V3",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 17,
+        "priority": 18,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
       },
@@ -615,21 +623,23 @@
         "bus_width": 12,
         "name": "PWR3V3A",
         "pcb_color": "rgb(255, 56, 61)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 56, 61)",
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "name": "PWR3V3ANA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 255, 0)"
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 255, 0)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "PWR3V3LAN",
         "pcb_color": "rgb(255, 111, 119)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 111, 119)",
         "wire_width": 6
       },
@@ -637,7 +647,7 @@
         "bus_width": 12,
         "name": "PWR5V",
         "pcb_color": "rgb(255, 93, 0)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 93, 0)",
         "wire_width": 6
       },
@@ -645,7 +655,7 @@
         "bus_width": 12,
         "name": "PWRGND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 16,
+        "priority": 17,
         "schematic_color": "rgb(132, 132, 132)",
         "wire_width": 6
       },
@@ -653,7 +663,7 @@
         "bus_width": 12,
         "name": "UART",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 15,
+        "priority": 16,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
@@ -661,7 +671,7 @@
         "bus_width": 12,
         "name": "USB",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 18,
+        "priority": 19,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       }
@@ -763,6 +773,10 @@
       {
         "netclass": "PWR3V3ANA",
         "pattern": "+3V3ANA"
+      },
+      {
+        "netclass": "ETH",
+        "pattern": "/LAN/ETH*"
       }
     ]
   },

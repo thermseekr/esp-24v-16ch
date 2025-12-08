@@ -3468,7 +3468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0519872c-bc4a-4f26-8257-fa796c0936db")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0196"
 			(at 250.19 107.95 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR040")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "090489a3-854b-4139-a37b-af75c75f2149")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 203.2 88.9 90)
 			(effects
 				(font
@@ -3656,7 +3656,7 @@
 		(instances
 			(project ""
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3821,7 +3821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1da77c5e-09fa-4f10-b227-c9a0c190478c")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 207.01 53.34 0)
 			(effects
 				(font
@@ -3956,7 +3956,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3971,7 +3971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24f2c889-6361-40b8-849a-357211b89570")
-		(property "Reference" "C69"
+		(property "Reference" "C17"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "C69")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3542326e-f399-452f-9fd5-b79bb89f5cc0")
-		(property "Reference" "#PWR0250"
+		(property "Reference" "#PWR0201"
 			(at 182.88 63.5 0)
 			(effects
 				(font
@@ -4164,7 +4164,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR0250")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -4180,7 +4180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3780d858-a7af-4ff2-a247-e79ffdb420cc")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0204"
 			(at 43.18 59.69 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR029")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4246,7 +4246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fdf437f-e882-4360-97e4-f0b95ed6726d")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 259.08 58.42 0)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482b8293-8a1d-4365-8a0b-67638984d9e6")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR0191"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -4733,7 +4733,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR0248")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -4903,7 +4903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562254c4-ccc0-4d8f-866d-d577208ba418")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0195"
 			(at 257.81 99.06 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR042")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59dd5098-1667-4c8c-b049-a4d0ea90ec0e")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 252.73 106.68 0)
 			(effects
 				(font
@@ -5095,7 +5095,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6978bb78-4314-49f7-9639-09e2213eca16")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0205"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -5303,7 +5303,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR028")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -5318,7 +5318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f797d2-5b8e-426c-aeb6-2dcddb103f68")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0202"
 			(at 63.5 41.91 0)
 			(effects
 				(font
@@ -5368,7 +5368,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR030")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c06b54c-d685-43c4-be47-f8a378c1e8ce")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0193"
 			(at 133.35 55.88 0)
 			(effects
 				(font
@@ -5433,7 +5433,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR033")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -5449,7 +5449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41775f1-fc39-4ed5-9d93-332d2de5322a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0203"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR031")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75ff9c3-4e95-417f-b599-8037e57f0b76")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 260.35 85.0899 0)
 			(effects
 				(font
@@ -5651,7 +5651,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5666,7 +5666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b04f12f7-767f-48ff-aaf7-4deb7cb285f6")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b58d1cf0-a651-499e-a349-3da99c1819fb")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 234.95 58.42 0)
 			(effects
 				(font
@@ -6185,7 +6185,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cebfc39d-50e1-4a87-98f7-fab7bca3d4a4")
-		(property "Reference" "C68"
+		(property "Reference" "C16"
 			(at 162.56 51.435 0)
 			(effects
 				(font
@@ -6326,7 +6326,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "C68")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6343,7 +6343,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0a6f5aa-5c14-45a9-a8bd-367e116fdc83")
 		(property "Reference" "C15"
-			(at 135.89 69.2213 0)
+			(at 135.89 68.5862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6352,7 @@
 			)
 		)
 		(property "Value" "1uF/50V"
-			(at 135.89 71.7613 0)
+			(at 135.89 71.1262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6397,7 @@
 			)
 		)
 		(property "Technology" "Ceramic X7R"
-			(at 135.89 74.3013 0)
+			(at 135.89 73.6662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +6406,7 @@
 			)
 		)
 		(property "LCSC Part #" "C28323"
-			(at 135.89 76.8413 0)
+			(at 135.89 76.2062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6bc027e-b47b-4309-a35b-cd3c77194a73")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0192"
 			(at 179.07 50.8 0)
 			(effects
 				(font
@@ -6542,7 +6542,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR035")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee4cfcf-0823-4de5-9d78-c9e2396a381f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0189"
 			(at 125.73 110.49 0)
 			(effects
 				(font
@@ -6609,7 +6609,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR032")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -6624,7 +6624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6f4f664-e847-4501-9b28-8480b49b59cb")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0198"
 			(at 232.41 59.69 0)
 			(effects
 				(font
@@ -6674,7 +6674,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR039")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -6690,7 +6690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f02162b3-4e68-4dd5-b732-dc3268f334e8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0190"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -6741,7 +6741,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR034")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ddbf62-90c7-4cc3-b60b-4df372ab9325")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0199"
 			(at 179.07 139.7 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR036")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa5be5e9-df77-4fb6-8c57-d041e5ee86a8")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0200"
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -7193,7 +7193,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR037")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -7208,7 +7208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcebfc40-77fc-4954-9daa-fd1924a0fa3e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0197"
 			(at 256.54 59.69 0)
 			(effects
 				(font
@@ -7258,7 +7258,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR041")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -7273,7 +7273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff354a2b-d70a-42a2-938e-eb94843b4288")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0194"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR038")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)

@@ -3264,7 +3264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ade5c6e-5a9f-4fd0-abe5-ec62c063d514")
-		(property "Reference" "J4"
+		(property "Reference" "J8"
 			(at 396.24 182.88 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3421,7 +3421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c6297ca-1f82-4eb0-a676-338544525471")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 298.45 182.88 0)
 			(effects
 				(font
@@ -3563,7 +3563,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3579,7 +3579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff91021-5966-4f9b-940b-b85b81837d8b")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aecb34af-d9ce-4e11-a615-5f693b8e2e59")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 24.13 182.88 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 		(instances
 			(project "esp-24v-16ch-v4"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
