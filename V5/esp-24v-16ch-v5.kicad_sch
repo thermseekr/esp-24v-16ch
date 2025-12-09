@@ -5,9 +5,9 @@
 	(uuid "2bc5a21a-1d79-419d-a592-6852cc07b00a")
 	(paper "A3")
 	(title_block
-		(title "ESP 24V 16xIn/16xOut/4xNTC Module")
-		(date "2025-07-04")
-		(rev "V4")
+		(title "ESP 24V 16xIn/16xOut/1-Wire Module")
+		(date "2025-12-09")
+		(rev "V5")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
@@ -321,6 +321,86 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3048,6 +3128,134 @@
 		(uuid "fe83cb6a-95bd-4f21-8289-7f60a0aa085d")
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 342.9 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12447a7c-8807-4004-bed1-970e81935a53")
+		(property "Reference" "FID1"
+			(at 345.44 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 345.44 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 342.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 342.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 342.9 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a3f34f-5d9e-430b-a539-2b12d1920b4d")
+		(property "Reference" "FID2"
+			(at 345.44 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 345.44 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 342.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 342.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 386.08 185.42 0)
 		(unit 1)
@@ -3056,7 +3264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ade5c6e-5a9f-4fd0-abe5-ec62c063d514")
-		(property "Reference" "J4"
+		(property "Reference" "J8"
 			(at 396.24 182.88 0)
 			(effects
 				(font
@@ -3196,9 +3404,9 @@
 			(uuid "dbd7ca2d-e60b-4dd0-95c9-43bb809e9e1c")
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c6297ca-1f82-4eb0-a676-338544525471")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 298.45 182.88 0)
 			(effects
 				(font
@@ -3353,9 +3561,9 @@
 			(uuid "7a3282ef-dd08-4c96-8f15-273deeed8bd8")
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff91021-5966-4f9b-940b-b85b81837d8b")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -3511,9 +3719,73 @@
 			(uuid "4b4eb517-ed69-4e11-90a0-b5fef12add37")
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J2")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 342.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e9355e-f95f-42d7-b7ed-00c245c35b50")
+		(property "Reference" "FID3"
+			(at 345.44 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 345.44 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -3529,7 +3801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aecb34af-d9ce-4e11-a615-5f693b8e2e59")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 24.13 182.88 0)
 			(effects
 				(font
@@ -3669,9 +3941,9 @@
 			(uuid "7a60c8b0-d28d-4dac-8b28-a68ef7ae9f65")
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 212.6746 0)
 			(effects
 				(font
@@ -3711,7 +3983,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 208.28 180)
 			(uuid "2118021d-61dc-4e13-8cea-f3480b0d1bd2")
 			(effects
@@ -3732,7 +4004,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "27")
 				)
@@ -3764,7 +4036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 156.7946 0)
 			(effects
 				(font
@@ -3773,7 +4045,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 152.4 180)
 			(uuid "49ab1b4d-c6b5-4488-8080-cf15697a684d")
 			(effects
@@ -3794,7 +4066,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "31")
 				)
@@ -3826,7 +4098,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 240.6146 0)
 			(effects
 				(font
@@ -3845,7 +4117,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 236.22 0)
 			(uuid "722b9ec6-5055-4b95-a8ae-0ea1aad46a3e")
 			(effects
@@ -3856,9 +4128,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "15")
+					(page "13")
 				)
 			)
 		)
@@ -3888,7 +4160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 240.6146 0)
 			(effects
 				(font
@@ -3897,7 +4169,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 236.22 180)
 			(uuid "27c06298-e124-482a-81e5-622de5beb952")
 			(effects
@@ -3918,7 +4190,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "37")
 				)
@@ -3950,7 +4222,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 170.7646 0)
 			(effects
 				(font
@@ -3959,7 +4231,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 166.37 180)
 			(uuid "f88b8bff-d56e-4362-8e34-3478da1a06ef")
 			(effects
@@ -3980,7 +4252,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "32")
 				)
@@ -4012,7 +4284,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 184.7346 0)
 			(effects
 				(font
@@ -4031,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 180.34 0)
 			(uuid "1ef62ea1-7b7e-42b0-9179-b7c602031ad4")
 			(effects
@@ -4042,9 +4314,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "11")
+					(page "9")
 				)
 			)
 		)
@@ -4074,7 +4346,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 170.7646 0)
 			(effects
 				(font
@@ -4093,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 166.37 0)
 			(uuid "e5518b41-6c23-4ddb-a1b6-851fc62edcdb")
 			(effects
@@ -4104,9 +4376,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "18")
+					(page "16")
 				)
 			)
 		)
@@ -4136,7 +4408,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 170.7646 0)
 			(effects
 				(font
@@ -4145,7 +4417,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 166.37 180)
 			(uuid "447ee1f4-9496-4bf6-b736-24f9cc06f464")
 			(effects
@@ -4166,7 +4438,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "24")
 				)
@@ -4198,7 +4470,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 198.7046 0)
 			(effects
 				(font
@@ -4217,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 194.31 0)
 			(uuid "1e93648e-d543-445e-b812-3f9c31a9d48d")
 			(effects
@@ -4228,9 +4500,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "12")
+					(page "10")
 				)
 			)
 		)
@@ -4260,7 +4532,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 184.7346 0)
 			(effects
 				(font
@@ -4269,7 +4541,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 180.34 180)
 			(uuid "9e9a36fa-142f-4903-a0dc-5f52f50e6527")
 			(effects
@@ -4290,7 +4562,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "25")
 				)
@@ -4322,7 +4594,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 212.6746 0)
 			(effects
 				(font
@@ -4341,7 +4613,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 208.28 0)
 			(uuid "c8896211-58b7-4b18-9c5c-578ea64bda17")
 			(effects
@@ -4352,9 +4624,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "13")
+					(page "11")
 				)
 			)
 		)
@@ -4384,7 +4656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 142.8246 0)
 			(effects
 				(font
@@ -4393,7 +4665,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 138.43 180)
 			(uuid "408ce172-78d4-4a96-868e-b3294c6d7025")
 			(effects
@@ -4414,7 +4686,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "30")
 				)
@@ -4446,7 +4718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 142.8246 0)
 			(effects
 				(font
@@ -4465,7 +4737,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 138.43 0)
 			(uuid "5f758696-2d2c-4cc7-af96-8bb3974be085")
 			(effects
@@ -4476,9 +4748,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "16")
+					(page "14")
 				)
 			)
 		)
@@ -4508,7 +4780,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 184.7346 0)
 			(effects
 				(font
@@ -4517,7 +4789,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 180.34 180)
 			(uuid "a69b8b62-0fd2-48a6-9e7f-9edbc149f9f8")
 			(effects
@@ -4538,7 +4810,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "33")
 				)
@@ -4570,7 +4842,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-power.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-power.kicad_sch"
 			(at 118.11 60.2746 0)
 			(effects
 				(font
@@ -4579,7 +4851,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PHY_PWR" input
+		(pin "PHYPWR" input
 			(at 146.05 34.29 0)
 			(uuid "db08a562-5d5e-4a13-a56e-99978662a231")
 			(effects
@@ -4589,7 +4861,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_D+" input
+		(pin "USBD+" input
 			(at 146.05 41.91 0)
 			(uuid "62286c8b-65b0-47ba-a1fa-b3e42525cd75")
 			(effects
@@ -4599,7 +4871,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_D-" input
+		(pin "USBD-" input
 			(at 146.05 44.45 0)
 			(uuid "62d45899-248e-4a85-b83a-ab408a016d70")
 			(effects
@@ -4610,7 +4882,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "2")
 				)
@@ -4642,7 +4914,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 226.6446 0)
 			(effects
 				(font
@@ -4651,7 +4923,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 222.25 180)
 			(uuid "c58c33c0-090d-48cc-a652-35d0d37b3719")
 			(effects
@@ -4672,7 +4944,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "36")
 				)
@@ -4704,7 +4976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 156.7946 0)
 			(effects
 				(font
@@ -4713,7 +4985,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 152.4 180)
 			(uuid "c8e79a56-b653-44f5-8901-97160f7bfeae")
 			(effects
@@ -4734,7 +5006,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "23")
 				)
@@ -4766,7 +5038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 156.7946 0)
 			(effects
 				(font
@@ -4785,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 152.4 0)
 			(uuid "78c9ea0f-eddc-4cbb-8e6a-51ffc246c86c")
 			(effects
@@ -4796,9 +5068,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "17")
+					(page "15")
 				)
 			)
 		)
@@ -4828,7 +5100,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 198.7046 0)
 			(effects
 				(font
@@ -4847,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 194.31 0)
 			(uuid "704b98f0-47e8-4116-98d0-7cc006a40902")
 			(effects
@@ -4858,9 +5130,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "20")
+					(page "18")
 				)
 			)
 		)
@@ -4890,7 +5162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-i2c.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-i2c.kicad_sch"
 			(at 165.1 114.8846 0)
 			(effects
 				(font
@@ -5219,7 +5491,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA" bidirectional
+		(pin "I2CSDA" bidirectional
 			(at 219.71 71.12 90)
 			(uuid "975db936-5dc8-40df-a242-75aa36feca44")
 			(effects
@@ -5229,7 +5501,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SCL" input
+		(pin "I2CSCL" input
 			(at 222.25 71.12 90)
 			(uuid "952d0b31-7779-417b-a042-736141902d6d")
 			(effects
@@ -5239,7 +5511,7 @@
 				(justify right)
 			)
 		)
-		(pin "MCP1-INTB" output
+		(pin "MCPININTB" output
 			(at 214.63 71.12 90)
 			(uuid "17e903a1-39d9-41ff-9089-9b1c6912d310")
 			(effects
@@ -5249,7 +5521,7 @@
 				(justify right)
 			)
 		)
-		(pin "MCP1-INTA" output
+		(pin "MCPININTA" output
 			(at 212.09 71.12 90)
 			(uuid "44ae2d6a-d0b2-47b0-8935-32b662047d82")
 			(effects
@@ -5260,7 +5532,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "5")
 				)
@@ -5292,7 +5564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 198.7046 0)
 			(effects
 				(font
@@ -5301,7 +5573,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 194.31 180)
 			(uuid "c284199e-a5d7-4e70-9e67-36db2d13826d")
 			(effects
@@ -5322,7 +5594,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "26")
 				)
@@ -5354,7 +5626,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 226.6446 0)
 			(effects
 				(font
@@ -5363,7 +5635,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 222.25 180)
 			(uuid "e1128595-1f79-4aac-a87a-5ff9289bdf70")
 			(effects
@@ -5384,7 +5656,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "28")
 				)
@@ -5416,7 +5688,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 212.6746 0)
 			(effects
 				(font
@@ -5435,7 +5707,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 208.28 0)
 			(uuid "1eb90742-1487-49c9-b227-62b6103bbc0c")
 			(effects
@@ -5446,9 +5718,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "21")
+					(page "19")
 				)
 			)
 		)
@@ -5478,7 +5750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 156.7946 0)
 			(effects
 				(font
@@ -5497,7 +5769,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 152.4 0)
 			(uuid "da8b6c32-10b7-4f20-a1ea-bc21f3e9606d")
 			(effects
@@ -5508,9 +5780,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "9")
+					(page "7")
 				)
 			)
 		)
@@ -5540,7 +5812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 240.6146 0)
 			(effects
 				(font
@@ -5559,7 +5831,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 236.22 0)
 			(uuid "7202b420-c2b5-4c81-8f39-28f3d1ff64d3")
 			(effects
@@ -5570,9 +5842,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "23")
+					(page "21")
 				)
 			)
 		)
@@ -5602,7 +5874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-lan.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-lan.kicad_sch"
 			(at 257.81 60.2746 0)
 			(effects
 				(font
@@ -5611,7 +5883,7 @@
 				(justify left top)
 			)
 		)
-		(pin "EMAC_RX" input
+		(pin "EMACRX" input
 			(at 257.81 39.37 180)
 			(uuid "ec1e685f-0f35-411b-b4e8-74d055a7024b")
 			(effects
@@ -5621,7 +5893,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_MDIO" output
+		(pin "EMACMDIO" output
 			(at 257.81 54.61 180)
 			(uuid "a0c467a1-ad56-4fd8-9702-ad1e41dca7df")
 			(effects
@@ -5631,7 +5903,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_TXD0" output
+		(pin "EMACTXD0" output
 			(at 257.81 46.99 180)
 			(uuid "41f4d1a1-de69-4b24-a9f0-c03a0eb180f2")
 			(effects
@@ -5641,7 +5913,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_TXD1" output
+		(pin "EMACTXD1" output
 			(at 257.81 49.53 180)
 			(uuid "f95070bd-2e6b-4d37-885a-3b9a93dcd7a3")
 			(effects
@@ -5651,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_TXEN" output
+		(pin "EMACTXEN" output
 			(at 257.81 52.07 180)
 			(uuid "42288bcc-2059-4b14-a4f7-579770ac323f")
 			(effects
@@ -5661,7 +5933,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_RXD1" input
+		(pin "EMACRXD1" input
 			(at 257.81 36.83 180)
 			(uuid "b2e21a80-5466-42e3-a05f-33544b89b02c")
 			(effects
@@ -5671,7 +5943,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_RXD0" input
+		(pin "EMACRXD0" input
 			(at 257.81 34.29 180)
 			(uuid "6d1ae0ff-5b47-40b6-bb8e-9d944464ebcd")
 			(effects
@@ -5681,7 +5953,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_MDC" output
+		(pin "EMACMDC" output
 			(at 257.81 57.15 180)
 			(uuid "42a760fa-0cdc-4fbb-b528-4d30070378ab")
 			(effects
@@ -5691,7 +5963,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_CLK" input
+		(pin "EMACCLK" input
 			(at 257.81 41.91 180)
 			(uuid "dd88f49d-b344-4f36-9047-64a473209f3d")
 			(effects
@@ -5702,7 +5974,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "4")
 				)
@@ -5734,7 +6006,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 184.7346 0)
 			(effects
 				(font
@@ -5753,7 +6025,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 180.34 0)
 			(uuid "1c37aab1-2940-4110-a5f9-bae8b0c19801")
 			(effects
@@ -5764,9 +6036,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "19")
+					(page "17")
 				)
 			)
 		)
@@ -5796,7 +6068,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 198.7046 0)
 			(effects
 				(font
@@ -5805,7 +6077,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 194.31 180)
 			(uuid "d605eb24-1850-4ea1-aa37-c3cc2c51040c")
 			(effects
@@ -5826,7 +6098,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "34")
 				)
@@ -5858,7 +6130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs9-16.kicad_sch"
 			(at 152.4 226.6446 0)
 			(effects
 				(font
@@ -5877,7 +6149,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 193.04 222.25 0)
 			(uuid "52be5f32-30bf-4f66-a588-5ebd2f9f4658")
 			(effects
@@ -5888,9 +6160,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "22")
+					(page "20")
 				)
 			)
 		)
@@ -5920,7 +6192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs9-16.kicad_sch"
 			(at 322.58 212.6746 0)
 			(effects
 				(font
@@ -5929,7 +6201,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 322.58 208.28 180)
 			(uuid "0158a484-2f0f-4657-b971-3f93cf608dc5")
 			(effects
@@ -5950,7 +6222,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "35")
 				)
@@ -5982,7 +6254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 226.6446 0)
 			(effects
 				(font
@@ -6001,7 +6273,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 222.25 0)
 			(uuid "4f5924ea-8c25-4b43-8832-2b3cbb4e8653")
 			(effects
@@ -6012,9 +6284,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "14")
+					(page "12")
 				)
 			)
 		)
@@ -6044,7 +6316,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 240.6146 0)
 			(effects
 				(font
@@ -6053,7 +6325,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 236.22 180)
 			(uuid "a5df0e43-3d80-49a8-8413-26c78f77df7a")
 			(effects
@@ -6074,7 +6346,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "29")
 				)
@@ -6106,7 +6378,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 142.8246 0)
 			(effects
 				(font
@@ -6125,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 138.43 0)
 			(uuid "ce62b475-f5b3-4342-90c3-2eda4bf69010")
 			(effects
@@ -6136,9 +6408,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "8")
+					(page "6")
 				)
 			)
 		)
@@ -6168,7 +6440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-mcu.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-mcu.kicad_sch"
 			(at 165.1 60.2746 0)
 			(effects
 				(font
@@ -6177,7 +6449,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PHY_PWR" output
+		(pin "PHYPWR" output
 			(at 165.1 34.29 180)
 			(uuid "d84f7191-988e-46ff-8a30-351338a7c27b")
 			(effects
@@ -6187,7 +6459,7 @@
 				(justify left)
 			)
 		)
-		(pin "EMAC_MDIO" input
+		(pin "EMACMDIO" input
 			(at 240.03 54.61 0)
 			(uuid "b414491f-a188-44ae-aab2-a640fe5f6af5")
 			(effects
@@ -6197,7 +6469,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_TXD0" input
+		(pin "EMACTXD0" input
 			(at 240.03 46.99 0)
 			(uuid "ac54440e-2bfa-489a-8a76-95867a796696")
 			(effects
@@ -6207,7 +6479,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_CLK" output
+		(pin "EMACCLK" output
 			(at 240.03 41.91 0)
 			(uuid "0d143ebc-34fc-41d6-bfaa-6f097231bd0f")
 			(effects
@@ -6217,7 +6489,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_MDC" input
+		(pin "EMACMDC" input
 			(at 240.03 57.15 0)
 			(uuid "abb4c155-caab-4ec2-816e-33fd67604093")
 			(effects
@@ -6227,7 +6499,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_RXD0" output
+		(pin "EMACRXD0" output
 			(at 240.03 34.29 0)
 			(uuid "d017100e-16a2-4da4-9a2c-1f02055cd889")
 			(effects
@@ -6237,7 +6509,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_TXEN" input
+		(pin "EMACTXEN" input
 			(at 240.03 52.07 0)
 			(uuid "67ffe8ef-6694-4eaf-b641-163147c83f8f")
 			(effects
@@ -6247,7 +6519,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_TXD1" input
+		(pin "EMACTXD1" input
 			(at 240.03 49.53 0)
 			(uuid "28f59043-bf15-4727-84bb-4f663cf7af74")
 			(effects
@@ -6257,7 +6529,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_RXD1" output
+		(pin "EMACRXD1" output
 			(at 240.03 36.83 0)
 			(uuid "e880cc06-6346-4f72-aa7e-a26ad439641b")
 			(effects
@@ -6267,7 +6539,7 @@
 				(justify right)
 			)
 		)
-		(pin "EMAC_RX" output
+		(pin "EMACRX" output
 			(at 240.03 39.37 0)
 			(uuid "26f2265e-3b21-4372-8805-a50345ed01ab")
 			(effects
@@ -6277,7 +6549,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA" bidirectional
+		(pin "I2CSDA" bidirectional
 			(at 219.71 59.69 270)
 			(uuid "e17498cf-aa28-496c-8087-17c898e1be92")
 			(effects
@@ -6287,7 +6559,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SCL" output
+		(pin "I2CSCL" output
 			(at 222.25 59.69 270)
 			(uuid "c04506ec-01b7-43cd-87ba-5fcdfab71b23")
 			(effects
@@ -6297,7 +6569,7 @@
 				(justify left)
 			)
 		)
-		(pin "MCP1-INTA" input
+		(pin "MCPININTA" input
 			(at 212.09 59.69 270)
 			(uuid "ada4a48c-4a19-4310-8e00-b128e48a6b7b")
 			(effects
@@ -6307,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(pin "MCP1-INTB" input
+		(pin "MCPININTB" input
 			(at 214.63 59.69 270)
 			(uuid "1475181e-ff1d-466f-8aac-424d90174511")
 			(effects
@@ -6317,7 +6589,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_D+" input
+		(pin "USBD+" input
 			(at 165.1 41.91 180)
 			(uuid "7364550d-368e-4cb2-b4f4-81256c27153e")
 			(effects
@@ -6327,7 +6599,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_D-" input
+		(pin "USBD-" input
 			(at 165.1 44.45 180)
 			(uuid "58467276-9d60-4115-8c2d-334610272364")
 			(effects
@@ -6338,7 +6610,7 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
 					(page "3")
 				)
@@ -6370,7 +6642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-v4-inputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-inputs1-8.kicad_sch"
 			(at 57.15 170.7646 0)
 			(effects
 				(font
@@ -6389,7 +6661,7 @@
 				(justify left)
 			)
 		)
-		(pin "MUX_IN" output
+		(pin "MUXIN" output
 			(at 97.79 166.37 0)
 			(uuid "8b303fd8-9ac3-4e28-9c9e-4b93c3b8d65a")
 			(effects
@@ -6400,9 +6672,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "10")
+					(page "8")
 				)
 			)
 		)
@@ -6432,7 +6704,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp-24v-16ch-outputs.kicad_sch"
+		(property "Sheetfile" "esp-24v-16ch-v5-outputs1-8.kicad_sch"
 			(at 224.79 142.8246 0)
 			(effects
 				(font
@@ -6441,7 +6713,7 @@
 				(justify left top)
 			)
 		)
-		(pin "MUX_OUT" input
+		(pin "MUXOUT" input
 			(at 224.79 138.43 180)
 			(uuid "a5227222-30a6-4197-93f1-edd14d77bc57")
 			(effects
@@ -6462,9 +6734,9 @@
 			)
 		)
 		(instances
-			(project "esp-24v-16ch-v4"
+			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(page "6")
+					(page "22")
 				)
 			)
 		)
