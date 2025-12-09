@@ -1,11 +1,13 @@
 # ESP-24V-16CH
-ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC outputs for external actuators. V3.1 added an AHT20 temperature and Humidity sensor for cabinet environmental monitoring. V3.2 added a ADS1115 A/D converter with i2c communication for use with NTC thermistors. Thermistors 1 and 2 can be connected using the provided connector. Thermistors 3 and 4 must use the provided copper pads on the top layer of the board.
+ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC transistor outputs for external relays. Also included is a 1-Wire interface for external sensors.
 
 The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/suportes-para-pci/suportes-para-pci) for details.
 
-![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V4/esp-24v-16ch-v4.1.0.png "ESP-24V-16CH V4.1")
+![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V5/esp-24v-16ch-v5.0.0.png "ESP-24V-16CH V5.0")
 
 ## VERSION HISTORY
+
+ESP-24V-16CH V5.0 - Removed the onboard temperature sensor, too sensitive to be on a PCB and also measure the ambient temperature inside the cabinet. Even with cuts around the sensor, it was better at measuring each transistor's influence on the PCB's temperature than the temperature of the environment. Replaced the analog NTC inputs for a 1-Wire i2c interface. Mixing analog and digital circuits on a PCB requires more testing and developing time than I have available. So, fully digital we go. Decreased the brightness of the LEDs, maybe this time I'll get them right :) Repositioned components and rerouted the whole board following the valuable insights taken from [Phil's Lab](https://github.com/pms67) latest videos about Kicad. Thank you very much, Phil.
 
 ESP-24V-16CH V4.1 - Redesigned NTC inputs for using differential mode for better immunity against noise. Also the low pass filters were redesigned, the original ones were pretty much useless for any cable larger that 2 meters.
 
