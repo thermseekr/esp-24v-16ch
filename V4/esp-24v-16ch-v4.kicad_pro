@@ -37,19 +37,19 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.85,
-          "height": 0.6,
-          "width": 0.85
+          "drill": 0.8,
+          "height": 2.0,
+          "width": 2.0
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 0.7,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -111,7 +116,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -130,23 +135,23 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.18,
-        "min_connection": 0.0,
+        "min_clearance": 0.152,
+        "min_connection": 0.152,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.5,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.05,
-        "min_text_height": 1.0,
-        "min_text_thickness": 0.12,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.152,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.005,
+        "min_via_diameter": 0.6,
+        "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -198,16 +203,9 @@
         0.2,
         0.25,
         0.3,
-        0.4,
         0.5,
-        0.6,
-        0.8,
-        1.0,
-        1.2,
-        1.5,
-        2.0,
-        2.5,
-        3.0
+        0.75,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -245,20 +243,8 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.2,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.3,
-          "drill": 0.5
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true,
@@ -495,6 +481,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -512,7 +499,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.152,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -523,9 +510,169 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 1.0,
-        "via_drill": 0.4,
+        "track_width": 0.152,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "ANALOG",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 12,
+        "schematic_color": "rgb(255, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "CLK",
+        "pcb_color": "rgb(0, 123, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 123, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "EMACMGMT",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(194, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "EMACRX",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 15,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "EMACTX",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "ESP",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 255, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "ETH",
+        "pcb_color": "rgb(231, 86, 194)",
+        "priority": 0,
+        "schematic_color": "rgb(231, 86, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "I2C",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 11,
+        "schematic_color": "rgb(255, 153, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "INPUTS",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 14,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "MCP",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 10,
+        "schematic_color": "rgb(132, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "OUTPUTS",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 13,
+        "schematic_color": "rgb(194, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR24V",
+        "pcb_color": "rgb(255, 134, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 134, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR3V3",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 18,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR3V3A",
+        "pcb_color": "rgb(255, 56, 61)",
+        "priority": 9,
+        "schematic_color": "rgb(255, 56, 61)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR3V3ANA",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 255, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR3V3LAN",
+        "pcb_color": "rgb(255, 111, 119)",
+        "priority": 8,
+        "schematic_color": "rgb(255, 111, 119)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWR5V",
+        "pcb_color": "rgb(255, 93, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 93, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWRGND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 17,
+        "schematic_color": "rgb(132, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "UART",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 16,
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "USB",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 19,
+        "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       }
     ],
@@ -534,7 +681,104 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/*/USB*"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/UART*"
+      },
+      {
+        "netclass": "EMACRX",
+        "pattern": "/LAN/EMACRX*"
+      },
+      {
+        "netclass": "INPUTS",
+        "pattern": "/Input*/IN*"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/Output*/OUT*"
+      },
+      {
+        "netclass": "INPUTS",
+        "pattern": "/IN*"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/OUT*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/I2C Devices/NTC*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/I2C Devices/AIN*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/I2C Devices/I2C*"
+      },
+      {
+        "netclass": "MCP",
+        "pattern": "/I2C Devices/MCP*"
+      },
+      {
+        "netclass": "PWR3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "PWR3V3A",
+        "pattern": "+3V3A"
+      },
+      {
+        "netclass": "PWR3V3LAN",
+        "pattern": "+3V3LAN"
+      },
+      {
+        "netclass": "PWR5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR24V",
+        "pattern": "+24*"
+      },
+      {
+        "netclass": "PWR24V",
+        "pattern": "/Power/+24*"
+      },
+      {
+        "netclass": "ESP",
+        "pattern": "/MCU/ESP*"
+      },
+      {
+        "netclass": "EMACTX",
+        "pattern": "/LAN/EMACTX*"
+      },
+      {
+        "netclass": "EMACMGMT",
+        "pattern": "/LAN/EMACMD*"
+      },
+      {
+        "netclass": "CLK",
+        "pattern": "/LAN/EMACCLK"
+      },
+      {
+        "netclass": "PWR3V3ANA",
+        "pattern": "+3V3ANA"
+      },
+      {
+        "netclass": "ETH",
+        "pattern": "/LAN/ETH*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -613,7 +857,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -693,7 +937,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -767,10 +1011,6 @@
       "I2C Devices"
     ],
     [
-      "f859c883-9d79-4035-b255-4f20ee57230d",
-      "Output 1"
-    ],
-    [
       "f221a330-0446-4dbb-9fc4-488df890c8d3",
       "Input 1"
     ],
@@ -833,6 +1073,10 @@
     [
       "b1abb084-6905-4455-9851-355c17c6d763",
       "Input 16"
+    ],
+    [
+      "f859c883-9d79-4035-b255-4f20ee57230d",
+      "Output 1"
     ],
     [
       "7e58906f-db1c-4ecb-8d31-ce9f4ea8e299",
