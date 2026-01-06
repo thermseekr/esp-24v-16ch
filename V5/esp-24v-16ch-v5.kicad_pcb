@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP 24V 16xIn/16xOut/1-Wire Module")
-		(date "2025-12-09")
-		(rev "V5.0")
+		(date "2026-01-06")
+		(rev "V5.1")
 	)
 	(layers
 		(0 "F.Cu" mixed)
@@ -112895,7 +112895,7 @@
 			)
 		)
 	)
-	(gr_text "ESP-24V-16CH V5.0"
+	(gr_text "ESP-24V-16CH V5.1"
 		(at 134.02 107.33 0)
 		(layer "F.SilkS")
 		(uuid "61c1d000-f1a7-469e-b519-c7d6a9879575")

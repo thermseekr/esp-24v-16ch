@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ESP 24V 16xIn/16xOut/1-Wire Module")
-		(date "2025-12-09")
-		(rev "V5")
+		(date "2026-01-06")
+		(rev "V5.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
