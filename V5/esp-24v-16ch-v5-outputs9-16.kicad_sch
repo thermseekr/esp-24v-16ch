@@ -788,7 +788,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I_{LED} = (24V - V_{LED}) / 6.8k\nI_{LED} = (24V - 2.7V) / 6.8k\nI_{LED} = 3,13 mA"
+	(text "I_{LED} = (24V - V_{LED} - V_{CE}) / 10k\nI_{LED} = (24V - 2.7V - 0,1V) / 10k\nI_{LED} = 2,12 mA"
 		(exclude_from_sim no)
 		(at 154.94 86.36 0)
 		(effects
@@ -797,7 +797,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "201ef8ed-86a1-4ab9-aab3-db16596368ea")
+		(uuid "e87cfa62-d830-4aa0-b91d-f1ca3650c5af")
 	)
 	(junction
 		(at 101.6 101.6)

@@ -799,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 59.69) (xy 219.71 71.12)
+			(xy 215.9 59.69) (xy 215.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 214.63 71.12)
+			(xy 210.82 59.69) (xy 210.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 59.69) (xy 212.09 71.12)
+			(xy 208.28 59.69) (xy 208.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1929,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 59.69) (xy 222.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e259b0fb-23d7-4b23-902e-ba86c63195cb")
+	)
+	(wire
+		(pts
 			(xy 39.37 193.04) (xy 43.18 193.04)
 		)
 		(stroke
@@ -1959,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 59.69) (xy 222.25 71.12)
+			(xy 218.44 59.69) (xy 218.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5502,7 @@
 			)
 		)
 		(pin "I2CSDA" bidirectional
-			(at 219.71 71.12 90)
+			(at 215.9 71.12 90)
 			(uuid "975db936-5dc8-40df-a242-75aa36feca44")
 			(effects
 				(font
@@ -5502,7 +5512,7 @@
 			)
 		)
 		(pin "I2CSCL" input
-			(at 222.25 71.12 90)
+			(at 218.44 71.12 90)
 			(uuid "952d0b31-7779-417b-a042-736141902d6d")
 			(effects
 				(font
@@ -5512,7 +5522,7 @@
 			)
 		)
 		(pin "MCPININTB" output
-			(at 214.63 71.12 90)
+			(at 210.82 71.12 90)
 			(uuid "17e903a1-39d9-41ff-9089-9b1c6912d310")
 			(effects
 				(font
@@ -5522,8 +5532,18 @@
 			)
 		)
 		(pin "MCPININTA" output
-			(at 212.09 71.12 90)
+			(at 208.28 71.12 90)
 			(uuid "44ae2d6a-d0b2-47b0-8935-32b662047d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1WIREGPIO" bidirectional
+			(at 222.25 71.12 90)
+			(uuid "7650d286-aaf2-4d16-a68d-1ce2c54cf554")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6570,7 @@
 			)
 		)
 		(pin "I2CSDA" bidirectional
-			(at 219.71 59.69 270)
+			(at 215.9 59.69 270)
 			(uuid "e17498cf-aa28-496c-8087-17c898e1be92")
 			(effects
 				(font
@@ -6560,7 +6580,7 @@
 			)
 		)
 		(pin "I2CSCL" output
-			(at 222.25 59.69 270)
+			(at 218.44 59.69 270)
 			(uuid "c04506ec-01b7-43cd-87ba-5fcdfab71b23")
 			(effects
 				(font
@@ -6570,7 +6590,7 @@
 			)
 		)
 		(pin "MCPININTA" input
-			(at 212.09 59.69 270)
+			(at 208.28 59.69 270)
 			(uuid "ada4a48c-4a19-4310-8e00-b128e48a6b7b")
 			(effects
 				(font
@@ -6580,7 +6600,7 @@
 			)
 		)
 		(pin "MCPININTB" input
-			(at 214.63 59.69 270)
+			(at 210.82 59.69 270)
 			(uuid "1475181e-ff1d-466f-8aac-424d90174511")
 			(effects
 				(font
@@ -6602,6 +6622,16 @@
 		(pin "USBD-" input
 			(at 165.1 44.45 180)
 			(uuid "58467276-9d60-4115-8c2d-334610272364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1WIREGPIO" bidirectional
+			(at 222.25 59.69 270)
+			(uuid "76f37f29-b551-433f-b99b-b5d24eb8a5e1")
 			(effects
 				(font
 					(size 1.27 1.27)

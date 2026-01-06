@@ -2136,7 +2136,7 @@
 		(uuid "5e9da682-cf09-409f-bd51-0b1461e53419")
 	)
 	(junction
-		(at 250.19 119.38)
+		(at 260.35 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "635cdc74-3a6d-48fd-af80-e490d3340bbb")
@@ -2154,7 +2154,7 @@
 		(uuid "8cbd8996-9b30-45c1-ac6a-b1ee477c22fc")
 	)
 	(junction
-		(at 231.14 116.84)
+		(at 246.38 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d19350c-cf71-42f2-8852-4d40a2649397")
@@ -2230,10 +2230,6 @@
 		(uuid "9935945f-bd53-442f-b7ca-092363bf9555")
 	)
 	(no_connect
-		(at 194.31 91.44)
-		(uuid "aaa4260b-468d-424e-8760-4fb9139b6bee")
-	)
-	(no_connect
 		(at 163.83 106.68)
 		(uuid "ac913349-8f67-4ea8-b8ba-0dc6cabbffe4")
 	)
@@ -2275,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 104.14) (xy 213.36 104.14)
+			(xy 194.31 104.14) (xy 224.79 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 109.22) (xy 213.36 109.22)
+			(xy 194.31 109.22) (xy 224.79 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 213.36 114.3)
+			(xy 194.31 114.3) (xy 224.79 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 213.36 106.68)
+			(xy 194.31 106.68) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 96.52) (xy 213.36 96.52)
+			(xy 194.31 96.52) (xy 224.79 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 104.14) (xy 231.14 105.41)
+			(xy 246.38 104.14) (xy 246.38 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 101.6) (xy 213.36 101.6)
+			(xy 194.31 101.6) (xy 224.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2615,6 +2611,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 88.9) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61461a30-a3b9-40a9-8418-83bfc76deb38")
+	)
+	(wire
+		(pts
 			(xy 179.07 48.26) (xy 179.07 60.96)
 		)
 		(stroke
@@ -2655,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 204.47 93.98)
+			(xy 194.31 93.98) (xy 212.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2672,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "700a34d9-217d-4592-bf81-182c72ddbfa5")
+	)
+	(wire
+		(pts
+			(xy 224.79 88.9) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7089f695-4620-49d4-adef-d3cc4c7315bf")
 	)
 	(wire
 		(pts
@@ -2755,7 +2771,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 116.84) (xy 267.97 116.84)
+			(xy 219.71 93.98) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8427987b-2332-4f0a-8626-7617c4ed5e3b")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 267.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2865,16 +2891,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 93.98) (xy 213.36 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd2540f-8181-42c9-b1c1-39a8e7e47b38")
-	)
-	(wire
-		(pts
 			(xy 257.81 81.28) (xy 257.81 83.82)
 		)
 		(stroke
@@ -2925,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 250.19 119.38)
+			(xy 194.31 119.38) (xy 260.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2991,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 116.84) (xy 231.14 116.84)
+			(xy 194.31 116.84) (xy 246.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 104.14) (xy 250.19 105.41)
+			(xy 260.35 104.14) (xy 260.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3015,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 99.06) (xy 213.36 99.06)
+			(xy 194.31 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 113.03) (xy 250.19 119.38)
+			(xy 260.35 113.03) (xy 260.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 111.76) (xy 213.36 111.76)
+			(xy 194.31 111.76) (xy 224.79 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3155,13 +3171,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 231.14 116.84)
+			(xy 246.38 113.03) (xy 246.38 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3d0335c-a8bc-4775-a0bb-2cd4e72ea9c6")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dbde86-d2a1-4979-9c31-fbe2d7f84294")
 	)
 	(wire
 		(pts
@@ -3205,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 119.38) (xy 267.97 119.38)
+			(xy 260.35 119.38) (xy 267.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +3322,7 @@
 	)
 	(hierarchical_label "EMACMDIO"
 		(shape input)
-		(at 213.36 96.52 0)
+		(at 224.79 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3305,9 +3331,20 @@
 		)
 		(uuid "18a13e69-0d8d-42a3-b209-ecef3132e0e4")
 	)
+	(hierarchical_label "1WIREGPIO"
+		(shape bidirectional)
+		(at 224.79 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "251c5752-5c71-4571-980d-fcb2ca557dec")
+	)
 	(hierarchical_label "EMACTXD1"
 		(shape input)
-		(at 213.36 104.14 0)
+		(at 224.79 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3318,7 +3355,7 @@
 	)
 	(hierarchical_label "EMACRX"
 		(shape output)
-		(at 213.36 114.3 0)
+		(at 224.79 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3329,7 +3366,7 @@
 	)
 	(hierarchical_label "EMACCLK"
 		(shape output)
-		(at 213.36 93.98 0)
+		(at 224.79 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3340,7 +3377,7 @@
 	)
 	(hierarchical_label "EMACRXD1"
 		(shape output)
-		(at 213.36 111.76 0)
+		(at 224.79 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3362,7 +3399,7 @@
 	)
 	(hierarchical_label "EMACTXEN"
 		(shape input)
-		(at 213.36 101.6 0)
+		(at 224.79 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3373,7 +3410,7 @@
 	)
 	(hierarchical_label "EMACRXD0"
 		(shape output)
-		(at 213.36 109.22 0)
+		(at 224.79 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,7 +3432,7 @@
 	)
 	(hierarchical_label "EMACTXD0"
 		(shape input)
-		(at 213.36 99.06 0)
+		(at 224.79 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3406,7 +3443,7 @@
 	)
 	(hierarchical_label "EMACMDC"
 		(shape input)
-		(at 213.36 106.68 0)
+		(at 224.79 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3461,7 +3498,7 @@
 	)
 	(symbol
 		(lib_id "Tales:+3V3")
-		(at 250.19 104.14 0)
+		(at 260.35 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3469,7 +3506,7 @@
 		(dnp no)
 		(uuid "0519872c-bc4a-4f26-8257-fa796c0936db")
 		(property "Reference" "#PWR0196"
-			(at 250.19 107.95 0)
+			(at 260.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3515,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 250.19 100.33 0)
+			(at 260.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 250.19 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3563,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 208.28 93.98 90)
+		(at 215.9 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3534,7 +3571,7 @@
 		(dnp no)
 		(uuid "090489a3-854b-4139-a37b-af75c75f2149")
 		(property "Reference" "R17"
-			(at 203.2 88.9 90)
+			(at 209.55 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3579,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 212.09 88.9 90)
+			(at 214.63 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 208.534 92.964 90)
+			(at 216.154 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3605,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3614,7 @@
 			)
 		)
 		(property "Case" "0402/1005"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3623,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25105"
-			(at 208.28 91.44 90)
+			(at 220.98 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3631,7 @@
 			)
 		)
 		(property "Mfr" "Uniroyal"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3640,7 @@
 			)
 		)
 		(property "Mfr PN" "0402WGF330JTCE"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3649,7 @@
 			)
 		)
 		(property "Technology" "1%"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3658,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3667,7 @@
 			)
 		)
 		(property "Vendor PN" "C25105"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3676,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 208.28 93.98 90)
+			(at 215.9 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4999,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 250.19 109.22 0)
+		(at 260.35 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4970,7 +5007,7 @@
 		(dnp no)
 		(uuid "59dd5098-1667-4c8c-b049-a4d0ea90ec0e")
 		(property "Reference" "R19"
-			(at 252.73 106.68 0)
+			(at 262.89 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5016,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 252.73 109.22 0)
+			(at 262.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5025,7 @@
 			)
 		)
 		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 251.206 109.474 90)
+			(at 261.366 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5043,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5052,7 @@
 			)
 		)
 		(property "Case" "0402/1005"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5061,7 @@
 			)
 		)
 		(property "Mfr" "Uniroyal"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5070,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5079,7 @@
 			)
 		)
 		(property "Mfr PN" "0402WGF2201TCE"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5088,7 @@
 			)
 		)
 		(property "Technology" "1%"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5097,7 @@
 			)
 		)
 		(property "Vendor PN" "C25879"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5106,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25879"
-			(at 252.73 111.76 0)
+			(at 262.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5115,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 250.19 109.22 0)
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 231.14 109.22 0)
+		(at 246.38 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5667,7 +5704,7 @@
 		(dnp no)
 		(uuid "b04f12f7-767f-48ff-aaf7-4deb7cb285f6")
 		(property "Reference" "R18"
-			(at 233.68 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5713,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 233.68 109.22 0)
+			(at 248.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 232.156 109.474 90)
+			(at 247.396 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5740,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5749,7 @@
 			)
 		)
 		(property "Case" "0402/1005"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5758,7 @@
 			)
 		)
 		(property "Mfr" "Uniroyal"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5767,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5776,7 @@
 			)
 		)
 		(property "Mfr PN" "0402WGF2201TCE"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5785,7 @@
 			)
 		)
 		(property "Technology" "1%"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5794,7 @@
 			)
 		)
 		(property "Vendor PN" "C25879"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5803,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25879"
-			(at 233.68 111.76 0)
+			(at 248.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5812,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 231.14 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7303,7 @@
 	)
 	(symbol
 		(lib_id "Tales:+3V3")
-		(at 231.14 104.14 0)
+		(at 246.38 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7274,7 +7311,7 @@
 		(dnp no)
 		(uuid "ff354a2b-d70a-42a2-938e-eb94843b4288")
 		(property "Reference" "#PWR0194"
-			(at 231.14 107.95 0)
+			(at 246.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7320,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 231.14 100.33 0)
+			(at 246.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 104.14 0)
+			(at 246.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 104.14 0)
+			(at 246.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 104.14 0)
+			(at 246.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1697,16 +1697,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I_{LED} = (24V - V_{LED}) / 6.8k\nI_{LED} = (24V - 2.7V) / 6.8k\nI_{LED} = 3,13 mA"
+	(text "I_{LED} = (24V - V_{LED}) / 10k\nI_{LED} = (24V - 2.7V) / 10k\nI_{LED} = 2,13 mA"
 		(exclude_from_sim no)
-		(at 106.68 144.78 0)
+		(at 130.81 118.11 0)
 		(effects
 			(font
 				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "400f0d1e-5f6f-4534-bc3e-eb9a10678f5c")
+		(uuid "19d9b56b-d691-4858-8d73-97d035720d8b")
 	)
 	(junction
 		(at 96.52 92.71)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 125.73 120.65)
+			(xy 125.73 121.92) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 125.73 93.98)
+			(xy 125.73 92.71) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 111.76)
+			(xy 125.73 106.68) (xy 125.73 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 		(uuid "472ff5c1-2760-4007-8d2a-fead4c91d3ab")
 	)
 	(label "INLED"
-		(at 125.73 110.49 90)
+		(at 125.73 115.57 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2221,7 +2221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 120.65 0)
+		(at 125.73 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2229,7 +2229,7 @@
 		(dnp no)
 		(uuid "05ed5ee4-0782-43dd-b20e-828472ee28cc")
 		(property "Reference" "#PWR059"
-			(at 125.73 127 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.857 125.0442 0)
+			(at 125.857 130.1242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 120.65 0)
+			(at 125.73 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 120.65 0)
+			(at 125.73 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 120.65 0)
+			(at 125.73 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3011,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 125.73 114.3 90)
+		(at 125.73 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3019,105 +3019,6 @@
 		(dnp no)
 		(uuid "701306cc-5c0c-485d-a317-4793f0ccf5e5")
 		(property "Reference" "D34"
-			(at 123.19 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WHITE/0603"
-			(at 123.19 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:LED_0603_1608Metric"
-			(at 125.73 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Hubei KENTO Elec"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "KT-0603W"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "~"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C2290"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2290"
 			(at 123.19 118.11 90)
 			(effects
 				(font
@@ -3126,8 +3027,107 @@
 				(justify left)
 			)
 		)
+		(property "Value" "WHITE/0603"
+			(at 123.19 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:LED_0603_1608Metric"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Hubei KENTO Elec"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "KT-0603W"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C2290"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2290"
+			(at 123.19 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "JLCPCB BOM" "1"
-			(at 125.73 114.3 0)
+			(at 125.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3136,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 125.73 114.3 0)
+			(at 125.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4284,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 125.73 97.79 0)
+		(at 125.73 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4292,105 +4292,6 @@
 		(dnp no)
 		(uuid "e8625cf4-08e4-4f91-94d0-1e67dd1954d4")
 		(property "Reference" "R64"
-			(at 123.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k/100mW"
-			(at 123.19 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
-			(at 126.746 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0603WAF1002T5E"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C25804"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "1%"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25804"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -4399,8 +4300,107 @@
 				(justify right)
 			)
 		)
+		(property "Value" "10k/100mW"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tales:R_0603_1608Metric"
+			(at 126.746 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603/1608"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uniroyal"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "0603WAF1002T5E"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C25804"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "1%"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "JLCPCB BOM" "1"
-			(at 125.73 97.79 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

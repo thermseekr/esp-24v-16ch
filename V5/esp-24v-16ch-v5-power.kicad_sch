@@ -6712,7 +6712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0402_1005Metric"
 			(at 45.466 143.764 90)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603/1608"
+		(property "Case" "0402/1005"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -6757,7 +6757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "0402WGF1001TCE"
 			(at 44.45 143.51 0)
 			(effects
 				(font
