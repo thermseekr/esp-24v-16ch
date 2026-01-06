@@ -7,7 +7,7 @@ The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazil
 
 ## VERSION HISTORY
 
-ESP-24V-16CH V5.1 - Corrected footprint of R7 and repositioned the RESET switch as noted by @yvkoch. Thanks Yrjö! Improved the 1-Wire bus interface aiming for cable runs up to 50m, still to be tested. Also included the option to connect a GPIO to the 1-Wire bus. ATENTION, SW2 can only have one switch ON at any given time, to connect either the DS2482 or GPIO16 to the 1-Wire bus.
+ESP-24V-16CH V5.1 - Corrected footprint of R7 and repositioned the RESET switch as noted by [@yvkoch](https://github.com/yvkoch). Thanks Yrjö! Improved the 1-Wire bus interface aiming for cable runs up to 50m, still to be tested. Also included the option to connect a GPIO to the 1-Wire bus. ATENTION, SW2 can only have one switch ON at any given time, to connect either the DS2482 or GPIO16 to the 1-Wire bus.
 
 ESP-24V-16CH V5.0 - Removed the onboard temperature sensor, too sensitive to be on a PCB and also measure the ambient temperature inside the cabinet. Even with cuts around the sensor, it was better at measuring each transistor's influence on the PCB's temperature than the temperature of the environment. Replaced the analog NTC inputs for a 1-Wire i2c interface. Mixing analog and digital circuits on a PCB requires more testing and developing time than I have available. So, fully digital we go. Decreased the brightness of the LEDs, maybe this time I'll get them right :) Repositioned components and rerouted the whole board following the valuable insights taken from [Phil's Lab](https://github.com/pms67) latest videos about Kicad. Thank you very much, Phil.
 
