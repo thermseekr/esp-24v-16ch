@@ -4872,6 +4872,10 @@
 		(uuid "fca7ebeb-c499-4c36-a861-b1127189e67e")
 	)
 	(no_connect
+		(at 153.67 39.37)
+		(uuid "0d5ff905-349d-4f9f-944d-2c37bc66ce32")
+	)
+	(no_connect
 		(at 153.67 36.83)
 		(uuid "2bf3889c-f7c4-47a7-bf88-3063a970e7e9")
 	)
@@ -5122,16 +5126,6 @@
 			(type default)
 		)
 		(uuid "30776139-3ab2-4834-b762-73e1c2769914")
-	)
-	(wire
-		(pts
-			(xy 146.05 52.07) (xy 146.05 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f65e9a-038b-401f-a89f-9ced307cf39c")
 	)
 	(wire
 		(pts
@@ -5615,16 +5609,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 146.05 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2e7d80-f7b1-4f39-a4c3-883938bd143a")
-	)
-	(wire
-		(pts
 			(xy 74.93 144.78) (xy 96.52 144.78)
 		)
 		(stroke
@@ -5762,16 +5746,6 @@
 			(type default)
 		)
 		(uuid "9070fcd2-5b77-454e-bbfa-45c01c277bf4")
-	)
-	(wire
-		(pts
-			(xy 146.05 57.15) (xy 154.94 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9276990b-490e-41ae-be9b-3060e1492192")
 	)
 	(wire
 		(pts
@@ -6215,16 +6189,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 39.37) (xy 146.05 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7d4e2c-0b57-414b-a146-6661d7dca5e1")
-	)
-	(wire
-		(pts
 			(xy 251.46 96.52) (xy 243.84 96.52)
 		)
 		(stroke
@@ -6622,17 +6586,6 @@
 			(justify left bottom)
 		)
 		(uuid "f954d661-c559-40bf-b868-a333ff6db52f")
-	)
-	(hierarchical_label "ESPEN"
-		(shape output)
-		(at 154.94 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39d607fe-b084-4d91-ac06-5e6bb121de13")
 	)
 	(hierarchical_label "PHYPWR"
 		(shape input)
@@ -9996,158 +9949,6 @@
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/7b388c9c-6faf-4681-b727-510de2ea001e"
 					(reference "#PWR0161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 146.05 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77a76de0-f908-4cc3-9490-f734f43313b6")
-		(property "Reference" "R136"
-			(at 148.59 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/250mW"
-			(at 148.59 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:R_1206_3216Metric"
-			(at 147.066 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "1%"
-			(at 148.59 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "1206W4F0000T5E"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C17888"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17888"
-			(at 148.59 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206/3216"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "1206/3216"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b2c92b2-ce7f-4762-b977-6eb5f22b5481")
-		)
-		(pin "2"
-			(uuid "3a3477f0-1899-4a0b-8d9a-ae18df3c546f")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/7b388c9c-6faf-4681-b727-510de2ea001e"
-					(reference "R136")
 					(unit 1)
 				)
 			)

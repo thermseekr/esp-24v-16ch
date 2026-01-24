@@ -519,16 +519,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 49.53) (xy 165.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11141297-2885-49e0-b0b5-245775e61af5")
-	)
-	(wire
-		(pts
 			(xy 276.86 166.37) (xy 265.43 166.37)
 		)
 		(stroke
@@ -4901,16 +4891,6 @@
 				(justify right)
 			)
 		)
-		(pin "ESPEN" output
-			(at 146.05 49.53 0)
-			(uuid "ec993a4e-9c74-4e39-9f7b-b161cb8fe9ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
@@ -6652,16 +6632,6 @@
 		(pin "1WIREGPIO" bidirectional
 			(at 222.25 59.69 270)
 			(uuid "76f37f29-b551-433f-b99b-b5d24eb8a5e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ESPEN" input
-			(at 165.1 49.53 180)
-			(uuid "75fda60e-73df-4ef1-b12a-4558e6e59843")
 			(effects
 				(font
 					(size 1.27 1.27)

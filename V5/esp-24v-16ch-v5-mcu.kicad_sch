@@ -2160,12 +2160,6 @@
 		(uuid "8d19350c-cf71-42f2-8852-4d40a2649397")
 	)
 	(junction
-		(at 128.27 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad0ad815-b2ba-4680-97c3-88d4711483c1")
-	)
-	(junction
 		(at 92.71 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2504,16 +2498,6 @@
 			(type default)
 		)
 		(uuid "3ec56f69-fa93-41ae-b2a2-208f39cfc491")
-	)
-	(wire
-		(pts
-			(xy 123.19 50.8) (xy 128.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1b1388-00c3-4449-b974-9ffe6dfce377")
 	)
 	(wire
 		(pts
@@ -3017,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 50.8) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba03d2f1-d8dc-49dc-b8b1-192a3a0df702")
-	)
-	(wire
-		(pts
 			(xy 107.95 85.09) (xy 107.95 87.63)
 		)
 		(stroke
@@ -3207,16 +3181,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 125.73 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f474dc6b-73cf-4a1e-8eb0-4d6601635be2")
-	)
-	(wire
-		(pts
 			(xy 207.01 91.44) (xy 194.31 91.44)
 		)
 		(stroke
@@ -3264,16 +3228,6 @@
 			(type default)
 		)
 		(uuid "fdefc2f1-2b30-424c-8f0e-fc4b6f325ba8")
-	)
-	(wire
-		(pts
-			(xy 128.27 102.87) (xy 125.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb30f7e-002d-478a-ae9c-2a7ecd16b550")
 	)
 	(wire
 		(pts
@@ -3508,17 +3462,6 @@
 			(justify left)
 		)
 		(uuid "bf2cfe71-22ab-4a22-a181-2a9757d4bba7")
-	)
-	(hierarchical_label "ESPEN"
-		(shape input)
-		(at 123.19 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0e01a44-8387-448e-87fd-3c00a159bd80")
 	)
 	(hierarchical_label "USBD+"
 		(shape bidirectional)
@@ -5197,7 +5140,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 125.73 97.79 90)
+		(at 128.27 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,7 +5148,7 @@
 		(dnp no)
 		(uuid "600d89f0-be71-47b4-8189-dd0598cd0364")
 		(property "Reference" "SW1"
-			(at 129.54 95.25 90)
+			(at 132.08 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5157,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 129.54 97.79 90)
+			(at 132.08 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5166,7 @@
 			)
 		)
 		(property "Footprint" "Tales:SW_SPST_Xunpu_TS1088AR02016"
-			(at 120.65 97.79 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 97.79 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5184,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5193,7 @@
 			)
 		)
 		(property "Case" "~"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5202,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5211,7 @@
 			)
 		)
 		(property "LCSC Part #" "C720477"
-			(at 129.54 100.3301 90)
+			(at 132.08 100.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5220,7 @@
 			)
 		)
 		(property "Mfr" "Xunpu"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5229,7 @@
 			)
 		)
 		(property "Mfr PN" "TS-1088-AR02016"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5238,7 @@
 			)
 		)
 		(property "Technology" "~"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5247,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5256,7 @@
 			)
 		)
 		(property "Vendor PN" "C720477 "
-			(at 125.73 97.79 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
