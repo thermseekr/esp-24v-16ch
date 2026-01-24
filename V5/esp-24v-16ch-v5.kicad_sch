@@ -519,6 +519,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 49.53) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11141297-2885-49e0-b0b5-245775e61af5")
+	)
+	(wire
+		(pts
 			(xy 276.86 166.37) (xy 265.43 166.37)
 		)
 		(stroke
@@ -4871,7 +4881,7 @@
 				(justify right)
 			)
 		)
-		(pin "USBD+" input
+		(pin "USBD+" bidirectional
 			(at 146.05 41.91 0)
 			(uuid "62286c8b-65b0-47ba-a1fa-b3e42525cd75")
 			(effects
@@ -4881,9 +4891,19 @@
 				(justify right)
 			)
 		)
-		(pin "USBD-" input
+		(pin "USBD-" bidirectional
 			(at 146.05 44.45 0)
 			(uuid "62d45899-248e-4a85-b83a-ab408a016d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESPEN" output
+			(at 146.05 49.53 0)
+			(uuid "ec993a4e-9c74-4e39-9f7b-b161cb8fe9ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6629,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBD+" input
+		(pin "USBD+" bidirectional
 			(at 165.1 41.91 180)
 			(uuid "7364550d-368e-4cb2-b4f4-81256c27153e")
 			(effects
@@ -6619,7 +6639,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBD-" input
+		(pin "USBD-" bidirectional
 			(at 165.1 44.45 180)
 			(uuid "58467276-9d60-4115-8c2d-334610272364")
 			(effects
@@ -6632,6 +6652,16 @@
 		(pin "1WIREGPIO" bidirectional
 			(at 222.25 59.69 270)
 			(uuid "76f37f29-b551-433f-b99b-b5d24eb8a5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESPEN" input
+			(at 165.1 49.53 180)
+			(uuid "75fda60e-73df-4ef1-b12a-4558e6e59843")
 			(effects
 				(font
 					(size 1.27 1.27)
