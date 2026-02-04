@@ -1586,128 +1586,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Tales:+3V3ANA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3ANA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3ANA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3ANA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3ANA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Tales:DS2482-100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2058,6 +1936,17 @@
 			(justify left bottom)
 		)
 		(uuid "3ce7bdbe-369c-44e2-ab00-6186cfc3772f")
+	)
+	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
+		(exclude_from_sim no)
+		(at 304.8 259.08 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "535a68b4-ec23-4ab8-aaa0-f76c8a745cc1")
 	)
 	(text "1-WIRE MASTER\nADDRESS\n0x18"
 		(exclude_from_sim no)
@@ -5311,7 +5200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3V3ANA")
+		(lib_id "Tales:+3V3")
 		(at 285.75 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5356,7 +5245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3ANA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 285.75 140.97 0)
 			(effects
 				(font
@@ -7967,7 +7856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3V3ANA")
+		(lib_id "Tales:+3V3")
 		(at 218.44 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7986,12 +7875,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 220.98 168.9099 0)
+			(at 218.44 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8012,7 +7900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3ANA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 218.44 170.18 0)
 			(effects
 				(font

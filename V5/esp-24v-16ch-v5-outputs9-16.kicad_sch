@@ -788,6 +788,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
+		(exclude_from_sim no)
+		(at 182.88 171.45 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "6b9d5799-0289-44f4-87be-5336ab6afefe")
+	)
 	(text "I_{LED} = (24V - V_{LED} - V_{CE}) / 10k\nI_{LED} = (24V - 2.7V - 0,1V) / 10k\nI_{LED} = 2,12 mA"
 		(exclude_from_sim no)
 		(at 154.94 86.36 0)

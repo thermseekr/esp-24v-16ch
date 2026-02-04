@@ -1708,6 +1708,17 @@
 		)
 		(uuid "400f0d1e-5f6f-4534-bc3e-eb9a10678f5c")
 	)
+	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
+		(exclude_from_sim no)
+		(at 181.61 173.99 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "402fae8a-ac70-467e-911a-fc009e5c4190")
+	)
 	(junction
 		(at 96.52 92.71)
 		(diameter 0)

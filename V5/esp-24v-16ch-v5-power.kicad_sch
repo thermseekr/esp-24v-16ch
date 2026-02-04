@@ -4561,6 +4561,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
+		(exclude_from_sim no)
+		(at 182.88 172.72 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "121e2fe5-3a5f-441c-8bc9-3a95bc8cce01")
+	)
 	(text "R_{H} = (V_{OUT} - 0,6V) * R_{L} / 0,6V\n\nV_{OUT} = (0,6 * R_{H} / R_{L}) + 0,6\nV_{OUT} = (0,6 * 100k/22,1k) +0,6\nV_{OUT} = 3,31V"
 		(exclude_from_sim no)
 		(at 71.12 160.02 0)

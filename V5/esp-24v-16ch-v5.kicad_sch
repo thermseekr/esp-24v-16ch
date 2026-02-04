@@ -407,6 +407,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
+		(exclude_from_sim no)
+		(at 303.53 259.08 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "df1b3ea3-b1f7-492c-bb27-3a8846f00e32")
+	)
 	(wire
 		(pts
 			(xy 154.94 111.76) (xy 165.1 111.76)
