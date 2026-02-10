@@ -2096,7 +2096,7 @@
 		)
 		(uuid "f179b08e-698c-4c57-9709-c6902e199617")
 	)
-	(text_box "ESP32 PIN ASSIGNMENT (CHECK, CAN BE WRONG)\n\nPIN	PORT	FUNCTION		COMPONENT\n\n25	GPIO0	AUTO FLASH MODE	0\n35	GPIO1	SERIAL TX		3200\n24	GPIO2	-				0\n34	GPIO3	SERIAL RX		3232\n26	GPIO4	-				0\n29	GPIO5	-				0\n20	GPIO6	-				0\n21	GPIO7	-				0\n22	GPIO8	-				0\n17	GPIO9	-				0\n18	GPIO10	-				0\n19	GPIO11	-				0\n14	GPIO12	PHY POWER		5536\n16	GPIO13	MCP23017 INTA	10240\n13	GPIO14	MCP23017 INTB	10241\n23	GPIO15	-				0\n27	GPIO16	-				0\n28	GPIO17	ETH CLK			0\n30	GPIO18	ETH MDIO		4704\n31	GPIO19	ETH TXD0		0\n-	GPIO20	-				0\n33	GPIO21	ETH TXEN		0\n36	GPIO22	ETH TXD1		0\n37	GPIO23	ETH MDC			5600\n-	GPIO24	-				0\n10	GPIO25	ETH RXD0		0\n11	GPIO26	ETH RXD1		0\n12	GPIO27	ETH RX			0\n8	GPIO32	I2C SCL			608\n9	GPIO33	I2C SDA			640\n6	GPIO34	-				0\n7	GPIO35	-				0\n4	GPIO36	-				0\n-	GPIO37	-				0\n-	GPIO38	-				0\n5	GPIO39	-				0"
+	(text_box "ESP32 GPIO ASSIGNMENT\n\nPIN	PORT	FUNCTION		COMPONENT\n\n25	GPIO0	AUTO FLASH MODE	0\n35	GPIO1	SERIAL TX		3200\n24	GPIO2	-				0\n34	GPIO3	SERIAL RX		3232\n26	GPIO4	-				0\n29	GPIO5	-				0\n17	GPIO9	-				0\n18	GPIO10	-				0\n14	GPIO12	ETH POWER		5536\n16	GPIO13	MCP23017 INT1	10240\n13	GPIO14	MCP23017 INT2	10241\n23	GPIO15	-				0\n27	GPIO16	-				0\n28	GPIO17	ETH CLK			0\n30	GPIO18	ETH MDIO		5600\n31	GPIO19	ETH TXD0		0\n-	GPIO20	-				0\n33	GPIO21	ETH TXEN		0\n36	GPIO22	ETH TXD1		0\n37	GPIO23	ETH MDC			5568\n-	GPIO24	-				0\n10	GPIO25	ETH RXD0		0\n11	GPIO26	ETH RXD1		0\n12	GPIO27	ETH RX			0\n20	GPIO6	-				0\n21	GPIO7	-				0\n22	GPIO8	-				0\n19	GPIO11	-				0\n8	GPIO32	I2C SCL			608\n9	GPIO33	I2C SDA			640\n6	GPIO34	-				0\n7	GPIO35	-				0\n4	GPIO36	-				0\n-	GPIO37	-				0\n-	GPIO38	-				0\n5	GPIO39	-				0"
 		(exclude_from_sim no)
 		(at 111.76 111.76 0)
 		(size 52.07 83.82)
@@ -2233,10 +2233,6 @@
 		(uuid "62be3fae-dcc2-4b68-bcde-080722e266b7")
 	)
 	(no_connect
-		(at 194.31 121.92)
-		(uuid "8b9928a8-a94b-44c1-aa98-0647d1d4a1fb")
-	)
-	(no_connect
 		(at 73.66 69.85)
 		(uuid "9935945f-bd53-442f-b7ca-092363bf9555")
 	)
@@ -2247,10 +2243,6 @@
 	(no_connect
 		(at 194.31 76.2)
 		(uuid "c7924de7-f194-4eac-bc3f-145bccb0d43d")
-	)
-	(no_connect
-		(at 194.31 124.46)
-		(uuid "e9b079a1-5888-4cd1-96aa-6300e65f14d8")
 	)
 	(no_connect
 		(at 194.31 88.9)
@@ -2522,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 124.46) (xy 224.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418eb71f-05e3-435c-8565-6a5815f4d93b")
+	)
+	(wire
+		(pts
 			(xy 194.31 81.28) (xy 257.81 81.28)
 		)
 		(stroke
@@ -2569,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "4c137029-63e7-42f6-8988-35edfefebf9e")
+	)
+	(wire
+		(pts
+			(xy 194.31 121.92) (xy 224.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd5d72d-6139-4b6c-aaf1-0c077b12b763")
 	)
 	(wire
 		(pts
@@ -3408,6 +3420,17 @@
 		)
 		(uuid "6c293bf8-4c77-4972-b5d0-687049c70665")
 	)
+	(hierarchical_label "INPUT2"
+		(shape input)
+		(at 224.79 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74be10c2-a702-4026-87fe-2e0f33856d64")
+	)
 	(hierarchical_label "EMACTXEN"
 		(shape input)
 		(at 224.79 101.6 0)
@@ -3451,6 +3474,17 @@
 			(justify left)
 		)
 		(uuid "96ad934f-827a-448d-9b65-244866829e8b")
+	)
+	(hierarchical_label "INPUT1"
+		(shape input)
+		(at 224.79 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fcefedc-c19c-4272-8bd7-c5b5873c354f")
 	)
 	(hierarchical_label "EMACMDC"
 		(shape input)

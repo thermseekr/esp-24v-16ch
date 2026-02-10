@@ -1640,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 165.1 73.66)
+			(xy 154.94 54.61) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 165.1 76.2)
+			(xy 154.94 57.15) (xy 165.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2329,7 @@
 		(uuid "1be30a06-256a-43b2-9974-9a269d0a7079")
 	)
 	(label "INPUT1"
-		(at 154.94 73.66 0)
+		(at 154.94 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,7 +2609,7 @@
 		(uuid "63714853-e299-442d-8fda-56f6a8aebd6d")
 	)
 	(label "INPUT2"
-		(at 154.94 76.2 0)
+		(at 154.94 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5242,16 +5242,6 @@
 				(justify left)
 			)
 		)
-		(pin "IN2" input
-			(at 165.1 76.2 180)
-			(uuid "ead3b6a0-7071-435f-82bf-f1d0b6934799")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IN3" input
 			(at 165.1 78.74 180)
 			(uuid "3ee7d379-b7bc-423d-8839-a8c9e90142a3")
@@ -5260,96 +5250,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "IN1" input
-			(at 165.1 73.66 180)
-			(uuid "030bd927-0183-480f-a1c7-35ff77be7741")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT14" input
-			(at 240.03 106.68 0)
-			(uuid "04e15abb-1a83-4b41-9b83-b412882db538")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT16" input
-			(at 240.03 111.76 0)
-			(uuid "1b734c17-1fcb-4a49-8747-788ac1ec9e5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT15" input
-			(at 240.03 109.22 0)
-			(uuid "49ac7129-b447-4050-a615-025e571686a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT13" input
-			(at 240.03 104.14 0)
-			(uuid "909bd402-a0cb-4938-8ddb-61ba24604a02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT9" input
-			(at 240.03 93.98 0)
-			(uuid "01b8fc85-a0aa-43e8-80b9-81b6d702dff5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT10" input
-			(at 240.03 96.52 0)
-			(uuid "6d43ebe7-32ff-402a-b979-5df37c4cb8bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT11" input
-			(at 240.03 99.06 0)
-			(uuid "a6f15dcc-0d32-4b77-a62c-dc7cdd1d1e2e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT12" input
-			(at 240.03 101.6 0)
-			(uuid "c0541a40-7559-4b8b-a8f9-5752d26d556b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "IN15" input
@@ -5432,86 +5332,6 @@
 				(justify left)
 			)
 		)
-		(pin "OUT4" input
-			(at 240.03 81.28 0)
-			(uuid "13358319-8ce4-4b09-bc98-f3ee6dda2f7f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT3" input
-			(at 240.03 78.74 0)
-			(uuid "5cf5a7a7-e7f1-444a-a95b-db5ef67c97d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT5" input
-			(at 240.03 83.82 0)
-			(uuid "8d6fb311-a447-43e5-9a03-6f639b67c0e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT7" input
-			(at 240.03 88.9 0)
-			(uuid "9ddda0f2-233b-423a-b332-b7ed1bba38e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT6" input
-			(at 240.03 86.36 0)
-			(uuid "a3c3da6d-dfe4-4651-aa08-c6935ff32cd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT8" input
-			(at 240.03 91.44 0)
-			(uuid "1f612151-09b4-44d4-b506-f32c23a84bff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT2" input
-			(at 240.03 76.2 0)
-			(uuid "b1c11619-fd5c-4024-9469-62d773230100")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT1" input
-			(at 240.03 73.66 0)
-			(uuid "59f067a1-537a-4739-b23c-fd6e51ecf8cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2CSDA" bidirectional
 			(at 215.9 71.12 90)
 			(uuid "975db936-5dc8-40df-a242-75aa36feca44")
@@ -5555,6 +5375,166 @@
 		(pin "1WIREGPIO" bidirectional
 			(at 222.25 71.12 90)
 			(uuid "7650d286-aaf2-4d16-a68d-1ce2c54cf554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1" output
+			(at 240.03 73.66 0)
+			(uuid "89f07f8f-432d-426c-bd56-43df32803e92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 240.03 76.2 0)
+			(uuid "6bad0f8a-48b0-4d11-a5f8-68e8626977ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT3" output
+			(at 240.03 78.74 0)
+			(uuid "b55417c0-7b99-4699-9f56-768f888ebb57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT4" output
+			(at 240.03 81.28 0)
+			(uuid "19eba3eb-738d-4455-81f8-efccd604499e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT5" output
+			(at 240.03 83.82 0)
+			(uuid "e0e41d71-32f2-44d1-a74e-a2187689e718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT6" output
+			(at 240.03 86.36 0)
+			(uuid "90b10e7a-a65d-419f-886d-ad3be76b683e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT7" output
+			(at 240.03 88.9 0)
+			(uuid "6362a0bb-d53a-43b4-ad0b-20b6da501e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT8" output
+			(at 240.03 91.44 0)
+			(uuid "63c274d1-d025-4f88-ac55-efcaff4eacde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT9" output
+			(at 240.03 93.98 0)
+			(uuid "a6384422-4109-4764-97ae-b1f76e5115f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT10" output
+			(at 240.03 96.52 0)
+			(uuid "17f34296-e61e-45ed-8d61-8c057c3226af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT11" output
+			(at 240.03 99.06 0)
+			(uuid "b30d3bb0-9126-40cf-8a8e-7b592a1aaf8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT12" output
+			(at 240.03 101.6 0)
+			(uuid "75bc771b-49e1-48f3-968c-3c05196dfd58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT13" output
+			(at 240.03 104.14 0)
+			(uuid "eb6b9bd6-300f-4e7d-8424-31b50f149517")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT14" output
+			(at 240.03 106.68 0)
+			(uuid "233e9f10-d82e-4f7c-b9e4-b1ac1ba9662c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT15" output
+			(at 240.03 109.22 0)
+			(uuid "cdb42031-3495-4251-9b83-fad4b75b388d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT16" output
+			(at 240.03 111.76 0)
+			(uuid "057f7bf4-9260-427d-885c-6616f4f6d6f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,6 +6623,26 @@
 		(pin "1WIREGPIO" bidirectional
 			(at 222.25 59.69 270)
 			(uuid "76f37f29-b551-433f-b99b-b5d24eb8a5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT1" input
+			(at 165.1 54.61 180)
+			(uuid "4be5dbb7-ba36-4ccb-a766-6f7557bec2db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT2" input
+			(at 165.1 57.15 180)
+			(uuid "e911944f-f3ce-4674-a157-7f0d2237533f")
 			(effects
 				(font
 					(size 1.27 1.27)
