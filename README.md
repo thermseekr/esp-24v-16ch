@@ -3,7 +3,7 @@ ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC transistor outputs for e
 
 The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/suportes-para-pci/suportes-para-pci) for details.
 
-![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V5/esp-24v-16ch-v5.1.0.png "ESP-24V-16CH V5.1")
+![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V5/esp-24v-16ch-v5.2.0.png "ESP-24V-16CH V5.2")
 
 ## VERSION HISTORY
 
