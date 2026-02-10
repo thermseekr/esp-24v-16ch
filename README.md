@@ -1,9 +1,24 @@
 # ESP-24V-16CH
-ESP32 based board with 16x 24 VDC inputs and 16x 24 VDC transistor outputs for external relays. Also included is a 1-Wire interface for external sensors.
+ESP32 based board with 16x optoisolated 24 VDC high side inputs, and 16x open collector 24 VDC low side transistor outputs.
+
+The outputs are based on the MMBT2222A SMD transistor and are rated for a maximum of 600mA, although it is recommended to limit the current to 350 mA for continous operation. If driving inductive loads like relays, a freewheeling diode or a snubber circuit should be used to limit the switching transients and protect the transistors.
+
+Also included is a 1-Wire interface for external sensors. This interface can be switched to connect either to GPIO16 for use with a bitbang driver like the one available in Tasmota, or to a DS2482S-100 1-Wire master for building more complex networks. Selection is made via SW2, according to the description printed on the PCB. Attention: only one dip-switch can be on at any given time.
 
 The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazilian manufacturer Metaltex, check [here](https://www.metaltex.com.br/produtos/suportes-para-pci/suportes-para-pci) for details.
 
-![alt text](https://github.com/thermseekr/ESP-24v-16ch/blob/main/V5/esp-24v-16ch-v5.2.0.png "ESP-24V-16CH V5.2")
+## Hardware Specifications
+
+| Feature | Specification |
+| :--- | :--- |
+| **Microcontroller** | ESP32 |
+| **Inputs** | 16x 24VDC (Optoisolated, High-Side) |
+| **Outputs** | 16x 24VDC (Low-Side, Open Collector) |
+| **Transistor** | MMBT2222A (350mA cont. / 600mA peak) |
+| **Peripherals** | 1-Wire Interface |
+| **Form Factor** | Metaltex DIN Rail Compatible |
+
+![ESP-24V-16CH V5.2](https://github.com/thermseekr/ESP-24v-16ch/raw/main/V5/esp-24v-16ch-v5.2.0.png)
 
 ## VERSION HISTORY
 
