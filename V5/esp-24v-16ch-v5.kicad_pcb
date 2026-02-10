@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP 24V 16xIn/16xOut/1-Wire Module")
-		(date "2026-01-06")
-		(rev "V5.1")
+		(date "2026-02-10")
+		(rev "V5.2")
 	)
 	(layers
 		(0 "F.Cu" mixed)
@@ -65697,7 +65697,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C5"
-			(at 3.25 5.25 0)
+			(at 3.75 5 0)
 			(layer "F.SilkS")
 			(uuid "43a99dec-1d20-421b-b2a5-4481759d5376")
 			(effects
@@ -117208,7 +117208,7 @@
 			)
 		)
 	)
-	(gr_text "ESP-24V-16CH V5.1"
+	(gr_text "ESP-24V-16CH V5.2"
 		(at 134.02 107.33 0)
 		(layer "F.SilkS")
 		(uuid "61c1d000-f1a7-469e-b519-c7d6a9879575")
@@ -119741,6 +119741,15 @@
 		(uuid "11360526-cb6c-4304-a423-d7dc7856b9d3")
 	)
 	(via
+		(at 102.77 124.08)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "138398a2-80a2-4c16-926c-eaaebc6d9313")
+	)
+	(via
 		(at 96.66 68.33)
 		(size 0.7)
 		(drill 0.3)
@@ -119876,6 +119885,15 @@
 		(uuid "251a6091-abca-426a-8039-2d5c05bc1c78")
 	)
 	(via
+		(at 116.27 101.83)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "27135411-24d4-468a-9aa6-f9bc2e5d3be6")
+	)
+	(via
 		(at 149.52 81.58)
 		(size 0.7)
 		(drill 0.3)
@@ -119930,6 +119948,15 @@
 		(uuid "3600e3c0-23dd-40f9-89ce-2060e92ef764")
 	)
 	(via
+		(at 110.27 96.08)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "36430c7f-dad1-4a00-b336-c9f7e7f26ea7")
+	)
+	(via
 		(at 97.93 76.58)
 		(size 0.7)
 		(drill 0.3)
@@ -119937,6 +119964,15 @@
 		(free yes)
 		(net 1)
 		(uuid "3898d9e3-2e98-48b7-9c3f-d4904d8e20ec")
+	)
+	(via
+		(at 106.27 101.83)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "3bb3d468-b214-472e-8c56-a595f72a5d40")
 	)
 	(via
 		(at 154.895 100.33)
@@ -120054,6 +120090,15 @@
 		(free yes)
 		(net 1)
 		(uuid "49fe41e8-44fa-4f18-8d21-dd2f1e0f40ff")
+	)
+	(via
+		(at 115.52 113.08)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "4a7f8d73-111c-4dc0-90c5-5f41264f628c")
 	)
 	(via
 		(at 127.52 100.83)
@@ -120234,6 +120279,15 @@
 		(free yes)
 		(net 1)
 		(uuid "65154a26-76ae-405a-a55e-7024ce9b8859")
+	)
+	(via
+		(at 107.77 106.33)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "6b156a30-ebdc-4ee2-9328-6800ad2d2932")
 	)
 	(via
 		(at 100.47 80.58)
@@ -120794,6 +120848,15 @@
 		(uuid "cdb375da-aa96-4a38-a030-9d7d5b34e3c2")
 	)
 	(via
+		(at 106.27 99.83)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "ce4a0c18-24dd-4d8c-a134-0cfbd2d8a98c")
+	)
+	(via
 		(at 74.77 76.08)
 		(size 0.7)
 		(drill 0.3)
@@ -120801,6 +120864,15 @@
 		(free yes)
 		(net 1)
 		(uuid "ce77774b-2528-42b7-9df4-944d6fd6c012")
+	)
+	(via
+		(at 116.27 103.58)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "d344a1a4-58c2-453f-a187-91051076f9de")
 	)
 	(via
 		(at 97.93 109.33)
@@ -120902,6 +120974,15 @@
 		(uuid "e64a089c-aed8-476b-92ee-2fa1ddb528a2")
 	)
 	(via
+		(at 116.27 99.83)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e763315e-3926-490d-8d09-ff4cb44adc38")
+	)
+	(via
 		(at 101.27 106.08)
 		(size 0.7)
 		(drill 0.3)
@@ -120936,6 +121017,15 @@
 		(free yes)
 		(net 1)
 		(uuid "ea3c1b0a-7955-4a5e-b7a1-869a21f37716")
+	)
+	(via
+		(at 111.27 101.83)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "ebe6887b-2892-4769-9d44-c255cd0687b2")
 	)
 	(via
 		(at 115.52 115.58)
