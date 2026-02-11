@@ -1,5 +1,5 @@
 # ESP-24V-16CH
-ESP32 based board with 16x optoisolated 24 VDC high side inputs, and 16x open collector 24 VDC low side transistor outputs.
+ESP32 based board with 16x optoisolated 24 VDC active high inputs, and 16x open collector 24 VDC outputs.
 
 The outputs are based on the MMBT2222A SMD transistor and are rated for a maximum of 600mA, although it is recommended to limit the current to 350 mA for continous operation. If driving inductive loads like relays, a freewheeling diode or a snubber circuit should be used to limit the switching transients and protect the transistors.
 
