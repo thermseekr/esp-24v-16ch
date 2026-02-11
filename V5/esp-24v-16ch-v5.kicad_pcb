@@ -116479,6 +116479,16 @@
 		(uuid "31537705-f74e-443a-b86b-dff5c9a364c1")
 	)
 	(gr_line
+		(start 132.52 86.58)
+		(end 133.02 86.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32bf3759-1b10-4fdd-b556-3e1317789ab4")
+	)
+	(gr_line
 		(start 155.12 95.33)
 		(end 155.12 97.58)
 		(stroke
@@ -116510,7 +116520,7 @@
 	)
 	(gr_line
 		(start 125.52 81.695)
-		(end 125.52 88.33)
+		(end 125.52 87.33)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -116557,6 +116567,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "55d7cb66-7b11-4424-b3ea-c70876ef5dd4")
+	)
+	(gr_line
+		(start 132.52 84.83)
+		(end 132.52 88.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "569eaeb9-b223-4d3e-8429-a96e2b2aeaa2")
 	)
 	(gr_line
 		(start 147.5 97.58)
@@ -116649,8 +116669,8 @@
 		(uuid "7e80a0c2-8988-4d1e-b0ec-6146a88dc4c8")
 	)
 	(gr_line
-		(start 126.27 86.33)
-		(end 131.02 86.33)
+		(start 126.27 85.83)
+		(end 127.27 85.83)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -116669,8 +116689,8 @@
 		(uuid "804c0818-0947-4b52-876b-54661cdb6a95")
 	)
 	(gr_line
-		(start 125.52 88.33)
-		(end 131.02 88.33)
+		(start 125.52 87.33)
+		(end 127.27 87.33)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -116700,7 +116720,7 @@
 	)
 	(gr_line
 		(start 126.27 82.965)
-		(end 126.27 86.33)
+		(end 126.27 85.83)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -116909,6 +116929,16 @@
 		(uuid "ee32033a-ca5b-4c40-820e-feb4015c53d9")
 	)
 	(gr_line
+		(start 132.52 88.33)
+		(end 132.02 88.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0422ba1-13cb-4440-8716-372a724f4122")
+	)
+	(gr_line
 		(start 147.5 131.33)
 		(end 147.5 129.08)
 		(stroke
@@ -116937,6 +116967,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f93a01dd-7dd7-4643-8bcd-d6bffd09ad6c")
+	)
+	(gr_line
+		(start 132.02 84.83)
+		(end 132.52 84.83)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc25d342-6a38-4d00-8a28-bfe88737eca8")
 	)
 	(gr_rect
 		(start 64.77 64.28)
@@ -117170,30 +117210,30 @@
 			(justify top)
 		)
 	)
-	(gr_text "1-WIRE BUS"
-		(at 131.77 87.33 0)
+	(gr_text "1-WIRE BUS SELECTION"
+		(at 133.27 86.58 0)
 		(layer "F.SilkS")
 		(uuid "4e06125f-c4b7-4631-be29-87d641ee7811")
+		(effects
+			(font
+				(size 1 0.7)
+				(thickness 0.14)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "DS2482"
+		(at 127.52 87.33 0)
+		(layer "F.SilkS")
+		(uuid "5773a979-1ddf-4990-887a-50107f767d12")
 		(effects
 			(font
 				(size 1 0.8)
 				(thickness 0.16)
 				(bold yes)
 			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "DS2482"
-		(at 126.52 88.08 0)
-		(layer "F.SilkS")
-		(uuid "5773a979-1ddf-4990-887a-50107f767d12")
-		(effects
-			(font
-				(size 1 0.8)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
 	(gr_text "5V"
@@ -117234,16 +117274,16 @@
 		)
 	)
 	(gr_text "GPIO16"
-		(at 126.52 86.08 0)
+		(at 127.52 85.83 0)
 		(layer "F.SilkS")
 		(uuid "658c626c-67d2-44a0-8bea-c024b43ea522")
 		(effects
 			(font
 				(size 1 0.8)
-				(thickness 0.15)
+				(thickness 0.16)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
 	(gr_text "I15"
@@ -117370,7 +117410,7 @@
 		(effects
 			(font
 				(size 1 0.6)
-				(thickness 0.15)
+				(thickness 0.12)
 				(bold yes)
 			)
 		)
@@ -117408,7 +117448,7 @@
 		(effects
 			(font
 				(size 1.2 0.7)
-				(thickness 0.15)
+				(thickness 0.14)
 				(bold yes)
 			)
 			(justify top)
