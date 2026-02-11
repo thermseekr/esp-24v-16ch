@@ -11,11 +11,10 @@ The dimensions were chosen for mounting on a PCB DIN rail holder from the Brazil
 
 | Feature | Specification |
 | :--- | :--- |
-| **Microcontroller** | ESP32 |
-| **Inputs** | 16x 24VDC (Optoisolated, High-Side) |
-| **Outputs** | 16x 24VDC (Low-Side, Open Collector) |
-| **Transistor** | MMBT2222A (350mA cont. / 600mA peak) |
-| **Peripherals** | 1-Wire Interface |
+| **Microcontroller** | ESP32-WROOM-32UE-N16 (16MB flash) |
+| **Inputs** | 16x 24VDC (optoisolated, active high) |
+| **Outputs** | 16x 24VDC (open collector, 350mA cont. / 600mA peak) |
+| **Peripherals** | 1-Wire Interface, GPIO or 1-Wire master |
 | **Form Factor** | Metaltex DIN Rail Compatible |
 
 ![ESP-24V-16CH V5.2](https://github.com/thermseekr/ESP-24v-16ch/raw/main/V5/esp-24v-16ch-v5.2.0.png)
