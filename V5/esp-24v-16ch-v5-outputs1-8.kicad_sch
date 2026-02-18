@@ -1791,7 +1791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 101.6 106.68 0)
 			(effects
 				(font

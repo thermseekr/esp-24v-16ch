@@ -2005,6 +2005,18 @@
 		(uuid "349c3119-39ea-41b8-ada2-af7832b82b69")
 	)
 	(junction
+		(at 191.77 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a98baef-8144-403d-90fa-3b1311bc0218")
+	)
+	(junction
+		(at 278.13 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f85846b-bc79-413b-b721-a5c287723a6c")
+	)
+	(junction
 		(at 58.42 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2035,16 +2047,22 @@
 		(uuid "9c5e1c78-092c-42f0-9444-92693968357a")
 	)
 	(junction
-		(at 285.75 143.51)
+		(at 93.98 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1e0c18a-1dc3-4e6d-bdfa-8528e75b5fb7")
+		(uuid "bf0fe552-1c3f-4e2c-b1ba-b7b20d9f2fb6")
 	)
 	(junction
 		(at 165.1 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22b6136-080c-459b-aaf5-9891f485407e")
+	)
+	(junction
+		(at 285.75 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd1ea207-440d-417b-851c-847545bf03b7")
 	)
 	(junction
 		(at 158.75 104.14)
@@ -2110,6 +2128,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 48.26) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf0ca12-1107-4ee3-912c-c749de01da24")
+	)
+	(wire
+		(pts
 			(xy 66.04 66.04) (xy 66.04 31.75)
 		)
 		(stroke
@@ -2170,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 143.51) (xy 285.75 156.21)
+			(xy 285.75 140.97) (xy 285.75 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2220,6 +2248,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 151.13) (xy 246.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2181f990-a00e-4df8-8132-da666a440832")
+	)
+	(wire
+		(pts
 			(xy 143.51 185.42) (xy 190.5 185.42)
 		)
 		(stroke
@@ -2260,6 +2298,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 140.97) (xy 278.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6c6229-8061-426f-afcf-1e7ec2ac4e77")
+	)
+	(wire
+		(pts
 			(xy 156.21 63.5) (xy 156.21 29.21)
 		)
 		(stroke
@@ -2287,6 +2335,26 @@
 			(type default)
 		)
 		(uuid "38189b92-9ce2-4a18-b5f5-b6d5e7a5f68b")
+	)
+	(wire
+		(pts
+			(xy 246.38 140.97) (xy 278.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a86c16-f6ae-4650-a38e-18d8067ceb1c")
+	)
+	(wire
+		(pts
+			(xy 246.38 146.05) (xy 246.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b31cc62-8595-4fe6-8506-1ffef44b565c")
 	)
 	(wire
 		(pts
@@ -2397,6 +2465,16 @@
 			(type default)
 		)
 		(uuid "4d65dd6f-3490-4d5c-b043-65d90f29f7d9")
+	)
+	(wire
+		(pts
+			(xy 210.82 40.64) (xy 191.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0c38f5-3d20-411c-9be7-7020a98ada75")
 	)
 	(wire
 		(pts
@@ -2520,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 140.97) (xy 285.75 143.51)
+			(xy 285.75 138.43) (xy 285.75 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 143.51) (xy 285.75 143.51)
+			(xy 278.13 140.97) (xy 285.75 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2737,6 +2815,16 @@
 			(type default)
 		)
 		(uuid "943b52d0-b635-4f7c-8be0-f3bdd12f3881")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 113.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948f36c4-e84a-4490-87c5-88ca3fd70589")
 	)
 	(wire
 		(pts
@@ -2930,6 +3018,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 43.18) (xy 210.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad77f26e-a39b-4c24-8ffe-4a9a9a598115")
+	)
+	(wire
+		(pts
 			(xy 166.37 99.06) (xy 158.75 99.06)
 		)
 		(stroke
@@ -3070,6 +3168,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 40.64) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a026d4-3956-467f-a785-e0cfa6209fd1")
+	)
+	(wire
+		(pts
 			(xy 106.68 66.04) (xy 104.14 66.04)
 		)
 		(stroke
@@ -3127,6 +3235,16 @@
 			(type default)
 		)
 		(uuid "d63c2c68-5fb3-4633-a729-7a4d432dbcfe")
+	)
+	(wire
+		(pts
+			(xy 210.82 48.26) (xy 210.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b0a6b5-f8cb-4d76-8a9c-d666eaf00e69")
 	)
 	(wire
 		(pts
@@ -3347,16 +3465,6 @@
 			(type default)
 		)
 		(uuid "fb7c486a-2fce-4028-837f-b93ce5471b24")
-	)
-	(wire
-		(pts
-			(xy 278.13 146.05) (xy 278.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcaa18d5-4d27-4a06-8253-bdf7ebb532bb")
 	)
 	(wire
 		(pts
@@ -4209,143 +4317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 151.13 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ae4f289-31bd-4c5e-947a-80ef08ba425e")
-		(property "Reference" "C63"
-			(at 151.13 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF/10V"
-			(at 151.13 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Samsung"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CL10A106KP8NNNC"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19702"
-			(at 151.13 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Technology" "Ceramic X5R"
-			(at 151.13 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C19702"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af45816a-37f4-4bc0-9205-61e2ca0c8bfc")
-		)
-		(pin "2"
-			(uuid "a08b6f19-cf2b-4864-b01e-3048bde86717")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Tales:+3V3")
 		(at 184.15 39.37 0)
 		(unit 1)
@@ -4523,7 +4494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 165.1 191.77 0)
 			(effects
 				(font
@@ -5041,6 +5012,303 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 246.38 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "343a0a4c-a7af-4831-827e-8974172f64cb")
+		(property "Reference" "C67"
+			(at 248.92 144.7862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/25V"
+			(at 248.92 147.3262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 248.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 248.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C15850"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df40b569-825c-46db-b76b-215a6ddf1a12")
+		)
+		(pin "2"
+			(uuid "4721a9c7-bd63-47d2-ad86-e586ef3e1457")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b5ba956-c81c-4c4a-be5d-0b9a8e92db1a")
+		(property "Reference" "C63"
+			(at 151.13 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF/25V"
+			(at 151.13 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 151.13 209.5438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 151.13 207.0038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C15850"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f1e3ebb-6699-46c6-b846-c83f0652806e")
+		)
+		(pin "2"
+			(uuid "ed3ef1b1-d45f-4102-84b4-31411a4f2dbf")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 191.77 49.53 0)
 		(unit 1)
@@ -5383,17 +5651,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:+3V3")
-		(at 285.75 140.97 0)
+		(lib_id "power:GND")
+		(at 246.38 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "669b01fd-0ced-4126-bf72-b0b3db511da7")
-		(property "Reference" "#PWR0247"
-			(at 285.75 144.78 0)
+		(uuid "6477f033-ce8e-44ac-bb33-4114dd38aafe")
+		(property "Reference" "#PWR0254"
+			(at 246.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,17 +5669,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 288.29 139.6999 0)
+		(property "Value" "GND"
+			(at 246.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 140.97 0)
+			(at 246.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5688,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 140.97 0)
+			(at 246.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e6be37-3f11-4f54-b2fd-fa6614d173d3")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tales:+3V3")
+		(at 285.75 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "669b01fd-0ced-4126-bf72-b0b3db511da7")
+		(property "Reference" "#PWR0247"
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 288.29 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 285.75 140.97 0)
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,6 +6408,224 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 113.03 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "82d73404-91c3-4d9f-9519-505865f6ae66")
+		(property "Reference" "C65"
+			(at 115.57 41.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/25V"
+			(at 115.57 44.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C15850"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49be4417-fe4b-43bc-bdde-0d86a477b1b5")
+		)
+		(pin "2"
+			(uuid "bd6b826c-7901-4b4c-8c66-f8622a2c1177")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f5cd4e-9a0d-4236-9bc2-554e89fd4f01")
+		(property "Reference" "#PWR0256"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04431c65-2d71-4389-9531-eeab9e156a64")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 278.13 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6189,7 +6742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 278.13 148.59 0)
 			(effects
 				(font
@@ -6682,7 +7235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -7939,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 116.84 110.49 0)
 			(effects
 				(font
@@ -8335,6 +8888,224 @@
 			(project ""
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd96479f-2bed-422e-9de5-f632ebe70e73")
+		(property "Reference" "#PWR0255"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7625352-e039-43ee-9f4a-3a6d766e7c2b")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 210.82 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec881c08-dba5-4470-a62b-b3202fe188a4")
+		(property "Reference" "C66"
+			(at 213.36 41.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/25V"
+			(at 213.36 44.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 213.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C15850"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a4d014-7afc-45d5-904b-e7a612e63440")
+		)
+		(pin "2"
+			(uuid "8ca7943e-1464-41c4-bfee-a789ca20f83e")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/8d06b51d-d00b-4f80-9ffb-ab0131290cf2"
+					(reference "C66")
 					(unit 1)
 				)
 			)

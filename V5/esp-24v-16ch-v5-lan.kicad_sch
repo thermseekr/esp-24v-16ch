@@ -1596,7 +1596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Tales:RJ45_HanRun_HR911105A"
+		(symbol "Tales:RJ45_HanRun_HR915340A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1609,7 +1609,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ45_HanRun_HR911105A"
+			(property "Value" "RJ45_HanRun_HR915340A"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1617,7 +1617,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Tales:RJ45_HanRun_HR911105A"
+			(property "Footprint" "Tales:RJ45_HanRun_HR915340A"
 				(at 0 -26.67 0)
 				(effects
 					(font
@@ -1636,7 +1636,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LAN Transformer Jack, RJ45, 10/100 BaseTX"
+			(property "Description" "LAN Transformer Jack, RJ45, 10/100 BaseTX, tab up"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1645,7 +1645,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "lan jack transformer"
+			(property "ki_keywords" "lan jack transformer tab up"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1663,7 +1663,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RJ45_HanRun_HR911105A_0_0"
+			(symbol "RJ45_HanRun_HR915340A_0_0"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -16.51)
@@ -1903,8 +1903,8 @@
 						(justify left)
 					)
 				)
-				(text "GREEN"
-					(at -2.54 10.16 0)
+				(text "YELLOW"
+					(at -2.286 10.16 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1920,8 +1920,8 @@
 						)
 					)
 				)
-				(text "YELLOW"
-					(at 5.08 10.16 0)
+				(text "GREEN"
+					(at 5.334 10.16 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1938,7 +1938,7 @@
 					)
 				)
 			)
-			(symbol "RJ45_HanRun_HR911105A_0_1"
+			(symbol "RJ45_HanRun_HR915340A_0_1"
 				(rectangle
 					(start -8.382 -10.541)
 					(end -10.922 10.16)
@@ -3222,7 +3222,7 @@
 					)
 				)
 			)
-			(symbol "RJ45_HanRun_HR911105A_1_1"
+			(symbol "RJ45_HanRun_HR915340A_1_1"
 				(pin passive line
 					(at -5.08 15.24 270)
 					(length 2.54)
@@ -3287,7 +3287,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3305,7 +3305,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6227,6 +6227,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Tales:+3V3LAN")
+		(at 43.18 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1988fcb0-e4ce-4062-a5b6-036b80a94710")
+		(property "Reference" "#PWR0225"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3LAN"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3LAN\""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe843499-114f-4638-8efd-08b2e6435d17")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 50.8 121.92 0)
 		(unit 1)
@@ -6375,15 +6440,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 38.1 0)
+		(at 124.46 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e3910a8-618a-475b-9ffd-8939c1d28a83")
-		(property "Reference" "C18"
-			(at 139.7 36.195 0)
+		(uuid "23856047-0d09-46bb-81d3-2aa09bf093d7")
+		(property "Reference" "C24"
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,8 +6456,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
-			(at 139.7 38.735 0)
+		(property "Value" "10uF/25V"
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,8 +6465,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 137.16 38.1 0)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 38.1 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6484,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 38.1 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6493,7 @@
 			)
 		)
 		(property "Mfr" "Samsung"
-			(at 137.16 38.1 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,8 +6501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CL10A106KP8NNNC"
-			(at 137.16 38.1 0)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6511,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "1"
-			(at 137.16 38.1 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,8 +6519,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19702"
-			(at 139.7 43.815 0)
+		(property "LCSC Part #" "C15850"
+			(at 127 144.7738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6529,7 @@
 			)
 		)
 		(property "Technology" "Ceramic X5R"
-			(at 139.7 41.275 0)
+			(at 127 142.2338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6538,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 137.16 38.1 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,8 +6546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C19702"
-			(at 137.16 38.1 0)
+		(property "Vendor PN" "C15850"
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,8 +6555,17 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603/1608"
-			(at 137.16 38.1 0)
+		(property "Package" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,21 +6574,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b6e53c6-6bde-463f-a641-2f86c427fab8")
+			(uuid "6746fd52-cc04-4a73-bed4-f439f92713b3")
 		)
 		(pin "2"
-			(uuid "d49a3ebf-86cc-458b-b051-2df4aec85bef")
+			(uuid "bc39b3cf-ae74-4290-a0ac-8c97260d03c3")
 		)
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-			(project "ESP-24v-16ch-v4-lan"
-				(path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
-					(reference "C16")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7806,6 +7874,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745b01c6-3b2d-43d7-8faa-ba3a9b5a3e98")
+		(property "Reference" "C18"
+			(at 139.7 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/25V"
+			(at 139.7 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tales:C_0805_2012Metric"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CL21A106KAYNNNE"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Technology" "Ceramic X5R"
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C15850"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0805/2012"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5ddc6d-8e66-4929-abc4-60a2dde2c19f")
+		)
+		(pin "2"
+			(uuid "e1492c31-6df2-487a-adf6-bfed8b3f156f")
+		)
+		(instances
+			(project "esp-24v-16ch-v5"
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 34.29 0)
 		(unit 1)
@@ -8235,7 +8454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Tales:RJ45_HanRun_HR911105A")
+		(lib_id "Tales:RJ45_HanRun_HR915340A")
 		(at 48.26 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8262,7 +8481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:RJ45_HanRun_HR911105A"
+		(property "Footprint" "Tales:RJ45_HanRun_HR915340A"
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -8281,7 +8500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LAN Transformer Jack, RJ45, 10/100 BaseTX"
+		(property "Description" "LAN Transformer Jack, RJ45, 10/100 BaseTX, tab up"
 			(at 48.26 154.94 0)
 			(effects
 				(font
@@ -9463,7 +9682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402/1005"
+		(property "Package" ""
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -9705,153 +9924,6 @@
 			(project "ESP-24v-16ch-v4-lan"
 				(path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfac805e-0755-4387-8412-4bbf4337561f")
-		(property "Reference" "C24"
-			(at 127 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF/10V"
-			(at 127 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:C_0603_1608Metric"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Samsung"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CL10A106KP8NNNC"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19702"
-			(at 127 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Technology" "Ceramic X5R"
-			(at 127 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C19702"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603/1608"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "720f2f44-6c0e-4076-9a1e-3ef00a93959b")
-		)
-		(pin "2"
-			(uuid "a4e9d5b8-674d-422e-8bd2-aa0aeaf88322")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-			(project "ESP-24v-16ch-v4-lan"
-				(path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10296,77 +10368,6 @@
 			(project "ESP-24v-16ch-v4-lan"
 				(path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tales:+3V3A")
-		(at 43.18 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf261caa-757d-4a75-8783-7565ceef4770")
-		(property "Reference" "#PWR0225"
-			(at 43.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3A"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25fcf208-4561-4033-89c3-e5f1d994d22f")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/c76fc600-a423-4f14-bc69-e86c7c986b21"
-					(reference "#PWR0225")
-					(unit 1)
-				)
-			)
-			(project "ESP-24v-16ch-v4-lan"
-				(path "/6c33f4ff-7ffb-4387-9626-ca1bbece1989"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
