@@ -2065,7 +2065,7 @@
 	)
 	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"ESP-24V-16CH-V5\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10241,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,192,193,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
 		(exclude_from_sim no)
-		(at 15.24 134.62 0)
+		(at 15.24 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,7 +2074,7 @@
 		)
 		(uuid "b73a0bec-f2c5-41e3-bd55-3fc9f06619d1")
 	)
-	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[192,193,194,195,196,197,198,0,199,200,201,\n202,203,204,205,0,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239]}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
+	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[192,193,194,195,196,197,198,0,199,200,201,\n202,203,204,205,0,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239],\n\"IOCON\":0x5C}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
 		(exclude_from_sim no)
 		(at 15.24 152.4 0)
 		(effects
@@ -2151,12 +2151,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "635cdc74-3a6d-48fd-af80-e490d3340bbb")
-	)
-	(junction
-		(at 256.54 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "788315a6-0de3-4546-97f4-f9a97d3dc370")
 	)
 	(junction
 		(at 209.55 66.04)
@@ -2249,6 +2243,10 @@
 		(uuid "eb590ccc-7956-4c2a-b3e5-49ec9ea44c78")
 	)
 	(no_connect
+		(at 194.31 86.36)
+		(uuid "eb6e8fed-7d5e-44ac-8c1e-a5b9d958900b")
+	)
+	(no_connect
 		(at 163.83 99.06)
 		(uuid "ecd65585-2354-489e-9cc6-4e3a0539e481")
 	)
@@ -2334,16 +2332,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 71.12) (xy 267.97 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eeb47d3-7026-40fd-9b92-327686c3c8bc")
-	)
-	(wire
-		(pts
 			(xy 232.41 55.88) (xy 232.41 57.15)
 		)
 		(stroke
@@ -2361,16 +2349,6 @@
 			(type default)
 		)
 		(uuid "25c5d22c-8412-4544-9bda-0f3ca056364f")
-	)
-	(wire
-		(pts
-			(xy 256.54 55.88) (xy 256.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c20b0b-f61d-43e6-9765-141b8dffedc6")
 	)
 	(wire
 		(pts
@@ -2411,16 +2389,6 @@
 			(type default)
 		)
 		(uuid "330bd7ce-7bbe-4512-8f14-9dc580491a01")
-	)
-	(wire
-		(pts
-			(xy 256.54 64.77) (xy 256.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35214ba1-22f0-44ba-b3c4-c7db13fd11a5")
 	)
 	(wire
 		(pts
@@ -2541,16 +2509,6 @@
 			(type default)
 		)
 		(uuid "45312b6f-eb0d-4708-8519-020b85a14406")
-	)
-	(wire
-		(pts
-			(xy 241.3 71.12) (xy 256.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ff3b81-10d9-46a5-aff9-a5ada5ddbdba")
 	)
 	(wire
 		(pts
@@ -2774,16 +2732,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a6febe-06a3-4146-b1e5-8fbaff327c60")
-	)
-	(wire
-		(pts
 			(xy 90.17 59.69) (xy 92.71 59.69)
 		)
 		(stroke
@@ -2941,16 +2889,6 @@
 			(type default)
 		)
 		(uuid "a3d146e1-3c27-467d-8c3c-ee8364272712")
-	)
-	(wire
-		(pts
-			(xy 194.31 86.36) (xy 241.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa406374-ba04-4933-ae3f-42994da753cb")
 	)
 	(wire
 		(pts
@@ -3518,17 +3456,6 @@
 			(justify right)
 		)
 		(uuid "f039056a-7ca0-4335-a066-598bf82dfc38")
-	)
-	(hierarchical_label "MCPININTB"
-		(shape input)
-		(at 267.97 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f054ffc8-3cdf-4a0c-a650-67ca1720bc48")
 	)
 	(hierarchical_label "USBD-"
 		(shape bidirectional)
@@ -4464,147 +4391,6 @@
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 256.54 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fdf437f-e882-4360-97e4-f0b95ed6726d")
-		(property "Reference" "R15"
-			(at 259.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 259.08 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Tales:R_0402_1005Metric"
-			(at 257.556 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402/1005"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uniroyal"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "0402WGF2201TCE"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "1%"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor PN" "C25879"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25879"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee6c4c9a-848b-49c4-bba8-4f9a5e97ea8c")
-		)
-		(pin "2"
-			(uuid "5c5590f7-f1e4-4161-8690-aa75bb037b48")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7295,71 +7081,6 @@
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
 					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tales:+3V3")
-		(at 256.54 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcebfc40-77fc-4954-9daa-fd1924a0fa3e")
-		(property "Reference" "#PWR0197"
-			(at 256.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 256.54 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "436b7272-0919-402b-8aa0-c314bb9d303c")
-		)
-		(instances
-			(project "esp-24v-16ch-v5"
-				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR0197")
 					(unit 1)
 				)
 			)

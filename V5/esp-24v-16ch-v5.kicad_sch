@@ -1530,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 59.69) (xy 210.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b201d964-024e-4814-a8a8-88e0a8ae7ab8")
-	)
-	(wire
-		(pts
 			(xy 154.94 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -5416,16 +5406,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCPININTB" output
-			(at 210.82 71.12 90)
-			(uuid "17e903a1-39d9-41ff-9089-9b1c6912d310")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCPININTA" output
 			(at 208.28 71.12 90)
 			(uuid "44ae2d6a-d0b2-47b0-8935-32b662047d82")
@@ -6647,16 +6627,6 @@
 		(pin "MCPININTA" input
 			(at 208.28 59.69 270)
 			(uuid "ada4a48c-4a19-4310-8e00-b128e48a6b7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCPININTB" input
-			(at 210.82 59.69 270)
-			(uuid "1475181e-ff1d-466f-8aac-424d90174511")
 			(effects
 				(font
 					(size 1.27 1.27)

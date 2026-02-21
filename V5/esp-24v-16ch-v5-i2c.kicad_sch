@@ -2099,6 +2099,10 @@
 		(uuid "6888c248-a771-4e77-adff-f8c298a219ac")
 	)
 	(no_connect
+		(at 68.58 78.74)
+		(uuid "965cdca2-820b-42c3-98e0-ca9208e9c4ba")
+	)
+	(no_connect
 		(at 166.37 81.28)
 		(uuid "c0cff8d6-5b64-4bf3-acf0-63791670e8a6")
 	)
@@ -2435,16 +2439,6 @@
 			(type default)
 		)
 		(uuid "4ae3d5ff-4b53-4c61-ae90-6bbcc3d791d1")
-	)
-	(wire
-		(pts
-			(xy 60.96 78.74) (xy 68.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb6e321-6031-466d-9e7d-37a5cb95ed77")
 	)
 	(wire
 		(pts
@@ -3138,16 +3132,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 78.74) (xy 60.96 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0131fe7-bea2-45a2-81aa-c8cb55e43f00")
-	)
-	(wire
-		(pts
 			(xy 50.8 86.36) (xy 68.58 86.36)
 		)
 		(stroke
@@ -3215,16 +3199,6 @@
 			(type default)
 		)
 		(uuid "d2c12f6c-9eff-44c9-ba95-2e34fa0b68c1")
-	)
-	(wire
-		(pts
-			(xy 60.96 26.67) (xy 370.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53f85b7-4a3c-453f-a8a2-63afe44a8940")
 	)
 	(wire
 		(pts
@@ -3883,17 +3857,6 @@
 			(justify left)
 		)
 		(uuid "c21aa8e3-f0bb-4492-bdc7-162e6cbf6d52")
-	)
-	(hierarchical_label "MCPININTB"
-		(shape output)
-		(at 370.84 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8b1b2ce-9ba0-41d4-b70d-689e55aa4632")
 	)
 	(hierarchical_label "IN7"
 		(shape input)
