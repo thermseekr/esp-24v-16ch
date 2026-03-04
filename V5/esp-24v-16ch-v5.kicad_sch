@@ -10,6 +10,148 @@
 		(rev "V5.2")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -406,6 +548,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Tales:GNDIO"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDIO"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDIO\" , reference I/O ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDIO_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDIO_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RESISTORS: 62,5mW WHERE NOT SPECIFIED"
 		(exclude_from_sim no)
@@ -417,6 +797,18 @@
 			(justify left)
 		)
 		(uuid "df1b3ea3-b1f7-492c-bb27-3a8846f00e32")
+	)
+	(junction
+		(at 43.18 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48de4932-dca2-4358-b718-f9cf701c2580")
+	)
+	(junction
+		(at 43.18 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6bd66ce-e818-4417-97df-b1e52ccb13b9")
 	)
 	(wire
 		(pts
@@ -577,6 +969,16 @@
 			(type default)
 		)
 		(uuid "1423b6a1-15d6-4ddc-8039-3356d750bb26")
+	)
+	(wire
+		(pts
+			(xy 43.18 261.62) (xy 43.18 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18153165-9940-46af-9cb4-0f0a782b3e4d")
 	)
 	(wire
 		(pts
@@ -787,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "35e0696d-0866-4ae5-8a94-bd872ed9c5fb")
+	)
+	(wire
+		(pts
+			(xy 210.82 59.69) (xy 210.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aa4212-4381-49e2-b307-ae305afea1eb")
 	)
 	(wire
 		(pts
@@ -1070,6 +1482,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 259.08) (xy 39.37 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efb2149-7808-4749-a545-9bd9a94b39a5")
+	)
+	(wire
+		(pts
 			(xy 193.04 138.43) (xy 195.58 138.43)
 		)
 		(stroke
@@ -1127,6 +1549,16 @@
 			(type default)
 		)
 		(uuid "680111d4-822b-4062-910d-f6db4aea1bc0")
+	)
+	(wire
+		(pts
+			(xy 39.37 261.62) (xy 43.18 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d207555-d9d4-4177-86d8-24ccc53f9b9f")
 	)
 	(wire
 		(pts
@@ -1560,6 +1992,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 256.54) (xy 43.18 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70ee94c-b84b-4419-b802-529ea90a446d")
+	)
+	(wire
+		(pts
 			(xy 311.15 194.31) (xy 322.58 194.31)
 		)
 		(stroke
@@ -1630,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 165.1 54.61)
+			(xy 154.94 73.66) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 165.1 57.15)
+			(xy 154.94 76.2) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1917,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "e0d5649b-f18b-4002-ab73-a71fa565e8ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 264.16) (xy 43.18 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dd7b93-ae2a-4e92-b861-19ba63ddd0e8")
 	)
 	(wire
 		(pts
@@ -2319,7 +2771,7 @@
 		(uuid "1be30a06-256a-43b2-9974-9a269d0a7079")
 	)
 	(label "INPUT1"
-		(at 154.94 54.61 0)
+		(at 154.94 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,7 +3051,7 @@
 		(uuid "63714853-e299-442d-8fda-56f6a8aebd6d")
 	)
 	(label "INPUT2"
-		(at 154.94 57.15 0)
+		(at 154.94 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +3727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ade5c6e-5a9f-4fd0-abe5-ec62c063d514")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 396.24 182.88 0)
 			(effects
 				(font
@@ -3417,7 +3869,7 @@
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c6297ca-1f82-4eb0-a676-338544525471")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 298.45 182.88 0)
 			(effects
 				(font
@@ -3574,7 +4026,73 @@
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J7")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e5450fe-a193-46e7-a41e-5df86deda0ab")
+		(property "Reference" "#FLG01"
+			(at 43.18 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 43.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5d3147d-4b3c-4bdc-bcb5-0ed258ec8917")
+		)
+		(instances
+			(project ""
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3590,7 +4108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff91021-5966-4f9b-940b-b85b81837d8b")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -3732,7 +4250,7 @@
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3876,7 +4394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aecb34af-d9ce-4e11-a615-5f693b8e2e59")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 24.13 182.88 0)
 			(effects
 				(font
@@ -4018,7 +4536,214 @@
 		(instances
 			(project "esp-24v-16ch-v5"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
-					(reference "J5")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tales:GNDIO")
+		(at 43.18 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d6414e-5769-4b11-8e7b-33515e22d908")
+		(property "Reference" "#PWR01"
+			(at 43.18 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDIO"
+			(at 43.18 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDIO\" , reference I/O ground"
+			(at 43.18 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbde478-9240-432d-91f5-a2e99e785f4c")
+		)
+		(instances
+			(project ""
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 34.29 259.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f4a184-947f-4ac7-87e5-130c252ed5d4")
+		(property "Reference" "J2"
+			(at 34.29 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDIO"
+			(at 34.29 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tales:TerminalBlock_Wago_250-202_1x02_P3.5mm_45Degree"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "~"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2765061"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Wago"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "250-202"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "~"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN" "C2765061"
+			(at 34.29 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dd3c914-844b-40a5-8ecd-48883e680cad")
+		)
+		(pin "2"
+			(uuid "82ecce81-2d68-4289-a9d8-aecbaf9bc24c")
+		)
+		(instances
+			(project ""
+				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5406,16 +6131,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCPININTA" output
-			(at 208.28 71.12 90)
-			(uuid "44ae2d6a-d0b2-47b0-8935-32b662047d82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "1WIREGPIO" bidirectional
 			(at 222.25 71.12 90)
 			(uuid "7650d286-aaf2-4d16-a68d-1ce2c54cf554")
@@ -5579,6 +6294,46 @@
 		(pin "OUT16" output
 			(at 240.03 111.76 0)
 			(uuid "057f7bf4-9260-427d-885c-6616f4f6d6f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1" input
+			(at 165.1 73.66 180)
+			(uuid "2a63623c-0d09-4b94-979b-03cbee8dacfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 165.1 76.2 180)
+			(uuid "08c84302-8b8f-43dc-88c8-d2c8cec73ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCPIN1INT" output
+			(at 208.28 71.12 90)
+			(uuid "4104f99c-3487-40f9-b9ef-305b13af65b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCPIN2INT" output
+			(at 210.82 71.12 90)
+			(uuid "fa524b3f-7d68-4819-b8a5-3fdb6da83b89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,16 +7379,6 @@
 				(justify left)
 			)
 		)
-		(pin "MCPININTA" input
-			(at 208.28 59.69 270)
-			(uuid "ada4a48c-4a19-4310-8e00-b128e48a6b7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USBD+" bidirectional
 			(at 165.1 41.91 180)
 			(uuid "7364550d-368e-4cb2-b4f4-81256c27153e")
@@ -6664,9 +7409,9 @@
 				(justify left)
 			)
 		)
-		(pin "INPUT1" input
-			(at 165.1 54.61 180)
-			(uuid "4be5dbb7-ba36-4ccb-a766-6f7557bec2db")
+		(pin "MCPIN1INT" input
+			(at 208.28 59.69 270)
+			(uuid "01a1f7c3-bf6d-4b8a-9614-c8e5c1d00150")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,9 +7419,9 @@
 				(justify left)
 			)
 		)
-		(pin "INPUT2" input
-			(at 165.1 57.15 180)
-			(uuid "e911944f-f3ce-4674-a157-7f0d2237533f")
+		(pin "MCPIN2INT" input
+			(at 210.82 59.69 270)
+			(uuid "04282d77-585d-45f4-82a4-fd0a7d8682ee")
 			(effects
 				(font
 					(size 1.27 1.27)
