@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "eumesmo 24V 16xIn/16xOut/1-Wire Module")
-		(date "2026-06-17")
-		(rev "V6.2")
+		(date "2026-07-02")
+		(rev "V6.3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
