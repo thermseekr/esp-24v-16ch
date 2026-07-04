@@ -21,6 +21,8 @@ The board is compatible with the SP7 DIN rail system from [Metaltex](https://www
 
 ## VERSION HISTORY
 
+V6.3 - 2026/07/02 - Added CPU health LED.
+
 V6.2 - 2026/06/13 - Repository renamed from ESP-24V-16CH to eumesmo-io-24v16ch to align the design with the **eumesmo** line of building automation products.
 
 V6.1 - 2026/06/09 - Added voltage monitors for the reset pins on the ESP32 and LAN8710A, replacing the RC circuits. The idea is to get more reliability on the power up sequence with a more controlled reset scheme and a sharper edge on the reset signal. For the ESP32 a TPS3820-33 was selected, which has a reset delay of 25ms. The LAN8710A received a TPS3823-33 with a 200ms delay. The sequence is: ESP32 gets power and goes out of reset 25ms after power good is detected at the 3V3 rail. After boot GPIO12 will go high enabling the 3V3LAN power rail and feeding power to both LAN8710A and TPS3823-33. Then, 200ms after power good is detected on the 3V3LAN rail, the LAN8710A will go out of reset and the power sequence is completed.
