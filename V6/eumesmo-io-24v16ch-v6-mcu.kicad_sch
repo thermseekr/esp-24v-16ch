@@ -4455,29 +4455,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 257.81 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 257.81 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "FT Rotation Offset" "0"
 			(at 257.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4509,12 +4487,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "03bcb813-50ad-4c32-a465-0c052a9baf88")
-		(property "Reference" "TP11"
+		(property "Reference" "TP9"
 			(at 38.1 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D+"
+		(property "Value" "TP"
 			(at 38.1 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +4547,18 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "Technology" ""
+			(at 39.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 39.37 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4586,7 +4575,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "TP11")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "090489a3-854b-4139-a37b-af75c75f2149")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 209.55 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,7 +4798,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 215.9 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -4829,7 +4818,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4923,17 +4912,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 160.02 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C15850"
 			(at 162.56 58.4138 0)
 			(show_name no)
@@ -5000,6 +4978,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 160.02 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b468528c-f0f9-4295-b49b-afb5081999e3")
 		)
@@ -5026,7 +5015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18056315-33f7-480f-bc87-b2b980e3146f")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 125.73 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Uniroyal"
+		(property "Mfr" "Yageo"
 			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5092,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5125,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C60490"
 			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5125,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C60490"
 			(at 125.73 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,17 +5134,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 123.19 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Package" ""
@@ -5180,6 +5158,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 123.19 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3c2a719-122f-4cd5-8732-78e66fb42c92")
 		)
@@ -5189,7 +5178,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5206,7 +5195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1da77c5e-09fa-4f10-b227-c9a0c190478c")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 207.01 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Uniroyal"
+		(property "Mfr" "Yageo"
 			(at 209.55 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5283,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 209.55 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5305,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C60490"
 			(at 209.55 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5316,7 +5305,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C60490"
 			(at 207.01 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,17 +5314,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 209.55 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Package" ""
@@ -5360,6 +5338,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89c311de-b142-4836-811f-8247f1b47fc9")
 		)
@@ -5369,7 +5358,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5452,17 +5441,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 182.88 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C307331"
 			(at 185.42 58.4138 0)
 			(show_name no)
@@ -5519,6 +5497,17 @@
 			)
 		)
 		(property "Vendor PN" "C307331"
+			(at 182.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5635,7 +5624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3780d858-a7af-4ff2-a247-e79ffdb420cc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5696,7 +5685,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5708,12 +5697,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ccbd5f6-544b-4ccf-a6ea-3b9f0fa393a7")
-		(property "Reference" "TP12"
+		(property "Reference" "TP10"
 			(at 46.99 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D-"
+		(property "Value" "TP"
 			(at 46.99 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5757,18 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "Technology" ""
+			(at 48.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 48.26 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5785,7 +5785,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "TP12")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5847,17 +5847,6 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
-			(at 106.68 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 106.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5945,6 +5934,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 106.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10d0041c-f095-409e-ba0f-414eb5697aa8")
 		)
@@ -5984,7 +5984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482b8293-8a1d-4365-8a0b-67638984d9e6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 160.02 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6045,7 +6045,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5070fbff-c228-46bc-a8ef-141ab5c8bc61")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR032"
 			(at 261.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6124,7 +6124,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR048")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6187,17 +6187,6 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
-			(at 106.68 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6285,6 +6274,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87fc5f91-4bcd-4736-bd63-1ed0765b05ba")
 		)
@@ -6324,7 +6324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562254c4-ccc0-4d8f-866d-d577208ba418")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 257.81 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6385,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6413,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2,2k"
 			(at 262.89 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +6534,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 260.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6637,17 +6637,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C720477"
 			(at 127 100.3301 90)
 			(show_name no)
@@ -6714,6 +6703,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cfcd740-f821-4d9a-875b-d99668b09121")
 		)
@@ -6741,7 +6741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6978bb78-4314-49f7-9639-09e2213eca16")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6802,7 +6802,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6897,17 +6897,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 21.59 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C15850"
 			(at 24.13 52.07 0)
 			(show_name no)
@@ -6974,6 +6963,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 21.59 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07e4b4ee-ed1f-4f41-afe8-824308912c03")
 		)
@@ -7000,7 +7000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76f797d2-5b8e-426c-aeb6-2dcddb103f68")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 63.5 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7060,7 +7060,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7077,7 +7077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c06b54c-d685-43c4-be47-f8a378c1e8ce")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 123.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7137,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7155,7 +7155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41775f1-fc39-4ed5-9d93-332d2de5322a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR043"
 			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7216,7 +7216,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR034")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75ff9c3-4e95-417f-b599-8037e57f0b76")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 260.35 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Uniroyal"
+		(property "Mfr" "Yageo"
 			(at 257.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7311,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 257.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7333,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C60490"
 			(at 257.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7344,7 +7344,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C60490"
 			(at 260.35 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,17 +7353,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 257.81 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Package" ""
@@ -7388,6 +7377,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 257.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca586950-b7af-4143-a7ea-0240b00b703a")
 		)
@@ -7397,7 +7397,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7414,7 +7414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b04f12f7-767f-48ff-aaf7-4deb7cb285f6")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 248.92 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +7425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2,2k"
 			(at 248.92 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7546,7 +7546,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 246.38 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7566,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7628,17 +7628,6 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"
-			(at 179.07 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7716,6 +7705,17 @@
 			)
 		)
 		(property "Technology" ""
+			(at 179.07 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7863,7 +7863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b26f49ff-bcfc-4830-9635-6bd0c14c9743")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 247.65 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2,2k"
 			(at 247.65 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7995,7 +7995,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8015,7 +8015,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8043,7 +8043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2,2k"
 			(at 234.95 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8164,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 232.41 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8202,7 +8202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3de1a15-e428-4673-a40b-7795f5c379bd")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 240.03 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8331,8 +8331,8 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 240.03 41.91 0)
+		(property "FT Rotation Offset" "0"
+			(at 240.03 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8351,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8368,7 +8368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6bc027e-b47b-4309-a35b-cd3c77194a73")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR034"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8428,7 +8428,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR039")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8446,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee4cfcf-0823-4de5-9d78-c9e2396a381f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 123.19 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8507,7 +8507,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8524,7 +8524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee72fc6-6f65-4cf4-bc77-44b9956eb231")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 146.05 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8590,17 +8590,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 143.51 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C130064"
 			(at 146.05 78.74 0)
 			(show_name no)
@@ -8656,6 +8645,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 143.51 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b71a81f3-33c3-4c6f-9fd5-df7740cf2dd8")
 		)
@@ -8674,7 +8674,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8691,7 +8691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2faabc6-9ca3-4379-b538-338f781f90a1")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 245.11 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8751,7 +8751,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8768,7 +8768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6f4f664-e847-4501-9b28-8480b49b59cb")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR038"
 			(at 232.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8828,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR043")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8846,7 +8846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f02162b3-4e68-4dd5-b732-dc3268f334e8")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8907,7 +8907,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8925,7 +8925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ddbf62-90c7-4cc3-b60b-4df372ab9325")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR048"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8986,7 +8986,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR040")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5765c81-7a38-4902-8483-1297174fe6a4")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 66.04 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,17 +9060,6 @@
 			)
 		)
 		(property "Case" "SSOP-10"
-			(at 63.5 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9147,6 +9136,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 63.5 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a274065-f8fe-493b-adb6-f89a251ff475")
 		)
@@ -9183,7 +9183,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9246,17 +9246,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9355,6 +9344,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5d1f17a-dff8-43ef-b9ca-1982861c83d6")
 		)
@@ -9381,7 +9381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5be5e9-df77-4fb6-8c57-d041e5ee86a8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR035"
 			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9441,7 +9441,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR042")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff354a2b-d70a-42a2-938e-eb94843b4288")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 246.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9518,7 +9518,7 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f2a42251-1da5-495a-abaf-29698c5bb0fe"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

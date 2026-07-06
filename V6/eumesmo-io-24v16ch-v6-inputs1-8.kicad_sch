@@ -2421,17 +2421,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 184.15 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2838427"
 			(at 182.88 106.68 0)
 			(show_name no)
@@ -2499,6 +2488,17 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 184.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 184.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2605,7 +2605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "062944d1-bba2-4d1c-a58e-d08f093e6976")
-		(property "Reference" "D13"
+		(property "Reference" "D11"
 			(at 157.48 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,17 +2726,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C19077407"
 			(at 157.48 88.9 0)
 			(show_name no)
@@ -2748,6 +2737,17 @@
 				(justify left)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 160.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "080b0c48-1262-4966-8544-f244deb2a8a6")
 		)
@@ -2757,35 +2757,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D34")
+					(reference "D32")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D22")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D25")
+					(reference "D23")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D28")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D16")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D31")
+					(reference "D29")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D19")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c5d6ad-0c27-48cb-a49c-2af519b5d679")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 143.51 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2863,35 +2863,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0154")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0133")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25977c0e-2045-448c-bab8-4da9da8eee6a")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0107"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2969,35 +2969,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0152")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0124")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0131")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0138")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0110")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0145")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0103")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3015,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3c75d7fb-3a92-44c4-a4b2-da48d1b081ba")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 99.06 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,17 +3071,6 @@
 			)
 		)
 		(property "Case" "SMA"
-			(at 96.52 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
 			(at 96.52 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3158,6 +3147,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" ""
+			(at 96.52 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35455f21-1275-4952-94b9-6fd0e73d2f0d")
 		)
@@ -3167,35 +3167,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D23")
+					(reference "D24")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D26")
+					(reference "D27")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5644de50-7c3a-4343-8950-d2c29f358bfb")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0103"
 			(at 175.26 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3273,35 +3273,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0155")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0127")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0134")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0141")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0113")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0148")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0106")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0120")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3318,7 +3318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66824623-5c74-4994-8c13-9506eb9840b9")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0104"
 			(at 193.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3379,35 +3379,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0156")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0128")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0135")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0142")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0114")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0149")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0107")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0121")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3424,7 +3424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69aee115-0831-4e26-b903-47decaae5d8d")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0102"
 			(at 207.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3484,35 +3484,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0157")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0129")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0136")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0143")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0115")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0150")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0108")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0122")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3529,7 +3529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74985c46-3862-4700-8519-fdfdf55fd972")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 209.55 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +3540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2,2k"
 			(at 209.55 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3681,35 +3681,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "R65")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "R53")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "R56")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "R47")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "R62")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "R44")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "R50")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "916ca61e-e604-4789-bb96-4a698d77a970")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0105"
 			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3787,35 +3787,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0151")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0123")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0130")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0137")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0109")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0144")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0102")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0116")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3965,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 78.74 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4031,7 +4031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c637c6d7-c977-44f1-8e1b-3fa1a769e051")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0108"
 			(at 125.73 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4091,35 +4091,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "#PWR0153")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "#PWR0125")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "#PWR0132")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "#PWR0139")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "#PWR0111")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "#PWR0146")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "#PWR0104")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4201,17 +4201,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 87.63 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C85833"
 			(at 87.63 92.71 0)
 			(hide yes)
@@ -4278,6 +4267,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 87.63 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0aab3e55-e8e8-40d6-b81d-8b712a1e68ba")
 		)
@@ -4332,7 +4332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e267dd32-5af1-42da-bc33-ab303e6c08d4")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 123.19 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,30 +4464,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 125.73 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 125.73 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 119.38 0)
+		(property "FT Rotation Offset" "0"
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,35 +4484,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "D21")
+					(reference "D22")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4749,7 +4727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5a4d3fb-ca38-46a0-b486-cab0a698bc8d")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 123.19 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +4738,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 123.19 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 126.746 103.124 90)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Case" "0603/1608"
+		(property "Case" "0805/2012"
 			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4826,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4848,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4870,7 +4848,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 123.19 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4859,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "FT Rotation Offset" "0"
 			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4901,35 +4879,35 @@
 		(instances
 			(project "eumesmo-io-24v16ch-v6"
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/13488771-d756-4bf7-9132-6ca3e4a9325a"
-					(reference "R63")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/25c70f50-017c-4bcc-acb5-84c7cb4acbc3"
-					(reference "R51")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/3bddd7f0-432c-4f3f-ac0a-69652e55cc15"
-					(reference "R54")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/56e70c32-022f-47a3-b38a-e8821f093b1d"
-					(reference "R57")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/ad3d18f6-6bf3-4419-a19f-d246dbccbcac"
-					(reference "R45")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/dcf656f2-78f6-4d34-a979-fbebc99d5b8c"
-					(reference "R60")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f221a330-0446-4dbb-9fc4-488df890c8d3"
-					(reference "R42")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/2bc5a21a-1d79-419d-a592-6852cc07b00a/f6c748e6-9b1e-4b33-a538-ad6ca32222da"
-					(reference "R48")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4957,7 +4935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8/125mW"
+		(property "Value" "1,8k/125mW"
 			(at 138.43 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,8 +5056,8 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 134.62 92.71 0)
+		(property "FT Rotation Offset" "0"
+			(at 134.62 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
