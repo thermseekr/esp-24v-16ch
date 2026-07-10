@@ -8212,7 +8212,7 @@
 				)
 			)
 		)
-		(property "Value" "300R"
+		(property "Value" "330R"
 			(at 240.03 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8277,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF3000TCE"
+		(property "Mfr PN" "0402WGF3300TCE"
 			(at 240.03 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8299,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25102"
+		(property "Vendor PN" "C25104"
 			(at 240.03 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8321,7 +8321,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25102"
+		(property "LCSC Part #" "C25104"
 			(at 240.03 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)

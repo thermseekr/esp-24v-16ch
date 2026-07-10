@@ -7488,7 +7488,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 80.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7657,7 +7657,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8765,7 +8765,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9103,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 69.85 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +9989,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25744"
+		(property "Vendor PN" "C25879"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
