@@ -836,7 +836,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ESP-24v_32ch.net",
-      "plot": "",
+      "plot": "Output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
