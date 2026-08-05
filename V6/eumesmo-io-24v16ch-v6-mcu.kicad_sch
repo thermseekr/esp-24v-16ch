@@ -2712,7 +2712,7 @@
 		)
 		(uuid "b06e5530-ee36-4f58-bee0-fa88fa0ce532")
 	)
-	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"eumesmo-io-24v16ch-v6\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10241,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,192,193,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
+	(text "TEMPLATE FOR GPIO ASSIGNMENT\n\n{\"NAME\":\"eumesmo-io-24v16ch-v6\",\"GPIO\":[0,3200,0,3232,0,0,0,0,5536,10240,10241,0,0,\n0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,0,0,0,0,0,0],\"FLAG\":0,\"BASE\":1}\n\nSee https://tasmota.github.io/docs/Templates/"
 		(exclude_from_sim no)
 		(at 15.24 133.35 0)
 		(effects
@@ -2723,7 +2723,7 @@
 		)
 		(uuid "b73a0bec-f2c5-41e3-bd55-3fc9f06619d1")
 	)
-	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expander\",\"BASE\":0,\"GPIO\":[192,193,194,195,196,197,198,0,199,200,201,\n202,203,204,205,0,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239],\n\"IOCON\":0x5C}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
+	(text "TEMPLATE FOR MCP23017 I/O ASSIGNMENT\n\n{\"NAME\":\"MCP23017 expanders\",\"BASE\":0,\"GPIO\":[192,193,194,195,196,197,198,199,200,201,\n202,203,204,205,206,207,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,\n239],\"IOCON\":0x5C}\n\nSave as mcp23x.dat and load into tasmota's filesystem.\nSee https://tasmota.github.io/docs/MCP230xx/"
 		(exclude_from_sim no)
 		(at 15.24 152.4 0)
 		(effects
