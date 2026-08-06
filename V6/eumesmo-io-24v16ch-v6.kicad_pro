@@ -82,7 +82,12 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|147125000|87085000|56497118-45a5-4a1d-ad59-2bd733941458|f8e9747f-4b14-4047-8d99-7adb7620514c",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1035,7 +1040,7 @@
         "uuid": "2bc5a21a-1d79-419d-a592-6852cc07b00a"
       }
     ],
-    "used_designators": "J1-9,R1-137,#FLG1-8,FID1-4,L1-3,U1-15,C1-66,FB1-16,SW1-2,D1-74,#PWR1-261,Q1-19,TP1-17",
+    "used_designators": "J1-9,R1-137,#FLG1-8,FID1-4,L1-3,U1-15,C1-66,FB1-16,SW1-2,D1-74,#PWR1-261,Q1-19,TP1-17,JP1",
     "variants": []
   },
   "sheets": [
